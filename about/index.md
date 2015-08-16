@@ -47,5 +47,7 @@ As an engineer with more than three year of experiences, he worked in Nokia, HII
       }
     }
 </script>
+
 <a markdown="0" id="quote_btn" href="javascript:showQuote()"  class="btn">Want to See a Research Quote ?</a>
+
 <div id="quote"></div>
