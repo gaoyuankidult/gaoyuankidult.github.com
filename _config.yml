@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Alex Gao's Secret Robot Computing Lab
 locale:           en_US
 url:
 
@@ -26,13 +26,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Yuan Gao
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  bio: "Just another boring, time-travelling, prissy brain investigator and computer engineer."
+  email: gaoyuankidult@gmail.com
   disqus-shortname:
   twitter: #username
-  facebook: #username
+  facebook: yaseen.gao.9406
   google:
     plus: #username
     analytics:
@@ -40,7 +40,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: gaoyuankidult
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
@@ -53,7 +53,7 @@ owner:
   dribbble: #username
   youtube: #username
   soundcloud: #username
-  weibo: #username
+  weibo: 3886468753
   flickr: #username
   codepen: #username
 
