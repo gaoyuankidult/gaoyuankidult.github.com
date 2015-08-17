@@ -8,8 +8,15 @@ comments: true
 ---
 Alex Gao wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
 
+As an engineer with more than three year of experiences, he worked in Nokia Labs, HIIT and Technobothnia to contribute to adavancement of current technology. As a curious young man, who is not only intered in black magic, he studied in University of Helsinki in order to find solution to build a algorithmic hub for robot - what he calls "brain of robot".
 
-As an engineer with more than three year of experiences, he worked in Nokia, HIIT and Technobothnia to contribute to adavancement of current technology. However, at the same time, as a curious young man, who is not only intered in black magic, he studied in University of Helsinki in order to find solution to build a algorithmic hub for robot - what he calls "brain of robot".
+When he is following his dream, he becomes interested in machine learning, as applied to robotics. In particular, he becomes interested in deep/ reinforcement/ neuro-based learning approaches to robotic perception, control, and physical modeling of the robot's environment. 
+
+Who knows what will happen in the future ? A world with intelligent robots would be fun to build. If you worry about robot revolution, let's recap the zeroth law of robotics: "A robot may not harm humanity, or, by inaction, allow humanity to come to harm.”  ― Isaac Asimov, I, Robot
+
+By the way, Alex Gao feels really happy to see you here.  "Greatings, friend!" as he says.
+
+
 
 ### Research Quote ? 
 
