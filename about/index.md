@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About Alex Yuan Gao Gao
+title: About Alex Yuan Gao
 tags: [author]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 
 ---
-<link rel="stylesheet" type="text/css" href="https://www.cs.helsinki.fi/u/yuangao/Styles/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 <script type="text/javascript">
 $().ready(function(){
