@@ -17,9 +17,11 @@ comments: true
 html, body {
 }
 
+/*
 body {
   font: 14px/20px Georgia, "Times New Roman", Times, serif;
 }
+*/
 
 body.grid {
   background-image: url(../images/grid.png);
