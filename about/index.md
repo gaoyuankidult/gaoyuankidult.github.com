@@ -483,6 +483,17 @@ Alex Yuan Gao is a Ph.D. student, who wants to live in a world filled with innov
 </div>
 
 
+<div class="section">
+<h2>News</h2> <a name="int"></a>
+<div class="item">
+<div class="description">
+This section will be updated soon.
+</div>
+</div>
+</div>
+
+<hr>
+
 <div class="section" >
 <h2>Manifesto</h2>
 <div class="item">
@@ -497,17 +508,14 @@ Au fond de l'Inconnu pour trouver du nouveau!
 I have never looked upon ease and happiness as ends in themselves -- this critical basis I call the ideal of a pigsty.
 <br>--<em>Albert Einstein</em>
 </div>
-
 <div class="item">
 天下事有难易乎? 为之, 则难者亦易矣; 不为, 则易者亦难矣。
 <br>--<em>彭端淑(Duanshu Peng)</em>
 </div>
-
 <div class="item">
 That fondness for science, ... that affability and condescension which God shows to the learned, that promptitude with which he protects and supports them in the elucidation of obscurities and in the removal of difficulties, has encouraged me to compose a short work on calculating by al-jabr and al-muqabala , confining it to what is easiest and most useful in arithmetic.
 <br>--<em>عبد الله محمد بن موسى الخوارزمی(al-Khwārizmī)</em>
 </div>
-
 </div>
 
 
@@ -546,23 +554,6 @@ control, and physical modeling of the robot's environment.
 
 </div>
 </div>
-</div>
-</div>
-
-<div class="section">
-<h2>Publications</h2>
-</div>
-
-<div class="section">
-<h2>Tools</h2>
-<div class="item">
-  <figure>
-    <div>
-      <a href="https://www.google.com/calendar/embed?src=wonders.pc.hiit%40gmail.com&ctz=Europe/Helsinki">
-	<div id = "tool_gpu_server" class = "tool"> </div> </a>
-    </div>
-    <figcaption>GPUs Management Tool</figcaption>
-  </figure>
 </div>
 </div>
 
