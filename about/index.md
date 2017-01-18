@@ -1,14 +1,11 @@
 ---
 layout: page
-title: About Alex Gao
+title: About Alex Yuan Gao Gao
 tags: [author]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 
 ---
-Alex Gao wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
-
-
 <link rel="stylesheet" type="text/css" href="https://www.cs.helsinki.fi/u/yuangao/Styles/style.css">
 
 <script type="text/javascript">
@@ -49,19 +46,6 @@ var children = control.parentNode.children
 //-->
 </script>
 
-<div id="story">
-The homepage of <br>
-<h1>Yuan Gao</h1>
-<h3>Ph.D. Student</h3>
-<a href="http://cs.helsinki.fi/">Department of Computer Science</a><br>
-<a href="http://www.helsinki.fi/university/">Uppsala University</a><br>
-Advisor: Ginevra Castellano
-</div>
-    <ul id="contact">
-    <img src="https://www.cs.helsinki.fi/u/yuangao/Img/me.png" alt="" height="150">
-      <li><span>Email: </span> <strong>gaoyuankidult at  gmail dot com</strong></li>
-    </ul>
-</div>
 
 <!--<center>Quick Links:&nbsp; <a href="#edu">Education</a> &nbsp; <a href="#pub">Publications</a></center>-->
 
@@ -69,7 +53,7 @@ Advisor: Ginevra Castellano
 <h2>About</h2>
 <div class="item">
 <div class="description">
-I'm a first year Ph.D. Student@ Uppsala Univrsity.
+Alex Yuan Gao is a Ph.D. student, who wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
 </div>
 </div>
 </div>
@@ -127,8 +111,6 @@ control, and physical modeling of the robot's environment.
 </div>
 <div class="description">
 <p>M.S. in Machine Learning, Minor in Mathmatics</p>
-
-</p>
 </div>
 </div>
 
