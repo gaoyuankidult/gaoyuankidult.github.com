@@ -8,13 +8,201 @@ comments: true
 ---
 Alex Gao wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
 
-As an engineer with more than three year of experiences, he worked in Nokia Labs, HIIT and Technobothnia to contribute to adavancement of current technology. As a curious young man, who is not only intered in black magic, he studied in University of Helsinki in order to find solution to build a algorithmic hub for robot - what he calls "brain of robot".
 
-When he is following his dream, he becomes interested in machine learning, as applied to robotics. In particular, he becomes interested in deep/ reinforcement/ neuro-based learning approaches to robotic perception, control, and physical modeling of the robot's environment. 
+<link rel="stylesheet" type="text/css" href="https://www.cs.helsinki.fi/u/yuangao/Styles/style.css">
 
-Who knows what will happen in the future ? A world with intelligent robots would be fun to build. If you worry about robot revolution, let's recap the zeroth law of robotics: "A robot may not harm humanity, or, by inaction, allow humanity to come to harm.”  ― Isaac Asimov, I, Robot
+<script type="text/javascript">
+$().ready(function(){
 
-By the way, Alex Gao feels really happy to see you here.  "Greatings, friend!" as he says.
+    $(".project").hover(
+	function () {
+	    var bg = $(this).css('background-image');  	 
+	    $(this).animate({
+		opacity: 0
+	    }, 'fast', function () {
+		$(this)
+		    .css({
+		    'background-image': bg
+		})
+		    .animate({
+		    opacity: 1
+		});
+	    });
+	},
+
+	function () {
+
+	}); 
+});
+
+</script>
+<script type="text/javascript">
+//<!--
+function toggleBibtex(control) {
+
+var children = control.parentNode.children
+	var bibvar = children[children.length-1]; 
+	bibvar.style.display= (bibvar.style.display == 'none' || bibvar.style.display == '') ? 'block' : 'none';
+}
+
+
+//-->
+</script>
+
+<div id="story">
+The homepage of <br>
+<h1>Yuan Gao</h1>
+<h3>Ph.D. Student</h3>
+<a href="http://cs.helsinki.fi/">Department of Computer Science</a><br>
+<a href="http://www.helsinki.fi/university/">Uppsala University</a><br>
+Advisor: Ginevra Castellano
+</div>
+    <ul id="contact">
+    <img src="https://www.cs.helsinki.fi/u/yuangao/Img/me.png" alt="" height="150">
+      <li><span>Email: </span> <strong>gaoyuankidult at  gmail dot com</strong></li>
+    </ul>
+</div>
+
+<!--<center>Quick Links:&nbsp; <a href="#edu">Education</a> &nbsp; <a href="#pub">Publications</a></center>-->
+
+<div class="section" >
+<h2>About</h2>
+<div class="item">
+<div class="description">
+I'm a first year Ph.D. Student@ Uppsala Univrsity.
+</div>
+</div>
+</div>
+
+
+<div class="section" >
+<h2>Manifesto</h2>
+<div class="item">
+Nous voulons, tant ce feu nous brûle le cerveau,
+Plonger au fond du gouffre, Enfer ou Ciel, qu'importe?
+Au fond de l'Inconnu pour trouver du nouveau!
+<br>--<em>Charles Baudelaire</em>
+</div>
+<br>
+
+<div class="item">
+I have never looked upon ease and happiness as ends in themselves -- this critical basis I call the ideal of a pigsty.
+<br>--<em>Albert Einstein</em>
+</div>
+
+<div class="item">
+天下事有难易乎? 为之, 则难者亦易矣; 不为, 则易者亦难矣。
+<br>--<em>彭端淑(Duanshu Peng)</em>
+</div>
+
+<div class="item">
+That fondness for science, ... that affability and condescension which God shows to the learned, that promptitude with which he protects and supports them in the elucidation of obscurities and in the removal of difficulties, has encouraged me to compose a short work on calculating by al-jabr and al-muqabala , confining it to what is easiest and most useful in arithmetic.
+<br>--<em>عبد الله محمد بن موسى الخوارزمی(al-Khwārizmī)</em>
+</div>
+
+</div>
+
+
+<div class="section">
+<h2>Interests</h2> <a name="int"></a>
+<div class="item">
+<div class="description">
+<!--I'm interested in machine learning, as applied to robotics. In particular,
+I'm interested in deep/reinforcement/feature learning approaches to robotic perception,
+control, and physical modeling of the robot's environment.-->
+I'm interested in machine learning, as applied to robotics. In particular,
+I'm interested in deep/reinforcement/neuro-based learning approaches to robotic perception,
+control, and physical modeling of the robot's environment.
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Education</h2> <a name="edu"></a>
+<div class="item">
+
+<div class="item">
+<h3>University of Helsinki</h3>
+<div class="date">2013-2015
+</div>
+<div class="description">
+<p>M.S. in Machine Learning, Minor in Mathmatics</p>
+
+</p>
+</div>
+</div>
+
+<div class="item">
+<h3>Vaasa University of Applied Sciences</h3>
+<div class="date">2009-2013</div>
+<div class="description">
+<p>B.E. in Embedded System, Minor in Telecom. (<a href="https://www.cs.helsinki.fi/u/yuangao/Doc/thesis.pdf">Thesis: Strategy Design for Multi-agent Robots</a>)</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Publications</h2>
+</div>
+
+<div class="section">
+<h2>Tools</h2>
+<div class="item">
+  <figure>
+    <div>
+      <a href="https://www.google.com/calendar/embed?src=wonders.pc.hiit%40gmail.com&ctz=Europe/Helsinki">
+	<div id = "tool_gpu_server" class = "tool"> </div> </a>
+    </div>
+    <figcaption>GPUs Management Tool</figcaption>
+  </figure>
+</div>
+</div>
+
+<div class="section">
+<h2>Current Research</h2>
+
+<div class="item">
+  <figure>
+  <div>
+  <a href="https://github.com/gaoyuankidult/DRL-AI">
+  <div id = "project_deep_learning" class = "project"> </div> </a>
+  </div>
+  <figcaption>Deep Reinforcement Learning</figcaption>
+  </figure>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+	 <div class="item" >
+		  <figure>
+		  <div >
+		  <a href="https://github.com/gaoyuankidult/DRL-AI">
+		  <div id = "project_atari" class = "project"> </div></a>
+		  </div>
+		  <figcaption>Deep Q Networks for Agent Control</figcaption>
+		  </figure>
+		  <figure>
+		  <div>
+		  <a href="https://github.com/gaoyuankidult/random_walk_simulator">
+		  <div id = "project_simu" class = "project"> </div></a>
+		  </div>
+		  <figcaption>Simulators for Planning Algorithm</figcaption>
+		  </figure>
+		   <figure>
+		  <div>
+		  <a href="https://github.com/gaoyuankidult/Robot_Learning">
+		  <div id = "project_robot" class = "project"> </div> </a>
+		  </div>
+		  <figcaption>Multi-agent Strategy Software Design</figcaption>
+		  </figure>
+	  </div>
+
+
+</div>
 
 
 
