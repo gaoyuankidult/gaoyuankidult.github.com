@@ -475,13 +475,13 @@ var children = control.parentNode.children
 <!--<center>Quick Links:&nbsp; <a href="#edu">Education</a> &nbsp; <a href="#pub">Publications</a></center>-->
 
 <div class="section" >
-Alex Yuan Gao is a Ph.D. student, who wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
+<h4>Alex Yuan Gao is a Ph.D. student, who wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.<h4>
 
 </div>
 
 
 <div class="section" >
-<h2>Manifesto</h2>
+<h3>Manifesto</h3>
 <div class="item">
 Nous voulons, tant ce feu nous brûle le cerveau,
 Plonger au fond du gouffre, Enfer ou Ciel, qu'importe?
@@ -509,7 +509,7 @@ That fondness for science, ... that affability and condescension which God shows
 
 
 <div class="section">
-<h2>Interests</h2> <a name="int"></a>
+<h3>Interests</h3> <a name="int"></a>
 <div class="item">
 <div class="description">
 <!--I'm interested in machine learning, as applied to robotics. In particular,
@@ -523,7 +523,7 @@ control, and physical modeling of the robot's environment.
 </div>
 
 <div class="section">
-<h2>Education</h2> <a name="edu"></a>
+<h3>Education</h3> <a name="edu"></a>
 <div class="item">
 
 <div class="item">
@@ -547,24 +547,12 @@ control, and physical modeling of the robot's environment.
 </div>
 
 <div class="section">
-<h2>Publications</h2>
+<h3>Publications</h3>
 </div>
 
-<div class="section">
-<h2>Tools</h2>
-<div class="item">
-  <figure>
-    <div>
-      <a href="https://www.google.com/calendar/embed?src=wonders.pc.hiit%40gmail.com&ctz=Europe/Helsinki">
-	<div id = "tool_gpu_server" class = "tool"> </div> </a>
-    </div>
-    <figcaption>GPUs Management Tool</figcaption>
-  </figure>
-</div>
-</div>
 
 <div class="section">
-<h2>Current Research</h2>
+<h3>Current Research</h3>
 
 <div class="item">
   <figure>
@@ -579,7 +567,7 @@ control, and physical modeling of the robot's environment.
 </div>
 
 <div class="section">
-<h2>Projects</h2>
+<h3>Projects</h3>
 	 <div class="item" >
 		  <figure>
 		  <div >
