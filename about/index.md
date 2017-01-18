@@ -475,12 +475,8 @@ var children = control.parentNode.children
 <!--<center>Quick Links:&nbsp; <a href="#edu">Education</a> &nbsp; <a href="#pub">Publications</a></center>-->
 
 <div class="section" >
-<h2>About</h2>
-<div class="item">
-<div class="description">
 Alex Yuan Gao is a Ph.D. student, who wants to live in a world filled with innovative businesses, robots, books that come bundled with extra hot chocolate and a steampunk-styled force field around his keyboard that repels cats.
-</div>
-</div>
+
 </div>
 
 
