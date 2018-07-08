@@ -1,14 +1,16 @@
 # Site navigation links
-
-- title: About
-  url: /about/
-
+- title: News
+  url: /news/
+  
 - title: Blog
   url: /posts/
 
 - title: Project
   url: /projects/
 
+- title: About
+  url: /about/
+  
 - publication:
   url: /publication/
 
