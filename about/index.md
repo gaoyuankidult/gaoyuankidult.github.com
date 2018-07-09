@@ -1,0 +1,2 @@
+Our aim is to answer a foundamental question: **How could robots learn like humans?** We acchive this by investigating **deep reinforcment learning algrotihms** and computational behaviour psycology models. 
+Our research is **multi-disciplinary** and it requires understanding of different fields. We conduct both foundamental and applied research in our [social robotics lab](hri.research.it.uu.se). 
