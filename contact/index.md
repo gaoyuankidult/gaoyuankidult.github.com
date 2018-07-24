@@ -3,9 +3,10 @@ You can send me an email here:
 <form method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
   <fieldset>
     <legend>You message:</legend>
-    Name: <input type="text" size="30"><br>
-    Email: <input type="text" size="30"><br>
-    Content:<textarea name="message" placeholder=""></textarea>
+    Name: <input name="name" type="text" size="30" required><br>
+    Email: <input name="_replyto" type="text" size="30" required><br>
+    Content:<textarea name="message" required></textarea>
   </fieldset>
-  <button type="submit" class="btn--primary">Send</button>
+  </br>
+  <a href="#" class="btn--success" onclick="form.submit();>Submit</a>
 </form>
