@@ -5,12 +5,12 @@
 - title: Blog
   url: /posts/
 
-- title: Project
-  url: /projects/
+- title: Publications
+  url: /publications/
 
 - title: About
   url: /about/
   
-- publication:
-  url: /publication/
+- title:Contact
+  url/contact/
 
