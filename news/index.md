@@ -1,16 +1,16 @@
-#### 24th July, 2018 [Paper Accepted to <a 
-
-style="a:link, a:visited {
+<style>
+a:link, a:visited {
   color: blue;
   text-decoration: none;
 }
-
 a:hover {
  background-color: #802;
  color: #fff;
  text-decoration: none;
-}"
-href="http://iva2018.westernsydney.edu.au/)">IVA</a>]
+}
+</style>
+
+#### 24th July, 2018 [Paper Accepted to <a>href="http://iva2018.westernsydney.edu.au/)">IVA</a>]
 
 >We conducted, to the best of our knowledge, one of the first studies comparing proxemics and other interpersonal factors with respect to varying embodiments of an agent such as type (human or robot), posture (open or closed) and virtuality (physical or virtual). We observed unexpected conclusions, such as participants remaining slightly further back on average for the open posture than the closed posture. We believe this has to do with the closed posture appearing to be in a troubled state, which attract concern from others.
 
