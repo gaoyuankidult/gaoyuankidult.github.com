@@ -1,6 +1,6 @@
 You can send me an email here:
 
-<form method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
+<form id="contactForm" method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
   <fieldset>
     <legend>You message:</legend>
     Name: <input name="name" type="text" size="30" required><br>
@@ -9,4 +9,4 @@ You can send me an email here:
   </fieldset>
 </form>
 <br>
-<a href="#" class="btn--primary" onclick="form.submit();">Submit</a>
+<a href="#" class="btn--primary" onclick="document.getElementById('contactForm').submit();">Submit</a>
