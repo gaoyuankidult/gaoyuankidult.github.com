@@ -1,5 +1,10 @@
+You can send me an email here:
+
 <form method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text" size="30"><br>
+    Email: <input type="text" size="30"><br>
+    <textarea name="message" placeholder="Your message"></textarea>
+  </fieldset>
 </form>
