@@ -8,5 +8,5 @@ You can send me an email here:
     Content:<textarea name="message" required></textarea>
   </fieldset>
   </br>
-  <a href="#" class="btn--success" onclick="form.submit();>Submit</a>
+  <a href="#" class="btn--success" onclick="form.submit();">Submit</a>
 </form>
