@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:            Alex Gao's Secret Robot Computing Lab
+title:            (Alex) Yuan Gao's Secret Robot Computing Lab
 locale:           en_US
 url:
-
+urlcolor: blue
 
 # Jekyll configuration
 
