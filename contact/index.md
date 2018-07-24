@@ -8,4 +8,4 @@ You can send me an email here:
     Content:<textarea name="message" required></textarea>
   </fieldset>
 </form>
-<a href="#" class="btn--primary" onclick="form.submit();>Submit</a>
+<a href="#" class="btn--primary" onclick="form.submit();">Submit</a>
