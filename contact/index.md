@@ -1,6 +1,5 @@
-<form action="https://formspree.io/gaoyuankidult@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+<form method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
 </form>
