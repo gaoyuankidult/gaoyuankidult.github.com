@@ -29,10 +29,10 @@ kramdown:
 owner:
   name: Yuan Gao
   avatar: bio-photo.jpg
-  bio: "Just another boring, time-travelling, prissy brain investigator and computer engineer."
+  bio: "Just another boring, time-travelling, prissy brain investigator and robot engineer."
   email: gaoyuankidult@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: #alexyuangao
   facebook: yaseen.gao.9406
   google:
     plus: #username
@@ -43,7 +43,7 @@ owner:
   bing-verify:
   github: gaoyuankidult
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: #gaoyuankidult
   xing: #username
   instagram: #username
   lastfm: #username
