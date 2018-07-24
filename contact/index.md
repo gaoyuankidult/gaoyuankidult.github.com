@@ -7,6 +7,5 @@ You can send me an email here:
     Email: <input name="_replyto" type="text" size="30" required><br>
     Content:<textarea name="message" required></textarea>
   </fieldset>
-  <br>
-  [Submit](#link){: .btn .btn--primary}
 </form>
+<a href="#" class="btn--primary" onclick="form.submit();>Submit</a>
