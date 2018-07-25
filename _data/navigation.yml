@@ -2,15 +2,19 @@
 - title: News
   url: /news/
   
+- title: About
+  url: /about/
+
 - title: Blog
   url: /posts/
 
 - title: Project
   url: /projects/
 
-- title: About
-  url: /about/
-  
-- publication:
+- title Art:
+  url: /art/
+
+- title: Publications:
   url: /publication/
+
 
