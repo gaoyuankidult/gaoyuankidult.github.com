@@ -89,10 +89,7 @@ function setup() {
   "use strict";
   var myCanvas;
 
-  myCanvas = createCanvas(windowWidth,windowHeight);
-
-  myCanvas.parent('p5Container');
-
+  myCanvas = createCanvas(710, 400, WEBGL);
   nW = Math.max(Math.floor(sizew/sizew), 1);
   nH = Math.max(Math.floor(sizeh/sizeh), 1);
   nImage = nH*nW;
@@ -130,5 +127,54 @@ function draw() {
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
-	image(img, col*sizew, row*sizeh);
+	background(0);
+
+	var locX = mouseX - height / 2;
+	var locY = mouseY - width / 2;
+	ambientLight(60, 60, 60);
+	pointLight(255, 255, 255, locX, locY, 100);
+
+	push();
+	rotateZ(frameCount * 0.01);
+	rotateX(frameCount * 0.01);
+	rotateY(frameCount * 0.01);
+	texture(img);
+	box(80);
+	pop();
+
+	push();
+	translate(-width / 4, -height / 4, 0);
+	rotateZ(frameCount * 0.01);
+	rotateX(frameCount * 0.01);
+	rotateY(frameCount * 0.01);
+	fill(250, 0, 0);
+	torus(80, 20, 64, 64);
+  pop();
+
+  push();
+  translate(width / 4, -height / 4, 0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  normalMaterial();
+  torus(80, 20, 64, 64);
+  pop();
+
+  push();
+  translate(-width / 4, height / 4, 0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  ambientMaterial(250);
+  torus(80, 20, 64, 64);
+  pop();
+
+  push();
+  translate(width / 4, height / 4, 0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  specularMaterial(250);
+  torus(80, 20, 64, 64);
+  pop();
 }
