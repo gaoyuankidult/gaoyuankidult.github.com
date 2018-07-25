@@ -1,31 +1,139 @@
+// neural network random art generator
 
-let t = 0; // time variable
+// settings
+
+// actual size of generated image
+var sizeh  = 32*5;
+var sizew = sizeh;
+var sizeImage = sizeh*sizew;
+
+var nH, nW, nImage;
+var mask;
+
+// settings of nnet:
+var networkSize = 16;
+var nHidden = 8;
+var nOut = 3; // r, g, b layers
+
+// support variables:
+var img;
+var img2;
+var G = new R.Graph(false);
+
+var initModel = function() {
+  "use strict";
+
+  var model = [];
+  var i;
+
+  var randomSize = 1.0;
+
+  // define the model below:
+  model.w_in = R.RandMat(networkSize, 3, 0, randomSize); // x, y, and bias
+
+  for (i = 0; i < nHidden; i++) {
+    model['w_'+i] = R.RandMat(networkSize, networkSize, 0, randomSize);
+  }
+
+  model.w_out = R.RandMat(nOut, networkSize, 0, randomSize); // output layer
+
+  return model;
+};
+
+
+var forwardNetwork = function(G, model, x_, y_) {
+  // x_, y_ is a normal javascript float, will be converted to a mat object below
+  // G is a graph to amend ops to
+  var x = new R.Mat(3, 1); // input
+  var i;
+  x.set(0, 0, x_);
+  x.set(1, 0, y_);
+  x.set(2, 0, 1.0); // bias.
+  var out;
+  out = G.tanh(G.mul(model.w_in, x));
+  for (i = 0; i < nHidden; i++) {
+    out = G.tanh(G.mul(model['w_'+i], out));
+  }
+  out = G.sigmoid(G.mul(model.w_out, out));
+  return out;
+};
+
+function getColorAt(model, x, y) {
+  // function that returns a color given coordintes (x, y)
+  // (x, y) are scaled to -0.5 -> 0.5 for image recognition later
+  // but it can be behond the +/- 0.5 for generation above and beyond
+  // recognition limits
+  var r, g, b;
+  var out = forwardNetwork(G, model, x, y);
+
+  r = out.w[0]*255.0;
+  g = out.w[1]*255.0;
+  b = out.w[2]*255.0;
+
+  return color(r, g, b);
+}
+
+function genImage(img, model) {
+  var i, j, m, n;
+  img.loadPixels();
+  for (i = 0, m=img.width; i < m; i++) {
+    for (j = 0, n=img.height; j < n; j++) {
+      img.set(i, j, getColorAt(model, i/sizeh-0.5,j/sizew-0.5));
+    }
+  }
+  img.updatePixels();
+}
 
 function setup() {
-  createCanvas(600, 600);
-  noStroke();
-  fill(40, 200, 40);
+
+  "use strict";
+  var myCanvas;
+
+  myCanvas = createCanvas(windowWidth,windowHeight);
+
+  myCanvas.parent('p5Container');
+
+  nW = Math.max(Math.floor(windowWidth/sizew), 1);
+  nH = Math.max(Math.floor(windowHeight/sizeh), 1);
+  nImage = nH*nW;
+  mask = R.zeros(nImage);
+
+
+  //img.resize(320*1.0, 320*1.0);
+
+  //img.save('genart.png','png');
+
+  //noLoop();
+  img = createImage(sizeh, sizew);
+
+  frameRate(30);
+}
+
+function getRandomLocation() {
+  var i, result=0, r;
+  for (i=0;i<nImage;i++) {
+    result += mask[i];
+  }
+  if (result === nImage) {
+    mask = R.zeros(nImage);
+  }
+  do {
+    r = R.randi(0, nImage);
+  } while (mask[r] !== 0);
+  mask[r] = 1;
+  return r;
+}
+
+function displayImage(n) {
+  var row = Math.floor(n/nW);
+  var col = n % nW;
+  image(img, col*sizew, row*sizeh);
 }
 
 function draw() {
-  background(10, 10); // translucent background (creates trails)
 
-  // make a x and y grid of ellipses
-  for (let x = 0; x <= width; x = x + 30) {
-    for (let y = 0; y <= height; y = y + 30) {
-      // starting point of each circle depends on mouse position
-      let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
-      let yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
-      // and also varies based on the particle's location
-      let angle = xAngle * (x / width) + yAngle * (y / height);
+  model = initModel();
+  genImage(img, model);
+  displayImage(getRandomLocation());
 
-      // each particle moves in a circle
-      let myX = x + 20 * cos(2 * PI * t + angle);
-      let myY = y + 20 * sin(2 * PI * t + angle);
-
-      ellipse(myX, myY, 10); // draw particle
-    }
-  }
-
-  t = t + 0.01; // update time
 }
