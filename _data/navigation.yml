@@ -8,13 +8,14 @@
 - title: Blog
   url: /posts/
 
-- title: Project
-  url: /projects/
-
 - title Art:
   url: /art/
 
 - title: Publications:
   url: /publication/
+  
+- title: Contact
+  url: /contact/
+
 
 
