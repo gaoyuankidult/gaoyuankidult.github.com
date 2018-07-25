@@ -124,23 +124,23 @@ function getRandomLocation() {
 
 class Line {
 	constructor(n,l) {
-		var x = [],
-			y = [],
-			segNum = n,
-			segLength = l;
+		this.x = [];
+		this.y = [];
+		this.segNum = n;
+		this.segLength = l;
 
 		for (var i = 0; i < segNum; i++) {
-			x[i] = 0;
-			y[i] = 0;
+			this.x[i] = 0;
+			this.y[i] = 0;
 		}
 	}
 	dragSegment(i, xin, yin) {
-		var dx = xin - x[i];
-		var dy = yin - y[i];
+		var dx = xin - this.x[i];
+		var dy = yin - this.y[i];
 		var angle = atan2(dy, dx);
-		x[i] = xin - cos(angle) * segLength;
-		y[i] = yin - sin(angle) * segLength;
-		segment(x[i], y[i], angle);
+		this.x[i] = xin - cos(angle) * this.segLength;
+		this.y[i] = yin - sin(angle) * this.segLength;
+		this.segment(this.x[i], this.y[i], angle);
 	}
 
 	segment(x, y, a) {
@@ -158,9 +158,9 @@ function draw() {
 	var row = Math.floor(n/nW);
 	var col = n % nW;
 	background(255);
-	line = new Line(20,18);
-	line.dragSegment(0, mouseX, mouseY);
+	l = new Line(20,18);
+	l.dragSegment(0, mouseX, mouseY);
 	for( var i=0; i<x.length-1; i++) {
-		line.dragSegment(i+1, x[i], y[i]);
+		l.dragSegment(i+1, x[i], y[i]);
 	}
 }
