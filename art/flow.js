@@ -105,7 +105,8 @@ function setup() {
 
   //noLoop();
   img = createImage(sizeh, sizew);
-
+  model = initModel();
+  genImage(img, model);
   frameRate(30);
 }
 
@@ -131,7 +132,5 @@ function displayImage(n) {
 }
 
 function draw() {
-  model = initModel();
-  genImage(img, model);
   displayImage(getRandomLocation());
 }
