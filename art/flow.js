@@ -127,7 +127,7 @@ function draw() {
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
-	background(0);
+	background(255);
 
 	var locX = mouseX - height / 2;
 	var locY = mouseY - width / 2;
