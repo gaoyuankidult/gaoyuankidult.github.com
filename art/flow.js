@@ -136,8 +136,6 @@ class Line {
 			x[i] = 0;
 			y[i] = 0;
 		}
-}
-		
 	}
 	dragSegment(i, xin, yin) {
 		var dx = xin - x[i];
