@@ -132,9 +132,6 @@ function draw() {
 	var locX = mouseX - height / 2;
 	var locY = mouseY - width / 2;
 	push();
-	rotateZ(frameCount * 0.01);
-	rotateX(frameCount * 0.01);
-	rotateY(frameCount * 0.01);
 	texture(img);
 	box(80);
 	pop();
