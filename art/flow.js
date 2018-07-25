@@ -133,6 +133,6 @@ function draw() {
 	var locY = mouseY - width / 2;
 	push();
 	texture(img);
-	box(80);
+	sphere(150);
 	pop();
 }
