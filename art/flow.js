@@ -12,7 +12,7 @@ var mask;
 
 // settings of nnet:
 var networkSize = 16;
-var nHidden = 8;
+var nHidden = 2;
 var nOut = 3; // r, g, b layers
 
 // support variables:
@@ -125,12 +125,10 @@ function getRandomLocation() {
   return r;
 }
 
-function displayImage(n) {
-  var row = Math.floor(n/nW);
-  var col = n % nW;
-  image(img, col*sizew, row*sizeh);
-}
 
 function draw() {
-  displayImage(getRandomLocation());
+	var n = getRandomLocation();
+	var row = Math.floor(n/nW);
+	var col = n % nW;
+	image(img, col*sizew, row*sizeh);
 }
