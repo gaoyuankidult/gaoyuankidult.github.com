@@ -124,9 +124,6 @@ function getRandomLocation() {
 
 class Line {
 	constructor(n,l) {
-		this.x = x;
-		this.y = y;
-		this.z = z;
 		var x = [],
 			y = [],
 			segNum = n,
