@@ -131,9 +131,7 @@ function displayImage(n) {
 }
 
 function draw() {
-
   model = initModel();
   genImage(img, model);
   displayImage(getRandomLocation());
-
 }
