@@ -129,7 +129,7 @@ class Line {
 		this.segNum = n;
 		this.segLength = l;
 
-		for (var i = 0; i < segNum; i++) {
+		for (var i = 0; i < this.segNum; i++) {
 			this.x[i] = 0;
 			this.y[i] = 0;
 		}
