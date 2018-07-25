@@ -20,15 +20,6 @@ var img;
 var img2;
 var G = new R.Graph(false);
 
-var x = [],
-	y = [],
-	segNum = 20,
-	segLength = 18;
-
-for (var i = 0; i < segNum; i++) {
-	x[i] = 0;
-	y[i] = 0;
-}
 
 var initModel = function() {
   "use strict";
@@ -132,8 +123,23 @@ function getRandomLocation() {
 
 
 class Line {
+	constructor(n,l) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
+		var x = [],
+			y = [],
+			segNum = n,
+			segLength = l;
 
-	function dragSegment(i, xin, yin) {
+		for (var i = 0; i < segNum; i++) {
+			x[i] = 0;
+			y[i] = 0;
+		}
+}
+		
+	}
+	dragSegment(i, xin, yin) {
 		var dx = xin - x[i];
 		var dy = yin - y[i];
 		var angle = atan2(dy, dx);
@@ -142,7 +148,7 @@ class Line {
 		segment(x[i], y[i], angle);
 	}
 
-	function segment(x, y, a) {
+	segment(x, y, a) {
 		push();
 		translate(x, y);
 		rotate(a);
@@ -152,12 +158,14 @@ class Line {
 }
 
 function draw() {
+	
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
 	background(255);
-	dragSegment(0, mouseX, mouseY);
+	line = new Line(20,18);
+	line.dragSegment(0, mouseX, mouseY);
 	for( var i=0; i<x.length-1; i++) {
-		dragSegment(i+1, x[i], y[i]);
+		line.dragSegment(i+1, x[i], y[i]);
 	}
 }
