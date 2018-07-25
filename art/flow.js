@@ -147,7 +147,7 @@ class Line {
 		push();
 		translate(x, y);
 		rotate(a);
-		line(0, 0, segLength, 0);
+		line(0, 0, this.segLength, 0);
 		pop();
 	}
 }
