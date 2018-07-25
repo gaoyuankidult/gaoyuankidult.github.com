@@ -93,8 +93,8 @@ function setup() {
 
   myCanvas.parent('p5Container');
 
-  nW = Math.max(Math.floor(windowWidth/sizew), 1);
-  nH = Math.max(Math.floor(windowHeight/sizeh), 1);
+  nW = Math.max(Math.floor(sizew/sizew), 1);
+  nH = Math.max(Math.floor(sizeh/sizeh), 1);
   nImage = nH*nW;
   mask = R.zeros(nImage);
 
