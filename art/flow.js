@@ -86,25 +86,23 @@ function genImage(img, model) {
 
 function setup() {
 
-  "use strict";
-  var myCanvas;
+	"use strict";
+	var myCanvas;
 
-  myCanvas = createCanvas(710, 400, WEBGL);
-  nW = Math.max(Math.floor(sizew/sizew), 1);
-  nH = Math.max(Math.floor(sizeh/sizeh), 1);
-  nImage = nH*nW;
-  mask = R.zeros(nImage);
+	myCanvas = createCanvas(window.innerWidth, window.innerHeight);
+	nW = Math.max(Math.floor(sizew/sizew), 1);
+	nH = Math.max(Math.floor(sizeh/sizeh), 1);
+	nImage = nH*nW;
+	mask = R.zeros(nImage);
 
+	img = createImage(sizeh, sizew);
+	model = initModel();
+	genImage(img, model);
 
-  //img.resize(320*1.0, 320*1.0);
-
-  //img.save('genart.png','png');
-
-  //noLoop();
-  img = createImage(sizeh, sizew);
-  model = initModel();
-  genImage(img, model);
-  frameRate(30);
+	strokeWeight(9);
+	stroke(255, 100);
+	
+	frameRate(30);
 }
 
 function getRandomLocation() {
@@ -123,16 +121,42 @@ function getRandomLocation() {
 }
 
 
+class Line {
+	var x = [],
+	y = [],
+	segNum = 20,
+	segLength = 18;
+
+	for (var i = 0; i < segNum; i++) {
+		x[i] = 0;
+		y[i] = 0;
+	}
+
+	function dragSegment(i, xin, yin) {
+		var dx = xin - x[i];
+		var dy = yin - y[i];
+		var angle = atan2(dy, dx);
+		x[i] = xin - cos(angle) * segLength;
+		y[i] = yin - sin(angle) * segLength;
+		segment(x[i], y[i], angle);
+	}
+
+	function segment(x, y, a) {
+		push();
+		translate(x, y);
+		rotate(a);
+		line(0, 0, segLength, 0);
+		pop();
+	}
+}
+
 function draw() {
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
 	background(255);
-
-	var locX = mouseX - height / 2;
-	var locY = mouseY - width / 2;
-	push();
-	texture(img);
-	sphere(150);
-	pop();
+	dragSegment(0, mouseX, mouseY);
+	for( var i=0; i<x.length-1; i++) {
+		dragSegment(i+1, x[i], y[i]);
+	}
 }
