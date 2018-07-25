@@ -20,6 +20,16 @@ var img;
 var img2;
 var G = new R.Graph(false);
 
+var x = [],
+	y = [],
+	segNum = 20,
+	segLength = 18;
+
+for (var i = 0; i < segNum; i++) {
+	x[i] = 0;
+	y[i] = 0;
+}
+
 var initModel = function() {
   "use strict";
 
@@ -122,15 +132,6 @@ function getRandomLocation() {
 
 
 class Line {
-	var x = [],
-	y = [],
-	segNum = 20,
-	segLength = 18;
-
-	for (var i = 0; i < segNum; i++) {
-		x[i] = 0;
-		y[i] = 0;
-	}
 
 	function dragSegment(i, xin, yin) {
 		var dx = xin - x[i];
