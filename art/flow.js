@@ -221,8 +221,9 @@ function draw() {
   noStroke();
   rect(0, 0, width, height);
 
-  //draw ellipse
-	stroke(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
+	//draw ellipse
+	Nostrocke();
+	//stroke(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
 	fill(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
 	ellipse(position.x, position.y, r*2, r*2);
 	
