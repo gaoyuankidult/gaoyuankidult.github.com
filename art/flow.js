@@ -135,8 +135,6 @@ function setup() {
 	face.hide();
 	face.loop();
 
-  base1 = createVector(0, height-150);
-  base2 = createVector(width, height);
   //createGround();
 
   //start ellipse at middle top of screen
@@ -212,8 +210,8 @@ function draw() {
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
-
-	image(face,10,10); 	
+	tint(255, 127); 
+	image(face, windowWidth/2,windowHeight/2);
 //	l.dragSegment(0, mouseX, mouseY);
 //	for( var i=0; i<l.x.length-1; i++) {
 //		l.dragSegment(i+1, l.x[i], l.y[i]);
@@ -223,16 +221,6 @@ function draw() {
   fill(0, 12);
   noStroke();
   rect(0, 0, width, height);
-
-  //draw base
-  fill(200);
-  quad(base1.x, base1.y, base2.x, base2.y, base2.x, height, 0, height);
-
-  //calculate base top normal
-  var baseDelta = p5.Vector.sub(base2, base1);
-  baseDelta.normalize();
-  var normal = createVector(-baseDelta.y, baseDelta.x)
-  var intercept = p5.Vector.dot(base1, normal);
 
   //draw ellipse
 	stroke(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
@@ -247,20 +235,6 @@ function draw() {
   incidence.normalize();
 
   // detect and handle collision with base
-  if (p5.Vector.dot(normal, position) > intercept) {
-    //calculate dot product of incident vector and base top 
-    var dot = incidence.dot(normal);
-
-    //calculate reflection vector
-    //assign reflection vector to direction vector
-    velocity.set(2*normal.x*dot - incidence.x, 2*normal.y*dot - incidence.y, 0);
-    velocity.mult(speed);
-
-    // draw base top normal at collision point
-    stroke(255, 128, 0);
-    line(position.x, position.y, position.x - normal.x*100, position.y - normal.y * 100);
-  }
-  //}
 
   // detect boundary collision
   // right
@@ -277,10 +251,11 @@ function draw() {
   if ( position.y < r ) {
     position.y = r;
     velocity.y *= -1;
-
-    //randomize base top
-    base1.y = random(height - 100, height);
-    base2.y = random(height - 100, height);
+  }
+  // top
+  if ( position.y > height) {
+    position.y = r;
+    velocity.y *= -1;
   }
 
 }
