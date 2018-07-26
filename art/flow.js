@@ -1,5 +1,4 @@
 // neural network random art generator
-
 // settings
 
 // actual size of generated image
@@ -19,6 +18,10 @@ var nOut = 3; // r, g, b layers
 var img;
 var img2;
 var G = new R.Graph(false);
+
+
+var playing = false;
+var face;
 
 
 var initModel = function() {
@@ -90,7 +93,8 @@ function setup() {
 	"use strict";
 	var myCanvas;
 
-	myCanvas = createCanvas(window.innerWidth, window.innerHeight);
+	myCanvas = createCanvas(windowWidth, windowHeight);
+	myCanvas.parent("mainContainer");
 	nW = Math.max(Math.floor(sizew/sizew), 1);
 	nH = Math.max(Math.floor(sizeh/sizeh), 1);
 	nImage = nH*nW;
@@ -100,10 +104,12 @@ function setup() {
 	model = initModel();
 	genImage(img, model);
 
-	strokeWeight(9);
-	stroke(255, 100);
-	
-	frameRate(30);
+	face = createVideo('videos/download.mp4');
+	face.position(50,50)
+	face.parent("mainContainer");
+	face.hide();
+	face.loop();
+
 }
 
 function getRandomLocation() {
@@ -128,6 +134,7 @@ class Line {
 		this.y = [];
 		this.segNum = n;
 		this.segLength = l;
+		//this.model = model
 
 		for (var i = 0; i < this.segNum; i++) {
 			this.x[i] = 0;
@@ -140,28 +147,53 @@ class Line {
 		var angle = atan2(dy, dx);
 		this.x[i] = xin - cos(angle) * this.segLength;
 		this.y[i] = yin - sin(angle) * this.segLength;
-		this.segment(this.x[i], this.y[i], angle);
+		this.segment(this.x[i], this.y[i], angle, model);
 	}
 
-	segment(x, y, a) {
+	segment(x, y, a, model) {
 		push();
 		translate(x, y);
 		rotate(a);
+		stroke(getColorAt(model, x, y));
 		line(0, 0, this.segLength, 0);
 		pop();
 		
 	}
 }
 
+//l = new Line(20,18);
+
+
+
+class Point {
+	constructor(x,y,z){
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+}
+var i = 0;
+var j = 0;
+var k = 0;
+var speed = 10;
+
+
+
+
+
 function draw() {
-	
 	var n = getRandomLocation();
 	var row = Math.floor(n/nW);
 	var col = n % nW;
-	background(255);
-	l = new Line(20,18);
-	l.dragSegment(0, mouseX, mouseY);
-	for( var i=0; i<x.length-1; i++) {
-		l.dragSegment(i+1, x[i], y[i]);
-	}
+	//background(100);
+//	l.dragSegment(0, mouseX, mouseY);
+//	for( var i=0; i<l.x.length-1; i++) {
+//		l.dragSegment(i+1, l.x[i], l.y[i]);
+//	}
+	stroke(getColorAt(model, i/windowWidth-0.5, j/windowHeight - 0.5));
+	ellipse(i, j, k%7);
+	image(face,10,10); 
+	k++;
+	i++;
+	j++;
 }
