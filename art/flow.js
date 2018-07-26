@@ -213,7 +213,6 @@ function draw() {
 	var row = Math.floor(n/nW);
 	var col = n % nW;
 
-	background(255);
 	image(face,10,10); 	
 //	l.dragSegment(0, mouseX, mouseY);
 //	for( var i=0; i<l.x.length-1; i++) {
