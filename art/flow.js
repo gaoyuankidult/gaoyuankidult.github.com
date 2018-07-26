@@ -112,6 +112,9 @@ function genImage(img, model) {
   }
   img.updatePixels();
 }
+function preload() {
+	song = loadSound('musics/music.mp3');
+}
 
 function setup() {
 
@@ -137,8 +140,7 @@ function setup() {
 	face.hide();
 	face.loop();
 
-	song = loadSound('musics/music.mp3');
-	song.play()
+
 	song.loop()
 
   //createGround();
