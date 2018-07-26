@@ -211,10 +211,6 @@ function draw() {
 	var row = Math.floor(n/nW);
 	var col = n % nW;
 
-	var iwidth = face.width;
-	var iheight = face.height;
-	tint(255, 127);
-	image(face, windowWidth/2-iwidth/4,windowHeight/2-iheight/4, iwidth/2, iheight/2);
 //	l.dragSegment(0, mouseX, mouseY);
 //	for( var i=0; i<l.x.length-1; i++) {
 //		l.dragSegment(i+1, l.x[i], l.y[i]);
@@ -227,8 +223,13 @@ function draw() {
 
   //draw ellipse
 	stroke(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
-  fill(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
-  ellipse(position.x, position.y, r*2, r*2);
+	fill(getColorAt(model, position.x/windowWidth-0.5, position.y/windowHeight - 0.5));
+	ellipse(position.x, position.y, r*2, r*2);
+	
+	var iwidth = face.width;
+	var iheight = face.height;
+	tint(255, 127);
+	image(face, windowWidth/2-iwidth/4,windowHeight/2-iheight/4, iwidth/2, iheight/2);
 
   //move ellipse
   position.add(velocity);
