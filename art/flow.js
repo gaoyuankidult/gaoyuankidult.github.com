@@ -47,6 +47,8 @@ var velocity;
 var r = 6;
 var speed = 10;
 
+var song;
+
 var initModel = function() {
   "use strict";
 
@@ -134,6 +136,9 @@ function setup() {
 	face.parent("mainContainer");
 	face.hide();
 	face.loop();
+
+	song = loadSound('musics/music.mp3');
+	song.loop()
 
   //createGround();
 
