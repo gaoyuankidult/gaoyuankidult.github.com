@@ -138,6 +138,7 @@ function setup() {
 	face.loop();
 
 	song = loadSound('musics/music.mp3');
+	song.play()
 	song.loop()
 
   //createGround();
