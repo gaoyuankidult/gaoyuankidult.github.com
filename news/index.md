@@ -10,7 +10,7 @@
 }
 </style>
 
-#### 26th August, 2018 [Attending <a class="news-link" href="ro-man2018.org">RO-MAN</a>]
+#### 26th August - 2nd September, 2018 [Attending <a class="news-link" href="ro-man2018.org">RO-MAN</a>]
 I will be attending IEEE ROMAN conference in Nanjing, China.
 
 
