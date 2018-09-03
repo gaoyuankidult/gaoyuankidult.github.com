@@ -11,6 +11,7 @@
 </style>
 
 #### 26th August, 2018 [Attending <a class="news-link" href="ro-man2018.org">RO-MAN</a>]
+I will be attending IEEE ROMAN conference in Nanjing, China.
 
 
 #### 24th July, 2018 [Paper Accepted to <a class="news-link" href="http://iva2018.westernsydney.edu.au/">IVA</a>]
