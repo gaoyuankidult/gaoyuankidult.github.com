@@ -1,5 +1,5 @@
 ---
-title: News
+title: About
 ---
 As a lifetime roboticist who wants to explore the boundaries of transhumanism, I am interested in developing **AI-driven** robots that can **think and feel** like real humans (e.g. [Ex Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film))). In particular, I am interested in deep/reinforcement/neuro-based learning approaches to robotic **perception, control, and physical modeling** of the robot’s environment. Currently, I am working on projects that can fill the gap between deep reinforcement learning and social robotics.
 
