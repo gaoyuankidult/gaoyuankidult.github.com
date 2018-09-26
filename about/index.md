@@ -35,7 +35,7 @@ As a lifetime roboticist who wants to explore the boundaries of transhumanism, I
       if (document.getElementById("quote").innerHTML.length == 0){
           document.getElementById("quote").innerHTML =
               '<p>' + quote.text + '</p>' + '<br>' +
-              '<img width="500" src="' + quote.img + '">';
+              '<img width="240" src="' + quote.img + '">';
 	  document.getElementById("quote_btn").innerHTML = "Fold Quote";
       } else {
       	  document.getElementById("quote").innerHTML = "";
