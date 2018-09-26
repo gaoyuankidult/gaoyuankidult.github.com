@@ -1,3 +1,7 @@
+---
+title: News
+---
+
 <style>
 .news-link:link, .news-link:visited {
   color: grey;
