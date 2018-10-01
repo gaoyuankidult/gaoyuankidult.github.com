@@ -1,5 +1,5 @@
 ---
-title:Contact
+title: Contact
 ---
 You can send me an email here:
 
