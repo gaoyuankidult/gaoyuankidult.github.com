@@ -9,11 +9,12 @@
 	float:left; 
 	height:100px;
 	width:100px; 
+	overflow: hidden;
 } 
 
 .container {
     width:100%;
-    height:auto;
+    height:120px;
     padding:1%;
 }
 h4 {
