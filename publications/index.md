@@ -12,7 +12,7 @@ title: Recent Publications
 
 .container {
     width:100%;
-    height:23%;
+    height:auto;
     padding:1%;
 }
 h4 {
@@ -35,7 +35,7 @@ function toggleAbstract() {
     <div>
 		<img src='papers/deep_proximics.jpg' class='iconDetails'>
     </div>  
-    <div style='margin-left:width:23%;'>
+    <div style='margin-left:width:25%;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
     <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano,</div>
 	<h6></h6>
