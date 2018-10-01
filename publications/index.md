@@ -12,7 +12,7 @@ title: Recent Publications
 
 .container {
     width:100%;
-    max-height:145px;
+    height:24%;
     padding:1%;
 }
 h4 {
@@ -55,3 +55,4 @@ function toggleAbstract() {
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
+<br\>
