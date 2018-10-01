@@ -22,8 +22,7 @@ h4 {
 
 <script>
 function toggleAbstract(btn) {
-    var x = btn.nextSibling;
-	alert(x.id);
+    var x = btn.nextElementSibling;
     if (x.innerHTML === "") {
         x.innerHTML = x.getAttribute("text");
     } else {
