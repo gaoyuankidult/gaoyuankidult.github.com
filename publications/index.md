@@ -1,9 +1,8 @@
 
 <style>
 .iconDetails {
-	height:120px;
-	width:120px; 
-	overflow: hidden;
+	height:110px;
+	width:110px; 
 } 
 
 .container {
@@ -31,7 +30,7 @@ h4 {
     <div>
 		<img src='papers/when_help.jpg' class='iconDetails'>
     </div>  
-    <div style='margin-left:150px;'>
+    <div style='margin-left:130px;'>
     <h4>When robot personalisation does not help: Insights from a robot-supported learning study [<a href="papers/when-robot-does-not-help.pdf">Download</a>]</h4>
     <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid, Ginevra Castellano,</div>
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
