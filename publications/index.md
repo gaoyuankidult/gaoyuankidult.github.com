@@ -7,8 +7,8 @@
 .iconDetails {
 	margin-left:1%;
 	float:left; 
-	height:80px;
-	width:80px; 
+	height:100px;
+	width:100px; 
 } 
 
 .container {
@@ -23,11 +23,11 @@ h4 {
 
 <div class='container'>
     <div>
-		<img src='papers/deep_proximics' class='iconDetails'>
+		<img src='papers/deep_proximics.png' class='iconDetails'>
     </div>  
-    <div style='margin-left:100px;'>
-    <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics</h4>
-    <div style="font-size:1em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano</div>
-    <div style="float:right;font-size:.6em">IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2018), 2018. [paper]</div>
+    <div style='margin-left:120px;'>
+    <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
+    <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano</div>
+    <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
