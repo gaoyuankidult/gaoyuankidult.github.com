@@ -4,8 +4,8 @@ title: Recent Publications
 <style>
 .iconDetails {
 	float:left; 
-	height:110px;
-	width:110px; 
+	height:120px;
+	width:120px; 
 } 
 
 .container {
@@ -33,10 +33,11 @@ function toggleAbstract() {
     <div>
 		<img src='papers/deep_proximics.jpg' class='iconDetails'>
     </div>  
-    <div style='margin-left:130px;'>
+    <div style='margin-left:140px;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
     <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano,</div>
-	<a markdown="0" id="quote_btn" onclick="toggleAbstract();"  class="btn">Abstract</a>
+	<p></p>
+	<a markdown="0" id="quote_btn" onclick="toggleAbstract();"  class="btn--inverse">Abstract</a>
 	<div id="abstract" ></div>
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
