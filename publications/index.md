@@ -5,13 +5,13 @@
 
 <style>
 .iconDetails {
-	margin-left:2%;
+	margin-left:1%;
 	float:left; 
-	height:40px;
-	width:40px; 
+	height:80px;
+	width:80px; 
 } 
 
-.container2 {
+.container {
     width:100%;
     height:auto;
     padding:1%;
@@ -21,13 +21,13 @@ h4 {
 }
 </style>
 
-<div class='container2'>
-        <div>
-            <img src='http://ecx.images-amazon.com/images/I/21-leKb-zsL._SL500_AA300_.png' class='iconDetails'>
-        </div>  
-    <div style='margin-left:60px;'>
-    <h4>Facebook</h4>
-    <div style="font-size:.6em">fine location, GPS, coarse location</div>
-    <div style="float:right;font-size:.6em">0 mins ago</div>
+<div class='container'>
+    <div>
+		<img src='papers/deep_proximics' class='iconDetails'>
+    </div>  
+    <div style='margin-left:100px;'>
+    <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics</h4>
+    <div style="font-size:1em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano</div>
+    <div style="float:right;font-size:.6em">IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2018), 2018. [paper]</div>
     </div>
 </div>
