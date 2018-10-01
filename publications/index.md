@@ -22,7 +22,7 @@ h4 {
 
 <script>
 function toggleAbstract() {
-    var x = document.getElementById("abstract");
+    var x = this.nextSibling;
     if (x.innerHTML === "") {
         x.innerHTML = x.getAttribute("text");
     } else {
@@ -59,4 +59,3 @@ A between-subjects design user study showed that participants were more efficien
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
-<br\>
