@@ -36,7 +36,7 @@ function toggleAbstract() {
     <div style='margin-left:130px;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
     <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano,</div>
-	<p><button onclick="toggleAbstract()">Abstract</button></p>
+	<p><a markdown="0" id="quote_btn" onclick="toggleAbstract()  class="btn">Abstract</a></p>
 	<div id="abstract"></div>
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>

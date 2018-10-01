@@ -41,7 +41,6 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
       } else {
 			document.getElementById("quote").innerHTML = "";
 			document.getElementById("quote_btn").innerHTML = "<font color="white">Want to See a Research Quote ?</font>";
-			document.getElementById("quote_btn")
 	  
       }
     }
