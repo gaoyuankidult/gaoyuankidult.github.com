@@ -31,11 +31,11 @@ h4 {
 
 <div class='container'>
     <div>
-		<img src='papers/deep_proximics.png' class='iconDetails'>
+		<img src='papers/when_help.jpg' class='iconDetails'>
     </div>  
     <div style='margin-left:120px;'>
     <h4>When robot personalisation does not help: Insights from a robot-supported learning study [<a href="papers/when-robot-does-not-help.pdf">Download</a>]</h4>
-    <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid, Ginevra Castellan,</div>
+    <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid, Ginevra Castellano,</div>
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
