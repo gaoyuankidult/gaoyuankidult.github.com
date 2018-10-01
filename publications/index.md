@@ -1,6 +1,7 @@
 
 <style>
 .iconDetails {
+	float:left; 
 	height:110px;
 	width:110px; 
 } 
