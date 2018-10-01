@@ -1,18 +1,14 @@
 
 <style>
-.out {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-}
-.out img {
-  margin-left: -50%;
-}
- 
+.iconDetails {
+	height:140px;
+	width:140px; 
+	overflow: hidden;
+} 
 
 .container {
     width:100%;
-    height:110px;
+    height:150px;
     padding:1%;
 }
 h4 {
@@ -21,8 +17,8 @@ h4 {
 </style>
 
 <div class='container'>
-    <div class="out">
-		<img src='papers/deep_proximics.png' class='iconDetails'>
+    <div>
+		<img src='papers/deep_proximics.jpg' class='iconDetails'>
     </div>  
     <div style='margin-left:120px;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
