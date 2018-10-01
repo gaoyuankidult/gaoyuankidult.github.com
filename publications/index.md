@@ -12,7 +12,7 @@ title: Recent Publications
 
 .container {
     width:100%;
-    height:44%;
+    max-height:145px;
     padding:1%;
 }
 h4 {
