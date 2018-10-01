@@ -19,14 +19,10 @@
     padding-right: 20px;
 }
 </style>
-</head>
-<body>
 
-<h2>Image Text Blocks</h2>
-<p>How to place text blocks over an image:</p>
 
 <div class="container">
-  <img src="image/deep_proximics.jpg" alt="Nature" style="width:100%;">
+  <img src="publications/papers/deep_proximics.jpg" alt="Nature" style="width:100%;">
   <div class="text-block">
     <h4></h4>
     <p>Investigating Deep Learning Approaches for Human-Robot Proxemics</p>
