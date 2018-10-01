@@ -1,12 +1,14 @@
 
 <style>
-.iconDetails {
-	margin-left:0%;
-	float:left; 
-	height:100px;
-	width:100px; 
-	overflow: hidden;
-} 
+.out {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.out img {
+  margin-left: -50%;
+}
+ 
 
 .container {
     width:100%;
@@ -19,7 +21,7 @@ h4 {
 </style>
 
 <div class='container'>
-    <div>
+    <div class="out">
 		<img src='papers/deep_proximics.png' class='iconDetails'>
     </div>  
     <div style='margin-left:120px;'>
