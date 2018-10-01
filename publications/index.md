@@ -36,9 +36,9 @@ function toggleAbstract() {
     <div style='margin-left:140px;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics [<a href="papers/investigate-deep-learning-proximics.pdf">Download</a>]</h4>
     <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano,</div>
-	<p></p>
-	<a markdown="0" id="quote_btn" onclick="toggleAbstract();"  class="btn--small">Abstract</a>
-	<div id="abstract" text="In this paper, we investigate the applicability of deep learning methods to adapt and predict comfortable human-robot proxemics. Proposing a network architecture, we experiment with three different layer configurations, obtaining three different end-to-end trainable models. Using these, we compare their predictive performances on data obtained during a human-robot interaction study. We find that our long short-term memory based model outperforms a gated recurrent unit based model and a feed-forward model. Further, we demonstrate how the created model can be exploited to create customized comfort zones that can help create a personalized experience for individual users."></div>
+	<h6></h6>
+	<a markdown="0" id="quote_btn" onclick="toggleAbstract();"  class="btn">Abstract</a>
+	<div id="abstract" text="In this paper, we investigate the applicability of deep learning methods to adapt and predict comfortable human-robot proxemics."></div>
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
