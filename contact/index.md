@@ -1,3 +1,6 @@
+---
+title:Contact
+---
 You can send me an email here:
 
 <form id="contactForm" method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
