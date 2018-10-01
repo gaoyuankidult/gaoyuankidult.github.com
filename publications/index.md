@@ -4,8 +4,10 @@ title: Recent Publications
 <style>
 .iconDetails {
 	float:left; 
-	height:120px;
-	width:120px; 
+	width:20%;
+    height:20%
+	max-height:140px;
+	max-width:140px; 
 } 
 
 .container {
