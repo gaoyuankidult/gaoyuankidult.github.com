@@ -116,6 +116,6 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
 }
 </style>
 
-<button id="quote_btn" class="button .black" onclick="showQuote()" type="button">Want to See a Research Quote ?</button>
+<button id="quote_btn" class="button black" onclick="showQuote()" type="button">Want to See a Research Quote ?</button>
 
 <div id="quote"></div>
