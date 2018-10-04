@@ -47,12 +47,75 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
 </script>
 
 <style>
-#quote_btn{
-    background-color:: white;
+.button {
+    clear: left;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
+.green {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.green:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.blue {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.blue:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.red {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.red:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.gray {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.gray:hover {background-color: #e7e7e7;}
+
+.black {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.black:hover {
+    background-color: #555555;
+    color: white;
+}
 </style>
 
-<a markdown="0" id="quote_btn" href="javascript:showQuote()"   class="btn">Want to See a Research Quote ?</a>
+<a markdown="0" id="quote_btn" href="javascript:showQuote()"   class="button .black">Want to See a Research Quote ?</a>
 
 <div id="quote"></div>
