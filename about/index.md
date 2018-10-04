@@ -47,12 +47,10 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
 </script>
 
 <style>
-#quote_btn:visited {
-    color: white;
+#quote_btn{
+    background-color:: white;
 }
-#quote_btn:focused {
-    color: white;
-}
+
 </style>
 
 <a markdown="0" id="quote_btn" href="javascript:showQuote()"   class="btn">Want to See a Research Quote ?</a>
