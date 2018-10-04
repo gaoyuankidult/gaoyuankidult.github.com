@@ -46,6 +46,12 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
     }
 </script>
 
+<style>
+a:visited {
+    color: white;
+}
+</style>
+
 <a markdown="0" id="quote_btn" href="javascript:showQuote()"  class="btn">Want to See a Research Quote ?</a>
 
 <div id="quote"></div>
