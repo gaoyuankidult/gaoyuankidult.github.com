@@ -116,6 +116,6 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
 }
 </style>
 
-<a markdown="0" id="quote_btn" href="javascript:showQuote()"   class="button .black">Want to See a Research Quote ?</a>
+<button id="quote_btn" class="button .black" onclick="showQuote()" type="button">Want to See a Research Quote ?</button>
 
 <div id="quote"></div>
