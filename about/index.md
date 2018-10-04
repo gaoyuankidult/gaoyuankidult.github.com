@@ -34,13 +34,13 @@ Our research is **multi-disciplinary** and it requires knowledge of different fi
       ];
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
       if (document.getElementById("quote").innerHTML.length == 0){
-			document.getElementById("quote").innerHTML =
+          document.getElementById("quote").innerHTML =
               '<p>' + quote.text + '</p>' + '<br>' +
               '<img width="240" src="' + quote.img + '">';
-			document.getElementById("quote_btn").innerHTML = "<font color="white">Fold Quote</font>";
+	  document.getElementById("quote_btn").innerHTML = "Fold Quote";
       } else {
-			document.getElementById("quote").innerHTML = "";
-			document.getElementById("quote_btn").innerHTML = "<font color="white">Want to See a Research Quote ?</font>";
+      	  document.getElementById("quote").innerHTML = "";
+	  document.getElementById("quote_btn").innerHTML = "Want to See a Research Quote ?";
 	  
       }
     }
