@@ -3,6 +3,7 @@ title: Recent Publications
 ---
 <style>
 .iconDetails {
+	clear: left;
 	float:left; 
 	width:20%;
     	height:20%;
