@@ -7,8 +7,8 @@ title: Recent Publications
 	float:left; 
 	width:20%;
     	height:20%;
-	max-height:150px;
-	max-width:150px; 
+	max-height:130px;
+	max-width:130px; 
 } 
 
 .container {
@@ -128,3 +128,4 @@ A between-subjects design user study showed that participants were more efficien
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
+<br style/>
