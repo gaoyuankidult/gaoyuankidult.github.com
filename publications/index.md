@@ -7,8 +7,8 @@ title: Recent Publications
 	float:left; 
 	width:20%;
     	height:20%;
-	max-height:130px;
-	max-width:130px; 
+	max-height:140px;
+	max-width:140px; 
 } 
 
 .container {
