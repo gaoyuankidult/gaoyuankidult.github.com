@@ -101,11 +101,25 @@ function toggleAbstract(btn) {
 
 <div class='container'>
     <div>
+		<img src='papers/social_behavior_learning.gif' class='iconDetails'>
+    </div>  
+    <div style='margin-left:25%;'>
+    <h4>Social Behavior Learning with Realistic Reward Shaping</h4>
+    <div style="font-size:.8em"> Yuan Gao, Fangkai Yang, Martin Frisk, Daniel Hernandez, Christopher Peters and Ginevra Castellano</div>
+	<h6></h6>
+	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button>
+	<div id="abstract" text="Deep reinforcement learning has been widely applied in the field of robotics recently to study tasks like locomotion and grasping, but applying it to social robotics remains a challenge. In this paper, we present a deep learning scheme that acquires a prior model of robot behavior in a simulator as a first phase to be further refined through learning from subsequent real-world interactions involving physical robots. The scheme, which we refer to as Staged Social Behavior Learning (SSBL), considers different stages of learning in social scenarios. Based on this scheme, we implement robot approaching behaviors towards a small group generated from F-formation and evaluate the performance of different configurations using objective and subjective measures. We found that our model generates more socially-considerate behavior compared to a state-of-the-art model, i.e. social force model. We also suggest that SSBL could be applied to a wide class of social robotics applications.
+    <div style="float:right;font-size:.6em">arXiv, 2018</div>
+    </div>
+</div>
+
+<div class='container'>
+    <div>
 		<img src='papers/deep_proximics.jpg' class='iconDetails'>
     </div>  
     <div style='margin-left:25%;'>
     <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics</h4>
-    <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid, Ginevra Castellano,</div>
+    <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid and Ginevra Castellano</div>
 	<h6></h6>
 	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('papers/investigate-deep-learning-proximics.pdf')" type="button">Download</button>
 	<div id="abstract" text="In this paper, we investigate the applicability of deep learning methods to adapt and predict comfortable human-robot proxemics. Proposing a network architecture, we experiment with three different layer configurations, obtaining three different end-to-end trainable models. Using these, we compare their predictive performances on data obtained during a human-robot interaction study. We find that our long short-term memory based model outperforms a gated recurrent unit based model and a feed-forward model. Further, we demonstrate how the created model can be exploited to create customized comfort zones that can help create a personalized experience for individual users. "></div>
@@ -119,7 +133,7 @@ function toggleAbstract(btn) {
     </div>  
     <div style='margin-left:25%;'>
     <h4>When robot personalisation does not help: Insights from a robot-supported learning study </h4>
-    <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid, Ginevra Castellano,</div>
+    <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid and Ginevra Castellano,</div>
     <h6></h6>
 	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('papers/when-robot-does-not-help.pdf')" type="button">Download</button>
 	<div id="abstract" text="In the domain of robotic tutors, personalised tutoring has started to receive scientists' attention, but is still relatively underexplored. Previous work using reinforcement learning (RL) has addressed personalised tutoring from the perspective of affective policy learning. However, little is known about the effects of robot behaviour personalisation on user's task performance. Moreover, it is also unclear if and when personalisation may be more beneficial than a robot that adapts to its users and the context of the interaction without personalising its behaviour. In this paper we build on previous work on affective policy learning that used RL to learn what robot's supportive behaviours are preferred by users in an educational scenario. We build a RL framework for personalisation that allows a robot to select verbal supportive behaviours to maximise the user's task progress and positive reactions in a learning scenario where a Pepper robot acts as a tutor and helps people to learn how to solve grid-based logic puzzles. 
