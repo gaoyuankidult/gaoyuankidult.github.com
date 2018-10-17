@@ -15,7 +15,7 @@ title: Recent Publications
     width:100%;
     height:24%;
     padding:1%;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 h4 {
     margin:0px;
