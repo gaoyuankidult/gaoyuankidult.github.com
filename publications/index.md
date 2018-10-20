@@ -120,7 +120,7 @@ function toggleAbstract(btn) {
 		<img src='papers/deep_proximics.jpg' class='iconDetails'>
     </div>  
     <div style='margin-left:25%;'>
-    <h4>Investigating Deep Learning Approaches for Human-Robot Proxemics</h4>
+    <h4>Human-Robot Proxemics using Recurrent Neural Networks</h4>
     <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid and Ginevra Castellano</div>
 	<h6></h6>
 	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('papers/investigate-deep-learning-proximics.pdf')" type="button">Download</button>
