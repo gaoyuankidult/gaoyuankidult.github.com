@@ -109,9 +109,24 @@ function toggleAbstract(btn) {
     <h4>Social Behavior Learning with Realistic Reward Shaping</h4>
     <div style="font-size:.8em"> Yuan Gao, Fangkai Yang, Martin Frisk, Daniel Hernandez, Christopher Peters and Ginevra Castellano</div>
 	<h6></h6>
-	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button>
+	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button><button class="button black" onclick="window.open('https://github.com/usr-lab/PepperSocial')" type="button">GitHub</button>
 	<div id="abstract" text="Deep reinforcement learning has been widely applied in the field of robotics recently to study tasks like locomotion and grasping, but applying it to social robotics remains a challenge. In this paper, we present a deep learning scheme that acquires a prior model of robot behavior in a simulator as a first phase to be further refined through learning from subsequent real-world interactions involving physical robots. The scheme, which we refer to as Staged Social Behavior Learning (SSBL), considers different stages of learning in social scenarios. Based on this scheme, we implement robot approaching behaviors towards a small group generated from F-formation and evaluate the performance of different configurations using objective and subjective measures. We found that our model generates more socially-considerate behavior compared to a state-of-the-art model, i.e. social force model. We also suggest that SSBL could be applied to a wide class of social robotics applications."></div>
 	<div style="float:right;font-size:.6em">arXiv, 2018</div>
+    </div>
+</div>
+
+
+<div class='container'>
+    <div>
+		<img src='papers/effect_posture.png' class='iconDetails'>
+    </div>  
+    <div style='margin-left:25%;'>
+    <h4>Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality</h4>
+    <div style="font-size:.8em"> Chengjie Li, Theofronia Androulakaki, Yuan Gao, Fangkai Yang, Himangshu Saikia, Christopher Peters and Gabriel Skantze</div>
+	<h6></h6>
+	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button>
+	<div id="abstract" text="Mixed reality offers new potentials for social interaction experiences with virtual agents. In addition, it can be used to experiment with the design of physical robots. However, while previous studies have investigated comfortable social distances between humans and artificial agents in real and virtual environments, there is little data with regards to mixed reality environments. In this paper, we conducted an experiment in which participants were asked to walk up to an agent to ask a question, in order to investigate the social distances maintained, as well as the subject's experience of the interaction. We manipulated both the embodiment of the agent (robot vs. human and virtual vs. physical) as well as closed vs. open posture of the agent. The virtual agent was displayed using a mixed reality headset. Our experiment involved 35 participants in a within-subject design. We show that, in the context of social interactions, mixed reality fares well against physical environments, and robots fare well against humans, barring a few technical challenges."></div>
+	<div style="float:right;font-size:.6em">Intelligent Virtual Agents, October 2018</div>
     </div>
 </div>
 
