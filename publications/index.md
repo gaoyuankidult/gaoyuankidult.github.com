@@ -109,7 +109,7 @@ function toggleAbstract(btn) {
     <h4>Social Behavior Learning with Realistic Reward Shaping</h4>
     <div style="font-size:.8em"> Yuan Gao, Fangkai Yang, Martin Frisk, Daniel Hernandez, Christopher Peters and Ginevra Castellano</div>
 	<h6></h6>
-	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button><button class="button black" onclick="window.open('https://github.com/usr-lab/PepperSocial')" type="button">GitHub</button>
+	<button class="button black" onclick="window.open('https://github.com/usr-lab/PepperSocial')" type="button">GitHub</button><button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button>
 	<div id="abstract" text="Deep reinforcement learning has been widely applied in the field of robotics recently to study tasks like locomotion and grasping, but applying it to social robotics remains a challenge. In this paper, we present a deep learning scheme that acquires a prior model of robot behavior in a simulator as a first phase to be further refined through learning from subsequent real-world interactions involving physical robots. The scheme, which we refer to as Staged Social Behavior Learning (SSBL), considers different stages of learning in social scenarios. Based on this scheme, we implement robot approaching behaviors towards a small group generated from F-formation and evaluate the performance of different configurations using objective and subjective measures. We found that our model generates more socially-considerate behavior compared to a state-of-the-art model, i.e. social force model. We also suggest that SSBL could be applied to a wide class of social robotics applications."></div>
 	<div style="float:right;font-size:.6em">arXiv, 2018</div>
     </div>
@@ -118,7 +118,7 @@ function toggleAbstract(btn) {
 
 <div class='container'>
     <div>
-		<img src='papers/effect_posture.png' class='iconDetails'>
+		<img src='papers/effect_posture.jpg' class='iconDetails'>
     </div>  
     <div style='margin-left:25%;'>
     <h4>Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality</h4>
