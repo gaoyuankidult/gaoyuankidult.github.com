@@ -125,7 +125,7 @@ function toggleAbstract(btn) {
     <div style="font-size:.8em"> Chengjie Li, Theofronia Androulakaki, Yuan Gao, Fangkai Yang, Himangshu Saikia, Christopher Peters and Gabriel Skantze</div>
 	<h6></h6>
 	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button>
-	<button class="button black" onclick="alert('Sorry, the paper is not publically available yet.')" type="button"></button>
+	<button class="button black" onclick="alert('Sorry, the paper is not publically available yet.')" type="button">Download</button>
 	<div id="abstract" text="Mixed reality offers new potentials for social interaction experiences with virtual agents. In addition, it can be used to experiment with the design of physical robots. However, while previous studies have investigated comfortable social distances between humans and artificial agents in real and virtual environments, there is little data with regards to mixed reality environments. In this paper, we conducted an experiment in which participants were asked to walk up to an agent to ask a question, in order to investigate the social distances maintained, as well as the subject's experience of the interaction. We manipulated both the embodiment of the agent (robot vs. human and virtual vs. physical) as well as closed vs. open posture of the agent. The virtual agent was displayed using a mixed reality headset. Our experiment involved 35 participants in a within-subject design. We show that, in the context of social interactions, mixed reality fares well against physical environments, and robots fare well against humans, barring a few technical challenges."></div>
 	<div style="float:right;font-size:.6em">Intelligent Virtual Agents, October 2018</div>
     </div>
