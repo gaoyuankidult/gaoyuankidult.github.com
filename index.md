@@ -5,6 +5,6 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 image:	
   feature: feature.jpg
-  credit: WeGraphics	
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  credit: Vecteezy	
+  creditlink: https://www.vecteezy.com/free-vector/cyborg
 ---
