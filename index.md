@@ -5,6 +5,6 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 image:	
   feature: feature.jpg
-  credit: Vecteezy	
+  credit: Vecteezy & Yuan Gao
   creditlink: https://www.vecteezy.com/free-vector/cyborg
 ---
