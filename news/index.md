@@ -13,7 +13,9 @@ title: News
  text-decoration: none;
 }
 </style>
-- **I am currently looking for Master student who are interested in deep (reinforcement) learning. Here is a link to my prvious masters students: https://usr-lab.github.io/alumni/**
+- **I am currently looking for Master student who are interested in deep (reinforcement) learning. [Link to my previous master students.](https://usr-lab.github.io/alumni/)**
+
+
 - **1st September,2018 - Now**, Visiting scholar at [[RPL lab at KTH]](https://www.kth.se/rpl/department-of-robotics-perception-and-learning-1.779439) working together with [Elena](https://www.kth.se/profile/elenasi) and [Prof. Danica](https://www.csc.kth.se/~danik/).
 - **22nd October,2018**, New paper uploaded to arXiv, Social Behavior Learning with Realistic Reward Shaping, [[Download]](https://arxiv.org/abs/1810.06979).
 - **26th August,2018 - 2nd September,2018**, 2018 [Attending <a class="news-link" href="ro-man2018.org">RO-MAN</a>] I will be attending IEEE ROMAN conference in Nanjing, China.
