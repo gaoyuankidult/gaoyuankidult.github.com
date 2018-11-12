@@ -13,7 +13,7 @@ title: News
  text-decoration: none;
 }
 </style>
-- **I am currently looking for Master student who are interested in deep (reinforcement) learning. [Link to my previous master students.](https://usr-lab.github.io/alumni/)**
+**I am currently looking for Master student who are interested in deep (reinforcement) learning, please contact me if you are interested.**  [Link to my previous master students.](https://usr-lab.github.io/alumni/)
 
 
 - **1st September,2018 - Now**, Visiting scholar at [[RPL lab at KTH]](https://www.kth.se/rpl/department-of-robotics-perception-and-learning-1.779439) working together with [Elena](https://www.kth.se/profile/elenasi) and [Prof. Danica](https://www.csc.kth.se/~danik/).
