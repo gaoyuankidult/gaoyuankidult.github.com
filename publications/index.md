@@ -159,4 +159,7 @@ A between-subjects design user study showed that participants were more efficien
     <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
     </div>
 </div>
+
+For more papers, please refere to my [Google Scholar](https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ) profile.
+
 <br style/>
