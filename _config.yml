@@ -1,6 +1,6 @@
 # Site wide configuration
 #layout: single
-classes: wide
+#classes: wide
 title:            Yuan Gao's Secret Robot Learning Lab
 locale:           en_US
 url:              https://gaoyuankidult.github.io
