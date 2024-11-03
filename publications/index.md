@@ -158,14 +158,15 @@ My [Google Scholar](https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ)
 - Gao, Y., Barendregt, W., Obaid, M., & Castellano, G. (2018). When robot personalisation does not help: Insights from a robot-supported learning study. 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), 705–712. IEEE.
 - Li, Chengjie, Androulakaki, T., Gao, A. Y., Yang, F., Saikia, H., Peters, C., & Skantze, G. (2018). Effects of posture and embodiment on social distance in human-agent interaction in mixed reality. Proceedings of the 18th International Conference on Intelligent Virtual Agents, 191–196.
 
-2017:
+**2017:**
 - Gao, A. Y., Barendregt, W., & Castellano, G. (2017). Personalised human-robot co-adaptation in instructional settings using reinforcement learning. IVA Workshop on Persuasive Embodied Agents for Behavior Change: PEACH 2017, August 27, Stockholm, Sweden.
 - Zhang, P., Gao, A. Y., & Theel, O. (2017). Less is more: Learning more with concurrent transmissions for energy-efficient flooding. Proceedings of the 14th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 323–332.
 
-2016:
+**2016:**
 - Gao, Y., & Glowacka, D. (2016). Deep gate recurrent neural network. Asian Conference on Machine Learning, 350–365. PMLR.
-2015:
+**2015:**
 - Gao, Y., Ilves, K., & Głowacka, D. (2015). Officehours: A system for student supervisor matching through reinforcement learning. Companion Proceedings of the 20th International Conference on Intelligent User Interfaces, 29–32.
+
 <!--
 <div class='container'>
     <div>
