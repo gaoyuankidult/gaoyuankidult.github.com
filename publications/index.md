@@ -1,5 +1,6 @@
 ---
 title: Recent Publications
+classes: wide
 ---
 <style>
 .iconDetails {
