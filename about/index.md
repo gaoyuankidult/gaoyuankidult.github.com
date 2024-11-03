@@ -1,10 +1,11 @@
 ---
 title: About
 ---
-As a lifetime roboticist who wants to explore the boundaries of transhumanism, I am interested in developing **AI-driven** robots that can **think and feel** like real humans (e.g. [Ex Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film))). In particular, I am interested in deep/reinforcement/neuro-based learning approaches for robotic **perception, control, and physical modelling of the robot’s environment**. Currently, I am working on projects that can fill the gap between deep reinforcement learning and social robotics.
+Embarking on a lifelong odyssey as a roboticist, I am captivated by the frontiers of transhumanism. My fascination lies in crafting AI-driven robots that not only mimic the cognitive faculties but also the emotive resonance of real humans, akin to the thought-provoking portrayals in [Ex Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film)). My focus is on the development of deep, reinforcement, and neuro-inspired learning methodologies to enhance robotic **perception, control, and physical modelling of the robot’s environment**. Presently, I am immersed in projects that bridge the chasm between deep reinforcement learning and the burgeoning field of social robotics.
 
-In our Uppsala [social robotics lab](http://hri.research.it.uu.se), we aim to answer a fundamental question: **How could robots learn like humans?** We achieve this by researching and developing new **robot learning models** using machine learning theories. The key of our research is to understand _what interactive elements make the learning process different_ and _how could we build efficient learning models for human-robot interaction_. 
-Our research is **multi-disciplinary** and it requires knowledge of different fields. Except for machine learning  algorithms, we also investigate computational psychology models. We conduct both fundamental and applied research together with our collaborators around the world.
+Within the walls of our lab on societalization of heterogenous multi-robot system, we pose a fundamental inquiry: **How could robots learn like humans?** Our quest is to unravel this mystery by delving into and crafting novel **robot learning models**, grounded in the theories of machine learning. The crux of our exploration lies in deciphering the interactive elements that set the learning process apart and in constructing efficient learning models tailored for human-robot interaction.
+
+Our research is a tapestry of **multi-disciplinary** expertise, demanding a fusion of knowledge across various domains. Beyond the intricacies of machine learning algorithms, we delve into the realms of computational psychology models. Together with our global collaborators, we embark on a dual mission of conducting both fundamental and applied research, striving to push the boundaries of what is possible in the realm of human-robot interaction.
 
 
 
