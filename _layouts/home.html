@@ -9,17 +9,6 @@
 
 <body class="home">
 
-<style>
-.news-link:link, .news-link:visited {
-  color: grey;
-  text-decoration: none;
-}
-.news-link:hover {
- background-color: #802;
- color: #fff;
- text-decoration: none;
-}
-</style>
 {% include _browser-upgrade.html %}
 
 {% include _navigation.html %}
@@ -38,24 +27,41 @@
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
+
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio-no-image.html %}
   </div>
   <div id="index" style="width:60%;">
-  <!--<img src="images/front.jpg" style="border-radius: 15px; width:40%; height:40%; max-height:280px; max-width:280px; margin-right:4%;float:left">-->
-  <!--I am (Alex) Yuan Gao, a research scientist at the Shenzhen Institute of Artificial Intelligence. Having successfully completed my research on socialized single robot, my research endeavors continue to revolve around the intricate realm of robotics and artificial intelligence, with a keen emphasis on heterogeneous multi-robot systems. Within this captivating domain, I am currently engrossed in unraveling the complexities of coordinating and harmonizing diverse robotic platforms. By delving into the intricacies of these systems, I aim to illuminate novel avenues for collaboration and efficiency, propelling the field of robotics towards new horizons. Throughout my academic journey, I have been privileged to collaborate with esteemed institutions such as the Uppsala Social Robotics Lab and contribute to the esteemed SoRoS Community. These enriching experiences have fortified my intellectual framework, fostering a deepened commitment to sculpting the future of robotics. Motivated by an unwavering passion for the realm of robotics and AI, I persistently endeavor to make pioneering contributions to this captivating field. Through my research, I aspire to transcend the boundaries of robotic capabilities, ushering forth advancements that revolutionize industries and augment the quality of human existence. I extend my sincere gratitude for the invaluable opportunities that have allowed me to delve into the intricate fabric of robotics. With each passing day, I remain resolute in my pursuit of expanding our comprehension of robot capabilities, ultimately harnessing their full potential to reshape society's landscape. Together, let us embark upon this scholarly odyssey, striving to unlock the true potential of AI-driven robotics. As we traverse uncharted territories, we shall not only redefine the frontiers of knowledge but also forge a future wherein robots seamlessly collaborate and interact, catalyzing transformative progress across diverse sectors and -->
-  As the digital canvas of our website is refreshed, let me introduce the creative force behind the scenes. I am Alex Yuan Gao, a collaborator in the academic realm, currently engaged with the Chinese University of Hong Kong, Shenzhen, and the Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS). My endeavors are nestled in the intersection of multi-robot systems and the vibrant field of Artificial Intelligence. In the tapestry of my work, I find myself weaving threads of innovation into various projects, both nationally and internationally. My focus is on the art of technology, particularly in the realms of robot learning and agentized large language models, to orchestrate a harmonious symphony of robot collaboration within the ever-shifting landscapes of dynamic environments.My research is a narrative that explores the depths of robot learning and control, with the ambition to capture the essence of human society and reflect it through the precision of advanced robotics. It is a story that I tell through my publications, each one a chapter in the ongoing saga of contributing to our collective understanding and advancement in the field.
-
+    <p class="page-intro fade-in">Researcher by training, artist by instinct—building systems that move, negotiate, and occasionally surprise their makers.</p>
+    <p class="hero-intro fade-in stagger-1">I build minds for machines that move.</p>
+    <p class="hero-intro fade-in stagger-2">I lead research on heterogeneous multi-robot systems—humanoids, quadrupeds, drones, wheeled platforms—each carrying its own grammar of motion, its own way of sensing the world. My work lives in the liminal space where radically different bodies learn to negotiate, cooperate, and betray. The question is never <em>can</em> they coordinate, but what emerges when they do—something that begins to resemble intention, or trust, or its opposite.</p>
+    <p class="hero-intro fade-in stagger-3">Trained in Swedish winters, now based in Shenzhen, I move between the lab and the gallery. My installation <em>Game Theater</em> turns reinforcement learning into a meditation on watching and being watched. Whether through a published paper or a fog-filled stage, I look for the same thing: the moment an algorithm stops being a tool and starts becoming something stranger—something closer to life.</p>
   </div>
-</div>
+</div><!-- /#main -->
+
+<script>
+// Intersection Observer for fade-in animations
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+</script>
+
 <div class="footer-wrap">
   <footer>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %} 
+{% include _scripts.html %}
 
 </body>
 </html>

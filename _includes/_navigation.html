@@ -11,7 +11,9 @@
 				        {% else %}
 				        {% assign domain = site.url %}
 				    {% endif %}
-				    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+				    {% assign current_path = page.url | remove: 'index.html' %}
+				    {% assign link_path = link.url %}
+				    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 				{% endfor %}
 		    </ul>
 		</nav>

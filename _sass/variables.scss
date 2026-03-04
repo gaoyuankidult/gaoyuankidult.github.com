@@ -8,19 +8,19 @@
 
 $doc-font-size: 16;
 $doc-line-height: 26;
-$paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
-$code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-$alt-font: $base-font;
+$paragraph-indent: false !default;
+$base-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+$heading-font: 'Space Grotesk', sans-serif;
+$code-font: 'JetBrains Mono', Monaco, "Courier New", monospace;
+$alt-font: $heading-font;
 
 /*
    Colors
    ========================================================================== */
 
-$bodycolor      : #fff;
+$bodycolor      : #fafafa;
 $body-color     : $bodycolor;
-$textcolor      : #333332;
+$textcolor      : #2d2d2d;
 $text-color     : $textcolor;
 $border-color   : $text-color;
 $basecolor 		  : #343434;
@@ -28,7 +28,12 @@ $compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
-$accentcolor    : $black;
+$accentcolor    : #555;
+
+/* auxiliary colors */
+$mutedcolor     : #888;
+$border-light   : #e5e5e5;
+$card-bg        : #fff;
 
 /* buttons */
 $primary			: $black;
@@ -52,7 +57,7 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-$linkcolor 		    : #343434;
+$linkcolor 		    : #1a1a1a;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);

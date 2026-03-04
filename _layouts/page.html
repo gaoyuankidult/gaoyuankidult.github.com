@@ -34,6 +34,7 @@
   </div>
   <article class="page">
     <h1>{{ page.title }}</h1>
+    <hr class="title-separator">
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
@@ -54,6 +55,28 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
+
+<script>
+// Global Intersection Observer for fade-in animations
+(function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  
+  document.querySelectorAll('.fade-in, .line-grow').forEach(el => observer.observe(el));
+  
+  // Auto-add fade-in to publication items
+  document.querySelectorAll('.pub-item').forEach((el, i) => {
+    el.classList.add('fade-in');
+    el.style.transitionDelay = (i % 5) * 0.08 + 's';
+    observer.observe(el);
+  });
+})();
+</script>
 
 </body>
 </html>

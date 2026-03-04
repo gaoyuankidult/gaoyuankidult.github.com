@@ -1,231 +1,564 @@
 ---
-layout: single
-title: Recent Publications
-classes: wide
+layout: page
+title: Publications
 ---
-<style>
-.iconDetails {
-	clear: left;
-	float:left; 
-	width:20%;
-    	height:20%;
-	max-height:140px;
-	max-width:140px; 
-} 
 
-.container {
-    width:100%;
-    height:24%;
-    padding:1%;
-	margin-bottom: 20px;
-}
-h4 {
-    margin:0px;
-}
+<p class="page-intro fade-in">Traces left in the literature—each paper a question posed, an experiment lived through, a small contribution to the larger conversation.</p>
 
-.button {
-    clear: left;
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
+<p class="fade-in" style="transition-delay:0.15s;">Full list also available on <a href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ">Google Scholar</a>.</p>
 
-.green {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-}
+---
 
-.green:hover {
-    background-color: #4CAF50;
-    color: white;
-}
+## 2026
 
-.blue {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-}
-
-.blue:hover {
-    background-color: #008CBA;
-    color: white;
-}
-
-.red {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #f44336;
-}
-
-.red:hover {
-    background-color: #f44336;
-    color: white;
-}
-
-.gray {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-}
-
-.gray:hover {background-color: #e7e7e7;}
-
-.black {
-    background-color: white;
-    color: black;
-    border: 2px solid #555555;
-}
-
-.black:hover {
-    background-color: #555555;
-    color: white;
-}
-</style>
-
-<script>
-function toggleAbstract(btn) {
-    var x = btn.nextElementSibling.nextElementSibling;
-    if (x.innerHTML === "") {
-        x.innerHTML = x.getAttribute("text");
-    } else {
-        x.innerHTML = "";
-    }
-}
-</script>
-
-
-My [Google Scholar](https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ) profile.
-
-## References
-
-**2024:**
-
-- Lai, W., Gao, Y., & Lam, T. L. (2024). Vision-Language Model-based Physical Reasoning for Robot Liquid Perception. arXiv Preprint arXiv:2404.06904.
-- Wang, C., Zheng, S., Zhong, L., Yu, C., Liang, C., Wang, Y., Gao, Y., Lam, T. L., & Shi, Y. (2024). PepperPose: Full-Body Pose Estimation with a Companion Robot. Proceedings of the CHI Conference on Human Factors in Computing Systems, 1–16.
-- Wang, J., Wang, Y., Peng, L., Zhang, H., Gao, H., Wang, C., Gao, Y., Luo, H., & Chen, Y. (2024). Transformable Inspection Robot Design and Implementation for Complex Pipeline Environment. IEEE Robotics and Automation Letters.
-- Chen, J., Gao, Y., Hu, J., Deng, F., & Lam, T. L. (2024). Meta-Reinforcement Learning Based Cooperative Surface Inspection of 3D Uncertain Structures using Multi-robot Systems. 2024 IEEE International Conference on Robotics and Automation (ICRA), 7201–7207. IEEE.
-
-**2023:**
-
-- Hu, J., Fan, C., Jiang, H., Guo, X., Gao, Y., Lu, X., & Lam, T. L. (2023). Boosting lightweight depth estimation via knowledge distillation. International Conference on Knowledge Science, Engineering and Management, 27–39. Springer Nature Switzerland Cham.
-- Gao, Y., Chen, J., Chen, X., Wang, C., Hu, J., Deng, F., & Lam, T. L. (2023). Asymmetric self-play-enabled intelligent heterogeneous multirobot catching system using deep multiagent reinforcement learning. IEEE Transactions on Robotics, 39(4), 2603–2622.
-- Wang, C., Gao, Y., Fan, C., Hu, J., Lam, T. L., Lane, N. D., & Bianchi-Berthouze, N. (2023). Learn2agree: Fitting with multiple annotators without objective ground truth. International Workshop on Trustworthy Machine Learning for Healthcare, 147–162. Springer Nature Switzerland Cham.
-- Wang, Y., Lin, M., Xie, X., Gao, Y., Deng, F., & Lam, T. L. (2023). Asymptotically efficient estimator for range-based robot relative localization. IEEE/ASME Transactions on Mechatronics, 28(6), 3525–3536.
-- Zhang, H., Luo, J., Gao, Y., & Ma, W. (2023). An intention inference method for the space non-cooperative target based on BiGRU-Self Attention. Advances in Space Research, 72(5), 1815–1828.
-- Gao, Y., Fan, C., Hu, J., Lam, T. L., Lane, N. D., & Bianchi-Berthouze, N. (2023). Learn2Agree: Fitting with Multiple Annotators Without Objective Ground. Trustworthy Machine Learning for Healthcare: First International Workshop, TML4H 2023, Virtual Event, May 4, 2023, Proceedings, 13932, 147. Springer Nature.
-
-**2022:**
-
-- Hu, J., Fan, C., Ozay, M., Feng, H., Gao, Y., & Lam, T. L. (2022). Progressive self-distillation for ground-to-aerial perception knowledge transfer. arXiv Preprint arXiv:2208.13404.
-- Gao, Y., Zhang, R., & Wang, H. (2022). On the asymptotic properties of a bagging estimator with a massive dataset. Stat, 11(1), e485.
-- Wang, X., Zhang, W., Wang, C., Gao, Y., & Liu, M. (2023). Dynamic dense graph convolutional network for skeleton-based human motion prediction. IEEE Transactions on Image Processing, 33, 1–15.
-
-**2021:**
-
-- Yang, F., Gao, Y., Ma, R., Zojaji, S., Castellano, G., & Peters, C. (2021). A dataset of human and robot approach behaviors into small free-standing conversational groups. PloS One, 16(2), e0247364.
-- Wang, C., Gao, Y., Mathur, A., De C. Williams, A. C., Lane, N. D., & Bianchi-Berthouze, N. (2021). Leveraging activity recognition to enable protective behavior detection in continuous data. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 5(2), 1–27.
-- Deng, F., Feng, H., Liang, M., Feng, Q., Yi, N., Yang, Y., Gao, Y., & Lam, T. L. (2022). Abnormal occupancy grid map recognition using attention network. 2022 International Conference on Robotics and Automation (ICRA), 8666–8672. IEEE.
-- Ahmad, M. I., Gao, Y., Alnajjar, F., Shahid, S., & Mubin, O. (2022). Emotion and memory model for social robots: a reinforcement learning based behaviour selection. Behaviour & Information Technology, 41(15), 3210–3236.
-- Guan, H., Gao, Y., Zhao, M., Yang, Y., Deng, F., & Lam, T. L. (2021). AB-Mapper: Attention and BicNet Based Multi-agent Path Finding for Dynamic Crowded Environment. arXiv Preprint arXiv:2110.00760.
-- Wang, C., Gao, Y., Fan, C., Hu, J., Lam, T. L., Lane, N. D., & Bianchi-Berthouze, N. (2021). Agreementlearning: An end-to-end framework for learning with multiple annotators without groundtruth. arXiv Preprint arXiv:2109.03596.
-
-**2020:**
-
-- Peng, M., Wang, C., Gao, Y., Bi, T., Chen, T., Shi, Y., & Zhou, X.-D. (2020). Recognizing micro-expression in video clip with adaptive key-frame mining. arXiv Preprint arXiv:2009.09179.
-- Chen, X., Gao, Y., Ghadirzadeh, A., Bjorkman, M., Castellano, G., & Jensfelt, P. (2020). Skew-explore: Learn faster in continuous spaces with sparse rewards.
-- Li, Chengxi, Castellano, G., & Gao, Y. (2020). Efficient Learning of Socially Aware Robot Approaching Behavior Toward Groups via Meta-Reinforcement Learning. IEEE/RSJ International Conference on Intelligent Robots and Systems, 12156–12159.
-- Gao, Y. (2020). Machine Behavior Development and Analysis using Reinforcement Learning. Acta Universitatis Upsaliensis.
-
-**2019:**
-
-- Gao, Y., Yang, F., Frisk, M., Hemandez, D., Peters, C., & Castellano, G. (2019). Learning socially appropriate robot approaching behavior toward groups using deep reinforcement learning. 2019 28th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 1–8. IEEE.
-- Gao, Y., Sibirtseva, E., Castellano, G., & Kragic, D. (2019). Fast adaptation with meta-reinforcement learning for trust modelling in human-robot interaction. 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 305–312. IEEE.
-- Hernandez, D., Denamganaï, K., Gao, Y., York, P., Devlin, S., Samothrakis, S., & Walker, J. A. (2019). A generalized framework for self-play training. 2019 IEEE Conference on Games (CoG), 1–8. IEEE.
-
-**2018:**
-
-- Gao, Y., Wallkötter,S., Mohammad, O., & Castellano, G. (2018). Humanrobot proxemics using recurrent neural networks. IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN).
-- Gao, Y., Wallkötter, S., Obaid, M., & Castellano, G. (2018). Investigating deep learning approaches for human-robot proxemics. 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), 1093–1098. IEEE.
-- Gao, Y., Barendregt, W., Obaid, M., & Castellano, G. (2018). When robot personalisation does not help: Insights from a robot-supported learning study. 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), 705–712. IEEE.
-- Li, Chengjie, Androulakaki, T., Gao, A. Y., Yang, F., Saikia, H., Peters, C., & Skantze, G. (2018). Effects of posture and embodiment on social distance in human-agent interaction in mixed reality. Proceedings of the 18th International Conference on Intelligent Virtual Agents, 191–196.
-
-**2017:**
-- Gao, A. Y., Barendregt, W., & Castellano, G. (2017). Personalised human-robot co-adaptation in instructional settings using reinforcement learning. IVA Workshop on Persuasive Embodied Agents for Behavior Change: PEACH 2017, August 27, Stockholm, Sweden.
-- Zhang, P., Gao, A. Y., & Theel, O. (2017). Less is more: Learning more with concurrent transmissions for energy-efficient flooding. Proceedings of the 14th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services, 323–332.
-
-**2016:**
-- Gao, Y., & Glowacka, D. (2016). Deep gate recurrent neural network. Asian Conference on Machine Learning, 350–365. PMLR.
-**2015:**
-- Gao, Y., Ilves, K., & Głowacka, D. (2015). Officehours: A system for student supervisor matching through reinforcement learning. Companion Proceedings of the 20th International Conference on Intelligent User Interfaces, 29–32.
-
-<!--
-<div class='container'>
-    <div>
-		<img src='papers/social_behavior_learning.gif' class='iconDetails'>
-    </div>  
-    <div style='margin-left:25%;'>
-    <h4>Social Behavior Learning with Realistic Reward Shaping</h4>
-    <div style="font-size:.8em"> Yuan Gao, Fangkai Yang, Martin Frisk, Daniel Hernandez, Christopher Peters and Ginevra Castellano</div>
-	<h6></h6>
-	<button class="button black" onclick="window.open('https://github.com/usr-lab/PepperSocial')" type="button">GitHub</button><button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('https://arxiv.org/pdf/1810.06979')" type="button">Download</button>
-	<div id="abstract" text="Deep reinforcement learning has been widely applied in the field of robotics recently to study tasks like locomotion and grasping, but applying it to social robotics remains a challenge. In this paper, we present a deep learning scheme that acquires a prior model of robot behavior in a simulator as a first phase to be further refined through learning from subsequent real-world interactions involving physical robots. The scheme, which we refer to as Staged Social Behavior Learning (SSBL), considers different stages of learning in social scenarios. Based on this scheme, we implement robot approaching behaviors towards a small group generated from F-formation and evaluate the performance of different configurations using objective and subjective measures. We found that our model generates more socially-considerate behavior compared to a state-of-the-art model, i.e. social force model. We also suggest that SSBL could be applied to a wide class of social robotics applications."></div>
-	<div style="float:right;font-size:.6em">arXiv, 2018</div>
-    </div>
+<div class="pub-item" style="display:none;">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Cross-Robot Behavior Adaptation through Intention Alignment</div>
+<div class="pub-authors">X. Chen&dagger;, <span class="author-self">Y. Gao</span>&dagger;, H. Liu, F. Yang, A. Ghadirzadeh, J. Yang, B. Liang, C. Zhang, T. L. Lam, & S.-C. Zhu</div>
+<div class="pub-venue">Science Robotics, 2026</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
 </div>
 
-
-<div class='container'>
-    <div>
-		<img src='papers/effect_posture.jpg' class='iconDetails'>
-    </div>  
-    <div style='margin-left:25%;'>
-    <h4>Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality</h4>
-    <div style="font-size:.8em"> Chengjie Li, Theofronia Androulakaki, Yuan Gao, Fangkai Yang, Himangshu Saikia, Christopher Peters and Gabriel Skantze</div>
-	<h6></h6>
-	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button>
-	<button class="button black" onclick="alert('Sorry, this paper is not publically available yet.')" type="button">Download</button>
-	<div id="abstract" text="Mixed reality offers new potentials for social interaction experiences with virtual agents. In addition, it can be used to experiment with the design of physical robots. However, while previous studies have investigated comfortable social distances between humans and artificial agents in real and virtual environments, there is little data with regards to mixed reality environments. In this paper, we conducted an experiment in which participants were asked to walk up to an agent to ask a question, in order to investigate the social distances maintained, as well as the subject's experience of the interaction. We manipulated both the embodiment of the agent (robot vs. human and virtual vs. physical) as well as closed vs. open posture of the agent. The virtual agent was displayed using a mixed reality headset. Our experiment involved 35 participants in a within-subject design. We show that, in the context of social interactions, mixed reality fares well against physical environments, and robots fare well against humans, barring a few technical challenges."></div>
-	<div style="float:right;font-size:.6em">Intelligent Virtual Agents, October 2018</div>
-    </div>
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</div>
+<div class="pub-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
 </div>
 
-<div class='container'>
-    <div>
-		<img src='papers/deep_proximics.jpg' class='iconDetails'>
-    </div>  
-    <div style='margin-left:25%;'>
-    <h4>Human-Robot Proxemics using Recurrent Neural Networks</h4>
-    <div style="font-size:.8em"> Yuan Gao, Sebastian Wallkötter, Mohammad Obaid and Ginevra Castellano</div>
-	<h6></h6>
-	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('papers/investigate-deep-learning-proximics.pdf')" type="button">Download</button>
-	<div id="abstract" text="In this paper, we investigate the applicability of deep learning methods to adapt and predict comfortable human-robot proxemics. Proposing a network architecture, we experiment with three different layer configurations, obtaining three different end-to-end trainable models. Using these, we compare their predictive performances on data obtained during a human-robot interaction study. We find that our long short-term memory based model outperforms a gated recurrent unit based model and a feed-forward model. Further, we demonstrate how the created model can be exploited to create customized comfort zones that can help create a personalized experience for individual users. "></div>
-    <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
-    </div>
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</div>
+<div class="pub-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">arXiv Preprint arXiv:2602.06373, 2026</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2602.06373" target="_blank">PDF</a></div>
+</div>
 </div>
 
-<div class='container'>
-    <div>
-		<img src='papers/when_help.jpg' class='iconDetails'>
-    </div>  
-    <div style='margin-left:25%;'>
-    <h4>When robot personalisation does not help: Insights from a robot-supported learning study </h4>
-    <div style="font-size:.8em"> Yuan Gao, Wolmet Barendregt, Mohammad Obaid and Ginevra Castellano,</div>
-    <h6></h6>
-	<button id="abstract_btn" class="button black" onclick="toggleAbstract(this);" type="button">Abstract</button><button class="button black" onclick="window.open('papers/when-robot-does-not-help.pdf')" type="button">Download</button>
-	<div id="abstract" text="In the domain of robotic tutors, personalised tutoring has started to receive scientists' attention, but is still relatively underexplored. Previous work using reinforcement learning (RL) has addressed personalised tutoring from the perspective of affective policy learning. However, little is known about the effects of robot behaviour personalisation on user's task performance. Moreover, it is also unclear if and when personalisation may be more beneficial than a robot that adapts to its users and the context of the interaction without personalising its behaviour. In this paper we build on previous work on affective policy learning that used RL to learn what robot's supportive behaviours are preferred by users in an educational scenario. We build a RL framework for personalisation that allows a robot to select verbal supportive behaviours to maximise the user's task progress and positive reactions in a learning scenario where a Pepper robot acts as a tutor and helps people to learn how to solve grid-based logic puzzles. 
-A between-subjects design user study showed that participants were more efficient at solving logic puzzles and preferred a robot that exhibits more varied behaviours compared with a robot that personalises its behaviour by converging on a specific one over time. We discuss insights on negative effects of personalisation and report lessons learned together with design implications for personalised robots."></div>
-    <div style="float:right;font-size:.6em">RO-MAN, 2018</div>
-    </div>
+## 2025
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</div>
+<div class="pub-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">Findings of the Association for Computational Linguistics: ACL 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
 </div>
--->
-<br style/>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multi-Agent Systems Using Multi-Modal Large Models</div>
+<div class="pub-authors">P. Feng, T. Yang, M. Liang, L. Wang, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE Internet of Things Journal (IOTJ), 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</div>
+<div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
+<div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework</div>
+<div class="pub-authors">J. Shi, H. Zhang, Y. Zhang, T. L. Lam, L. Zhang, H. Huang, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE Transactions on Consumer Electronics, 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots</div>
+<div class="pub-authors">Y. Liu, Q. Zheng, Y. Tu, <span class="author-self">Y. Gao</span>, G. Liang, & T. L. Lam</div>
+<div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</div>
+<div class="pub-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</div>
+<div class="pub-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="author-self">Y. Gao</span>, C. Yu, et al.</div>
+<div class="pub-venue">Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST), 2025</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2024
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Vision-Language Model-based Physical Reasoning for Robot Liquid Perception</div>
+<div class="pub-authors">W. Lai, T. Zhang, T. L. Lam, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2404.06904" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">PepperPose: Full-Body Pose Estimation with a Companion Robot</div>
+<div class="pub-authors">C. Wang, S. Zheng, L. Zhong, C. Yu, C. Liang, Y. Wang, <span class="author-self">Y. Gao</span>, T. L. Lam, & Y. Shi</div>
+<div class="pub-venue">Proceedings of the CHI Conference on Human Factors in Computing Systems, 2024</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Transformable Inspection Robot Design and Implementation for Complex Pipeline Environment</div>
+<div class="pub-authors">J. Wang, Y. Wang, L. Peng, H. Zhang, H. Gao, C. Wang, <span class="author-self">Y. Gao</span>, H. Luo, & Y. Chen</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters, 2024</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Meta-Reinforcement Learning Based Cooperative Surface Inspection of 3D Uncertain Structures using Multi-robot Systems</div>
+<div class="pub-authors">J. Chen, <span class="author-self">Y. Gao</span>, J. Hu, F. Deng, & T. L. Lam</div>
+<div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2024</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2023
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, J. Chen, X. Chen, C. Wang, J. Hu, F. Deng, & T. L. Lam</div>
+<div class="pub-venue">IEEE Transactions on Robotics, 39(4), 2603-2622, 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Learn2Agree: Fitting with Multiple Annotators without Objective Ground Truth</div>
+<div class="pub-authors">C. Wang, <span class="author-self">Y. Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, & N. Bianchi-Berthouze</div>
+<div class="pub-venue">International Workshop on Trustworthy Machine Learning for Healthcare (TML4H), Springer, 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Boosting Lightweight Depth Estimation via Knowledge Distillation</div>
+<div class="pub-authors">J. Hu, C. Fan, H. Jiang, X. Guo, <span class="author-self">Y. Gao</span>, X. Lu, & T. L. Lam</div>
+<div class="pub-venue">International Conference on Knowledge Science, Engineering and Management (KSEM), Springer, 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Asymptotically Efficient Estimator for Range-based Robot Relative Localization</div>
+<div class="pub-authors">Y. Wang, M. Lin, X. Xie, <span class="author-self">Y. Gao</span>, F. Deng, & T. L. Lam</div>
+<div class="pub-venue">IEEE/ASME Transactions on Mechatronics, 28(6), 3525-3536, 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">An Intention Inference Method for the Space Non-cooperative Target Based on BiGRU-Self Attention</div>
+<div class="pub-authors">H. Zhang, J. Luo, <span class="author-self">Y. Gao</span>, & W. Ma</div>
+<div class="pub-venue">Advances in Space Research, 72(5), 1815-1828, 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">MultiRoboLearn: An Open-Source Framework for Multi-Robot Deep Reinforcement Learning</div>
+<div class="pub-authors">J. Chen, F. Deng, <span class="author-self">Y. Gao</span>, J. Hu, X. Guo, G. Liang, & T. L. Lam</div>
+<div class="pub-venue">IEEE International Conference on Robotics and Biomimetics (ROBIO), 2023</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2022
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">LAPO: Latent-Variable Advantage-Weighted Policy Optimization for Offline Reinforcement Learning</div>
+<div class="pub-authors">X. Chen, A. Ghadirzadeh, T. Yu, J. Wang, <span class="author-self">Y. Gao</span>, W. Li, B. Liang, C. Finn, & C. Zhang</div>
+<div class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 35, 36902-36913, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Learning to Coordinate for a Worker-Station Multi-robot System in Planar Coverage Tasks</div>
+<div class="pub-authors">J. Tang, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">AB-Mapper: Attention and BicNet Based Multi-agent Path Planning for Dynamic Environment</div>
+<div class="pub-authors">H. Guan, <span class="author-self">Y. Gao</span>, M. Zhao, Y. Yang, F. Deng, & T. L. Lam</div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Abnormal Occupancy Grid Map Recognition Using Attention Network</div>
+<div class="pub-authors">F. Deng, H. Feng, M. Liang, Q. Feng, N. Yi, Y. Yang, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
+<div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Emotion and Memory Model for Social Robots: A Reinforcement Learning Based Behaviour Selection</div>
+<div class="pub-authors">M. I. Ahmad, <span class="author-self">Y. Gao</span>, F. Alnajjar, S. Shahid, & O. Mubin</div>
+<div class="pub-venue">Behaviour & Information Technology, 41(15), 3210-3236, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">On the Asymptotic Properties of a Bagging Estimator with a Massive Dataset</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, R. Zhang, & H. Wang</div>
+<div class="pub-venue">Stat, 11(1), e485, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering</div>
+<div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, Y. Shi, & X.-D. Zhou</div>
+<div class="pub-venue">arXiv Preprint arXiv:2205.04061, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2205.04061" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Progressive Self-Distillation for Ground-to-Aerial Perception Knowledge Transfer</div>
+<div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
+<div class="pub-venue">arXiv Preprint arXiv:2208.13404, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2208.13404" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Co-adaptive Human-Robot Cooperation: Summary and Challenges</div>
+<div class="pub-authors">S. Ahlberg, A. Axelsson, P. Yu, W. S. Cortez, <span class="author-self">Y. Gao</span>, A. Ghadirzadeh, G. Castellano, D. Kragic, G. Skantze, & D. V. Dimarogonas</div>
+<div class="pub-venue">Unmanned Systems, 10(02), 187-203, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Dynamic Dense Graph Convolutional Network for Skeleton-based Human Motion Prediction</div>
+<div class="pub-authors">X. Wang, W. Zhang, C. Wang, <span class="author-self">Y. Gao</span>, & M. Liu</div>
+<div class="pub-venue">IEEE Transactions on Image Processing, 33, 1-15, 2022</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2021
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-time Semantic Segmentation</div>
+<div class="pub-authors">F. Deng, H. Feng, M. Liang, H. Wang, Y. Yang, <span class="author-self">Y. Gao</span>, J. Chen, J. Hu, X. Guo, & T. L. Lam</div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2021</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">A Dataset of Human and Robot Approach Behaviors into Small Free-Standing Conversational Groups</div>
+<div class="pub-authors">F. Yang, <span class="author-self">Y. Gao</span>, R. Ma, S. Zojaji, G. Castellano, & C. Peters</div>
+<div class="pub-venue">PloS One, 16(2), e0247364, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data</div>
+<div class="pub-authors">C. Wang, <span class="author-self">Y. Gao</span>, A. Mathur, A. C. De C. Williams, N. D. Lane, & N. Bianchi-Berthouze</div>
+<div class="pub-venue">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 5(2), 1-27, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">AgreementLearning: An End-to-End Framework for Learning with Multiple Annotators without Groundtruth</div>
+<div class="pub-authors">C. Wang, <span class="author-self">Y. Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, & N. Bianchi-Berthouze</div>
+<div class="pub-venue">arXiv Preprint arXiv:2109.03596, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.03596" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Meta Reinforcement Learning Based Sensor Scanning in 3D Uncertain Environments for Heterogeneous Multi-Robot Systems</div>
+<div class="pub-authors">J. Chen, <span class="author-self">Y. Gao</span>, J. Hu, F. Deng, & T. L. Lam</div>
+<div class="pub-venue">arXiv Preprint arXiv:2109.13617, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.13617" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Temporal Pyramid Transformer with Multimodal Interaction for Video Question Answering</div>
+<div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, Y. Shi, & X.-D. Zhou</div>
+<div class="pub-venue">arXiv Preprint arXiv:2109.04735, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.04735" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Invariant Filtering for Bipedal Walking on Dynamic Rigid Surfaces with Orientation-Based Measurement Model</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span> & Y. Gu</div>
+<div class="pub-venue">arXiv Preprint arXiv:2109.01241, 2021</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.01241" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2020
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Machine Behavior Development and Analysis using Reinforcement Learning</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">Doctoral Thesis, Acta Universitatis Upsaliensis, 2020</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Skew-Explore: Learn Faster in Continuous Spaces with Sparse Rewards</div>
+<div class="pub-authors">X. Chen, <span class="author-self">Y. Gao</span>, A. Ghadirzadeh, M. Bjorkman, G. Castellano, & P. Jensfelt</div>
+<div class="pub-venue">2020</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Efficient Learning of Socially Aware Robot Approaching Behavior Toward Groups via Meta-Reinforcement Learning</div>
+<div class="pub-authors">C. Li, G. Castellano, & <span class="author-self">Y. Gao</span></div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Recognizing Micro-Expression in Video Clip with Adaptive Key-Frame Mining</div>
+<div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, T. Bi, T. Chen, Y. Shi, & X.-D. Zhou</div>
+<div class="pub-venue">arXiv Preprint arXiv:2009.09179, 2020</div>
+<div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2009.09179" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2019
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Learning Socially Appropriate Robot Approaching Behavior Toward Groups Using Deep Reinforcement Learning</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, F. Yang, M. Frisk, D. Hernandez, C. Peters, & G. Castellano</div>
+<div class="pub-venue">IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2019</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a> <a class="pub-btn" href="https://github.com/usr-lab/PepperSocial" target="_blank">Code</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Fast Adaptation with Meta-Reinforcement Learning for Trust Modelling in Human-Robot Interaction</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, E. Sibirtseva, G. Castellano, & D. Kragic</div>
+<div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">A Generalized Framework for Self-Play Training</div>
+<div class="pub-authors">D. Hernandez, K. Denamganai, <span class="author-self">Y. Gao</span>, P. York, S. Devlin, S. Samothrakis, & J. A. Walker</div>
+<div class="pub-venue">IEEE Conference on Games (CoG), 2019</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2018
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Investigating Deep Learning Approaches for Human-Robot Proxemics</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, S. Wallkotter, M. Obaid, & G. Castellano</div>
+<div class="pub-venue">IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), 2018</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">When Robot Personalisation Does Not Help: Insights from a Robot-Supported Learning Study</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, W. Barendregt, M. Obaid, & G. Castellano</div>
+<div class="pub-venue">IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), 2018</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality</div>
+<div class="pub-authors">C. Li, T. Androulakaki, <span class="author-self">Y. Gao</span>, F. Yang, H. Saikia, C. Peters, & G. Skantze</div>
+<div class="pub-venue">Proceedings of the 18th International Conference on Intelligent Virtual Agents (IVA), 2018</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Bandit Learning with Concurrent Transmissions for Energy-Efficient Flooding in Sensor Networks</div>
+<div class="pub-authors">P. Zhang, <span class="author-self">Y. Gao</span>, & O. Theel</div>
+<div class="pub-venue">EAI Endorsed Transactions on Industrial Networks and Intelligent Systems, 4(13), 2018</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2017
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Personalised Human-Robot Co-Adaptation in Instructional Settings Using Reinforcement Learning</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, W. Barendregt, & G. Castellano</div>
+<div class="pub-venue">IVA Workshop on Persuasive Embodied Agents for Behavior Change (PEACH), 2017</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Less is More: Learning More with Concurrent Transmissions for Energy-Efficient Flooding</div>
+<div class="pub-authors">P. Zhang, <span class="author-self">Y. Gao</span>, & O. Theel</div>
+<div class="pub-venue">Proceedings of the 14th EAI International Conference on Mobile and Ubiquitous Systems, 2017</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Exploring Users' Reactions towards Tangible Implicit Probes for Measuring Human-Robot Engagement</div>
+<div class="pub-authors">M. Obaid, <span class="author-self">Y. Gao</span>, W. Barendregt, & G. Castellano</div>
+<div class="pub-venue">International Conference on Social Robotics (ICSR), Springer, 2017</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2016
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">Deep Gate Recurrent Neural Network</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, & D. Glowacka</div>
+<div class="pub-venue">Asian Conference on Machine Learning (ACML), PMLR, 2016</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>
+
+## 2015
+
+<div class="pub-item">
+<div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+<div class="pub-info">
+<div class="pub-title">OfficeHours: A System for Student Supervisor Matching Through Reinforcement Learning</div>
+<div class="pub-authors"><span class="author-self">Y. Gao</span>, K. Ilves, & D. Glowacka</div>
+<div class="pub-venue">Companion Proceedings of the 20th International Conference on Intelligent User Interfaces, 2015</div>
+<div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+</div>
+</div>

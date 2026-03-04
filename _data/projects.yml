@@ -1,0 +1,35 @@
+- title: "Asymmetric Self-Play for Heterogeneous Multi-Robot Catching"
+  description: "Intelligent heterogeneous multi-robot catching system using deep multi-agent reinforcement learning with asymmetric self-play."
+  tags: ["Multi-Robot", "Deep RL", "Self-Play"]
+  url: ""
+  year: 2023
+
+- title: "Meta-RL for Cooperative Surface Inspection"
+  description: "Meta-reinforcement learning based cooperative surface inspection of 3D uncertain structures using multi-robot systems."
+  tags: ["Meta-RL", "Multi-Robot", "Inspection"]
+  url: ""
+  year: 2024
+
+- title: "Vision-Language Model for Robot Liquid Perception"
+  description: "Vision-language model-based physical reasoning for robot liquid perception."
+  tags: ["VLM", "Perception", "Reasoning"]
+  url: ""
+  year: 2024
+
+- title: "Learn2Agree: Fitting with Multiple Annotators"
+  description: "An end-to-end framework for learning with multiple annotators without objective ground truth."
+  tags: ["Machine Learning", "Annotation", "HCI"]
+  url: ""
+  year: 2023
+
+- title: "Social Robot Approaching via Deep RL"
+  description: "Learning socially appropriate robot approaching behavior toward groups using deep reinforcement learning."
+  tags: ["Social Robotics", "Deep RL", "HRI"]
+  url: ""
+  year: 2019
+
+- title: "Meta-RL for Trust Modelling in HRI"
+  description: "Fast adaptation with meta-reinforcement learning for trust modelling in human-robot interaction."
+  tags: ["Meta-RL", "Trust", "HRI"]
+  url: ""
+  year: 2019

@@ -30,7 +30,7 @@ kramdown:
 owner:
   name: Yuan Gao
   avatar: bio-photo.jpg
-  bio: "Just another brain investigator and robot scientist."
+  bio: "PI @ Guangdong Embodied Intelligence Innovation Center | Associate Researcher @ AIRS | Adjunct Asst. Prof. @ CUHK-Shenzhen"
   email: gaoyuankidult@gmail.com
   disqus-shortname:
   twitter: alexyuangao
@@ -61,3 +61,10 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Default layout for pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page

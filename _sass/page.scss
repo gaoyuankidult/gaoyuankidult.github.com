@@ -6,6 +6,96 @@ body {
 	background-color: $bodycolor;
 	font-family: $base-font;
 	color: $text-color;
+	font-size: 16px;
+	line-height: 1.7;
+	letter-spacing: -0.01em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Global Artistic Effects
+   ========================================================================== */
+
+/* Fade-in animation on scroll */
+.fade-in {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Stagger animations */
+.stagger-1 { transition-delay: 0.1s; }
+.stagger-2 { transition-delay: 0.2s; }
+.stagger-3 { transition-delay: 0.3s; }
+.stagger-4 { transition-delay: 0.4s; }
+
+/* Subtle text reveal */
+.text-reveal {
+	overflow: hidden;
+}
+.text-reveal-inner {
+	transform: translateY(100%);
+	transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.text-reveal.visible .text-reveal-inner {
+	transform: translateY(0);
+}
+
+/* Hover lift effect */
+.hover-lift {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* Line animation */
+.line-grow {
+	width: 0;
+	height: 1px;
+	background: $border-light;
+	transition: width 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.line-grow.visible {
+	width: 60px;
+}
+
+/* Page title animation */
+h1 {
+	position: relative;
+}
+h1::after {
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: $text-color;
+	transition: width 0.6s ease-out 0.3s;
+}
+.page h1::after,
+.post h1::after {
+	width: 40px;
+}
+
+/* Page intro text — unified across all pages */
+.page-intro {
+	font-family: $base-font;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666;
+	font-style: italic;
+	margin-bottom: 0;
+	padding-bottom: 1.2em;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 1.8em;
 }
 
 /*
@@ -16,8 +106,9 @@ body {
 	@include container;
 	padding: 2em 0 1em;
 	font-family: $heading-font;
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: uppercase;
+	letter-spacing: 0.08em;
 	@include clearfix;
 }
 
@@ -446,6 +537,23 @@ $button-size: 1.5rem;
 	li > a {
 		text-decoration: underline;
 	}
+	p {
+		font-family: $base-font;
+		font-size: 15px;
+		line-height: 1.85;
+		letter-spacing: -0.01em;
+		color: #444;
+	}
+	li {
+		font-family: $base-font;
+		font-size: 15px;
+		line-height: 1.75;
+		letter-spacing: -0.01em;
+		color: #444;
+	}
+	h2 {
+		margin-top: 1.8em;
+	}
 }
 
 /* Table of contents */
@@ -727,6 +835,970 @@ $button-size: 1.5rem;
 	border-color: lighten($black,50);
 	@include rounded(3px);
 }
-#goog-wm-sb {
-	@extend .btn;
+/* Navigation active state + shadow */
+.navigation-wrapper {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.nav-active a {
+	border-bottom: 2px solid $accentcolor !important;
+	padding-bottom: 2px;
+}
+
+/* Title separator */
+.title-separator {
+	border: none;
+	border-top: 2px solid $border-light;
+	margin: 0.3em 0 1.5em 0;
+	width: 60px;
+}
+
+/* Page content max width */
+.article-wrap {
+	max-width: 740px;
+}
+
+/* Hero section for home page */
+.hero-section {
+	@include container;
+	@include clearfix;
+	padding: 2em 0;
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	gap: 2em;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	@media #{$small} {
+		@include grid(12,9);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+	}
+
+	.hero-avatar {
+		flex-shrink: 0;
+		img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+	}
+
+	.hero-text {
+		flex: 1;
+
+		h1 {
+			margin-top: 0;
+			margin-bottom: 0.2em;
+			@include font-size(28);
+		}
+
+		.hero-bio {
+			color: $mutedcolor;
+			font-style: italic;
+			@include font-rem(14);
+			margin-bottom: 0.8em;
+		}
+
+		.hero-intro {
+			font-family: $base-font;
+			@include font-rem(15);
+			line-height: 1.85;
+			letter-spacing: -0.01em;
+			text-indent: 0;
+			color: #444;
+			font-weight: 400;
+		}
+
+		.hero-links {
+			margin-top: 1em;
+			a {
+				display: inline-block;
+				margin-right: 15px;
+				@include font-rem(14);
+				color: $accentcolor;
+				text-decoration: none;
+				&:hover {
+					color: $black;
+				}
+				i {
+					margin-right: 3px;
+				}
+			}
+		}
+	}
+}
+
+/* Responsive: stack hero on small screens */
+@media (max-width: 37.5em) {
+	.hero-section {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		.hero-avatar img {
+			width: 120px;
+			height: 120px;
+		}
+	}
+}
+
+/* Home news section */
+.home-news {
+	@include container;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-top: 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid $border-light;
+	@media #{$small} {
+		@include grid(12,9);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+	}
+
+	h2 {
+		@include font-size(22);
+		margin-bottom: 0.8em;
+	}
+
+	.news-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			padding: 0.5em 0;
+			border-bottom: 1px solid $border-light;
+			@include font-rem(14);
+			list-style-type: none;
+
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
+		.news-date {
+			color: $mutedcolor;
+			margin-right: 1em;
+			font-family: $code-font;
+			@include font-rem(13);
+		}
+
+		a {
+			color: $text-color;
+			text-decoration: none;
+			&:hover {
+				color: $linkcolorhover;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+/* Footer links */
+.footer-links {
+	margin-top: 0.5em;
+	a {
+		display: inline-block;
+		margin-right: 10px;
+		color: $mutedcolor;
+		@include font-rem(16);
+		&:hover {
+			color: $text-color;
+		}
+	}
+}
+
+/* Project cards */
+.project-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5em;
+	margin-top: 1.5em;
+	@media (max-width: 37.5em) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.project-card {
+	background: $card-bg;
+	border: 1px solid $border-light;
+	border-radius: 6px;
+	padding: 1.2em 1.5em;
+	@include transition(box-shadow .2s ease);
+
+	&:hover {
+		box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 0.3em;
+		@include font-rem(18);
+		a {
+			color: $text-color;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	p {
+		@include font-rem(14);
+		color: $mutedcolor;
+		margin-bottom: 0.8em;
+		text-indent: 0;
+	}
+
+	.project-meta {
+		@include font-rem(13);
+		color: $mutedcolor;
+	}
+
+	.project-tags {
+		margin-top: 0.5em;
+	}
+}
+
+.tag {
+	display: inline-block;
+	background: $bodycolor;
+	border: 1px solid $border-light;
+	border-radius: 3px;
+	padding: 2px 8px;
+	@include font-rem(11);
+	color: $accentcolor;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+
+/* Publication items - GIF + paper card layout */
+.pub-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.2em;
+	padding: 1.2em 0;
+	border-bottom: 1px solid $border-light;
+	transition: background 0.3s ease, padding-left 0.3s ease;
+
+	&:hover {
+		background: rgba(0,0,0,0.01);
+		padding-left: 0.5em;
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	.pub-image {
+		flex-shrink: 0;
+		width: 140px;
+		height: 105px;
+		overflow: hidden;
+		border-radius: 4px;
+		border: 1px solid $border-light;
+		background: #f0f0f0;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+		}
+
+		/* Placeholder when no image yet */
+		.pub-image-placeholder {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #ccc;
+			@include font-rem(11);
+			text-align: center;
+		}
+	}
+
+	.pub-info {
+		flex: 1;
+		min-width: 0;
+	}
+
+	.pub-title {
+		font-family: $heading-font;
+		font-weight: 500;
+		@include font-rem(15);
+		margin-bottom: 0.3em;
+		line-height: 1.45;
+		letter-spacing: -0.01em;
+	}
+
+	.pub-authors {
+		@include font-rem(13);
+		color: $mutedcolor;
+		margin-bottom: 0.3em;
+		line-height: 1.5;
+		letter-spacing: 0;
+	}
+
+	.pub-venue {
+		@include font-rem(13);
+		font-style: italic;
+		color: $mutedcolor;
+		margin-bottom: 0.5em;
+		letter-spacing: 0;
+	}
+
+	.pub-links {
+		margin-top: 0.3em;
+	}
+
+	.author-self {
+		color: $text-color;
+		font-weight: 600;
+	}
+}
+
+/* Responsive: stack pub items on small screens */
+@media (max-width: 37.5em) {
+	.pub-item {
+		flex-direction: column;
+
+		.pub-image {
+			width: 100%;
+			height: auto;
+			max-height: 180px;
+		}
+	}
+}
+
+.pub-btn {
+	display: inline-block;
+	padding: 2px 10px;
+	@include font-rem(11);
+	border: 1px solid $border-light;
+	border-radius: 3px;
+	color: $accentcolor;
+	text-decoration: none;
+	margin-right: 4px;
+	@include transition(all .2s ease);
+
+	&:hover {
+		background: $accentcolor;
+		color: $white;
+		border-color: $accentcolor;
+		text-decoration: none;
+	}
+}
+
+/* ==========================================================================
+   Art Page
+   ========================================================================== */
+
+/* Fade-in animation base */
+.art-fade-in {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+	            transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.art-fade-in.art-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Stagger child animations */
+.art-piece .art-fade-in:nth-child(1) { transition-delay: 0s; }
+.art-piece .art-fade-in:nth-child(2) { transition-delay: 0.15s; }
+.art-piece .art-fade-in:nth-child(3) { transition-delay: 0.3s; }
+
+.art-page {
+	max-width: 100%;
+}
+
+/* Hero Quote */
+.art-hero {
+	text-align: center;
+	padding: 2em 0 1.5em;
+}
+.art-quote {
+	font-family: $base-font;
+	@include font-rem(18);
+	font-style: italic;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	line-height: 1.8;
+	color: $text-color;
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+/* Animated Separator */
+.art-separator {
+	text-align: center;
+	padding: 1em 0;
+}
+.art-separator-line {
+	display: inline-block;
+	width: 0;
+	height: 1px;
+	background-color: $border-light;
+	transition: width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s;
+}
+.art-separator.art-visible .art-separator-line {
+	width: 80px;
+}
+
+/* Exhibition Context (legacy, kept minimal) */
+
+/* Artwork Piece */
+.art-piece {
+	padding: 1.5em 0 0;
+}
+
+/* Image with hover zoom + caption overlay */
+.art-image-wrapper {
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+	margin-bottom: 2em;
+	cursor: default;
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+		transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+	&:hover img {
+		transform: scale(1.03);
+	}
+}
+.art-image-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1.5em 1.2em 1em;
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+	transform: translateY(100%);
+	transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	display: flex;
+	flex-direction: column;
+	gap: 0.3em;
+}
+.art-image-wrapper:hover .art-image-overlay {
+	transform: translateY(0);
+}
+.art-image-overlay-title {
+	color: #fff;
+	@include font-rem(14);
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+.art-image-overlay-credit {
+	color: rgba(255,255,255,0.7);
+	@include font-rem(11);
+	letter-spacing: 0.05em;
+}
+
+/* Title */
+.art-title {
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+.art-title-cn {
+	font-family: $heading-font;
+	@include font-rem(32);
+	font-weight: 300;
+	letter-spacing: 0.15em;
+	color: $text-color;
+	margin: 0 0 0.3em;
+}
+.art-title-en {
+	@include font-rem(13);
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	color: $mutedcolor;
+	margin: 0;
+}
+
+/* Meta info */
+.art-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3em 2em;
+	justify-content: center;
+	padding: 1.2em 0;
+	margin-bottom: 2em;
+	border-top: 1px solid $border-light;
+	border-bottom: 1px solid $border-light;
+}
+.art-meta-item {
+	@include font-rem(13);
+	color: $text-color;
+	strong {
+		color: $mutedcolor;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		@include font-rem(10);
+	}
+}
+
+/* Description */
+.art-description {
+	margin-bottom: 1.5em;
+	p {
+		@include font-rem(15);
+		line-height: 2;
+		color: $text-color;
+		margin-bottom: 1em;
+		text-align: justify;
+	}
+}
+.art-description-en p {
+	color: $mutedcolor;
+	@include font-rem(14);
+	line-height: 1.9;
+	font-style: italic;
+}
+
+/* Artist Statement */
+.art-statement {
+	padding: 1em 0;
+	max-width: 560px;
+	margin: 0 auto;
+}
+.art-statement-text {
+	@include font-rem(15);
+	line-height: 2;
+	color: $text-color;
+	text-align: center;
+	margin-bottom: 1em;
+	font-style: italic;
+	&:last-child { margin-bottom: 0; }
+	em {
+		font-style: normal;
+		border-bottom: 1px solid $border-light;
+	}
+}
+
+/* Drop cap */
+.art-drop-cap {
+	float: left;
+	@include font-rem(42);
+	line-height: 1;
+	font-weight: 300;
+	color: $text-color;
+	padding-right: 0.05em;
+	margin-top: 0.05em;
+}
+
+/* Exhibition Info Card */
+.art-exhibition-info {
+	margin-top: 2em;
+	padding: 1.5em;
+	background: #f5f5f5;
+	border-top: 2px solid $text-color;
+	border-radius: 0 0 4px 4px;
+	transition: box-shadow 0.3s ease;
+	&:hover {
+		box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+	}
+}
+.art-info-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.2em 2em;
+	@media screen and (max-width: 480px) {
+		grid-template-columns: 1fr;
+	}
+}
+.art-info-label {
+	@include font-rem(10);
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: $mutedcolor;
+	margin-bottom: 0.3em;
+}
+.art-info-value {
+	@include font-rem(13);
+	color: $text-color;
+	line-height: 1.6;
+}
+
+/* ==========================================================================
+   Art Page - Manifesto & Multi-Artwork Layout
+   ========================================================================== */
+
+/* Artist Manifesto */
+.art-manifesto {
+	padding: 2em 0 1.5em;
+	text-align: center;
+}
+.art-manifesto-title {
+	font-family: $heading-font;
+	@include font-rem(11);
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	color: $mutedcolor;
+	margin: 0 0 1.5em;
+	&::after {
+		content: '';
+		display: block;
+		width: 30px;
+		height: 1px;
+		background: #ccc;
+		margin: 0.8em auto 0;
+	}
+}
+.art-manifesto-inner {
+	max-width: 680px;
+	margin: 0 auto;
+	position: relative;
+	padding: 1.5em 2.5em;
+	border-left: 2px solid #e0e0e0;
+	border-right: 2px solid #e0e0e0;
+}
+.art-manifesto-text {
+	font-family: $base-font;
+	@include font-rem(15);
+	font-weight: 400;
+	line-height: 1.85;
+	color: #444;
+	margin-bottom: 1.5em;
+	text-align: left;
+	letter-spacing: -0.01em;
+	word-spacing: 0.01em;
+}
+.art-manifesto-emphasis {
+	text-align: center !important;
+	font-weight: 500;
+	margin-top: 2em;
+	margin-bottom: 0;
+	@include font-rem(22);
+	letter-spacing: -0.02em;
+	line-height: 1.4;
+}
+
+/* Separator with label */
+.art-separator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	padding: 2em 0;
+}
+.art-separator-label {
+	font-family: $heading-font;
+	@include font-rem(11);
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	color: $mutedcolor;
+	white-space: nowrap;
+}
+.art-separator-dot {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #ccc;
+	flex-shrink: 0;
+}
+.art-separator.art-visible .art-separator-line {
+	width: 80px;
+}
+
+/* Artwork Block */
+.art-work {
+	margin-bottom: 4em;
+}
+
+/* Artwork Subtitle */
+.art-work-subtitle {
+	font-family: $base-font;
+	@include font-rem(12);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: $mutedcolor;
+	margin-top: 0.5em;
+}
+
+/* Meta Bar — chip-style layout */
+.art-work-meta-bar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6em;
+	justify-content: center;
+	padding: 1.5em 0;
+	margin-bottom: 2em;
+}
+.art-meta-chip {
+	font-family: $base-font;
+	@include font-rem(12);
+	color: $text-color;
+	padding: 0.4em 1em;
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+	background: #fafafa;
+	transition: border-color 0.3s ease, background 0.3s ease;
+	&:hover {
+		border-color: #bbb;
+		background: #f0f0f0;
+	}
+}
+.art-meta-key {
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	@include font-rem(9);
+	color: $mutedcolor;
+	margin-right: 0.5em;
+}
+
+/* Essay with decorative accent bar */
+.art-work-essay {
+	display: flex;
+	gap: 1.5em;
+	max-width: 720px;
+	margin: 0 auto 2.5em;
+}
+.art-essay-accent {
+	flex-shrink: 0;
+	width: 3px;
+	background: linear-gradient(to bottom, #222, #ddd);
+	border-radius: 2px;
+}
+.art-essay-body {
+	p {
+		font-family: $base-font;
+		@include font-rem(15);
+		line-height: 1.85;
+		color: $text-color;
+		margin-bottom: 1.2em;
+		text-align: left;
+		letter-spacing: -0.01em;
+		word-spacing: 0.01em;
+	}
+	em {
+		font-style: italic;
+		font-weight: 500;
+	}
+}
+
+/* Slideshow */
+.art-slideshow {
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+	margin-bottom: 2em;
+	background: #111;
+}
+.art-slideshow-track {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
+.art-slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+}
+.art-slide-active {
+	opacity: 1;
+}
+
+/* Slideshow overlay */
+.art-slideshow-overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 2em 1.5em 1.2em;
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+	display: flex;
+	flex-direction: column;
+	gap: 0.3em;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+}
+.art-slideshow:hover .art-slideshow-overlay {
+	opacity: 1;
+}
+.art-slideshow-title {
+	color: #fff;
+	@include font-rem(15);
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+.art-slideshow-credit {
+	color: rgba(255,255,255,0.7);
+	@include font-rem(11);
+	letter-spacing: 0.05em;
+}
+
+/* Slideshow dots */
+.art-slideshow-dots {
+	position: absolute;
+	bottom: 1em;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 0.5em;
+	z-index: 10;
+}
+.art-slideshow-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.4);
+	cursor: pointer;
+	transition: background 0.3s ease, transform 0.3s ease;
+	&:hover {
+		background: rgba(255,255,255,0.7);
+	}
+	&.active {
+		background: #fff;
+		transform: scale(1.2);
+	}
+}
+
+/* Artwork Header */
+.art-work-header {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+.art-work-title,
+.art-work-title-cn {
+	font-family: $heading-font;
+	@include font-rem(36);
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	color: $text-color;
+	margin: 0;
+}
+
+/* Artwork Meta */
+.art-work-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em 2em;
+	justify-content: center;
+	padding: 1.2em 0;
+	margin-bottom: 2em;
+	border-top: 1px solid $border-light;
+	border-bottom: 1px solid $border-light;
+	font-family: $base-font;
+	@include font-rem(13);
+	color: $text-color;
+	strong {
+		color: $mutedcolor;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		@include font-rem(10);
+		margin-right: 0.4em;
+	}
+}
+
+/* Artwork Description */
+.art-work-description {
+	max-width: 680px;
+	margin: 0 auto 2em;
+	p {
+		font-family: $base-font;
+		@include font-rem(15);
+		line-height: 1.85;
+		color: $text-color;
+		margin-bottom: 1.2em;
+		text-align: justify;
+		letter-spacing: -0.01em;
+	}
+	em {
+		font-style: italic;
+		font-weight: 500;
+	}
+}
+.art-work-desc-cn {
+	@include font-rem(14);
+	line-height: 2;
+	color: $text-color;
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+/* Collapsible Exhibition Info */
+.art-work-exhibition {
+	max-width: 640px;
+	margin: 0 auto;
+	summary {
+		@include font-rem(11);
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		color: $mutedcolor;
+		cursor: pointer;
+		padding: 0.8em 0;
+		border-top: 1px solid $border-light;
+		list-style: none;
+		text-align: center;
+		transition: color 0.3s ease;
+		&::-webkit-details-marker {
+			display: none;
+		}
+		&:hover {
+			color: $text-color;
+		}
+		&::before {
+			content: '+ ';
+		}
+	}
+	&[open] summary::before {
+		content: '− ';
+	}
+}
+.art-work-exhibition-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em 2em;
+	padding: 1.2em;
+	background: #f8f8f8;
+	border-radius: 0 0 4px 4px;
+	margin-top: 0.5em;
+	@media screen and (max-width: 480px) {
+		grid-template-columns: 1fr;
+	}
+	> div {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+	}
+	.label {
+		@include font-rem(9);
+		text-transform: uppercase;
+		letter-spacing: 0.15em;
+		color: $mutedcolor;
+	}
+	.value {
+		@include font-rem(12);
+		color: $text-color;
+		line-height: 1.5;
+	}
 }
