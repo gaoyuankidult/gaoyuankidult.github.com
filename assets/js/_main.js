@@ -65,3 +65,16 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+/*! Link Prefetching */
+document.addEventListener('mouseover', function(e) {
+  if (e.target.tagName === 'A' && e.target.hasAttribute('data-prefetch')) {
+    var link = e.target.href;
+    if (!document.querySelector('link[rel="prefetch"][href="' + link + '"]')) {
+      var prefetch = document.createElement('link');
+      prefetch.rel = 'prefetch';
+      prefetch.href = link;
+      document.head.appendChild(prefetch);
+    }
+  }
+}, false);
