@@ -221,7 +221,7 @@ title: Publications
     <div class="pub-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</div>
     <div class="pub-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">arXiv Preprint arXiv:2602.06373, 2026</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2602.06373" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2602.06373.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
   </div>
@@ -315,7 +315,7 @@ title: Publications
     <div class="pub-title">Vision-Language Model-based Physical Reasoning for Robot Liquid Perception</div>
     <div class="pub-authors">W. Lai, T. Zhang, T. L. Lam, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2404.06904" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2404.06904.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -481,7 +481,7 @@ title: Publications
     <div class="pub-title">Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering</div>
     <div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, Y. Shi, & X.-D. Zhou</div>
     <div class="pub-venue">arXiv Preprint arXiv:2205.04061, 2022</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2205.04061" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2205.04061.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -490,7 +490,7 @@ title: Publications
     <div class="pub-title">Progressive Self-Distillation for Ground-to-Aerial Perception Knowledge Transfer</div>
     <div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
     <div class="pub-venue">arXiv Preprint arXiv:2208.13404, 2022</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2208.13404" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2208.13404.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -555,7 +555,7 @@ title: Publications
     <div class="pub-title">AgreementLearning: An End-to-End Framework for Learning with Multiple Annotators without Groundtruth</div>
     <div class="pub-authors">C. Wang, <span class="author-self">Y. Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, & N. Bianchi-Berthouze</div>
     <div class="pub-venue">arXiv Preprint arXiv:2109.03596, 2021</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.03596" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2109.03596.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -564,7 +564,7 @@ title: Publications
     <div class="pub-title">Meta Reinforcement Learning Based Sensor Scanning in 3D Uncertain Environments for Heterogeneous Multi-Robot Systems</div>
     <div class="pub-authors">J. Chen, <span class="author-self">Y. Gao</span>, J. Hu, F. Deng, & T. L. Lam</div>
     <div class="pub-venue">arXiv Preprint arXiv:2109.13617, 2021</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.13617" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2109.13617.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -573,7 +573,7 @@ title: Publications
     <div class="pub-title">Temporal Pyramid Transformer with Multimodal Interaction for Video Question Answering</div>
     <div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, Y. Shi, & X.-D. Zhou</div>
     <div class="pub-venue">arXiv Preprint arXiv:2109.04735, 2021</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.04735" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2109.04735.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -582,7 +582,7 @@ title: Publications
     <div class="pub-title">Invariant Filtering for Bipedal Walking on Dynamic Rigid Surfaces with Orientation-Based Measurement Model</div>
     <div class="pub-authors"><span class="author-self">Y. Gao</span> & Y. Gu</div>
     <div class="pub-venue">arXiv Preprint arXiv:2109.01241, 2021</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2109.01241" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2109.01241.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
   </div>
@@ -629,7 +629,7 @@ title: Publications
     <div class="pub-title">Recognizing Micro-Expression in Video Clip with Adaptive Key-Frame Mining</div>
     <div class="pub-authors">M. Peng, C. Wang, <span class="author-self">Y. Gao</span>, T. Bi, T. Chen, Y. Shi, & X.-D. Zhou</div>
     <div class="pub-venue">arXiv Preprint arXiv:2009.09179, 2020</div>
-    <div class="pub-links"><a class="pub-btn" href="https://arxiv.org/abs/2009.09179" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2009.09179.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
   </div>
