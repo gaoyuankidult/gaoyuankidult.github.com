@@ -123,28 +123,6 @@ title: Blog
   background: #333;
 }
 
-/* Post image */
-.blog-post-image {
-  display: block;
-  width: 100%;
-  height: 180px;
-  margin-bottom: 0.8em;
-  border-radius: 4px;
-  overflow: hidden;
-  background: #f5f5f5;
-}
-
-.blog-post-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.blog-post:hover .blog-post-image img {
-  transform: scale(1.03);
-}
-
 /* Post date */
 .blog-date {
   display: inline;
@@ -187,7 +165,21 @@ title: Blog
   font-size: 14px;
   line-height: 1.7;
   color: #666;
-  margin: 0;
+  margin: 0 0 0.5em 0;
+}
+
+/* Read more link */
+.read-more {
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.read-more:hover {
+  color: #000;
+  border-color: #000;
 }
 
 /* Post tags */
@@ -208,16 +200,6 @@ title: Blog
   vertical-align: middle;
 }
 
-/* Decorative quote marks */
-.blog-quote-mark {
-  font-family: Georgia, serif;
-  font-size: 60px;
-  line-height: 0.5;
-  color: #e0e0e0;
-  display: block;
-  margin-bottom: 0.2em;
-}
-
 /* Empty state */
 .blog-empty {
   text-align: center;
@@ -229,57 +211,35 @@ title: Blog
 
 <div class="blog-timeline">
 
-<div class="blog-year" data-year="2026">
-  <div class="blog-year-header" onclick="toggleBlogYear(this)">
-    <span class="blog-year-dot"></span>
-    <span class="blog-year-label">2026</span>
-    <span class="blog-year-count">thoughts</span>
-    <span class="blog-year-toggle">expand</span>
-  </div>
-  <div class="blog-items collapsed">
-    <div class="blog-post">
-      <span class="blog-date">March 2026 <span class="blog-date-relative"></span></span>
-      <div class="blog-title"><a href="#">On the Poetry of Machines</a></div>
-      <p class="blog-excerpt">When a robot learns to move, does it dream of electricity or of weight? There is something almost musical in the way algorithms stumble toward elegance.</p>
-      <div class="blog-tags"><span class="blog-tag">reflection</span><span class="blog-tag">AI</span></div>
-    </div>
-    <div class="blog-post">
-      <span class="blog-date">January 2026 <span class="blog-date-relative"></span></span>
-      <div class="blog-title"><a href="#">The Space Between Symbols</a></div>
-      <p class="blog-excerpt">Language models speak in patterns, but do they ever pause in the whitespace? The silence between words might be where meaning hides.</p>
-      <div class="blog-tags"><span class="blog-tag">thought</span><span class="blog-tag">LLM</span></div>
-    </div>
-  </div>
-</div>
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-<div class="blog-year" data-year="2025">
+{% for year_group in posts_by_year %}
+<div class="blog-year" data-year="{{ year_group.name }}">
   <div class="blog-year-header" onclick="toggleBlogYear(this)">
     <span class="blog-year-dot"></span>
-    <span class="blog-year-label">2025</span>
-    <span class="blog-year-count">thoughts</span>
+    <span class="blog-year-label">{{ year_group.name }}</span>
+    <span class="blog-year-count">{{ year_group.items.size }} {{ year_group.items.size | pluralize: 'thought', 'thoughts' }}</span>
     <span class="blog-year-toggle">expand</span>
   </div>
   <div class="blog-items collapsed">
+    {% for post in year_group.items %}
     <div class="blog-post">
-      <span class="blog-date">December 2025 <span class="blog-date-relative"></span></span>
-      <div class="blog-title"><a href="#">Winter Notes on Learning</a></div>
-      <p class="blog-excerpt">The difference between optimization and understanding is the difference between a path and a destination. One walks, the other arrives.</p>
-      <div class="blog-tags"><span class="blog-tag">learning</span><span class="blog-tag">philosophy</span></div>
+      <span class="blog-date">{{ post.date | date: '%B %d' }}</span>
+      <div class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+      <a href="{{ post.url }}" class="read-more">Read more &rarr;</a>
+      {% if post.tags %}
+      <div class="blog-tags">
+        {% for tag in post.tags %}
+        <span class="blog-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
-    <div class="blog-post">
-      <span class="blog-date">August 2025 <span class="blog-date-relative"></span></span>
-      <div class="blog-title"><a href="#">Echoes in the Digital Dark</a></div>
-      <p class="blog-excerpt">Every interaction leaves a trace, every query a fingerprint. In the vast darkness of training data, patterns emerge like constellations.</p>
-      <div class="blog-tags"><span class="blog-tag">reflection</span><span class="blog-tag">data</span></div>
-    </div>
-    <div class="blog-post">
-      <span class="blog-date">April 2025 <span class="blog-date-relative"></span></span>
-      <div class="blog-title"><a href="#">The Weight of Attention</a></div>
-      <p class="blog-excerpt">Attention is a strange thing—both the mechanism and the goal. When machines learn to attend, do they learn to care?</p>
-      <div class="blog-tags"><span class="blog-tag">attention</span><span class="blog-tag">transformer</span></div>
-    </div>
+    {% endfor %}
   </div>
 </div>
+{% endfor %}
 
 </div>
 
@@ -298,46 +258,8 @@ function toggleBlogYear(header) {
   }
 }
 
-// Calculate relative time
-function timeAgo(dateStr) {
-  const date = new Date(dateStr);
-  const now = new Date();
-  const diffMs = now - date;
-  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  const diffMonths = Math.floor(diffDays / 30);
-  const diffYears = Math.floor(diffDays / 365);
-
-  if (diffYears > 0) {
-    return diffYears === 1 ? '· 1 year ago' : `· ${diffYears} years ago`;
-  } else if (diffMonths > 0) {
-    return diffMonths === 1 ? '· 1 month ago' : `· ${diffMonths} months ago`;
-  } else if (diffDays > 0) {
-    return diffDays === 1 ? '· yesterday' : `· ${diffDays} days ago`;
-  } else {
-    return '· today';
-  }
-}
-
-// Apply relative times on load
+// Auto-expand first year on load
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.blog-post').forEach(post => {
-    const dateStr = post.querySelector('.blog-date');
-    if (dateStr) {
-      // Extract date from the element and calculate relative time
-      const relSpan = dateStr.querySelector('.blog-date-relative');
-      if (relSpan) {
-        // Use the post date for relative time calculation
-        const dateText = dateStr.textContent.replace(relSpan.textContent, '').trim();
-        // Parse the date - for demo, use current date minus some days
-        const now = new Date();
-        const randomDays = Math.floor(Math.random() * 365);
-        now.setDate(now.getDate() - randomDays);
-        relSpan.textContent = timeAgo(now.toISOString());
-      }
-    }
-  });
-
-  // Auto-expand first year
   const firstYear = document.querySelector('.blog-year-header');
   if (firstYear) {
     toggleBlogYear(firstYear);

@@ -8,7 +8,7 @@ urlcolor: blue
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /blog/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -16,6 +16,11 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+
+collections:
+  posts:
+    permalink: /blog/:year/:title/
+    output: true
 
 kramdown:
   auto_ids: true
@@ -30,7 +35,7 @@ kramdown:
 owner:
   name: Yuan Gao
   avatar: bio-photo.jpg
-  bio: "PI @ Guangdong Embodied Intelligence Innovation Center | Associate Researcher @ AIRS | Adjunct Asst. Prof. @ CUHK-Shenzhen"
+  bio: "Just another brain investigator and robot scientist."
   email: gaoyuankidult@gmail.com
   disqus-shortname:
   twitter: alexyuangao
