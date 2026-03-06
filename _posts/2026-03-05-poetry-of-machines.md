@@ -1,7 +1,7 @@
 ---
 layout: blog-post
-title: On the Poetry of 2026- Machines
-date:03-05
+title: On the Poetry of Machines
+date: 2026-03-05
 tags: [reflection, AI, philosophy]
 excerpt: When a robot learns to move, does it dream of electricity or of weight? There is something almost musical in the way algorithms stumble toward elegance.
 ---
