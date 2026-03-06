@@ -195,6 +195,7 @@ title: Publications
     <span class="pub-year-toggle">expand</span>
   </div>
   <div class="pub-items collapsed">
+    <!-- Science Robotics paper hidden until March 18, 2026
     <div class="pub-item">
     <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
     <div class="pub-info">
@@ -204,6 +205,7 @@ title: Publications
     <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
     </div>
     </div>
+    -->
     <div class="pub-item">
     <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
     <div class="pub-info">
