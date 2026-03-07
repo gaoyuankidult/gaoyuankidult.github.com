@@ -35,13 +35,22 @@
 <!-- Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
-<!-- Use domestic CDN for fonts in China -->
+<!-- Google Fonts via BootCDN (domestic mirror) -->
 <link rel="preconnect" href="https://cdn.bootcdn.net">
 <link href='https://cdn.bootcdn.net/ajax/libs/font-space-grotesk/6.0.1/css/space-grotesk.min.css' rel='stylesheet'>
 <link href='https://cdn.bootcdn.net/ajax/libs/font-inter/6.4.0/css/inter.min.css' rel='stylesheet'>
-<!-- Fallback Google Fonts -->
-<link href='https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap' rel='stylesheet' media="print" onload="this.media='all'">
-<noscript><link href='https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap' rel='stylesheet'></noscript>
+
+<!-- Fallback: local fonts -->
+<style>
+@font-face {
+  font-family: 'Space Grotesk';
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';  
+  font-display: swap;
+}
+</style>
 
 <!-- Icons -->
 <!-- 16x16 -->
