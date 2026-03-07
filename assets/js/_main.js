@@ -66,7 +66,7 @@ $(document).ready(function() {
   });
 });
 
-/*! Link Prefetching */
+/*! Link Prefetching - disabled for now
 document.addEventListener('mouseover', function(e) {
   if (e.target.tagName === 'A' && e.target.hasAttribute('data-prefetch')) {
     var link = e.target.href;
@@ -78,88 +78,99 @@ document.addEventListener('mouseover', function(e) {
     }
   }
 }, false);
+*/
 
-/*! PJAX - Smooth Page Navigation */
+/*! Simple PJAX - Smooth Page Navigation */
 (function() {
-  function getContent(url) {
-    return fetch(url)
+  // Check if browser supports required features
+  if (!window.history || !window.fetch || !document.querySelector) return;
+
+  var isLoading = false;
+
+  function loadPage(href) {
+    if (isLoading) return;
+    isLoading = true;
+
+    // Show loading indicator
+    document.body.classList.add('pjax-loading');
+
+    fetch(href)
       .then(function(response) {
+        if (!response.ok) throw new Error('Network response was not ok');
         return response.text();
       })
       .then(function(html) {
+        // Parse the response
         var parser = new DOMParser();
         var doc = parser.parseFromString(html, 'text/html');
-        return {
-          title: doc.title,
-          content: doc.querySelector('#main').innerHTML,
-          scripts: doc.querySelectorAll('#main script')
-        };
+
+        // Get the main content
+        var newMain = doc.querySelector('#main');
+        var oldMain = document.querySelector('#main');
+
+        if (newMain && oldMain) {
+          // Replace content
+          oldMain.innerHTML = newMain.innerHTML;
+
+          // Update page title
+          var newTitle = doc.querySelector('title');
+          if (newTitle) {
+            document.title = newTitle.textContent;
+          }
+
+          // Update URL without reload
+          history.pushState(null, '', href);
+
+          // Scroll to top
+          window.scrollTo(0, 0);
+
+          // Re-run any page-specific scripts
+          initPage();
+        }
+
+        isLoading = false;
+        document.body.classList.remove('pjax-loading');
+      })
+      .catch(function(err) {
+        console.log('PJAX failed, falling back to normal navigation:', err);
+        isLoading = false;
+        document.body.classList.remove('pjax-loading');
+        // Fallback to normal page load
+        window.location.href = href;
       });
   }
 
-  function handleClick(e) {
+  function handleLinkClick(e) {
     var link = e.target.closest('a');
     if (!link) return;
 
     var href = link.getAttribute('href');
     if (!href) return;
 
-    // Only handle internal links
-    if (href.startsWith('http') && !href.includes(window.location.hostname)) return;
-    if (href.startsWith('#')) return;
-    if (link.hasAttribute('target')) return;
+    // Only handle internal relative links
+    if (href.indexOf('/') === 0 && !href.match(/\.(pdf|zip|jpg|png|jpeg|gif)$/i)) {
+      // Don't intercept if it's the same page
+      if (href === window.location.pathname) return;
 
-    e.preventDefault();
-
-    // Add loading state
-    document.body.classList.add('pjax-loading');
-
-    getContent(href).then(function(data) {
-      // Update title
-      document.title = data.title;
-
-      // Update content
-      var main = document.querySelector('#main');
-      main.innerHTML = data.content;
-
-      // Reinitialize scripts
-      data.scripts.forEach(function(script) {
-        var newScript = document.createElement('script');
-        if (script.src) {
-          newScript.src = script.src;
-        } else {
-          newScript.textContent = script.textContent;
-        }
-        document.body.appendChild(newScript);
-      });
-
-      // Update URL
-      window.history.pushState({}, '', href);
-
-      // Remove loading state
-      document.body.classList.remove('pjax-loading');
-
-      // Scroll to top
-      window.scrollTo(0, 0);
-
-      // Trigger custom event for reinitialization
-      window.dispatchEvent(new CustomEvent('pjax-complete'));
-    }).catch(function() {
-      // Fallback to normal navigation
-      window.location.href = href;
-    });
+      e.preventDefault();
+      loadPage(href);
+    }
   }
 
-  // Handle browser back/forward
-  window.addEventListener('popstate', function(e) {
-    getContent(window.location.href).then(function(data) {
-      document.title = data.title;
-      document.querySelector('#main').innerHTML = data.content;
-      window.scrollTo(0, 0);
-      window.dispatchEvent(new CustomEvent('pjax-complete'));
-    });
+  // Handle back/forward buttons
+  window.addEventListener('popstate', function() {
+    loadPage(window.location.href);
   });
 
   // Attach click handler
-  document.addEventListener('click', handleClick);
+  document.addEventListener('click', handleLinkClick);
+
+  // Re-initialize page-specific code
+  function initPage() {
+    // Re-initialize fade-in animations if they exist
+    if (typeof initFadeIn === 'function') {
+      initFadeIn();
+    }
+    // Re-initialize other page-specific code here
+  }
 })();
