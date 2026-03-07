@@ -66,26 +66,95 @@ $(document).ready(function() {
   });
 });
 
-/*! Link Prefetching - disabled for now
-document.addEventListener('mouseover', function(e) {
-  if (e.target.tagName === 'A' && e.target.hasAttribute('data-prefetch')) {
-    var link = e.target.href;
-    if (!document.querySelector('link[rel="prefetch"][href="' + link + '"]')) {
-      var prefetch = document.createElement('link');
-      prefetch.rel = 'prefetch';
-      prefetch.href = link;
-      document.head.appendChild(prefetch);
-    }
-  }
-}, false);
-*/
-
-/*! Simple PJAX - DISABLED due to slow GitHub Pages loading
+/*! PJAX - Smooth Page Navigation */
 (function() {
-  // Temporarily disabled - causing more issues than solving
-  // Will re-enable when better solution is found
+  if (!window.history || !window.fetch || !document.querySelector) return;
+
+  var isLoading = false;
+
+  function loadPage(href) {
+    if (isLoading) return;
+    isLoading = true;
+
+    // Get sidebar BEFORE loading new page
+    var oldSidebar = document.querySelector('.article-author-side');
+    var oldSidebarContent = oldSidebar ? oldSidebar.innerHTML : '';
+
+    fetch(href)
+      .then(function(response) {
+        if (!response.ok) throw new Error('Network error');
+        return response.text();
+      })
+      .then(function(html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+
+        // Get the content area from new page
+        var newIndex = doc.querySelector('#index');
+        var oldIndex = document.querySelector('#index');
+
+        // Get page title
+        var newTitle = doc.querySelector('title');
+        if (newTitle) document.title = newTitle.textContent;
+
+        if (newIndex && oldIndex) {
+          oldIndex.innerHTML = newIndex.innerHTML;
+
+          // RESTORE sidebar to prevent flash
+          if (oldSidebar && oldSidebarContent) {
+            oldSidebar.innerHTML = oldSidebarContent;
+          }
+
+          history.pushState(null, '', href);
+          window.scrollTo(0, 0);
+          initPage();
+        }
+
+        isLoading = false;
+      })
+      .catch(function() {
+        isLoading = false;
+        window.location.href = href;
+      });
+  }
+
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+
+    var href = link.getAttribute('href');
+    if (!href) return;
+
+    // Only internal links
+    if (href.indexOf('/') === 0 && !href.match(/\.(pdf|zip|jpg|png|jpeg|gif)$/i)) {
+      if (href !== window.location.pathname) {
+        e.preventDefault();
+        loadPage(href);
+      }
+    }
+  });
+
+  window.addEventListener('popstate', function() {
+    loadPage(window.location.href);
+  });
+
+  function initPage() {
+    var observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+    document.querySelectorAll('.fade-in, .line-grow').forEach(el => observer.observe(el));
+    document.querySelectorAll('.pub-item').forEach((el, i) => {
+      el.classList.add('fade-in');
+      el.style.transitionDelay = (i % 5) * 0.08 + 's';
+      observer.observe(el);
+    });
+  }
 })();
-*/
 (function() {
   // Check if browser supports required features
   if (!window.history || !window.fetch || !document.querySelector) return;
