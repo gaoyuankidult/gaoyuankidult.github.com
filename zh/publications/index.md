@@ -205,7 +205,7 @@ lang: zh
   </div>
   <div class="pub-items collapsed">
     <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_coadaptive.png" alt=""></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</div>
     <div class="pub-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, & <span class="author-self">Y. Gao</span></div>
@@ -261,7 +261,7 @@ lang: zh
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_vlons.png" alt=""></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/vlons_p2_1.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework</div>
     <div class="pub-authors">J. Shi, H. Zhang, Y. Zhang, T. L. Lam, L. Zhang, H. Huang, & <span class="author-self">Y. Gao</span></div>
@@ -270,7 +270,7 @@ lang: zh
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_icra.png" alt=""></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/config_adaptive_p2_1.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots</div>
     <div class="pub-authors">Y. Liu, Q. Zheng, Y. Tu, <span class="author-self">Y. Gao</span>, G. Liang, & T. L. Lam</div>
@@ -288,7 +288,7 @@ lang: zh
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_balloon.png" alt=""></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/balloon_page8_1.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</div>
     <div class="pub-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="author-self">Y. Gao</span>, C. Yu, et al.</div>
