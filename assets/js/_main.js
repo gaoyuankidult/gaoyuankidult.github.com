@@ -78,3 +78,88 @@ document.addEventListener('mouseover', function(e) {
     }
   }
 }, false);
+
+/*! PJAX - Smooth Page Navigation */
+(function() {
+  function getContent(url) {
+    return fetch(url)
+      .then(function(response) {
+        return response.text();
+      })
+      .then(function(html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+        return {
+          title: doc.title,
+          content: doc.querySelector('#main').innerHTML,
+          scripts: doc.querySelectorAll('#main script')
+        };
+      });
+  }
+
+  function handleClick(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+
+    var href = link.getAttribute('href');
+    if (!href) return;
+
+    // Only handle internal links
+    if (href.startsWith('http') && !href.includes(window.location.hostname)) return;
+    if (href.startsWith('#')) return;
+    if (link.hasAttribute('target')) return;
+
+    e.preventDefault();
+
+    // Add loading state
+    document.body.classList.add('pjax-loading');
+
+    getContent(href).then(function(data) {
+      // Update title
+      document.title = data.title;
+
+      // Update content
+      var main = document.querySelector('#main');
+      main.innerHTML = data.content;
+
+      // Reinitialize scripts
+      data.scripts.forEach(function(script) {
+        var newScript = document.createElement('script');
+        if (script.src) {
+          newScript.src = script.src;
+        } else {
+          newScript.textContent = script.textContent;
+        }
+        document.body.appendChild(newScript);
+      });
+
+      // Update URL
+      window.history.pushState({}, '', href);
+
+      // Remove loading state
+      document.body.classList.remove('pjax-loading');
+
+      // Scroll to top
+      window.scrollTo(0, 0);
+
+      // Trigger custom event for reinitialization
+      window.dispatchEvent(new CustomEvent('pjax-complete'));
+    }).catch(function() {
+      // Fallback to normal navigation
+      window.location.href = href;
+    });
+  }
+
+  // Handle browser back/forward
+  window.addEventListener('popstate', function(e) {
+    getContent(window.location.href).then(function(data) {
+      document.title = data.title;
+      document.querySelector('#main').innerHTML = data.content;
+      window.scrollTo(0, 0);
+      window.dispatchEvent(new CustomEvent('pjax-complete'));
+    });
+  });
+
+  // Attach click handler
+  document.addEventListener('click', handleClick);
+})();
