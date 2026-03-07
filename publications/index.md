@@ -222,7 +222,7 @@ lang: en
     <div class="pub-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</div>
     <div class="pub-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">arXiv Preprint arXiv:2602.06373, 2026</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2602.06373.pdf" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2602.06373v1.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
   </div>
@@ -242,7 +242,7 @@ lang: en
     <div class="pub-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</div>
     <div class="pub-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">Findings of the Association for Computational Linguistics: ACL 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.findings-acl.1261.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -251,7 +251,7 @@ lang: en
     <div class="pub-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multi-Agent Systems Using Multi-Modal Large Models</div>
     <div class="pub-authors">P. Feng, T. Yang, M. Liang, L. Wang, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">IEEE Internet of Things Journal (IOTJ), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/OC-HMAS.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -260,7 +260,7 @@ lang: en
     <div class="pub-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</div>
     <div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
     <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.drone.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -278,7 +278,7 @@ lang: en
     <div class="pub-title">Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots</div>
     <div class="pub-authors">Y. Liu, Q. Zheng, Y. Tu, <span class="author-self">Y. Gao</span>, G. Liang, & T. L. Lam</div>
     <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/ICRA2025.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -287,7 +287,7 @@ lang: en
     <div class="pub-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</div>
     <div class="pub-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.deformation.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
@@ -316,7 +316,7 @@ lang: en
     <div class="pub-title">Vision-Language Model-based Physical Reasoning for Robot Liquid Perception</div>
     <div class="pub-authors">W. Lai, T. Zhang, T. L. Lam, & <span class="author-self">Y. Gao</span></div>
     <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2404.06904.pdf" target="_blank">PDF</a></div>
+    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2024.liquid.pdf" target="_blank">PDF</a></div>
     </div>
     </div>
     <div class="pub-item">
