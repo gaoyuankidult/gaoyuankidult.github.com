@@ -216,7 +216,7 @@ lang: en
     </div>
     -->
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_coadaptive.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</div>
     <div class="pub-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, & <span class="author-self">Y. Gao</span></div>
@@ -272,7 +272,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_vlons.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework</div>
     <div class="pub-authors">J. Shi, H. Zhang, Y. Zhang, T. L. Lam, L. Zhang, H. Huang, & <span class="author-self">Y. Gao</span></div>
@@ -299,7 +299,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_balloon.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</div>
     <div class="pub-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="author-self">Y. Gao</span>, C. Yu, et al.</div>
