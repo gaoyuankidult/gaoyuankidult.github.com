@@ -80,7 +80,12 @@ document.addEventListener('mouseover', function(e) {
 }, false);
 */
 
-/*! Simple PJAX - Smooth Page Navigation */
+/*! Simple PJAX - DISABLED due to slow GitHub Pages loading
+(function() {
+  // Temporarily disabled - causing more issues than solving
+  // Will re-enable when better solution is found
+})();
+*/
 (function() {
   // Check if browser supports required features
   if (!window.history || !window.fetch || !document.querySelector) return;

@@ -1803,7 +1803,7 @@ $button-size: 1.5rem;
 	}
 }
 
-/* PJAX Loading State */
+/* PJAX Loading State - disabled
 body.pjax-loading {
 	opacity: 0.6;
 	pointer-events: none;
@@ -1828,3 +1828,4 @@ body.pjax-loading::after {
 @keyframes pjax-spin {
 	to { transform: rotate(360deg); }
 }
+*/
