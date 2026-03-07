@@ -19,7 +19,11 @@
   </div>
   <article class="page">
     <!-- Back button -->
+    {% if page.lang == 'zh' %}
+    <a href="{{ site.url }}/zh/blog/" class="back-link">&larr; 返回博客</a>
+    {% else %}
     <a href="{{ site.url }}/blog/" class="back-link">&larr; Back to Blog</a>
+    {% endif %}
 
     <h1>{{ page.title }}</h1>
 
@@ -44,7 +48,11 @@
     <!-- Share and back -->
     <hr />
     <div class="post-footer">
+      {% if page.lang == 'zh' %}
+      <a href="{{ site.url }}/zh/blog/" class="back-link">&larr; 返回博客</a>
+      {% else %}
       <a href="{{ site.url }}/blog/" class="back-link">&larr; Back to Blog</a>
+      {% endif %}
     </div>
   </article>
 </div>
