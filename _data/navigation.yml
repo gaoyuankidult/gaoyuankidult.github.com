@@ -2,23 +2,23 @@
 - title: Home
   url:
 
-- title: Blog
-  url: /blog/
-
 - title: News
   url: /news/
 
 - title: Publications
   url: /publications/
- 
+
+- title: Blog
+  url: /blog/
+
+- title: Art
+  url: /art/
+  
 - title: About
   url: /about/
   
 - title: Contact
   url: /contact/
-
-- title: Art
-  url: /art/
   
 
 
