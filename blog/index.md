@@ -211,7 +211,8 @@ title: Blog
 
 <div class="blog-timeline">
 
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign english_posts = site.posts | where_exp: "post", "post.lang != 'zh'" %}
+{% assign posts_by_year = english_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
 {% for year_group in posts_by_year %}
 <div class="blog-year" data-year="{{ year_group.name }}">
