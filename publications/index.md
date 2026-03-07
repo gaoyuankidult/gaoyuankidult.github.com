@@ -121,6 +121,14 @@ lang: en
   flex-shrink: 0;
 }
 
+.pub-image img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
 .pub-image-placeholder {
   width: 60px;
   height: 60px;
@@ -217,7 +225,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2026_rebeca.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</div>
     <div class="pub-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, & <span class="author-self">Y. Gao</span></div>
@@ -237,7 +245,7 @@ lang: en
   </div>
   <div class="pub-items collapsed">
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_entrospect.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</div>
     <div class="pub-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, & <span class="author-self">Y. Gao</span></div>
@@ -246,7 +254,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_oc-hmas.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multi-Agent Systems Using Multi-Modal Large Models</div>
     <div class="pub-authors">P. Feng, T. Yang, M. Liang, L. Wang, & <span class="author-self">Y. Gao</span></div>
@@ -255,7 +263,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_drone.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</div>
     <div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
@@ -273,7 +281,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_icra.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots</div>
     <div class="pub-authors">Y. Liu, Q. Zheng, Y. Tu, <span class="author-self">Y. Gao</span>, G. Liang, & T. L. Lam</div>
@@ -282,7 +290,7 @@ lang: en
     </div>
     </div>
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_deformation.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</div>
     <div class="pub-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, & <span class="author-self">Y. Gao</span></div>
@@ -311,7 +319,7 @@ lang: en
   </div>
   <div class="pub-items collapsed">
     <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
+    <div class="pub-image"><img src="{{ site.url }}/images/publications/2024_liquid.png" alt=""></div>
     <div class="pub-info">
     <div class="pub-title">Vision-Language Model-based Physical Reasoning for Robot Liquid Perception</div>
     <div class="pub-authors">W. Lai, T. Zhang, T. L. Lam, & <span class="author-self">Y. Gao</span></div>
