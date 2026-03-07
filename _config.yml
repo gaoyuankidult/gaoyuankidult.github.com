@@ -2,6 +2,7 @@
 #layout: single
 #classes: wide
 title:            Yuan Gao's Secret Robot Learning Lab
+title_zh:         高源的秘密机器人学习实验室
 locale:           en_US
 url:              https://gaoyuankidult.github.io
 urlcolor: blue
@@ -36,6 +37,9 @@ owner:
   name: Yuan Gao
   avatar: bio-photo.jpg
   bio: "Just another brain investigator and robot scientist."
+  bio_zh: "又一个脑研究者与机器人科学家。"
+  lab_name: "Yuan Gao's Secret Robot Learning Lab"
+  lab_name_zh: "高源的秘密机器人学习实验室"
   email: gaoyuankidult@gmail.com
   disqus-shortname:
   twitter: alexyuangao

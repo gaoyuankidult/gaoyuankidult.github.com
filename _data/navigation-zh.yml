@@ -1,0 +1,21 @@
+# Site navigation links - Chinese
+- title: 首页
+  url: /zh/
+
+- title: 新闻
+  url: /zh/news/
+
+- title: 论文发表
+  url: /zh/publications/
+
+- title: 博客
+  url: /zh/blog/
+
+- title: 艺术
+  url: /zh/art/
+
+- title: 关于
+  url: /zh/about/
+
+- title: 联系
+  url: /zh/contact/

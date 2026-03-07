@@ -1,1 +1,6 @@
-&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title | xml_escape }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;
+{% if post.lang == 'zh' and site.title_zh %}
+{% assign display_title = site.title_zh %}
+{% else %}
+{% assign display_title = site.title %}
+{% endif %}
+<p><a href="{{ site.url }}{{ post.url }}">{{ post.title | xml_escape }}</a> was originally published by {{ site.owner.name }} at <a href="{{ site.url }}">{{ display_title }}</a> on {{ post.date | date: "%B %d, %Y" }}.</p>

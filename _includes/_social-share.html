@@ -1,14 +1,20 @@
 <div class="social-share">
-  <h4>Share on</h4>
+  <h4>分享</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter" title="分享到 Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook" title="分享到 Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.excerpt | strip_html | uri_escape }}" class="linkedin" title="分享到 LinkedIn"><i class="fa fa-linkedin"></i><span> LinkedIn</span></a>
+    </li>
+    <li>
+      <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ site.url }}{{ page.url }}" class="email" title="通过邮件分享"><i class="fa fa-envelope"></i><span> 邮件</span></a>
+    </li>
+    <li>
+      <a href="https://service.weibo.com/share/share.php?url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" class="weibo" title="分享到微博"><i class="fa fa-weibo"></i><span> 微博</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->

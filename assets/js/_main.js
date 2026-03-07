@@ -287,3 +287,73 @@ $(document).ready(function() {
     });
   }
 })();
+
+/*! Language Preference Memory */
+(function() {
+  var LANG_KEY = 'preferred_language';
+  var currentPath = window.location.pathname;
+  var isZhPage = currentPath.indexOf('/zh') === 0;
+
+  // Get stored preference
+  var storedLang = localStorage.getItem(LANG_KEY);
+
+  // If there's a stored preference and we need to switch
+  if (storedLang && ((storedLang === 'zh' && !isZhPage) || (storedLang === 'en' && isZhPage))) {
+    var targetUrl;
+    if (storedLang === 'zh') {
+      // Switch to Chinese version
+      if (!isZhPage) {
+        targetUrl = '/zh' + currentPath;
+      } else {
+        targetUrl = currentPath;
+      }
+    } else {
+      // Switch to English version
+      targetUrl = currentPath.replace(/^\/zh/, '');
+      if (targetUrl === '') targetUrl = '/';
+    }
+
+    // Don't redirect if already on correct page
+    if (targetUrl !== currentPath) {
+      window.location.href = targetUrl;
+      return;
+    }
+  }
+
+  // If no stored preference but on Chinese page, save it
+  if (isZhPage && !storedLang) {
+    localStorage.setItem(LANG_KEY, 'zh');
+  }
+
+  // Handle language switch clicks
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('.lang-link');
+    if (!link) return;
+
+    var href = link.getAttribute('href');
+    if (!href) return;
+
+    // Determine target language from URL
+    var targetLang = href.indexOf('/zh') === 0 ? 'zh' : 'en';
+    localStorage.setItem(LANG_KEY, targetLang);
+  });
+
+  // Also handle clicks on any link - if moving between language versions
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+
+    var href = link.getAttribute('href');
+    if (!href || href.indexOf('/') !== 0) return;
+
+    var linkIsZh = href.indexOf('/zh') === 0;
+    var currentIsZh = window.location.pathname.indexOf('/zh') === 0;
+
+    // If crossing language boundary and it's not a language switch link
+    if (linkIsZh !== currentIsZh && !link.classList.contains('lang-link')) {
+      // Store the language of the page we're navigating to
+      var navLang = linkIsZh ? 'zh' : 'en';
+      localStorage.setItem(LANG_KEY, navLang);
+    }
+  });
+})();

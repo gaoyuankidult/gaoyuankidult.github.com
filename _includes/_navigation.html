@@ -1,20 +1,37 @@
 <div class="navigation-wrapper">
 	<div class="site-name">
+		{% if page.lang == 'zh' and site.title_zh %}
+		<a href="{{ site.url }}/">{{ site.title_zh }}</a>
+		{% else %}
 		<a href="{{ site.url }}/">{{ site.title }}</a>
+		{% endif %}
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
 		    <ul>
-		        {% for link in site.data.navigation %}
-				    {% if link.url contains 'http' %}
-				        {% assign domain = '' %}
-				        {% else %}
-				        {% assign domain = site.url %}
-				    {% endif %}
-				    {% assign current_path = page.url | remove: 'index.html' %}
-				    {% assign link_path = link.url %}
-				    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% else %}data-prefetch{% endif %}>{{ link.title }}</a></li>
-				{% endfor %}
+		        {% if page.lang == 'zh' %}
+			        {% for link in site.data.navigation-zh %}
+					    {% if link.url contains 'http' %}
+					        {% assign domain = '' %}
+					    {% else %}
+					        {% assign domain = site.url %}
+					    {% endif %}
+					    {% assign current_path = page.url | remove: 'index.html' %}
+					    {% assign link_path = link.url %}
+					    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+					{% endfor %}
+				{% else %}
+			        {% for link in site.data.navigation %}
+					    {% if link.url contains 'http' %}
+					        {% assign domain = '' %}
+					    {% else %}
+					        {% assign domain = site.url %}
+					    {% endif %}
+					    {% assign current_path = page.url | remove: 'index.html' %}
+					    {% assign link_path = link.url %}
+					    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+					{% endfor %}
+				{% endif %}
 				<li class="lang-switch">
 					{% if page.lang == 'zh' %}
 					<span class="lang-current">中文</span>
