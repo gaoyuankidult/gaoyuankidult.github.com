@@ -35,38 +35,6 @@ lang: zh
 
 <hr>
 
-<h2>教育背景</h2>
-
-<div class="timeline fade-in">
-
-<div class="timeline-item">
-  <div class="timeline-date">2020</div>
-  <div class="timeline-content">
-    <h3>博士，机器人学</h3>
-    <p>瑞典乌普萨拉大学</p>
-  </div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">2015</div>
-  <div class="timeline-content">
-    <h3>硕士，计算机科学</h3>
-    <p>浙江大学</p>
-  </div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-date">2012</div>
-  <div class="timeline-content">
-    <h3>学士，计算机科学</h3>
-    <p>浙江大学</p>
-  </div>
-</div>
-
-</div>
-
-<hr>
-
 <h2>联系方式</h2>
 
 <p class="fade-in">Email: <a href="mailto:gaoyuankidult@gmail.com">gaoyuankidult@gmail.com</a></p>
