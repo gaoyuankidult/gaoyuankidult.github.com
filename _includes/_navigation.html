@@ -15,7 +15,34 @@
 				    {% assign link_path = link.url %}
 				    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% else %}data-prefetch{% endif %}>{{ link.title }}</a></li>
 				{% endfor %}
+				<li class="lang-switch">
+					<a href="/zh/" class="lang-link">中文</a>
+					<span class="lang-sep">/</span>
+					<a href="/" class="lang-link">EN</a>
+				</li>
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
+
+<style>
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #eee;
+}
+.lang-switch .lang-link {
+  font-size: 12px;
+  color: #999 !important;
+  text-decoration: none;
+}
+.lang-switch .lang-link:hover {
+  color: #333 !important;
+}
+.lang-switch .lang-sep {
+  color: #ccc;
+}
+</style>
