@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+lang: en
 ---
 
 <p class="page-intro fade-in">Traces left in the literature—each paper a question posed, an experiment lived through, a small contribution to the larger conversation.</p>

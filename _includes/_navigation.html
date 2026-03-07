@@ -16,9 +16,16 @@
 				    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% else %}data-prefetch{% endif %}>{{ link.title }}</a></li>
 				{% endfor %}
 				<li class="lang-switch">
-					<a href="/zh/" class="lang-link">中文</a>
-					<span class="lang-sep">/</span>
-					<a href="/" class="lang-link">EN</a>
+					{% if page.lang == 'zh' %}
+					<span class="lang-current">中文</span>
+					<span class="lang-sep">|</span>
+					<a href="{{ site.url }}{{ page.url | replace: '/zh', '' }}" class="lang-link">EN</a>
+					{% else %}
+					{% assign zh_url = '/zh' | append: page.url %}
+					<a href="{{ site.url }}{{ zh_url }}" class="lang-link">中文</a>
+					<span class="lang-sep">|</span>
+					<span class="lang-current">EN</span>
+					{% endif %}
 				</li>
 		    </ul>
 		</nav>
@@ -29,20 +36,26 @@
 .lang-switch {
   display: flex;
   align-items: center;
-  gap: 4px;
-  margin-left: 10px;
-  padding-left: 10px;
+  gap: 6px;
+  margin-left: 12px;
+  padding-left: 12px;
   border-left: 1px solid #eee;
 }
 .lang-switch .lang-link {
   font-size: 12px;
   color: #999 !important;
   text-decoration: none;
+  transition: color 0.2s;
 }
 .lang-switch .lang-link:hover {
   color: #333 !important;
 }
+.lang-switch .lang-current {
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+}
 .lang-switch .lang-sep {
-  color: #ccc;
+  color: #ddd;
 }
 </style>
