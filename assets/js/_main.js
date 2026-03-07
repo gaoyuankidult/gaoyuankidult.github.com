@@ -91,6 +91,10 @@ document.addEventListener('mouseover', function(e) {
     if (isLoading) return;
     isLoading = true;
 
+    // Save sidebar content before replacement
+    var oldSidebar = document.querySelector('.article-author-side');
+    var oldSidebarHTML = oldSidebar ? oldSidebar.innerHTML : '';
+
     // Show loading indicator
     document.body.classList.add('pjax-loading');
 
@@ -104,13 +108,36 @@ document.addEventListener('mouseover', function(e) {
         var parser = new DOMParser();
         var doc = parser.parseFromString(html, 'text/html');
 
-        // Get the main content
-        var newMain = doc.querySelector('#main');
-        var oldMain = document.querySelector('#main');
+        // Get the main content area (#index)
+        var newIndex = doc.querySelector('#index');
+        var oldIndex = document.querySelector('#index');
 
-        if (newMain && oldMain) {
-          // Replace content
-          oldMain.innerHTML = newMain.innerHTML;
+        // Get h1 title
+        var newH1 = doc.querySelector('article.page h1');
+        var oldH1 = document.querySelector('article.page h1');
+
+        // Get title separator
+        var newSep = doc.querySelector('.title-separator');
+        var oldSep = document.querySelector('.title-separator');
+
+        if (newIndex && oldIndex) {
+          // Replace only the content area (#index), keep sidebar
+          oldIndex.innerHTML = newIndex.innerHTML;
+
+          // Update h1 if exists
+          if (newH1 && oldH1) {
+            oldH1.textContent = newH1.textContent;
+          }
+
+          // Update separator visibility
+          if (newSep && oldSep) {
+            oldSep.style.display = newSep.style.display;
+          }
+
+          // Restore sidebar content (keeps avatar stable)
+          if (oldSidebar && oldSidebarHTML) {
+            oldSidebar.innerHTML = oldSidebarHTML;
+          }
 
           // Update page title
           var newTitle = doc.querySelector('title');
@@ -167,10 +194,22 @@ document.addEventListener('mouseover', function(e) {
 
   // Re-initialize page-specific code
   function initPage() {
-    // Re-initialize fade-in animations if they exist
-    if (typeof initFadeIn === 'function') {
-      initFadeIn();
-    }
-    // Re-initialize other page-specific code here
+    // Re-initialize fade-in animations
+    var observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+    document.querySelectorAll('.fade-in, .line-grow').forEach(el => observer.observe(el));
+
+    // Auto-add fade-in to publication items
+    document.querySelectorAll('.pub-item').forEach((el, i) => {
+      el.classList.add('fade-in');
+      el.style.transitionDelay = (i % 5) * 0.08 + 's';
+      observer.observe(el);
+    });
   }
 })();
