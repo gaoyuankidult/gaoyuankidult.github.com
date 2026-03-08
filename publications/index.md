@@ -140,6 +140,9 @@ lang: en
           <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, H. Zhou, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
           <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
           <p class="paper-note">A vision-language neural rendering system for multi-view scene understanding under occlusion and structural ambiguity.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/publications/papers/VLONS_A_Vision-and-Language_On-device_Navigation_System_with_Multimodal_Fusion_and_Modular_Framework.pdf" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 
@@ -152,6 +155,9 @@ lang: en
           <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
           <p class="paper-note">Configuration-adaptive reinforcement learning guided by language constraints for delicate balloon manipulation.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 

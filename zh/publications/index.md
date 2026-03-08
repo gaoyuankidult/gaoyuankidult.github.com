@@ -140,6 +140,9 @@ lang: zh
           <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, H. Zhou, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
           <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
           <p class="paper-note">面向遮挡场景的视觉语言神经渲染系统，用于多视角场景理解，强调结构恢复与遮挡鲁棒性。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/publications/papers/VLONS_A_Vision-and-Language_On-device_Navigation_System_with_Multimodal_Fusion_and_Modular_Framework.pdf" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 
@@ -152,6 +155,9 @@ lang: zh
           <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
           <p class="paper-note">利用语言引导的构型自适应强化学习处理柔性气球操控，让策略在不同形态约束下更稳定迁移。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 
