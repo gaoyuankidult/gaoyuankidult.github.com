@@ -4,7 +4,7 @@ title: 新闻
 lang: zh
 ---
 
-<p class="page-intro fade-in">这里按年份压缩记录论文、访问、会议与一些后来证明很重要的节点。页面会尽量保持紧凑，以容纳后续更多条目，并支持按年份展开或折叠。</p>
+<p class="page-intro fade-in">这里按年份记录论文、访问、会议与一些后来证明很重要的节点。页面保持紧凑以容纳后续更多条目，并支持按年份展开或折叠。</p>
 
 <div class="rail-index news-ledger fade-in">
   <details class="pub-year news-year" open>

@@ -47,7 +47,7 @@ lang: zh
           <h3 class="paper-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</h3>
           <p class="paper-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026</p>
-          <p class="paper-note">围绕异构机器人团队的共适应策略，讨论系统如何在自利与协作之间动态切换，并在人机共处场景中形成稳定协调。</p>
+          <p class="paper-note">围绕异构机器人团队的共适应策略，研究系统如何在自利与协作之间动态切换，并在人机共处场景中形成稳定协调。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/ICRA2025.pdf" target="_blank">PDF</a>
           </div>
@@ -62,7 +62,7 @@ lang: zh
           <h3 class="paper-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</h3>
           <p class="paper-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>arXiv</em>, 2026</p>
-          <p class="paper-note">通过因果分析理解语言模型迭代自反思背后的可解释行为层级，强调推理路径和行为模式之间的结构关系。</p>
+          <p class="paper-note">通过因果分析理解语言模型迭代自反思背后的可解释行为层级，揭示推理路径与行为模式之间的结构关系。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/2602.06373v1.pdf" target="_blank">PDF</a>
           </div>
@@ -94,7 +94,7 @@ lang: zh
           <h3 class="paper-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</h3>
           <p class="paper-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>Findings of ACL</em>, 2025</p>
-          <p class="paper-note">从信息论角度重做小模型自反思机制，提升回答修正的质量与效率，减少无效迭代。</p>
+          <p class="paper-note">从信息论角度重新审视小语言模型的自反思机制，提升回答修正的质量与效率。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.findings-acl.1261.pdf" target="_blank">PDF</a>
           </div>
@@ -109,7 +109,7 @@ lang: zh
           <h3 class="paper-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multiagent Systems Using Multimodal Large Models</h3>
           <p class="paper-authors">P. Feng, T. Yang, M. Liang, L. Wang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE Internet of Things Journal</em>, 2025</p>
-          <p class="paper-note">利用多模态大模型处理异构多智能体系统中的组织、分工与自纠错，让多主体协作具备更强的动态适应能力。</p>
+          <p class="paper-note">利用多模态大模型处理异构多智能体系统中的分工、规划与自纠错，让多主体协作具备更强的动态适应能力。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/OC-HMAS.pdf" target="_blank">PDF</a>
           </div>
@@ -124,7 +124,7 @@ lang: zh
           <h3 class="paper-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</h3>
           <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
           <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
-          <p class="paper-note">通过渐进式半监督学习完成地面到低空无人机视角的感知迁移，缓解视角变化带来的语义偏差。</p>
+          <p class="paper-note">通过渐进式半监督学习实现地面到低空无人机视角的感知知识迁移，缓解视角变化带来的语义偏差。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.drone.pdf" target="_blank">PDF</a>
           </div>
@@ -154,7 +154,7 @@ lang: zh
           <h3 class="paper-title">Language Guided Configuration-Adaptive Reinforcement Learning to Manipulate a Balloon</h3>
           <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
-          <p class="paper-note">利用语言引导的构型自适应强化学习处理柔性气球操控，让策略在不同形态约束下更稳定迁移。</p>
+          <p class="paper-note">利用语言引导的构型自适应强化学习处理柔性气球操控，让策略在不同形态约束下更稳定地迁移。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
           </div>
@@ -169,7 +169,7 @@ lang: zh
           <h3 class="paper-title">Towards VLM-Based Physical Intelligence: Fine-Grained Understanding of Object&rsquo;s Deformability from Images</h3>
           <p class="paper-authors">W. Lai, T. Zhang, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
           <p class="paper-venue"><em>arXiv</em>, 2025</p>
-          <p class="paper-note">探索视觉语言模型如何从图像中理解物体可变形性的细粒度线索，为物理智能建模提供先验。</p>
+          <p class="paper-note">探索视觉语言模型如何从图像中理解物体可变形性的细粒度特征，为物理智能建模提供新思路。</p>
         </div>
       </article>
 
@@ -181,7 +181,7 @@ lang: zh
           <h3 class="paper-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</h3>
           <p class="paper-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025</p>
-          <p class="paper-note">结合视觉与 IMU 数据估计软体气动夹爪在工作过程中的形变状态，强调多模态观测的互补性。</p>
+          <p class="paper-note">结合视觉与惯性传感数据估计软体气动夹爪在工作过程中的形变状态，强调多模态观测的互补性。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.deformation.pdf" target="_blank">PDF</a>
           </div>

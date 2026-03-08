@@ -4,7 +4,7 @@ title: 联系
 lang: zh
 ---
 
-<p class="page-intro fade-in">如果你想讨论合作、研究交流、讲座、展览或装置项目，可以直接写信给我。联系方式页保持尽量简单，把重点放在清晰与可达性上。</p>
+<p class="page-intro fade-in">如果你想讨论合作、研究交流、讲座、展览或装置项目，可以直接写信给我。联系方式保持简洁，重点放在清晰与可达性上。</p>
 
 <div class="contact-layout fade-in">
   <section class="contact-note">

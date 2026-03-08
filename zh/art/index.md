@@ -4,7 +4,7 @@ title: 艺术
 lang: zh
 ---
 
-<p class="page-intro fade-in">艺术是研究离开 benchmark、进入真实空间的地方。装置在这里变成一块现场测试场，用来观察机器行为一旦公开、具身并暴露在观看之下，会呈现出什么。</p>
+<p class="page-intro fade-in">艺术是研究离开实验台、进入真实空间的地方。装置在这里变成一块现场测试场，用来观察机器行为一旦公开、具身并暴露在观众目光之下，会呈现出什么。</p>
 
 <div class="art-exhibit fade-in">
   <details class="pub-year" open>

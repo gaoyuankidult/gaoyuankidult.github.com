@@ -4,7 +4,7 @@ title: 关于
 lang: zh
 ---
 
-<p class="page-intro fade-in">实验室、论文与展厅在这里不是三块分开的空间，而是同一个问题的三种展开方式：当机器拥有身体、限制与公共后果时，什么样的智能才会真正显现出来。</p>
+<p class="page-intro fade-in">实验室、论文与展厅在这里不是三块分开的空间，而是同一个问题的三种展开方式：当机器拥有身体、限制与公共后果时，什么样的智能才会真正显现。</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
@@ -14,7 +14,7 @@ lang: zh
     </div>
 
     <div class="about-prose">
-      <p>我是高源，一名在机器人、机器学习与公共装置之间工作的研究者和艺术实践者。目前我在 <strong>广东具身智能创新中心</strong> 负责异构多机器人系统方向的研究。</p>
+      <p>我是高源，一名在机器人、机器学习与公共装置之间工作的研究者与艺术实践者。目前我在 <strong>广东具身智能创新中心</strong> 负责异构多机器人系统方向的研究。</p>
       <p>我长期关心的问题其实很直接：当不同传感、不同形态、不同运动语法的机器人被放进同一个系统时，会发生什么？人形、四足、无人机与轮式平台并不会以同样的方式感知世界。真正的协同，不是把差异抹平，而是处理分歧、非对称、协商与临时联盟。</p>
       <p>来深圳之前，我在 <strong>乌普萨拉大学</strong> 完成博士研究，师从 <a href="https://www.kth.se/profile/dani">Danica Kragic</a> 教授与 <a href="https://www.it.uu.se/katalog/ginca820">Ginevra Castellano</a> 教授。那段经历让我越来越确信：关于机器的关键问题，从来不只是在技术层面成立，它也涉及解释、信任、具身性与公共意义。</p>
     </div>
@@ -64,7 +64,7 @@ lang: zh
       <section class="about-fact">
         <span class="about-stage-label">学术训练</span>
         <h3>乌普萨拉大学</h3>
-        <p>以强化学习中的机器行为发展与分析为核心完成博士研究，并与北欧人机交互研究保持长期联系。</p>
+        <p>以强化学习中机器行为的发展与分析为核心完成博士研究，并与北欧人机交互研究保持长期联系。</p>
       </section>
 
       <section class="about-fact">
