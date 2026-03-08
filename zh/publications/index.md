@@ -1,375 +1,350 @@
 ---
 layout: page
-title: 论文发表
+title: 论文
 lang: zh
 ---
 
-<p class="page-intro fade-in">留在文献中的痕迹——每篇论文都是一个提出的问题，一次亲历的实验，对更大学术对话的小小贡献。</p>
+<p class="page-intro fade-in">这里按年份整理代表性论文。最新工作默认展开，较早年份折叠收起，让页面在继续增长时仍然保持比例与秩序。</p>
 
-<p class="fade-in" style="transition-delay:0.15s;">完整列表也可见于 <a href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ">Google Scholar</a>。</p>
-
-<style>
-.pub-timeline {
-  position: relative;
-  max-width: 800px;
-}
-
-.pub-timeline::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: linear-gradient(to bottom, transparent, #ddd 5%, #ddd 95%, transparent);
-}
-
-.pub-year {
-  position: relative;
-  margin-bottom: 1.2em;
-}
-
-.pub-year-header {
-  display: flex;
-  align-items: center;
-  gap: 0.8em;
-  cursor: pointer;
-  padding: 0.3em 0;
-  margin-left: -6px;
-}
-
-.pub-year-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #333;
-  flex-shrink: 0;
-  transition: transform 0.3s ease;
-}
-
-.pub-year-header:hover .pub-year-dot {
-  transform: scale(1.2);
-}
-
-.pub-year-label {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  color: #333;
-}
-
-.pub-year-count {
-  font-size: 11px;
-  color: #999;
-  font-weight: 400;
-}
-
-.pub-year-toggle {
-  font-size: 10px;
-  color: #999;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-left: auto;
-  transition: color 0.2s ease;
-}
-
-.pub-year-header:hover .pub-year-toggle {
-  color: #333;
-}
-
-.pub-items {
-  padding-left: 1.5em;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out, opacity 0.3s ease;
-}
-
-.pub-items.collapsed {
-  max-height: 0 !important;
-  opacity: 0;
-}
-
-.pub-item {
-  position: relative;
-  padding: 0.8em 0 0.8em 1.2em;
-  border-left: 1px solid #eee;
-  margin-left: -1px;
-}
-
-.pub-item::before {
-  content: '';
-  position: absolute;
-  left: -3px;
-  top: 1.1em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: #ccc;
-  transition: background 0.2s ease;
-}
-
-.pub-item:hover::before {
-  background: #333;
-}
-
-.pub-item {
-  display: flex;
-  gap: 1em;
-}
-
-.pub-image {
-  flex-shrink: 0;
-}
-
-.pub-image img {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 4px;
-  border: 1px solid #eee;
-}
-
-.pub-image-placeholder {
-  width: 60px;
-  height: 60px;
-  background: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  color: #999;
-  letter-spacing: 0.05em;
-}
-
-.pub-info {
-  flex: 1;
-  min-width: 0;
-}
-
-.pub-title {
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 0.3em;
-  line-height: 1.4;
-}
-
-.pub-authors {
-  font-size: 12px;
-  color: #666;
-  line-height: 1.5;
-  margin-bottom: 0.2em;
-}
-
-.author-self {
-  font-weight: 600;
-  color: #333;
-}
-
-.pub-venue {
-  font-size: 11px;
-  color: #888;
-  font-style: italic;
-}
-
-.pub-links {
-  margin-top: 0.4em;
-}
-
-.pub-btn {
-  display: inline-block;
-  font-size: 10px;
-  padding: 2px 8px;
-  margin-right: 6px;
-  background: #f5f5f5;
-  color: #666;
-  text-decoration: none;
-  border-radius: 2px;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.pub-btn:hover {
-  background: #333;
-  color: #fff;
-}
-</style>
-
-<div class="pub-timeline">
-
-<div class="pub-year" data-year="2026">
-  <div class="pub-year-header" onclick="togglePubYear(this)">
-    <span class="pub-year-dot"></span>
-    <span class="pub-year-label">2026</span>
-    <span class="pub-year-count">3 篇论文</span>
-    <span class="pub-year-toggle">展开</span>
+<section class="publication-stage fade-in">
+  <div class="publication-stage-copy">
+    <p class="pub-stage-kicker">研究档案</p>
+    <h2>这里不把论文当成连续更新流，而把它们看作具身智能、协同控制与机器行为研究逐步成形的证据。</h2>
   </div>
-  <div class="pub-items collapsed">
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</div>
-    <div class="pub-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2026_rebeca.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</div>
-    <div class="pub-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">arXiv Preprint arXiv:2602.06373, 2026</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2602.06373v1.pdf" target="_blank">PDF</a></div>
-    </div>
+
+  <div class="publication-stage-meta">
+    <div class="pub-stage-actions">
+      <div class="pub-stage-facts">
+        <span>收录年份</span>
+        <strong>2026-2018</strong>
+      </div>
+      <a class="paper-link" href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
     </div>
   </div>
+</section>
+
+<div class="rail-index publication-index fade-in">
+  <details class="pub-year" open>
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2026</h2>
+          <p class="rail-tally">2 篇近期论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt="异构多机器人元学习协同论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning</h3>
+          <p class="paper-authors">H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026</p>
+          <p class="paper-note">围绕异构机器人团队的共适应策略，讨论系统如何在自利与协作之间动态切换，并在人机共处场景中形成稳定协调。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/ICRA2025.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2026_rebeca.png" alt="ReBeCA 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis</h3>
+          <p class="paper-authors">T. Yan, S. Shang, Y. Li, S. Qiu, H. Peng, W. Luo, J. Xie, L. Qu, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>arXiv</em>, 2026</p>
+          <p class="paper-note">通过因果分析理解语言模型迭代自反思背后的可解释行为层级，强调推理路径和行为模式之间的结构关系。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2602.06373v1.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2025</h2>
+          <p class="rail-tally">7 篇论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_entrospect.png" alt="Entrospect 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</h3>
+          <p class="paper-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>Findings of ACL</em>, 2025</p>
+          <p class="paper-note">从信息论角度重做小模型自反思机制，提升回答修正的质量与效率，减少无效迭代。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.findings-acl.1261.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_oc-hmas.png" alt="OC-HMAS 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multiagent Systems Using Multimodal Large Models</h3>
+          <p class="paper-authors">P. Feng, T. Yang, M. Liang, L. Wang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE Internet of Things Journal</em>, 2025</p>
+          <p class="paper-note">利用多模态大模型处理异构多智能体系统中的组织、分工与自纠错，让多主体协作具备更强的动态适应能力。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/OC-HMAS.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_drone.png" alt="低空无人机感知论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</h3>
+          <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
+          <p class="paper-note">通过渐进式半监督学习完成地面到低空无人机视角的感知迁移，缓解视角变化带来的语义偏差。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.drone.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_vlons_correct.png" alt="VLONS 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">VLONS: Vision-Language Based Occlusion-Aware Neural Rendering System for Multi-View Scene Understanding</h3>
+          <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, H. Zhou, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
+          <p class="paper-note">面向遮挡场景的视觉语言神经渲染系统，用于多视角场景理解，强调结构恢复与遮挡鲁棒性。</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_config.png" alt="语言引导气球操控论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Language Guided Configuration-Adaptive Reinforcement Learning to Manipulate a Balloon</h3>
+          <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
+          <p class="paper-note">利用语言引导的构型自适应强化学习处理柔性气球操控，让策略在不同形态约束下更稳定迁移。</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_balloon.png" alt="物体可变形理解论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Towards VLM-Based Physical Intelligence: Fine-Grained Understanding of Object&rsquo;s Deformability from Images</h3>
+          <p class="paper-authors">W. Lai, T. Zhang, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
+          <p class="paper-venue"><em>arXiv</em>, 2025</p>
+          <p class="paper-note">探索视觉语言模型如何从图像中理解物体可变形性的细粒度线索，为物理智能建模提供先验。</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_deformation.png" alt="软体夹爪形变估计论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</h3>
+          <p class="paper-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025</p>
+          <p class="paper-note">结合视觉与 IMU 数据估计软体气动夹爪在工作过程中的形变状态，强调多模态观测的互补性。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.deformation.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2024</h2>
+          <p class="rail-tally">4 篇论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2024_liquid.png" alt="液体感知论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Robot Liquid Perception Through Physical Reasoning and External Knowledge Injection in VLMs</h3>
+          <p class="paper-authors">W. Lai, T. Zhang, T. L. Lam, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2024</p>
+          <p class="paper-note">结合物理推理与外部知识注入，让视觉语言模型更稳定地识别液体状态与相关物理属性。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2024.liquid.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2024</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Cooperative Surface Inspection with Heterogeneous Mobile Robots Using Deep Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Y. Gao</span> and collaborators</p>
+          <p class="paper-venue"><em>Science Robotics</em>, 2024</p>
+          <p class="paper-note">面向异构移动机器人协同表面巡检的深度强化学习框架，强调协同调度与任务分解。</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2024</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Transformable Inspection Robot for Infrastructure Maintenance with Large Language Model-Based Agentic System</h3>
+          <p class="paper-authors">H. Wang, Y. Chen, J. Chen, <span class="pub-self">Y. Gao</span>, and collaborators</p>
+          <p class="paper-venue"><em>IEEE International Conference on Advanced Robotics (ICAR)</em>, 2024</p>
+          <p class="paper-note">将可变形巡检机器人与大语言模型代理系统结合，用于基础设施维护中的任务规划与行动协同。</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2024</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">PepperPose: Leveraging Physical Symmetry for Fast and Stable Human Pose Estimation</h3>
+          <p class="paper-authors">T. Zhang, W. Lai, J. Xiao, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
+          <p class="paper-venue"><em>arXiv</em>, 2024</p>
+          <p class="paper-note">利用身体对称性的先验提升人体姿态估计的速度与稳定性，兼顾效率和鲁棒性。</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year pub-year-archive">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>档案</h2>
+          <p class="rail-tally">更早的代表性工作</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body text-ledger archive-ledger">
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2023</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning</h3>
+          <p class="text-summary"><span class="pub-self">Yuan Gao</span>, J. Chen, X. Chen, C. Wang, J. Hu, F. Deng, and T. L. Lam. <em>IEEE Transactions on Robotics</em>, 2023.</p>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2023</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Learn2Agree: Fitting with Multiple Annotators Without Objective Ground Truth</h3>
+          <p class="text-summary">C. Wang, <span class="pub-self">Yuan Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, and N. Bianchi-Berthouze. <em>TML4H Workshop at ICLR</em>, 2023.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.03596.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2022</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering</h3>
+          <p class="text-summary">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou. 本地档案稿件，2022。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2205.04061.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2021</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Temporal Pyramid Transformer with Multimodal Interaction for Video Question Answering</h3>
+          <p class="text-summary">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou. 本地档案稿件，2021。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.04735.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2021</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Invariant Filtering for Bipedal Walking on Dynamic Rigid Surfaces with Orientation-Based Measurement Model</h3>
+          <p class="text-summary"><span class="pub-self">Yuan Gao</span> and Y. Gu. 本地档案稿件，2021。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.01241.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2021</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Meta Reinforcement Learning Based Sensor Scanning in 3D Uncertain Environments for Heterogeneous Multi-Robot Systems</h3>
+          <p class="text-summary">J. Chen, <span class="pub-self">Yuan Gao</span>, J. Hu, F. Deng, and T. L. Lam. 本地档案稿件，2021。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.13617.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2020</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Machine Behavior Development and Analysis Using Reinforcement Learning</h3>
+          <p class="text-summary"><span class="pub-self">Yuan Gao</span>. 博士论文，Uppsala University，2020。</p>
+        </div>
+      </article>
+
+      <article class="text-entry archive-entry">
+        <div class="text-meta"><span class="text-date">2019-2018</span></div>
+        <div class="text-body">
+          <h3 class="text-title">Earlier human-robot interaction and social robotics papers</h3>
+          <p class="text-summary">包括 RO-MAN 2019、IVA 2018 和 RO-MAN 2018 关于接近行为、社交距离、具身表达与个体化交互的研究。</p>
+        </div>
+      </article>
+    </div>
+  </details>
 </div>
-
-<div class="pub-year" data-year="2025">
-  <div class="pub-year-header" onclick="togglePubYear(this)">
-    <span class="pub-year-dot"></span>
-    <span class="pub-year-label">2025</span>
-    <span class="pub-year-count">7 篇论文</span>
-    <span class="pub-year-toggle">展开</span>
-  </div>
-  <div class="pub-items collapsed">
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_entrospect.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models</div>
-    <div class="pub-authors">T. Yan, Z. Lin, L. Zhang, Z. Sun, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">Findings of the Association for Computational Linguistics: ACL 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.findings-acl.1261.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_oc-hmas.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">OC-HMAS: Dynamic Self-Organization and Self-Correction in Heterogeneous Multi-Agent Systems Using Multi-Modal Large Models</div>
-    <div class="pub-authors">P. Feng, T. Yang, M. Liang, L. Wang, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">IEEE Internet of Things Journal (IOTJ), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/OC-HMAS.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_drone.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Unlocking Drone Perception in Low AGL Heights: Progressive Semi-Supervised Learning for Ground-to-Aerial Perception Knowledge Transfer</div>
-    <div class="pub-authors">J. Hu, C. Fan, M. Ozay, H. Feng, <span class="author-self">Y. Gao</span>, & T. L. Lam</div>
-    <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.drone.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/vlons_p2_1.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">VLONS: A Vision-and-Language On-device Navigation System with Multimodal Fusion and Modular Framework</div>
-    <div class="pub-authors">J. Shi, H. Zhang, Y. Zhang, T. L. Lam, L. Zhang, H. Huang, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">IEEE Transactions on Consumer Electronics, 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/config_adaptive_p2_1.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Configuration-Adaptive Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots</div>
-    <div class="pub-authors">Y. Liu, Q. Zheng, Y. Tu, <span class="author-self">Y. Gao</span>, G. Liang, & T. L. Lam</div>
-    <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/ICRA2025.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2025_deformation.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Multimodal Deformation Estimation of Soft Pneumatic Gripper During Operation</div>
-    <div class="pub-authors">C. Cai, F. Xiao, M. Vanza, T. Wang, F. Zhou, X. Xu, J. Zhu, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2025.deformation.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/balloon_page8_1.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</div>
-    <div class="pub-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="author-self">Y. Gao</span>, C. Yu, et al.</div>
-    <div class="pub-venue">Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST), 2025</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-  </div>
-</div>
-
-<div class="pub-year" data-year="2024">
-  <div class="pub-year-header" onclick="togglePubYear(this)">
-    <span class="pub-year-dot"></span>
-    <span class="pub-year-label">2024</span>
-    <span class="pub-year-count">4 篇论文</span>
-    <span class="pub-year-toggle">展开</span>
-  </div>
-  <div class="pub-items collapsed">
-    <div class="pub-item">
-    <div class="pub-image"><img src="{{ site.url }}/images/publications/2024_liquid.png" alt=""></div>
-    <div class="pub-info">
-    <div class="pub-title">Vision-Language Model-based Physical Reasoning for Robot Liquid Perception</div>
-    <div class="pub-authors">W. Lai, T. Zhang, T. L. Lam, & <span class="author-self">Y. Gao</span></div>
-    <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="{{ site.url }}/downloads/pdf/2024.liquid.pdf" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
-    <div class="pub-info">
-    <div class="pub-title">PepperPose: Full-Body Pose Estimation with a Companion Robot</div>
-    <div class="pub-authors">C. Wang, S. Zheng, L. Zhong, C. Yu, C. Liang, Y. Wang, <span class="author-self">Y. Gao</span>, T. L. Lam, & Y. Shi</div>
-    <div class="pub-venue">Proceedings of the CHI Conference on Human Factors in Computing Systems, 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
-    <div class="pub-info">
-    <div class="pub-title">Transformable Inspection Robot Design and Implementation for Complex Pipeline Environment</div>
-    <div class="pub-authors">J. Wang, Y. Wang, L. Peng, H. Zhang, H. Gao, C. Wang, <span class="author-self">Y. Gao</span>, H. Luo, & Y. Chen</div>
-    <div class="pub-venue">IEEE Robotics and Automation Letters, 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-    <div class="pub-item">
-    <div class="pub-image"><div class="pub-image-placeholder">GIF</div></div>
-    <div class="pub-info">
-    <div class="pub-title">Meta-Reinforcement Learning Based Cooperative Surface Inspection of 3D Uncertain Structures using Multi-robot Systems</div>
-    <div class="pub-authors">J. Chen, <span class="author-self">Y. Gao</span>, J. Hu, F. Deng, & T. L. Lam</div>
-    <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2024</div>
-    <div class="pub-links"><a class="pub-btn" href="#" target="_blank">PDF</a></div>
-    </div>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<p style="margin-top:2em;color:#888;font-style:italic;">更多论文请查看 <a href="/publications/">英文版论文列表</a>。</p>
-
-<script>
-function togglePubYear(header) {
-  const items = header.nextElementSibling;
-  const toggle = header.querySelector('.pub-year-toggle');
-
-  if (items.classList.contains('collapsed')) {
-    items.classList.remove('collapsed');
-    items.style.maxHeight = items.scrollHeight + 'px';
-    toggle.textContent = '收起';
-  } else {
-    items.classList.add('collapsed');
-    toggle.textContent = '展开';
-  }
-}
-
-// Auto-expand first year on load
-document.addEventListener('DOMContentLoaded', function() {
-  const firstYear = document.querySelector('.pub-year-header');
-  if (firstYear) {
-    togglePubYear(firstYear);
-  }
-});
-</script>

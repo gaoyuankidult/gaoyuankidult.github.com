@@ -1,14 +1,11 @@
 # Site wide configuration
-#layout: single
-#classes: wide
 title:            Yuan Gao's Secret Robot Learning Lab
-title_zh:         高源的秘密机器人学习实验室
+title_zh:         "\u9AD8\u6E90\u7684\u79D8\u5BC6\u673A\u5668\u4EBA\u5B66\u4E60\u5B9E\u9A8C\u5BA4"
 locale:           en_US
 url:              https://gaoyuankidult.github.io
 urlcolor: blue
 
 # Jekyll configuration
-
 permalink:   /blog/:title/
 markdown:    kramdown
 highlighter: pygments
@@ -29,49 +26,47 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  #enable_coderay: false
-
 
 # Site owner
 owner:
   name: Yuan Gao
   avatar: bio-photo.jpg
-  bio: "Just another brain investigator and robot scientist."
-  bio_zh: "又一个脑研究者与机器人科学家。"
-  lab_name: "Yuan Gao's Secret Robot Learning Lab"
-  lab_name_zh: "高源的秘密机器人学习实验室"
+  bio: "Researcher, artist, and builder of machine behavior."
+  bio_zh: "\u7814\u7A76\u8005\u3001\u827A\u672F\u521B\u4F5C\u8005\uff0c\u4EE5\u53CA\u673A\u5668\u884C\u4E3A\u7684\u5EFA\u6784\u8005\u3002"
+  lab_name: "Embodied Intelligence x Machine Theatre"
+  lab_name_zh: "\u5177\u8EAB\u667A\u80FD\u4E0E\u673A\u5668\u5267\u573A"
   email: gaoyuankidult@gmail.com
+  scholar_url: "https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ"
   disqus-shortname:
   twitter: alexyuangao
-  facebook: yaseen.gao.9406
+  facebook:
   google:
-    plus: #username
+    plus:
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: gaoyuankidult
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #gaoyuankidult
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
+  stackoverflow:
+  linkedin:
+  xing:
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
   weibo: 3886468753
-  flickr: #username
-  codepen: #username
+  flickr:
+  codepen:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-# Default layout for pages
 defaults:
   - scope:
       path: ""

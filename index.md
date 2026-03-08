@@ -1,10 +1,10 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Research, writing, and installation work by Yuan Gao across embodied intelligence and heterogeneous multi-robot systems."
+tags: [robotics, embodied intelligence, multi-robot systems, art]
 
-image:	
+image:
   feature: feature.jpg
-  credit: Vecteezy & Yuan Gao
+  credit: Vecteezy and Yuan Gao
   creditlink: https://www.vecteezy.com/free-vector/cyborg
 ---

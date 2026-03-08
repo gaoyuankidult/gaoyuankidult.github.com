@@ -4,107 +4,35 @@ title: 联系
 lang: zh
 ---
 
-<div class="fade-in">
-<p class="page-intro">每一次对话都始于某个地方。如果你有问题、有合作想法，或者只是想说什么——我希望听到你的声音。</p>
-</div>
+<p class="page-intro fade-in">如果你想讨论合作、研究交流、讲座、展览或装置项目，可以直接写信给我。联系方式页保持尽量简单，把重点放在清晰与可达性上。</p>
 
-<style>
-.contact-form {
-  max-width: 520px;
-}
-.contact-form fieldset {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-.contact-form legend {
-  display: none;
-}
-.contact-field {
-  margin-bottom: 1.5em;
-}
-.contact-label {
-  display: block;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #999;
-  margin-bottom: 0.5em;
-  font-weight: 500;
-}
-.contact-input {
-  width: 100%;
-  padding: 0.7em 0;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  color: #333;
-  border: none;
-  border-bottom: 1px solid #ddd;
-  background: transparent;
-  outline: none;
-  transition: border-color 0.3s ease;
-  letter-spacing: -0.01em;
-}
-.contact-input:focus {
-  border-bottom-color: #333;
-}
-.contact-textarea {
-  width: 100%;
-  min-height: 120px;
-  padding: 0.8em 0;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  color: #333;
-  border: none;
-  border-bottom: 1px solid #ddd;
-  background: transparent;
-  outline: none;
-  resize: vertical;
-  transition: border-color 0.3s ease;
-  line-height: 1.7;
-  letter-spacing: -0.01em;
-}
-.contact-textarea:focus {
-  border-bottom-color: #333;
-}
-.contact-submit {
-  display: inline-block;
-  padding: 0.6em 2.5em;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #333;
-  background: transparent;
-  border: 1px solid #333;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 0.5em;
-}
-.contact-submit:hover {
-  background: #333;
-  color: #fff;
-}
-</style>
+<div class="contact-layout fade-in">
+  <section class="contact-note">
+    <h2>直接联系</h2>
+    <p>欢迎关于学术合作、访问交流、讲座邀请、策展或装置项目的来信。</p>
+    <div class="contact-direct">
+      <a href="mailto:gaoyuankidult@gmail.com">Email</a>
+      <a href="https://github.com/gaoyuankidult" target="_blank">GitHub</a>
+      <a href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
+    </div>
+  </section>
 
-<div class="fade-in stagger-2">
-<form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
-  <fieldset>
-    <legend>Your message:</legend>
-    <div class="contact-field">
-      <label class="contact-label">姓名</label>
-      <input class="contact-input" name="name" type="text" required>
-    </div>
-    <div class="contact-field">
-      <label class="contact-label">邮箱</label>
-      <input class="contact-input" name="_replyto" type="email" required>
-    </div>
-    <div class="contact-field">
-      <label class="contact-label">留言</label>
-      <textarea class="contact-textarea" name="message" required></textarea>
-    </div>
-    <button type="submit" class="contact-submit">发送</button>
-  </fieldset>
-</form>
+  <section class="contact-form-shell">
+    <h2>留言</h2>
+    <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/gaoyuankidult@gmail.com">
+      <div class="contact-field">
+        <label class="contact-label" for="contact-name-zh">姓名</label>
+        <input class="contact-input" id="contact-name-zh" name="name" type="text" required>
+      </div>
+      <div class="contact-field">
+        <label class="contact-label" for="contact-email-zh">邮箱</label>
+        <input class="contact-input" id="contact-email-zh" name="_replyto" type="email" required>
+      </div>
+      <div class="contact-field">
+        <label class="contact-label" for="contact-message-zh">内容</label>
+        <textarea class="contact-textarea" id="contact-message-zh" name="message" required></textarea>
+      </div>
+      <button type="submit" class="contact-submit">发送留言</button>
+    </form>
+  </section>
 </div>

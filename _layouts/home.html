@@ -10,38 +10,93 @@
 <body class="home">
 
 {% include _browser-upgrade.html %}
-
 {% include _navigation.html %}
 
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
-
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio-no-image.html %}
-  </div>
-  <div id="index" style="width:60%;">
-    <p class="page-intro fade-in">Researcher by training, artist by instinct—building systems that move, negotiate, and occasionally surprise their makers.</p>
-    <p class="hero-intro fade-in stagger-1">I build minds for machines that move.</p>
-    <p class="hero-intro fade-in stagger-2">I lead research on heterogeneous multi-robot systems—humanoids, quadrupeds, drones, wheeled platforms—each carrying its own grammar of motion, its own way of sensing the world. My work lives in the liminal space where radically different bodies learn to negotiate, cooperate, and betray. The question is never <em>can</em> they coordinate, but what emerges when they do—something that begins to resemble intention, or trust, or its opposite.</p>
-    <p class="hero-intro fade-in stagger-3">Trained in Swedish winters, now based in Shenzhen, I move between the lab and the gallery. My installation <em>Game Theater</em> turns reinforcement learning into a meditation on watching and being watched. Whether through a published paper or a fog-filled stage, I look for the same thing: the moment an algorithm stops being a tool and starts becoming something stranger—something closer to life.</p>
-  </div>
-</div><!-- /#main -->
+  <section class="home-hero fade-in">
+    <div class="home-hero-copy">
+      <p class="hero-kicker">Embodied intelligence / heterogeneous robotics / machine theatre</p>
+      <h1 class="hero-title">Making unlike machine bodies move, negotiate, and think together.</h1>
+      <p class="hero-lead">I study how radically different robotic bodies learn to share one system. The work moves across multi-robot coordination, robot learning, human-robot interaction, and installation practice, asking what kind of order, trust, friction, and public drama emerges when those bodies must coexist.</p>
+      <div class="hero-actions">
+        <a class="hero-button" href="{{ site.url }}/publications/">Publications</a>
+        <a class="hero-button hero-button-secondary" href="{{ site.url }}/art/">Art works</a>
+      </div>
+      <div class="hero-signals">
+        <article>
+          <span class="panel-label">Current focus</span>
+          <strong>Heterogeneous multi-robot systems</strong>
+          <p>Humanoids, quadrupeds, drones, and wheeled platforms each carry a different bodily logic. The research is about building cooperation without forcing sameness.</p>
+        </article>
+        <article>
+          <span class="panel-label">Writing</span>
+          <strong>Notes between paper and criticism</strong>
+          <p>Essays, fragments, and unfinished observations where technical argument and artistic reflection are allowed to remain in tension.</p>
+        </article>
+        <article>
+          <span class="panel-label">Exhibition</span>
+          <strong>Machine theatre</strong>
+          <p>Installations where algorithmic behavior becomes spatial, public, and performative instead of staying hidden behind a benchmark.</p>
+        </article>
+      </div>
+    </div>
+    <aside class="home-hero-card">
+      <figure class="hero-portrait">
+        <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao working with a humanoid robot">
+        <figcaption class="hero-portrait-caption">
+          <span>Studio scene</span>
+          <p>Human gesture, embodied response, and the research conditions that shape machine behavior.</p>
+        </figcaption>
+      </figure>
+      {% include _author-bio-no-image.html %}
+    </aside>
+  </section>
+
+  <section class="home-index fade-in stagger-1">
+    <article class="home-index-item">
+      <span class="panel-label">Research</span>
+      <h2>Coordination across unlike bodies</h2>
+      <p>Learning, planning, and emergent strategy for robots that do not share the same sensors, kinematics, or social affordances.</p>
+    </article>
+    <article class="home-index-item">
+      <span class="panel-label">Writing</span>
+      <h2>Field notes and unfinished texts</h2>
+      <p>Writing that treats the laboratory, the city, and the exhibition space as one continuous site of observation.</p>
+    </article>
+    <article class="home-index-item">
+      <span class="panel-label">Exhibition</span>
+      <h2>Machine theatre in public space</h2>
+      <p>Installations that turn reinforcement, interaction, and algorithmic hesitation into something viewers can physically encounter.</p>
+    </article>
+  </section>
+
+  <section class="home-columns fade-in stagger-2">
+    <div class="home-column">
+      <span class="panel-label">Browse</span>
+      <div class="home-links-list">
+        <a href="{{ site.url }}/publications/"><strong>Publications</strong><span>Research archive and selected papers</span></a>
+        <a href="{{ site.url }}/projects/"><strong>Projects</strong><span>Systems, experiments, and directions</span></a>
+        <a href="{{ site.url }}/art/"><strong>Art</strong><span>Installation work, exhibition context, and visual studies</span></a>
+        <a href="{{ site.url }}/about/"><strong>About</strong><span>Background, method, and current research concerns</span></a>
+      </div>
+    </div>
+    <div class="home-column">
+      <span class="panel-label">Recent writing</span>
+      <div class="journal-list">
+        {% assign english_posts = site.posts | where_exp: "post", "post.lang != 'zh'" | slice: 0, 3 %}
+        {% for post in english_posts %}
+        <a class="journal-card" href="{{ site.url }}{{ post.url }}">
+          <span class="journal-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          <strong>{{ post.title }}</strong>
+          <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
 
 <script>
-// Intersection Observer for fade-in animations
 document.addEventListener('DOMContentLoaded', function() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -50,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }, { threshold: 0.1 });
-  
+
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 });
 </script>
@@ -59,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <footer>
     {% include _footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
+</div>
 
 {% include _scripts.html %}
 

@@ -2,96 +2,80 @@
 title: About
 ---
 
-<p class="page-intro fade-in">Somewhere between the laboratory and the gallery, between the algorithm and the gesture—this is where I work, and where I try to make sense of what it means to build things that move on their own.</p>
+<p class="page-intro fade-in">The laboratory, the paper, and the exhibition room are not separate domains here. They are three ways of staging the same question: what kind of intelligence becomes visible when machines have bodies, limits, and public consequences.</p>
 
-<div class="fade-in" markdown="1">
+<div class="about-balance fade-in">
+  <section class="about-main">
+    <div class="about-lede-block">
+      <p class="about-kicker">Researcher / artist / builder of machine behaviour</p>
+      <h2>I work on how unlike machine bodies learn to share a world without being reduced to the same logic.</h2>
+    </div>
 
-## The Space Between
+    <div class="about-prose">
+      <p>I am Yuan Gao (&#39640;&#28304;), a researcher and artist working across robotics, machine learning, and public installation. I currently lead research on heterogeneous multi-robot systems at the <strong>Guangdong Embodied Intelligence Innovation Center</strong> in Shenzhen.</p>
+      <p>The central question in my work is simple to state and difficult to solve: what happens when robots with different sensors, morphologies, and movement grammars must coordinate inside one shared system? Humanoids, quadrupeds, drones, and wheeled platforms do not read the world in the same way. Building cooperation across them means dealing with disagreement, asymmetry, negotiation, and temporary alliance rather than pretending they are interchangeable.</p>
+      <p>Before Shenzhen, I completed my Ph.D. at <strong>Uppsala University</strong> under the guidance of <a href="https://www.kth.se/profile/dani">Prof. Danica Kragic</a> and <a href="https://www.it.uu.se/katalog/ginca820">Prof. Ginevra Castellano</a>. That period shaped my conviction that the most compelling robotics questions are never only technical. They are also questions of interpretation, trust, embodiment, and public meaning.</p>
+    </div>
 
-</div>
+    <blockquote class="about-quote">When machines learn to watch us as closely as we watch them, will we still recognize ourselves?</blockquote>
 
-<div class="fade-in stagger-1" markdown="1">
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">Research strands</span>
+        <p>Four recurring questions that anchor the papers, essays, and installations.</p>
+      </div>
 
-I am Yuan Gao (高源)—researcher, artist, and architect of machine behaviour.
+      <div class="about-interest-ledger">
+        <article class="about-interest-item">
+          <h3>Heterogeneous Multi-Robot Systems</h3>
+          <p>Coordination among robots that do not share the same morphology, sensing stack, or action space.</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>Robot Learning</h3>
+          <p>Adaptation, reinforcement learning, and meta-learning for systems that must improvise in changing environments.</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>Embodied Intelligence</h3>
+          <p>The claim that intelligence cannot be separated from having a body, a material situation, and a point of view.</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>Human-Robot Interaction</h3>
+          <p>Trust, distance, interpretation, and the changing social contract between human and machine agents.</p>
+        </article>
+      </div>
+    </section>
+  </section>
 
-</div>
+  <aside class="about-side">
+    <div class="about-side-note">
+      <span class="about-stage-label">Profile</span>
+      <p>Research, writing, and installation practice organized around embodied intelligence, shared autonomy, and public machine behavior.</p>
+    </div>
 
-<div class="fade-in stagger-2" markdown="1">
+    <div class="about-facts">
+      <section class="about-fact">
+        <span class="about-stage-label">Current base</span>
+        <h3>Shenzhen</h3>
+        <p>Guangdong Embodied Intelligence Innovation Center, with work spanning research infrastructure, system integration, and public-facing machine behaviour.</p>
+      </section>
 
-I lead the Heterogeneous Multi-Robot Systems group at the **Guangdong Embodied Intelligence Innovation Center**, where I explore how fundamentally different robotic forms learn to coexist. Humanoids, quadrupeds, drones, wheeled platforms—each carries its own grammar of movement, its own way of perceiving the world. My work asks what emerges when we let them negotiate, cooperate, and sometimes betray one another.
+      <section class="about-fact">
+        <span class="about-stage-label">Training</span>
+        <h3>Uppsala University</h3>
+        <p>Ph.D. research on machine behavior development and analysis through reinforcement learning, grounded in Scandinavian human-robot interaction research.</p>
+      </section>
 
-</div>
+      <section class="about-fact">
+        <span class="about-stage-label">Modes of practice</span>
+        <h3>Research / Writing / Installation</h3>
+        <p>Conference paper, essay, and exhibition are treated as linked forms. Each medium reveals a different aspect of what the system is doing.</p>
+      </section>
 
-<div class="fade-in stagger-3" markdown="1">
-
-Before settling in Shenzhen, I completed my Ph.D. at **Uppsala University, Sweden**, under the guidance of IEEE Fellow [Prof. Danica Kragic](https://www.kth.se/profile/dani) and [Prof. Ginevra Castellano](https://www.it.uu.se/katalog/ginca820). Those years shaped my conviction that the most interesting questions about robots are not technical—they are philosophical.
-
-</div>
-
-<div class="fade-in stagger-4" markdown="1">
-
-I publish in venues like *Science Robotics*, *IEEE T-RO*, and *ACL*. But increasingly, I find myself drawn to the gallery as much as the conference hall. My installation *Game Theater* brings reinforcement learning algorithms into physical space, turning the Actor-Critic framework into a meditation on observation and action.
-
-</div>
-
-<div class="fade-in" style="transition-delay:0.5s;" markdown="1">
-
-A question that haunts me: *When machines learn to watch us as closely as we watch them, will we still recognise ourselves?*
-
-</div>
-
-<div class="fade-in" style="transition-delay:0.6s;" markdown="1">
-
-## Research Interests
-
-- **Heterogeneous Multi-Robot Systems** — The choreography of difference: how robots of radically distinct forms learn to move together
-- **Robot Learning** — Teaching machines to acquire skills through trial, error, and something approaching intuition
-- **Embodied Intelligence** — The premise that thinking cannot be separated from having a body in the world
-- **Human-Robot Interaction** — The social contract, rewritten for a world where not all agents are human
-
-</div>
-
----
-
-<div class="fade-in" style="transition-delay:0.2s;">
-
-<h4>Research Quote</h4>
-
-<script>
-    function showQuote() {
-        var quotes = [
-      	{
-	    text: " \"I have never looked upon ease and happiness as ends in themselves -- this critical basis I call the ideal of a pigsty.\" <p>-- Albert Einstein</p>",
-	    img:  "http://images.mentalfloss.com/sites/default/files/styles/insert_main_wide_image/public/einstein1_7.jpg"
-        },
-        {
-	    text: " \"That fondness for science, ... that affability and condescension which God shows to the learned, that promptitude with which he protects and supports them in the elucidation of obscurities and in the removal of difficulties, has encouraged me to compose a short work on calculating by al-jabr and al-muqabala, confining it to what is easiest and most useful in arithmetic.\" <p>-- al-Khwarizmi</p>",
-	    img:  "https://s3.amazonaws.com/files.digication.com/M2bae2c5dce10400fec56aceb9d58d08c.jpg",
-         },
-        {
-	    text: "\"A huge tree that fills one's arms grows from a tiny seedling; a nine-storied tower rises from a heap of earth; a thousand li journey starts with the first step.\"<p>-- Laozi, Tao Te Ching</p><br><p>\"合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。\"</p><p>-- 老子《道德经》</p>",
-	    img:  "https://colinanderson9494.files.wordpress.com/2013/04/laozi.jpg",
-        },
-        {
-	    text: "\"Oh, this fire so burns our brains, we would dive to the depths of the gulf, Heaven or Hell, what matter? If only to find in the depths of the Unknown the New!\" <p>-- Charles Baudelaire, The Flowers of Evil</p>",
-	    img:  "https://upload.wikimedia.org/wikipedia/commons/1/16/%C3%89tienne_Carjat,_Portrait_of_Charles_Baudelaire,_circa_1862.jpg",
-        }
-      ];
-      var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      if (document.getElementById("quote").innerHTML.length == 0){
-          document.getElementById("quote").innerHTML =
-              '<blockquote>' + quote.text + '</blockquote>' +
-              '<img width="200" src="' + quote.img + '" style="border-radius:4px; margin-top:0.5em;">';
-	  document.getElementById("quote_btn").innerHTML = "Fold Quote";
-      } else {
-      	  document.getElementById("quote").innerHTML = "";
-	  document.getElementById("quote_btn").innerHTML = "Want to See a Research Quote?";
-      }
-    }
-</script>
-
-<button id="quote_btn" class="pub-btn" onclick="showQuote()" type="button" style="cursor:pointer; padding:6px 16px; font-size:13px;">Want to See a Research Quote?</button>
-
-<div id="quote" style="margin-top:1em;"></div>
-
+      <section class="about-fact">
+        <span class="about-stage-label">Selected venues</span>
+        <h3>Science Robotics, IEEE T-RO, ACL, biennales</h3>
+        <p>The work moves between peer-reviewed research and exhibition contexts rather than choosing one world over the other.</p>
+      </section>
+    </div>
+  </aside>
 </div>

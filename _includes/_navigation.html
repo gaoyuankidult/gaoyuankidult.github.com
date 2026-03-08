@@ -1,78 +1,65 @@
+{% assign current_path = page.url | remove: 'index.html' %}
+{% if page.lang == 'zh' %}
+	{% assign home_url = '/zh/' %}
+	{% assign nav_items = site.data.navigation-zh %}
+	{% assign alt_url = current_path | replace_first: '/zh/', '/' %}
+	{% if alt_url == current_path %}
+		{% assign alt_url = current_path | replace_first: '/zh', '/' %}
+	{% endif %}
+	{% if alt_url == '//' %}
+		{% assign alt_url = '/' %}
+	{% endif %}
+{% else %}
+	{% assign home_url = '/' %}
+	{% assign nav_items = site.data.navigation %}
+	{% if current_path == '/' %}
+		{% assign alt_url = '/zh/' %}
+	{% else %}
+		{% assign alt_url = '/zh' | append: current_path %}
+	{% endif %}
+{% endif %}
+
+{% capture nav_links %}
+	{% for link in nav_items %}
+		{% if link.url contains 'http' %}
+			{% assign domain = '' %}
+		{% else %}
+			{% assign domain = site.url %}
+		{% endif %}
+		<li{% if current_path == link.url %} class="nav-active"{% endif %}>
+			<a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+		</li>
+	{% endfor %}
+	<li class="lang-switch">
+		{% if page.lang == 'zh' %}
+		<span class="lang-current">&#20013;&#25991;</span>
+		<span class="lang-sep">/</span>
+		<a href="{{ site.url }}{{ alt_url }}" class="lang-link">EN</a>
+		{% else %}
+		<a href="{{ site.url }}{{ alt_url }}" class="lang-link">&#20013;&#25991;</a>
+		<span class="lang-sep">/</span>
+		<span class="lang-current">EN</span>
+		{% endif %}
+	</li>
+{% endcapture %}
+
 <div class="navigation-wrapper">
 	<div class="site-name">
-		{% if page.lang == 'zh' and site.title_zh %}
-		<a href="{{ site.url }}/">{{ site.title_zh }}</a>
-		{% else %}
-		<a href="{{ site.url }}/">{{ site.title }}</a>
-		{% endif %}
-	</div><!-- /.site-name -->
+		<a href="{{ site.url }}{{ home_url }}">Yuan Gao</a>
+	</div>
 	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
-		    <ul>
-		        {% if page.lang == 'zh' %}
-			        {% for link in site.data.navigation-zh %}
-					    {% if link.url contains 'http' %}
-					        {% assign domain = '' %}
-					    {% else %}
-					        {% assign domain = site.url %}
-					    {% endif %}
-					    {% assign current_path = page.url | remove: 'index.html' %}
-					    {% assign link_path = link.url %}
-					    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-					{% endfor %}
-				{% else %}
-			        {% for link in site.data.navigation %}
-					    {% if link.url contains 'http' %}
-					        {% assign domain = '' %}
-					    {% else %}
-					        {% assign domain = site.url %}
-					    {% endif %}
-					    {% assign current_path = page.url | remove: 'index.html' %}
-					    {% assign link_path = link.url %}
-					    <li{% if current_path == link_path %} class="nav-active"{% endif %}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-					{% endfor %}
-				{% endif %}
-				<li class="lang-switch">
-					{% if page.lang == 'zh' %}
-					<span class="lang-current">中文</span>
-					<span class="lang-sep">|</span>
-					<a href="{{ site.url }}{{ page.url | replace: '/zh', '' }}" class="lang-link">EN</a>
-					{% else %}
-					{% assign zh_url = '/zh' | append: page.url %}
-					<a href="{{ site.url }}{{ zh_url }}" class="lang-link">中文</a>
-					<span class="lang-sep">|</span>
-					<span class="lang-current">EN</span>
-					{% endif %}
-				</li>
-		    </ul>
+		<nav role="navigation" id="site-nav" aria-label="{% if page.lang == 'zh' %}Desktop navigation{% else %}Desktop navigation{% endif %}">
+			<ul>
+				{{ nav_links }}
+			</ul>
 		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
-
-<style>
-.lang-switch {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-left: 12px;
-  padding-left: 12px;
-  border-left: 1px solid #eee;
-}
-.lang-switch .lang-link {
-  font-size: 12px;
-  color: #999 !important;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.lang-switch .lang-link:hover {
-  color: #333 !important;
-}
-.lang-switch .lang-current {
-  font-size: 12px;
-  color: #333;
-  font-weight: 500;
-}
-.lang-switch .lang-sep {
-  color: #ddd;
-}
-</style>
+	</div>
+	<details class="mobile-navigation">
+		<summary>{% if page.lang == 'zh' %}&#33756;&#21333;{% else %}Menu{% endif %}</summary>
+		<nav role="navigation" aria-label="{% if page.lang == 'zh' %}Mobile navigation{% else %}Mobile navigation{% endif %}">
+			<ul>
+				{{ nav_links }}
+			</ul>
+		</nav>
+	</details>
+</div>

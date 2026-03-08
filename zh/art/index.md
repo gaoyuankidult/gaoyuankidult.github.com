@@ -4,165 +4,61 @@ title: 艺术
 lang: zh
 ---
 
-<div class="art-page">
+<p class="page-intro fade-in">艺术是研究离开 benchmark、进入真实空间的地方。装置在这里变成一块现场测试场，用来观察机器行为一旦公开、具身并暴露在观看之下，会呈现出什么。</p>
 
-  <p class="page-intro fade-in">艺术是我提出那些论文无法承载的问题的方式——关于共存、关于观看、关于机器学习共同失败的奇异温柔。</p>
-
-  <!-- ============================================
-       艺术家宣言 (总体哲学)
-       ============================================ -->
-  <section class="art-manifesto art-fade-in">
-    <h2 class="art-manifesto-title">艺术家宣言</h2>
-    <div class="art-manifesto-inner">
-      <p class="art-manifesto-text">
-        每个社会归根结底都是不同身体之间的协商——而这种协商不再仅仅属于人类。当双足、四足、轮式和空中智能体进入居住、劳动和运动的共享空间时，社会科学对非人类能动性的长期理论化不再是抽象的：它变得现象学化，成为被见证而非被争论的东西。我在这个令人不安的近距离中创作，让异质机器智能体进行现场遭遇——不是为了说明能力，而是为了保持解释 settle 之前的那个时刻。类似于团结的协调、类似于残忍的背叛、类似于怀疑的停顿：没有内在性的行为，而正是这种缺失令人不安。对我来说，艺术是持续疏离的学科——与浮现出来的东西同坐，直到我们决定我们是在观看一个工具、一个伙伴，还是一面镜子。
-      </p>
+<div class="art-exhibit fade-in">
+  <section class="art-exhibit-hero">
+    <figure class="art-exhibit-media">
+      <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场">
+    </figure>
+    <div class="art-exhibit-copy">
+      <span class="art-kicker">装置 / 现场多机器人系统</span>
+      <h2>Game Theater</h2>
+      <p class="art-stage-lead"><em>Game Theater</em> 把异构机器人作为表演者放进同一个实时多智能体系统中。人形、四足、轮式与空中机器体在同一空间里协商、试探、追逐与共处，使行为带上一种社会性的错觉，却并不假装它们拥有人的内在性。</p>
+      <p>这件作品不是为了展示模型有多强，而是把协调、迟疑、追踪与临时联盟这些技术逻辑转化成观众能直接观看的空间戏剧。</p>
+      <div class="art-fact-grid">
+        <div>
+          <strong>艺术家</strong>
+          <span>Liu Ziyin / 高源</span>
+        </div>
+        <div>
+          <strong>媒介</strong>
+          <span>装置、实时 AI、多机器人表演</span>
+        </div>
+        <div>
+          <strong>年份</strong>
+          <span>2026</span>
+        </div>
+      </div>
     </div>
   </section>
 
-  <div class="art-separator art-fade-in">
-    <span class="art-separator-line"></span>
-    <span class="art-separator-dot"></span>
-    <span class="art-separator-label">作品</span>
-    <span class="art-separator-dot"></span>
-    <span class="art-separator-line"></span>
-  </div>
+  <section class="art-strip">
+    <figure class="art-wide-image">
+      <img src="/art/images/game-theater-wide.jpg" alt="游戏剧场广角现场">
+    </figure>
+    <aside class="art-note-panel">
+      <h3>展览信息</h3>
+      <ul class="art-note-list">
+        <li>展览：第十届深港城市建筑双城双年展</li>
+        <li>板块：机器人剧场，城市作为多智能体系统</li>
+        <li>地点：河套创新中心 F3</li>
+        <li>时间：2026 年 1 月至 3 月</li>
+      </ul>
+    </aside>
+  </section>
 
-  <!-- ============================================
-       艺术作品1: 游戏剧场
-       ============================================ -->
-  <article class="art-work art-fade-in" id="game-theater">
+  <section class="art-context-grid">
+    <article>
+      <h3>展览语境</h3>
+      <p>作品诞生于深圳双年展的语境之中，策展框架把城市理解为一个多智能体系统。也因此，机器人之间的协同不再只是工程问题，而成为一种被放大的舞台关系。</p>
+      <p>真正重要的并不是这些机器人是否足够“聪明”，而是观众从何时开始把意图、冲突、联盟与不确定性投射到这些仍然明显是机器的身体之上。</p>
+    </article>
 
-    <!-- 幻灯片 -->
-    <div class="art-slideshow">
-      <div class="art-slideshow-track">
-        <div class="art-slide art-slide-active">
-          <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场 - 四台异构机器人在烟雾缭绕的舞台上">
-        </div>
-        <div class="art-slide">
-          <img src="/art/images/game-theater-wide.jpg" alt="游戏剧场 - 广角镜头与大气烟雾">
-        </div>
-      </div>
-      <div class="art-slideshow-overlay">
-        <span class="art-slideshow-title">游戏剧场</span>
-        <span class="art-slideshow-credit">&copy; 刘子吟 &amp; 高源, 2026</span>
-      </div>
-      <div class="art-slideshow-dots"></div>
-    </div>
-
-    <!-- 标题 -->
-    <header class="art-work-header">
-      <h2 class="art-work-title">游戏剧场</h2>
-      <div class="art-work-subtitle">多机器人装置 · 实时AI · 2026</div>
-    </header>
-
-    <!-- 元信息栏 -->
-    <div class="art-work-meta-bar">
-      <div class="art-meta-chip"><span class="art-meta-key">艺术家</span> 刘子吟 &amp; 高源</div>
-      <div class="art-meta-chip"><span class="art-meta-key">媒介</span> 多机器人装置、多视角视频、实时AI</div>
-      <div class="art-meta-chip"><span class="art-meta-key">年份</span> 2026</div>
-    </div>
-
-    <!-- 带装饰侧边的描述 -->
-    <div class="art-work-essay">
-      <div class="art-essay-accent"></div>
-      <div class="art-essay-body">
-        <p>
-          <span class="art-drop-cap">在</span>强化学习中，"Actor-Critic"是一个经典的协调框架：演员行动，评论家评估。这个算法背后藏着一个古老的哲学困境——行动者永远无法完全看清自己，而观看者永远无法替代行动本身。
-        </p>
-        <p>
-          <em>游戏剧场</em>将这个抽象概念具象化为一个现场的空间表演。类人机器人、四足机器人、轮式机器人和无人机扮演追捕者、逃避者、协商者的角色。它们不遵循预定的剧本——它们实时计算、协商、背叛和合作。每个动作都是策略网络的涌现；每个停顿都是不确定性的结晶。
-        </p>
-        <p>
-          我试图呈现的不是"机器人能做什么"的演示，而是关于游戏行为作为存在基本形式的冥想。当我们观看这些机器相互追逐、逃避和协商时，我们正看向人类社交结构的镜子——无尽地迭代、策略性地进化、永远不得安宁。
-        </p>
-      </div>
-    </div>
-
-    <!-- 展览信息（可折叠） -->
-    <details class="art-work-exhibition">
-      <summary>展览信息</summary>
-      <div class="art-work-exhibition-grid">
-        <div><span class="label">展览</span><span class="value">第十届深港城市\建筑双城双年展（深圳）</span></div>
-        <div><span class="label">板块</span><span class="value">机器人剧场——作为多智能体系统的城市</span></div>
-        <div><span class="label">场馆</span><span class="value">深圳河套创新中心F3</span></div>
-        <div><span class="label">展期</span><span class="value">2026年1月—3月</span></div>
-        <div><span class="label">总策展人</span><span class="value">沈少民、丁勇</span></div>
-        <div><span class="label">执行策展人</span><span class="value">刘子吟、姜苏轩</span></div>
-      </div>
-    </details>
-
-  </article>
-
+    <article>
+      <h3>为什么要做成装置</h3>
+      <p>装置把机器行为重新放回人的尺度里。观众不只是读结果、看 benchmark，而是与这些会犹豫、协商与彼此试探的身体共享时间和空间。</p>
+      <p>技术问题与审美问题，也正是在这里重新缠在一起。</p>
+    </article>
+  </section>
 </div>
-
-<!-- 幻灯片与淡入脚本 -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // 滚动淡入
-  var fadeEls = document.querySelectorAll('.art-fade-in');
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('art-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
-    fadeEls.forEach(function(el) { observer.observe(el); });
-  } else {
-    fadeEls.forEach(function(el) { el.classList.add('art-visible'); });
-  }
-
-  // 幻灯片功能
-  document.querySelectorAll('.art-slideshow').forEach(function(slideshow) {
-    var slides = slideshow.querySelectorAll('.art-slide');
-    var dotsContainer = slideshow.querySelector('.art-slideshow-dots');
-    var currentIndex = 0;
-    var intervalTime = 2500; // 2.5秒
-
-    if (slides.length <= 1) return;
-
-    // 创建圆点
-    slides.forEach(function(_, i) {
-      var dot = document.createElement('span');
-      dot.className = 'art-slideshow-dot' + (i === 0 ? ' active' : '');
-      dot.addEventListener('click', function() {
-        goToSlide(i);
-        resetInterval();
-      });
-      dotsContainer.appendChild(dot);
-    });
-    var dots = dotsContainer.querySelectorAll('.art-slideshow-dot');
-
-    function goToSlide(index) {
-      slides[currentIndex].classList.remove('art-slide-active');
-      dots[currentIndex].classList.remove('active');
-      currentIndex = index;
-      slides[currentIndex].classList.add('art-slide-active');
-      dots[currentIndex].classList.add('active');
-    }
-
-    function nextSlide() {
-      goToSlide((currentIndex + 1) % slides.length);
-    }
-
-    function resetInterval() {
-      clearInterval(interval);
-      interval = setInterval(nextSlide, intervalTime);
-    }
-
-    // 开始自动播放
-    interval = setInterval(nextSlide, intervalTime);
-
-    // 悬停时暂停
-    slideshow.addEventListener('mouseenter', function() {
-      clearInterval(interval);
-    });
-    slideshow.addEventListener('mouseleave', function() {
-      interval = setInterval(nextSlide, intervalTime);
-    });
-  });
-});
-</script>

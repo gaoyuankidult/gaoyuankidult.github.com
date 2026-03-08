@@ -4,102 +4,80 @@ title: 关于
 lang: zh
 ---
 
-<div class="about-content">
+<p class="page-intro fade-in">实验室、论文与展厅在这里不是三块分开的空间，而是同一个问题的三种展开方式：当机器拥有身体、限制与公共后果时，什么样的智能才会真正显现出来。</p>
 
-<p class="page-intro fade-in">在实验室与画廊之间，在算法与手势之间——这是我工作的地方，也是我试图理解"建造能够自主运动的事物"意味着什么的地方。</p>
+<div class="about-balance fade-in">
+  <section class="about-main">
+    <div class="about-lede-block">
+      <p class="about-kicker">研究者 / 艺术实践者 / 机器行为建构者</p>
+      <h2>我关心的是：彼此不同的机器身体，如何在不被压成同一种逻辑的前提下，共同分享一个世界。</h2>
+    </div>
 
-<hr>
+    <div class="about-prose">
+      <p>我是高源，一名在机器人、机器学习与公共装置之间工作的研究者和艺术实践者。目前我在 <strong>广东具身智能创新中心</strong> 负责异构多机器人系统方向的研究。</p>
+      <p>我长期关心的问题其实很直接：当不同传感、不同形态、不同运动语法的机器人被放进同一个系统时，会发生什么？人形、四足、无人机与轮式平台并不会以同样的方式感知世界。真正的协同，不是把差异抹平，而是处理分歧、非对称、协商与临时联盟。</p>
+      <p>来深圳之前，我在 <strong>乌普萨拉大学</strong> 完成博士研究，师从 <a href="https://www.kth.se/profile/dani">Danica Kragic</a> 教授与 <a href="https://www.it.uu.se/katalog/ginca820">Ginevra Castellano</a> 教授。那段经历让我越来越确信：关于机器的关键问题，从来不只是在技术层面成立，它也涉及解释、信任、具身性与公共意义。</p>
+    </div>
 
-<h2>我是谁</h2>
+    <blockquote class="about-quote">当机器学会像我们观察它们那样观察我们时，我们还会认出自己吗？</blockquote>
 
-<p class="fade-in" style="margin-top:1.5em;">我叫高源（Yuan Gao）——研究员、艺术家，也是机器行为的构建者。</p>
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">研究方向</span>
+        <p>这些问题持续出现在我的论文、写作与装置实践之中。</p>
+      </div>
 
-<p class="fade-in">我领导着<b>广东省具身智能创新中心</b>的异构多机器人系统团队，探索截然不同的机器人形态如何学会共存。类人机器人、四足机器人、无人机、轮式平台——每一种都有独特的运动语法和感知世界的方式。我的工作关注的是当我们让它们协商、合作甚至背叛彼此时会发生什么。</p>
+      <div class="about-interest-ledger">
+        <article class="about-interest-item">
+          <h3>异构多机器人系统</h3>
+          <p>研究不共享同一身体结构、感知栈与动作空间的机器人如何形成可工作的协同。</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>机器人学习</h3>
+          <p>强化学习、元学习与自适应机制，关注系统如何在变化环境中调整自身。</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>具身智能</h3>
+          <p>把智能重新放回身体、材料条件与具体处境之中来理解，而不是把它当成纯抽象推理。</p>
+        </article>
+        <article class="about-interest-item">
+          <h3>人机交互</h3>
+          <p>信任、距离、解释与社会规则如何在人与机器之间被重新书写。</p>
+        </article>
+      </div>
+    </section>
+  </section>
 
-<p class="fade-in">在定居深圳之前，我在<b>瑞典乌普萨拉大学</b>完成了博士学位，师从IEEE Fellow <a href="https://www.kth.se/profile/dani" target="_blank">Danica Kragic教授</a>和<a href="https://www.it.uu.se/katalog/ginca820" target="_blank">Ginevra Castellano教授</a>。那些岁月塑造了我的信念：关于机器人最有趣的问题不是技术性的——而是哲学性的。</p>
+  <aside class="about-side">
+    <div class="about-side-note">
+      <span class="about-stage-label">概况</span>
+      <p>研究、写作与装置实践围绕具身智能、共享自主与公共机器行为展开，并在学术与展览语境之间切换。</p>
+    </div>
 
-<p class="fade-in">我在<i>Science Robotics</i>、<i>IEEE T-RO</i>和<i>ACL</i>等平台发表论文。但越来越地，我发现自己像被吸引到会议厅一样被吸引到画廊。我的装置作品<i>游戏剧场</i>将强化学习算法带入物理空间，将Actor-Critic框架变成关于观察与行动的冥想。</p>
+    <div class="about-facts">
+      <section class="about-fact">
+        <span class="about-stage-label">当前基地</span>
+        <h3>深圳</h3>
+        <p>广东具身智能创新中心，工作横跨研究基础设施、系统集成与面向公众的机器行为展示。</p>
+      </section>
 
-<p class="fade-in" style="margin-top:2em; font-style:italic;">一个萦绕我的问题：<i>当机器学会像我们观察它们一样观察我们时，我们还能认出自己吗？</i></p>
+      <section class="about-fact">
+        <span class="about-stage-label">学术训练</span>
+        <h3>乌普萨拉大学</h3>
+        <p>以强化学习中的机器行为发展与分析为核心完成博士研究，并与北欧人机交互研究保持长期联系。</p>
+      </section>
 
-<hr>
+      <section class="about-fact">
+        <span class="about-stage-label">实践方式</span>
+        <h3>研究 / 写作 / 装置</h3>
+        <p>论文、随笔与展览不是三个孤立栏目，而是揭示同一系统的三种媒介。</p>
+      </section>
 
-<h2>研究兴趣</h2>
-
-<ul class="fade-in research-interests">
-<li><b>异构多机器人系统</b> — 差异的编舞：形态截然不同的机器人如何学会一起运动</li>
-<li><b>机器人学习</b> — 教会机器通过试错和某种接近直觉的方式获得技能</li>
-<li><b>具身智能</b> — 思考不能与在世界中的身体分离这一前提</li>
-<li><b>人机交互</b> — 社会契约，为并非所有智能体都是人类的世界而重写</li>
-</ul>
-
-<hr>
-
-<h2>联系方式</h2>
-
-<p class="fade-in">Email: <a href="mailto:gaoyuankidult@gmail.com">gaoyuankidult@gmail.com</a></p>
-
+      <section class="about-fact">
+        <span class="about-stage-label">发表与展出</span>
+        <h3>Science Robotics, IEEE T-RO, ACL, 双年展</h3>
+        <p>工作持续在同行评议研究与展览语境之间切换，而不是只选择其中一个世界。</p>
+      </section>
+    </div>
+  </aside>
 </div>
-
-<style>
-.about-content {
-  max-width: 600px;
-}
-
-.timeline {
-  margin: 2em 0;
-  padding-left: 1em;
-  border-left: 2px solid #eee;
-}
-
-.timeline-item {
-  position: relative;
-  padding-left: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -5px;
-  top: 5px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #333;
-}
-
-.timeline-date {
-  font-size: 12px;
-  color: #999;
-  margin-bottom: 0.3em;
-}
-
-.timeline-content h3 {
-  font-size: 15px;
-  margin: 0 0 0.3em 0;
-  font-weight: 500;
-}
-
-.timeline-content p {
-  font-size: 13px;
-  color: #666;
-  margin: 0;
-}
-
-.research-interests {
-  list-style: none;
-  padding: 0;
-}
-
-.research-interests li {
-  padding: 0.5em 0;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.research-interests li::before {
-  content: '→ ';
-  color: #999;
-}
-</style>
