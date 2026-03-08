@@ -6,9 +6,29 @@ title: Art
 <p class="page-intro fade-in">Art is where the research leaves the benchmark and enters a room. The installation becomes a testing ground for how machine behaviour reads when it is public, embodied, and exposed to projection.</p>
 
 <div class="art-exhibit fade-in">
+  <details class="pub-year" open>
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2026</h2>
+          <p class="rail-tally">1 installation</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body">
   <section class="art-exhibit-hero">
-    <figure class="art-exhibit-media">
-      <img src="/art/images/game-theater-ensemble.jpg" alt="Game Theater installation view">
+    <figure class="art-exhibit-media art-slideshow">
+      <img src="/art/images/game-theater-ensemble.jpg" alt="Game Theater installation view" class="slide-image active">
+      <img src="/art/images/game-theater-wide.jpg" alt="Wide installation view of Game Theater" class="slide-image">
+      <div class="slide-indicators">
+        <span class="slide-dot active" data-slide="0"></span>
+        <span class="slide-dot" data-slide="1"></span>
+      </div>
     </figure>
     <div class="art-exhibit-copy">
       <span class="art-kicker">Installation / live multi-robot system</span>
@@ -25,8 +45,8 @@ title: Art
           <span>Installation, live AI, multi-robot performance</span>
         </div>
         <div>
-          <strong>Year</strong>
-          <span>2026</span>
+          <strong>Venue</strong>
+          <span>10th Bi-City Biennale, Shenzhen</span>
         </div>
       </div>
     </div>
@@ -60,4 +80,48 @@ title: Art
       <p>That shared space is where the technical and aesthetic questions become inseparable.</p>
     </article>
   </section>
+    </div>
+  </details>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const slideshow = document.querySelector('.art-slideshow');
+  if (!slideshow) return;
+
+  const images = slideshow.querySelectorAll('.slide-image');
+  const dots = slideshow.querySelectorAll('.slide-dot');
+  if (images.length <= 1) return;
+
+  let currentSlide = 0;
+  let interval;
+
+  function showSlide(index) {
+    images.forEach((img, i) => img.classList.toggle('active', i === index));
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    showSlide((currentSlide + 1) % images.length);
+  }
+
+  function startSlideshow() {
+    interval = setInterval(nextSlide, 5000);
+  }
+
+  function stopSlideshow() {
+    clearInterval(interval);
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      stopSlideshow();
+      showSlide(index);
+      startSlideshow();
+    });
+  });
+
+  startSlideshow();
+});
+</script>

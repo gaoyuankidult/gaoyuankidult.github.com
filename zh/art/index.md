@@ -7,9 +7,29 @@ lang: zh
 <p class="page-intro fade-in">艺术是研究离开 benchmark、进入真实空间的地方。装置在这里变成一块现场测试场，用来观察机器行为一旦公开、具身并暴露在观看之下，会呈现出什么。</p>
 
 <div class="art-exhibit fade-in">
+  <details class="pub-year" open>
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2026</h2>
+          <p class="rail-tally">1 件作品</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
   <section class="art-exhibit-hero">
-    <figure class="art-exhibit-media">
-      <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场">
+    <figure class="art-exhibit-media art-slideshow">
+      <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场" class="slide-image active">
+      <img src="/art/images/game-theater-wide.jpg" alt="游戏剧场广角现场" class="slide-image">
+      <div class="slide-indicators">
+        <span class="slide-dot active" data-slide="0"></span>
+        <span class="slide-dot" data-slide="1"></span>
+      </div>
     </figure>
     <div class="art-exhibit-copy">
       <span class="art-kicker">装置 / 现场多机器人系统</span>
@@ -26,8 +46,8 @@ lang: zh
           <span>装置、实时 AI、多机器人表演</span>
         </div>
         <div>
-          <strong>年份</strong>
-          <span>2026</span>
+          <strong>展览</strong>
+          <span>第十届深港城市建筑双城双年展</span>
         </div>
       </div>
     </div>
@@ -61,4 +81,48 @@ lang: zh
       <p>技术问题与审美问题，也正是在这里重新缠在一起。</p>
     </article>
   </section>
+    </div>
+  </details>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const slideshow = document.querySelector('.art-slideshow');
+  if (!slideshow) return;
+
+  const images = slideshow.querySelectorAll('.slide-image');
+  const dots = slideshow.querySelectorAll('.slide-dot');
+  if (images.length <= 1) return;
+
+  let currentSlide = 0;
+  let interval;
+
+  function showSlide(index) {
+    images.forEach((img, i) => img.classList.toggle('active', i === index));
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    showSlide((currentSlide + 1) % images.length);
+  }
+
+  function startSlideshow() {
+    interval = setInterval(nextSlide, 5000);
+  }
+
+  function stopSlideshow() {
+    clearInterval(interval);
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      stopSlideshow();
+      showSlide(index);
+      startSlideshow();
+    });
+  });
+
+  startSlideshow();
+});
+</script>
