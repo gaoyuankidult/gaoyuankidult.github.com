@@ -1644,20 +1644,19 @@ body::before {
 .art-exhibit-hero,
 .art-strip {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 1.5rem;
-	align-items: start;
+	align-items: center;
 	padding-top: 1rem;
 	border-top: 1px solid rgba(31, 26, 23, 0.1);
 }
 
 .art-exhibit-hero .art-exhibit-media {
-	max-width: 800px;
-	margin: 0 auto;
+	/* keep left aligned in grid */
 }
 
 .art-exhibit-copy {
-	max-width: 65ch;
+	/* auto width */
 }
 
 .art-exhibit-media,
