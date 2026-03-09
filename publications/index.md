@@ -227,7 +227,7 @@ lang: en
         <div class="paper-body">
           <h3 class="paper-title">Cooperative Surface Inspection with Heterogeneous Mobile Robots Using Deep Reinforcement Learning</h3>
           <p class="paper-authors"><span class="pub-self">Y. Gao</span> and collaborators</p>
-          <p class="paper-venue"><em>Science Robotics</em>, 2024</p>
+          <p class="paper-venue"><em>Manuscript</em>, 2024</p>
           <p class="paper-note">A deep reinforcement learning framework for cooperative inspection by heterogeneous mobile robots.</p>
         </div>
       </article>

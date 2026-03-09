@@ -227,7 +227,7 @@ lang: zh
         <div class="paper-body">
           <h3 class="paper-title">Cooperative Surface Inspection with Heterogeneous Mobile Robots Using Deep Reinforcement Learning</h3>
           <p class="paper-authors"><span class="pub-self">Y. Gao</span> and collaborators</p>
-          <p class="paper-venue"><em>Science Robotics</em>, 2024</p>
+          <p class="paper-venue"><em>手稿</em>, 2024</p>
           <p class="paper-note">面向异构移动机器人协同表面巡检的深度强化学习框架，强调协同调度与任务分解。</p>
         </div>
       </article>
