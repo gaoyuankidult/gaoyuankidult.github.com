@@ -1415,7 +1415,8 @@ body::before {
 .news-ledger .text-title {
 	font-size: 0.85rem;
 	line-height: 1.1;
-	margin-bottom: 0;
+	margin: 0;
+	font-weight: normal;
 }
 
 .news-ledger .text-summary {
