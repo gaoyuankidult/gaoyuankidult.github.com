@@ -55,19 +55,6 @@ lang: zh
     </div>
   </section>
 
-  <section class="art-context-grid">
-    <article>
-      <h3>展览语境</h3>
-      <p>作品诞生于深圳双年展的语境之中，策展框架把城市理解为一个多智能体系统。也因此，机器人之间的协同不再只是工程问题，而成为一种被放大的舞台关系。</p>
-      <p>真正重要的并不是这些机器人是否足够“聪明”，而是观众从何时开始把意图、冲突、联盟与不确定性投射到这些仍然明显是机器的身体之上。</p>
-    </article>
-
-    <article>
-      <h3>为什么要做成装置</h3>
-      <p>装置把机器行为重新放回人的尺度里。观众不只是读结果、看 benchmark，而是与这些会犹豫、协商与彼此试探的身体共享时间和空间。</p>
-      <p>技术问题与审美问题，也正是在这里重新缠在一起。</p>
-    </article>
-  </section>
     </div>
   </details>
 
@@ -98,19 +85,20 @@ lang: zh
     <div class="art-exhibit-copy">
       <span class="art-kicker">装置 / 木头 / 虚拟化</span>
       <h2>生命可以被虚拟化</h2>
-      <p class="art-stage-lead">通过木雕装置思考生命是否能被完全虚拟化。作品探索有机物质性与数字存在之间的张力。</p>
+      <p class="art-stage-lead">三排木架固定在深色墙壁上，整齐排列的金属装置在聚光灯下投出长长的影子。画面前景是粗糙的原木横卧在黑色碎石上，白色的枕头散落一旁——有机形态与工业物件形成对话。</p>
+      <p>作品邀请观者思考：生命能否脱离肉体存在？当木材的温润、石头的重量、他者的气息都可以被完全模拟，存在的意义还剩什么？</p>
       <div class="art-fact-grid">
         <div>
           <strong>艺术家</strong>
           <span>高源</span>
         </div>
         <div>
-          <strong>媒介</strong>
-          <span>木雕装置、数字投影</span>
+          <strong>展出场地</strong>
+          <span>AIRSPACE</span>
         </div>
         <div>
-          <strong>概念</strong>
-          <span>生命虚拟化</span>
+          <strong>材料</strong>
+          <span>木头、金属、石材、织物</span>
         </div>
       </div>
     </div>
