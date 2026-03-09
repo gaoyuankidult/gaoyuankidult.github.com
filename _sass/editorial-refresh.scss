@@ -1641,6 +1641,11 @@ body::before {
 	gap: 2rem;
 }
 
+.publication-index .pub-year > .rail-body .art-exhibit-hero,
+.publication-index .pub-year > .rail-body .art-strip {
+	margin-left: 0;
+}
+
 .art-exhibit-hero,
 .art-strip {
 	display: grid;
@@ -1649,6 +1654,7 @@ body::before {
 	align-items: center;
 	padding-top: 1rem;
 	border-top: 1px solid rgba(31, 26, 23, 0.1);
+	width: 100%;
 }
 
 .art-exhibit-hero .art-exhibit-media {
