@@ -26,9 +26,11 @@ lang: zh
     <figure class="art-exhibit-media art-slideshow">
       <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场" class="slide-image active">
       <img src="/art/images/game-theater-video.jpg" alt="博弈剧场影像作品" class="slide-image">
+      <img src="/art/images/game-theater-people.jpg" alt="游戏剧场展览现场" class="slide-image">
       <div class="slide-indicators">
         <span class="slide-dot active" data-slide="0"></span>
         <span class="slide-dot" data-slide="1"></span>
+        <span class="slide-dot" data-slide="2"></span>
       </div>
     </figure>
     <div class="art-exhibit-copy">
