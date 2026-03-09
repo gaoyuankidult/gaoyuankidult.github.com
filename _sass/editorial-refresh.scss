@@ -619,8 +619,15 @@ body::before {
 
 .art-context-grid {
 	display: grid;
-	grid-template-columns: minmax(0, 1.16fr) minmax(260px, 0.84fr);
-	gap: 2rem;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	padding-top: 2rem;
+	border-top: 1px solid rgba(31, 26, 23, 0.1);
+	margin-top: 2rem;
+}
+
+.art-context-grid article {
+	max-width: 65ch;
 }
 
 .art-note-list {
