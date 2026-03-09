@@ -1403,14 +1403,18 @@ body::before {
 .news-ledger .text-entry {
 	display: flex;
 	flex-direction: column;
-	gap: 0;
-	padding: 0.25rem 0;
+	gap: 0.1rem;
+	padding: 0.4rem 0;
+	border-top: 1px solid rgba(31, 26, 23, 0.1);
+}
+
+.news-ledger .text-entry:first-child {
 	border-top: 0;
 }
 
 .news-ledger .text-meta {
 	gap: 0 0.4rem;
-	margin-bottom: 0.15rem;
+	margin-bottom: 0.1rem;
 }
 
 .news-ledger .text-title {
