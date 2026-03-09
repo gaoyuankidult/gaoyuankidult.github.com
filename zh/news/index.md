@@ -23,11 +23,11 @@ lang: zh
     </summary>
     <div class="rail-body text-ledger">
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">3 月 9 日</span>
-          <span class="text-kicker">访问</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">3 月 9 日</span>
+            <span class="text-kicker">访问</span>
+          </div>
           <h3 class="text-title">访问深圳光明实验室</h3>
           <p class="text-summary">前往深圳光明实验室讨论具身智能与异构机器人系统的合作研究。</p>
         </div>
@@ -51,33 +51,33 @@ lang: zh
     </summary>
     <div class="rail-body text-ledger">
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">7 月 3 日</span>
-          <span class="text-kicker">论文</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">7 月 3 日</span>
+            <span class="text-kicker">论文</span>
+          </div>
           <h3 class="text-title">IROS 2019 论文录用</h3>
-          <p class="text-summary">论文 “Fast Adaptation with Meta-Reinforcement Learning for Trust Modelling in Human-Robot Interaction” 被 <a href="https://www.iros2019.org/">IROS 2019</a> 录用。</p>
+          <p class="text-summary">论文 "Fast Adaptation with Meta-Reinforcement Learning for Trust Modelling in Human-Robot Interaction" 被 <a href="https://www.iros2019.org/">IROS 2019</a> 录用。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">6 月 30 日</span>
-          <span class="text-kicker">论文</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">6 月 30 日</span>
+            <span class="text-kicker">论文</span>
+          </div>
           <h3 class="text-title">RO-MAN 2019 论文录用</h3>
-          <p class="text-summary">论文 “Learning Socially Appropriate Robot Approaching Behavior Toward Groups Using Deep Reinforcement Learning” 被 <a href="http://ro-man2019.org/">RO-MAN 2019</a> 录用。</p>
+          <p class="text-summary">论文 "Learning Socially Appropriate Robot Approaching Behavior Toward Groups Using Deep Reinforcement Learning" 被 <a href="http://ro-man2019.org/">RO-MAN 2019</a> 录用。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">6 月 4 日</span>
-          <span class="text-kicker">访问</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">6 月 4 日</span>
+            <span class="text-kicker">访问</span>
+          </div>
           <h3 class="text-title">开始剑桥访问研究</h3>
           <p class="text-summary">开始在剑桥大学进行访问研究，与 <a href="https://www.turing.ac.uk/people/researchers/hatice-gunes">Hatice Gunes</a> 教授合作。</p>
         </div>
@@ -101,68 +101,68 @@ lang: zh
     </summary>
     <div class="rail-body text-ledger">
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">10 月 22 日</span>
-          <span class="text-kicker">预印本</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">10 月 22 日</span>
+            <span class="text-kicker">预印本</span>
+          </div>
           <h3 class="text-title">新的 arXiv 预印本</h3>
-          <p class="text-summary">“Social Behavior Learning with Realistic Reward Shaping” 上传至 <a href="https://arxiv.org/abs/1810.06979">arXiv</a>。</p>
+          <p class="text-summary">"Social Behavior Learning with Realistic Reward Shaping" 上传至 <a href="https://arxiv.org/abs/1810.06979">arXiv</a>。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">2018.09 - 2019.05</span>
-          <span class="text-kicker">访问</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">2018.09 - 2019.05</span>
+            <span class="text-kicker">访问</span>
+          </div>
           <h3 class="text-title">KTH RPL 访问研究</h3>
           <p class="text-summary">在 <a href="https://www.kth.se/rpl/">KTH RPL Lab</a> 访问，与 <a href="https://www.kth.se/profile/elenasi">Elena Sibirtseva</a> 和 <a href="https://www.csc.kth.se/~danik/">Danica Kragic</a> 教授合作。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">8 月 26 日 - 9 月 2 日</span>
-          <span class="text-kicker">会议</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">8 月 26 日 - 9 月 2 日</span>
+            <span class="text-kicker">会议</span>
+          </div>
           <h3 class="text-title">参加 IEEE RO-MAN 2018</h3>
           <p class="text-summary">在南京参加 IEEE RO-MAN 2018。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">7 月 24 日</span>
-          <span class="text-kicker">论文</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">7 月 24 日</span>
+            <span class="text-kicker">论文</span>
+          </div>
           <h3 class="text-title">IVA 2018 论文录用</h3>
-          <p class="text-summary">论文 “Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality” 被 <a href="http://iva2018.westernsydney.edu.au/">IVA 2018</a> 录用。</p>
+          <p class="text-summary">论文 "Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality" 被 <a href="http://iva2018.westernsydney.edu.au/">IVA 2018</a> 录用。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">7 月 13 日</span>
-          <span class="text-kicker">会议</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">7 月 13 日</span>
+            <span class="text-kicker">会议</span>
+          </div>
           <h3 class="text-title">参加 IJCAI 2018</h3>
           <p class="text-summary">在斯德哥尔摩参加 <a href="https://www.ijcai-18.org/">IJCAI 2018</a>。</p>
         </div>
       </article>
 
       <article class="text-entry">
-        <div class="text-meta">
-          <span class="text-date">6 月 10 日</span>
-          <span class="text-kicker">论文</span>
-        </div>
         <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">6 月 10 日</span>
+            <span class="text-kicker">论文</span>
+          </div>
           <h3 class="text-title">两篇 RO-MAN 2018 论文录用</h3>
-          <p class="text-summary">“Investigating Deep Learning Approaches for Human-Robot Proxemics” 与 “When Robot Personalisation Does Not Help” 两篇论文被 RO-MAN 2018 录用。</p>
+          <p class="text-summary">"Investigating Deep Learning Approaches for Human-Robot Proxemics" 与 "When Robot Personalisation Does Not Help" 两篇论文被 RO-MAN 2018 录用。</p>
         </div>
       </article>
     </div>
