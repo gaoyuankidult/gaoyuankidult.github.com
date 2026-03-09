@@ -124,42 +124,43 @@ lang: zh
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const slideshow = document.querySelector('.art-slideshow');
-  if (!slideshow) return;
+  const slideshows = document.querySelectorAll('.art-slideshow');
 
-  const images = slideshow.querySelectorAll('.slide-image');
-  const dots = slideshow.querySelectorAll('.slide-dot');
-  if (images.length <= 1) return;
+  slideshows.forEach(slideshow => {
+    const images = slideshow.querySelectorAll('.slide-image');
+    const dots = slideshow.querySelectorAll('.slide-dot');
+    if (images.length <= 1) return;
 
-  let currentSlide = 0;
-  let interval;
+    let currentSlide = 0;
+    let interval;
 
-  function showSlide(index) {
-    images.forEach((img, i) => img.classList.toggle('active', i === index));
-    dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
-    currentSlide = index;
-  }
+    function showSlide(index) {
+      images.forEach((img, i) => img.classList.toggle('active', i === index));
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+      currentSlide = index;
+    }
 
-  function nextSlide() {
-    showSlide((currentSlide + 1) % images.length);
-  }
+    function nextSlide() {
+      showSlide((currentSlide + 1) % images.length);
+    }
 
-  function startSlideshow() {
-    interval = setInterval(nextSlide, 2000);
-  }
+    function startSlideshow() {
+      interval = setInterval(nextSlide, 2000);
+    }
 
-  function stopSlideshow() {
-    clearInterval(interval);
-  }
+    function stopSlideshow() {
+      clearInterval(interval);
+    }
 
-  dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      stopSlideshow();
-      showSlide(index);
-      startSlideshow();
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        stopSlideshow();
+        showSlide(index);
+        startSlideshow();
+      });
     });
-  });
 
-  startSlideshow();
+    startSlideshow();
+  });
 });
 </script>
