@@ -1644,8 +1644,8 @@ body::before {
 .art-exhibit-hero,
 .art-strip {
 	display: grid;
-	grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
-	gap: 2rem;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5rem;
 	align-items: start;
 	padding-top: 1rem;
 	border-top: 1px solid rgba(31, 26, 23, 0.1);
