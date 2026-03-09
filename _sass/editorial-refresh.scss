@@ -1524,6 +1524,10 @@ body::before {
 	letter-spacing: -0.055em;
 }
 
+html[lang="zh"] .about-lede-block h2 {
+	max-width: 36ch;
+}
+
 .about-prose {
 	position: relative;
 	z-index: 1;
