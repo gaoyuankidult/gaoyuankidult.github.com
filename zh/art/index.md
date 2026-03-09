@@ -70,6 +70,53 @@ lang: zh
   </section>
     </div>
   </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2025</h2>
+          <p class="rail-tally">1 件装置作品</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+  <section class="art-exhibit-hero">
+    <figure class="art-exhibit-media art-slideshow">
+      <img src="/art/images/640.jpg" alt="生命可以被虚拟化装置现场" class="slide-image active">
+      <img src="/art/images/640-1.jpg" alt="生命可以被虚拟化细节" class="slide-image">
+      <div class="slide-indicators">
+        <span class="slide-dot active" data-slide="0"></span>
+        <span class="slide-dot" data-slide="1"></span>
+      </div>
+    </figure>
+    <div class="art-exhibit-copy">
+      <span class="art-kicker">装置 / 木头 / 虚拟化</span>
+      <h2>生命可以被虚拟化</h2>
+      <p class="art-stage-lead">通过木雕装置思考生命是否能被完全虚拟化。作品探索有机物质性与数字存在之间的张力。</p>
+      <div class="art-fact-grid">
+        <div>
+          <strong>艺术家</strong>
+          <span>高源</span>
+        </div>
+        <div>
+          <strong>媒介</strong>
+          <span>木雕装置、数字投影</span>
+        </div>
+        <div>
+          <strong>概念</strong>
+          <span>生命虚拟化</span>
+        </div>
+      </div>
+    </div>
+  </section>
+    </div>
+  </details>
 </div>
 
 <script>
