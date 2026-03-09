@@ -12,7 +12,7 @@ title: About
     </div>
 
     <div class="about-prose">
-      <p>I am Yuan Gao (&#39640;&#28304;), a researcher and artist working across robotics, machine learning, and public installation. I currently lead research on heterogeneous multi-robot systems at the <strong>Guangdong Embodied Intelligence Innovation Center</strong> in Shenzhen.</p>
+      <p>I am Yuan Gao (&#39640;&#28304;), a researcher and artist working across robotics, machine learning, and public installation. I currently lead research on heterogeneous multi-robot systems at the <strong>Shenzhen Institute of Artificial Intelligence and Robotics</strong> / <strong>The Chinese University of Hong Kong, Shenzhen</strong>.</p>
       <p>The central question in my work is simple to state and difficult to solve: what happens when robots with different sensors, morphologies, and movement grammars must coordinate inside one shared system? Humanoids, quadrupeds, drones, and wheeled platforms do not read the world in the same way. Building cooperation across them means dealing with disagreement, asymmetry, negotiation, and temporary alliance rather than pretending they are interchangeable.</p>
       <p>Before Shenzhen, I completed my Ph.D. at <strong>Uppsala University</strong> under the guidance of <a href="https://www.kth.se/profile/dani">Prof. Danica Kragic</a> and <a href="https://www.it.uu.se/katalog/ginca820">Prof. Ginevra Castellano</a>. That period shaped my conviction that the most compelling robotics questions are never only technical. They are also questions of interpretation, trust, embodiment, and public meaning.</p>
     </div>
@@ -56,7 +56,7 @@ title: About
       <section class="about-fact">
         <span class="about-stage-label">Current base</span>
         <h3>Shenzhen</h3>
-        <p>Guangdong Embodied Intelligence Innovation Center, with work spanning research infrastructure, system integration, and public-facing machine behaviour.</p>
+        <p>Shenzhen Institute of Artificial Intelligence and Robotics / The Chinese University of Hong Kong, Shenzhen, with work spanning research infrastructure, system integration, and public-facing machine behaviour.</p>
       </section>
 
       <section class="about-fact">
