@@ -12,6 +12,34 @@ lang: zh
       <div class="rail-head">
         <span class="rail-dot"></span>
         <div>
+          <h2>2026</h2>
+          <p class="rail-tally">1 则动态</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-meta">
+          <span class="text-date">3 月 9 日</span>
+          <span class="text-kicker">访问</span>
+        </div>
+        <div class="text-body">
+          <h3 class="text-title">访问深圳光明实验室</h3>
+          <p class="text-summary">前往深圳光明实验室讨论具身智能与异构机器人系统的合作研究。</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year news-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
           <h2>2019</h2>
           <p class="rail-tally">3 则动态</p>
         </div>

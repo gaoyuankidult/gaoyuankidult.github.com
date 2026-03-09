@@ -11,6 +11,34 @@ layout: page
       <div class="rail-head">
         <span class="rail-dot"></span>
         <div>
+          <h2>2026</h2>
+          <p class="rail-tally">1 entry</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-meta">
+          <span class="text-date">March 9</span>
+          <span class="text-kicker">Visit</span>
+        </div>
+        <div class="text-body">
+          <h3 class="text-title">Visit to Shenzhen Guangming Lab</h3>
+          <p class="text-summary">Visited Shenzhen Guangming Lab to discuss collaborative research on embodied intelligence and heterogeneous robot systems.</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year news-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
           <h2>2019</h2>
           <p class="rail-tally">3 entries</p>
         </div>
