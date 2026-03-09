@@ -3441,13 +3441,7 @@ textarea:focus-visible {
 
 .home #main::before,
 .page-shell::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 1px;
-	background: linear-gradient(90deg, rgba(29, 25, 23, 0.18), rgba(29, 25, 23, 0.03));
+	/* removed gradient line */
 }
 
 .home-hero {
