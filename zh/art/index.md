@@ -13,7 +13,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">1 件作品</p>
+          <p class="rail-tally">1 件影像作品</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -24,7 +24,7 @@ lang: zh
     <div class="rail-body">
   <section class="art-exhibit-hero">
     <figure class="art-exhibit-media art-slideshow">
-      <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场" class="slide-image active">
+      <img src="/art/images/game-theater-video.jpg" alt="博弈剧场影像作品" class="slide-image active">
       <img src="/art/images/game-theater-wide.jpg" alt="游戏剧场广角现场" class="slide-image">
       <div class="slide-indicators">
         <span class="slide-dot active" data-slide="0"></span>
@@ -32,7 +32,7 @@ lang: zh
       </div>
     </figure>
     <div class="art-exhibit-copy">
-      <span class="art-kicker">装置 / 现场多机器人系统</span>
+      <span class="art-kicker">影像作品 / 现场多机器人系统</span>
       <h2>Game Theater</h2>
       <p class="art-stage-lead"><em>Game Theater</em> 把异构机器人作为表演者放进同一个实时多智能体系统中。人形、四足、轮式与空中机器体在同一空间里协商、试探、追逐与共处，使行为带上一种社会性的错觉，却并不假装它们拥有人的内在性。</p>
       <p>这件作品不是为了展示模型有多强，而是把协调、迟疑、追踪与临时联盟这些技术逻辑转化成观众能直接观看的空间戏剧。</p>
