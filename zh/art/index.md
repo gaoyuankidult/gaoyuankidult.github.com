@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startSlideshow() {
-    interval = setInterval(nextSlide, 5000);
+    interval = setInterval(nextSlide, 2000);
   }
 
   function stopSlideshow() {
