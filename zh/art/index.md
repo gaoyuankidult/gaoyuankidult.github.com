@@ -25,7 +25,7 @@ lang: zh
   <section class="art-exhibit-hero">
     <figure class="art-exhibit-media art-slideshow">
       <img src="/art/images/game-theater-ensemble.jpg" alt="游戏剧场装置现场" class="slide-image active">
-      <img src="/art/images/game-theater-video.jpg" alt="博弈剧场影像作品" class="slide-image">
+      <img src="/art/images/game-theater-wide.jpg" alt="游戏剧场广角现场" class="slide-image">
       <img src="/art/images/game-theater-people.jpg" alt="游戏剧场展览现场" class="slide-image">
       <div class="slide-indicators">
         <span class="slide-dot active" data-slide="0"></span>
@@ -53,21 +53,6 @@ lang: zh
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="art-strip">
-    <figure class="art-wide-image">
-      <img src="/art/images/game-theater-video.jpg" alt="博弈剧场影像作品">
-    </figure>
-    <aside class="art-note-panel">
-      <h3>展览信息</h3>
-      <ul class="art-note-list">
-        <li>展览：第十届深港城市建筑双城双年展</li>
-        <li>板块：机器人剧场，城市作为多智能体系统</li>
-        <li>地点：河套创新中心 F3</li>
-        <li>时间：2026 年 1 月至 3 月</li>
-      </ul>
-    </aside>
   </section>
 
   <section class="art-context-grid">
