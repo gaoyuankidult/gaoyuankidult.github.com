@@ -243,9 +243,9 @@ body::before {
 .pub-cluster-header {
 	display: grid;
 	grid-template-columns: 150px minmax(0, 1fr);
-	gap: 0.8rem 1.75rem;
+	gap: 0.6rem 1.2rem;
 	align-items: end;
-	margin-bottom: 0.95rem;
+	margin-bottom: 0.5rem;
 }
 
 .news-year-header h2,
@@ -1401,23 +1401,51 @@ body::before {
 }
 
 .news-ledger .text-entry {
-	gap: 0.4rem 0.8rem;
-	padding: 0.35rem 0;
+	gap: 0.25rem 0.6rem;
+	padding: 0.2rem 0;
+	border-top: 0;
+}
+
+.news-ledger .text-meta {
+	gap: 0 0.4rem;
 }
 
 .news-ledger .text-title {
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 	line-height: 1.2;
+	margin-bottom: 0;
 }
 
 .news-ledger .text-summary {
-	font-size: 0.72rem;
-	line-height: 1.4;
+	font-size: 0.7rem;
+	line-height: 1.35;
+	margin-bottom: 0.1rem;
+}
+
+.news-ledger .text-meta {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0 0.4rem;
+	align-items: baseline;
 }
 
 .news-ledger .text-date,
 .news-ledger .text-kicker {
 	font-size: 0.62rem;
+	display: inline;
+}
+
+.news-ledger .pub-year {
+	padding-top: 0.1rem;
+}
+
+.news-ledger .pub-year-summary {
+	grid-template-columns: 140px minmax(0, 1fr);
+	gap: 0.4rem 0.8rem;
+}
+
+.news-ledger .pub-year-toggle {
+	font-size: 0.65rem;
 }
 
 .text-title a {
