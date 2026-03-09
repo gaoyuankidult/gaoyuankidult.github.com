@@ -112,7 +112,7 @@ lang: zh
     </div>
   </section>
 
-  <section class=/art-context-grid/>
+  <section class="art-context-grid">
     <article>
       <h3>展览语境</h3>
       <p>对物质性与虚拟化的探索，当触觉、温度、重量都可以被模拟时，/在场/还剩什么？</p>
