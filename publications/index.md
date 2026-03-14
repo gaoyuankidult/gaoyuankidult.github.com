@@ -420,8 +420,8 @@ lang: en
       <div class="rail-head">
         <span class="rail-dot"></span>
         <div>
-          <h2>2019-2018</h2>
-          <p class="rail-tally">selected work</p>
+          <h2>2019</h2>
+          <p class="rail-tally">3 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -435,9 +435,142 @@ lang: en
           <span>2019</span>
         </div>
         <div class="paper-body">
-          <h3 class="paper-title">Earlier human-robot interaction and social robotics papers</h3>
-          <p class="paper-authors">Selected work from RO-MAN 2019, IVA 2018, and RO-MAN 2018</p>
-          <p class="paper-venue">Robot approaching behaviour, proxemics, embodiment, and personalization</p>
+          <h3 class="paper-title">Fast Adaptation with Meta-Reinforcement Learning for Trust Modelling in Human-Robot Interaction</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, E. Sibirtseva, G. Castellano, and D. Kragic</p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2019</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2019</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Learning Socially Appropriate Robot Approaching Behavior Toward Groups Using Deep Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, F. Yang, M. Frisk, D. Hernandez, C. Peters, and G. Castellano</p>
+          <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2019</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2019</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">A Generalized Framework for Self-Play Training</h3>
+          <p class="paper-authors">D. Hernandez, K. Denamganai, <span class="pub-self">Y. Gao</span>, P. York, S. Devlin, S. Samothrakis, and J. A. Walker</p>
+          <p class="paper-venue"><em>IEEE Conference on Games (CoG)</em>, 2019</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2018</h2>
+          <p class="rail-tally">4 papers</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2018</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">When Robot Personalisation Does Not Help: Insights from a Robot-Supported Learning Study</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, W. Barendregt, M. Obaid, and G. Castellano</p>
+          <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2018</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2018</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Investigating Deep Learning Approaches for Human-Robot Proxemics</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, S. Wallkötter, M. Obaid, and G. Castellano</p>
+          <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2018</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2018</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Human-Robot Proxemics Using Recurrent Neural Networks</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, S. Wallkötter, M. Obaid, and G. Castellano</p>
+          <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2018</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2018</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Effects of Posture and Embodiment on Social Distance in Human-Agent Interaction in Mixed Reality</h3>
+          <p class="paper-authors">C. Li, T. Androulakaki, <span class="pub-self">Y. Gao</span>, F. Yang, H. Saikia, C. Peters, and G. Skantze</p>
+          <p class="paper-venue"><em>International Conference on Intelligent Virtual Agents (IVA)</em>, 2018</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2017-2015</h2>
+          <p class="rail-tally">3 papers</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2017</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Personalised Human-Robot Co-Adaptation in Instructional Settings Using Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, W. Barendregt, and G. Castellano</p>
+          <p class="paper-venue"><em>IVA Workshop on Persuasive Embodied Agents for Behavior Change (PEACH)</em>, 2017</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2017</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Exploring Users' Reactions Towards Tangible Implicit Probes for Measuring Human-Robot Engagement</h3>
+          <p class="paper-authors">M. Obaid, <span class="pub-self">Yuan Gao</span>, W. Barendregt, and G. Castellano</p>
+          <p class="paper-venue"><em>International Conference on Social Robotics</em>, 2017</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2016</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Deep Gate Recurrent Neural Network</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span> and D. Głowacka</p>
+          <p class="paper-venue"><em>Asian Conference on Machine Learning (ACML)</em>, 2016</p>
         </div>
       </article>
     </div>
