@@ -270,13 +270,13 @@ lang: zh
     </div>
   </details>
 
-  <details class="pub-year pub-year-archive">
+  <details class="pub-year">
     <summary class="pub-year-summary">
       <div class="rail-head">
         <span class="rail-dot"></span>
         <div>
-          <h2>档案</h2>
-          <p class="rail-tally">更早的代表性工作</p>
+          <h2>2023</h2>
+          <p class="rail-tally">2 篇论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -284,83 +284,160 @@ lang: zh
         <span class="pub-year-toggle-closed">展开</span>
       </span>
     </summary>
-    <div class="rail-body text-ledger archive-ledger">
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2023</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning</h3>
-          <p class="text-summary"><span class="pub-self">Yuan Gao</span>, J. Chen, X. Chen, C. Wang, J. Hu, F. Deng, and T. L. Lam. <em>IEEE Transactions on Robotics</em>, 2023.</p>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2023</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, J. Chen, X. Chen, C. Wang, J. Hu, F. Deng, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE Transactions on Robotics</em>, 2023</p>
         </div>
       </article>
 
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2023</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Learn2Agree: Fitting with Multiple Annotators Without Objective Ground Truth</h3>
-          <p class="text-summary">C. Wang, <span class="pub-self">Yuan Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, and N. Bianchi-Berthouze. <em>TML4H Workshop at ICLR</em>, 2023.</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.03596.pdf" target="_blank">PDF</a>
-          </div>
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2023</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Learn2Agree: Fitting with Multiple Annotators Without Objective Ground Truth</h3>
+          <p class="paper-authors">C. Wang, <span class="pub-self">Yuan Gao</span>, C. Fan, J. Hu, T. L. Lam, N. D. Lane, and N. Bianchi-Berthouze</p>
+          <p class="paper-venue"><em>TML4H Workshop at ICLR</em>, 2023</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2022</h2>
+          <p class="rail-tally">1 篇论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering</h3>
+          <p class="paper-authors">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou</p>
+          <p class="paper-venue">手稿，2022</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2021</h2>
+          <p class="rail-tally">3 篇论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Temporal Pyramid Transformer with Multimodal Interaction for Video Question Answering</h3>
+          <p class="paper-authors">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou</p>
+          <p class="paper-venue">手稿，2021</p>
         </div>
       </article>
 
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2022</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering</h3>
-          <p class="text-summary">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou. 本地档案稿件，2022。</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2205.04061.pdf" target="_blank">PDF</a>
-          </div>
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Invariant Filtering for Bipedal Walking on Dynamic Rigid Surfaces with Orientation-Based Measurement Model</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span> and Y. Gu</p>
+          <p class="paper-venue">手稿，2021</p>
         </div>
       </article>
 
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2021</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Temporal Pyramid Transformer with Multimodal Interaction for Video Question Answering</h3>
-          <p class="text-summary">M. Peng, C. Wang, <span class="pub-self">Yuan Gao</span>, Y. Shi, and X.-D. Zhou. 本地档案稿件，2021。</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.04735.pdf" target="_blank">PDF</a>
-          </div>
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Meta Reinforcement Learning Based Sensor Scanning in 3D Uncertain Environments for Heterogeneous Multi-Robot Systems</h3>
+          <p class="paper-authors">J. Chen, <span class="pub-self">Yuan Gao</span>, J. Hu, F. Deng, and T. L. Lam</p>
+          <p class="paper-venue">手稿，2021</p>
         </div>
       </article>
+    </div>
+  </details>
 
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2021</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Invariant Filtering for Bipedal Walking on Dynamic Rigid Surfaces with Orientation-Based Measurement Model</h3>
-          <p class="text-summary"><span class="pub-self">Yuan Gao</span> and Y. Gu. 本地档案稿件，2021。</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.01241.pdf" target="_blank">PDF</a>
-          </div>
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2020</h2>
+          <p class="rail-tally">1 篇论文</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2020</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Machine Behavior Development and Analysis Using Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Yuan Gao</span></p>
+          <p class="paper-venue">博士论文，Uppsala University，2020</p>
         </div>
       </article>
+    </div>
+  </details>
 
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2021</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Meta Reinforcement Learning Based Sensor Scanning in 3D Uncertain Environments for Heterogeneous Multi-Robot Systems</h3>
-          <p class="text-summary">J. Chen, <span class="pub-self">Yuan Gao</span>, J. Hu, F. Deng, and T. L. Lam. 本地档案稿件，2021。</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2109.13617.pdf" target="_blank">PDF</a>
-          </div>
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2019-2018</h2>
+          <p class="rail-tally">代表性工作</p>
         </div>
-      </article>
-
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2020</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Machine Behavior Development and Analysis Using Reinforcement Learning</h3>
-          <p class="text-summary"><span class="pub-self">Yuan Gao</span>. 博士论文，Uppsala University，2020。</p>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">收起</span>
+        <span class="pub-year-toggle-closed">展开</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2019</span>
         </div>
-      </article>
-
-      <article class="text-entry archive-entry">
-        <div class="text-meta"><span class="text-date">2019-2018</span></div>
-        <div class="text-body">
-          <h3 class="text-title">Earlier human-robot interaction and social robotics papers</h3>
-          <p class="text-summary">包括 RO-MAN 2019、IVA 2018 和 RO-MAN 2018 关于接近行为、社交距离、具身表达与个体化交互的研究。</p>
+        <div class="paper-body">
+          <h3 class="paper-title">更早的人机交互与社交机器人研究</h3>
+          <p class="paper-authors">RO-MAN 2019、IVA 2018 和 RO-MAN 2018 的代表性工作</p>
+          <p class="paper-venue">涵盖机器人接近行为、社交距离、具身表达与个性化交互</p>
         </div>
       </article>
     </div>
