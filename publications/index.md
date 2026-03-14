@@ -531,8 +531,8 @@ lang: en
       <div class="rail-head">
         <span class="rail-dot"></span>
         <div>
-          <h2>2017-2015</h2>
-          <p class="rail-tally">3 papers</p>
+          <h2>2016</h2>
+          <p class="rail-tally">1 paper</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -541,27 +541,6 @@ lang: en
       </span>
     </summary>
     <div class="rail-body">
-      <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2017</span>
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">Personalised Human-Robot Co-Adaptation in Instructional Settings Using Reinforcement Learning</h3>
-          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, W. Barendregt, and G. Castellano</p>
-          <p class="paper-venue"><em>IVA Workshop on Persuasive Embodied Agents for Behavior Change (PEACH)</em>, 2017</p>
-        </div>
-      </article>
-
-      <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2017</span>
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">Exploring Users' Reactions Towards Tangible Implicit Probes for Measuring Human-Robot Engagement</h3>
-          <p class="paper-authors">M. Obaid, <span class="pub-self">Yuan Gao</span>, W. Barendregt, and G. Castellano</p>
-          <p class="paper-venue"><em>International Conference on Social Robotics</em>, 2017</p>
-        </div>
-      </article>
 
       <article class="paper-item">
         <div class="paper-thumb paper-thumb-placeholder">
