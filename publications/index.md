@@ -30,7 +30,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">2 current papers</p>
+          <p class="rail-tally">3 current papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,18 @@ lang: en
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2026</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Cross-Robot Behavior Adaptation through Intention Alignment</h3>
+          <p class="paper-authors">X. Chen<sup>&dagger;</sup>, <span class="pub-self">Y. Gao</span><sup>&dagger;</sup>, H. Liu, F. Yang, A. Ghadirzadeh, J. Yang, B. Liang, C. Zhang, T. L. Lam, and S.-C. Zhu</p>
+          <p class="paper-venue"><em>Science Robotics</em>, 2026</p>
+          <p class="paper-note">Research on enabling behavior adaptation across different robot platforms through intention alignment.</p>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt="Preview figure from Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning">

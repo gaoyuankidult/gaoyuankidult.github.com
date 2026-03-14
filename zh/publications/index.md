@@ -30,7 +30,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">2 篇近期论文</p>
+          <p class="rail-tally">3 篇近期论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,18 @@ lang: zh
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2026</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Cross-Robot Behavior Adaptation through Intention Alignment</h3>
+          <p class="paper-authors">X. Chen<sup>&dagger;</sup>, <span class="pub-self">Y. Gao</span><sup>&dagger;</sup>, H. Liu, F. Yang, A. Ghadirzadeh, J. Yang, B. Liang, C. Zhang, T. L. Lam, and S.-C. Zhu</p>
+          <p class="paper-venue"><em>Science Robotics</em>, 2026</p>
+          <p class="paper-note">研究如何通过意图对齐实现不同机器人平台之间的行为适应。</p>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt="异构多机器人元学习协同论文预览图">
