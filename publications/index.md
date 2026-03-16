@@ -16,7 +16,7 @@ lang: en
     <div class="pub-stage-actions">
       <div class="pub-stage-facts">
         <span>Years on page</span>
-        <strong>2026-2018</strong>
+        <strong>2026-2015</strong>
       </div>
       <a class="paper-link" href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
     </div>
@@ -149,8 +149,8 @@ lang: en
         </div>
         <div class="paper-body">
           <h3 class="paper-title">VLONS: Vision-Language Based Occlusion-Aware Neural Rendering System for Multi-View Scene Understanding</h3>
-          <p class="paper-authors">J. Hu, C. Fan, M. Ozay, H. Feng, H. Zhou, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
-          <p class="paper-venue"><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025</p>
+          <p class="paper-authors">J. Shi, H. Zhang, Y. Zhang, T. L. Lam, L. Zhang, H. Huang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE Transactions on Consumer Electronics</em>, 2025</p>
           <p class="paper-note">A vision-language neural rendering system for multi-view scene understanding under occlusion and structural ambiguity.</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/publications/papers/VLONS_A_Vision-and-Language_On-device_Navigation_System_with_Multimodal_Fusion_and_Modular_Framework.pdf" target="_blank">PDF</a>
@@ -276,7 +276,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2023</h2>
-          <p class="rail-tally">2 papers</p>
+          <p class="rail-tally">5 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -306,6 +306,39 @@ lang: en
           <p class="paper-venue"><em>TML4H Workshop at ICLR</em>, 2023</p>
         </div>
       </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2023</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Asymptotically Efficient Estimator for Range-Based Robot Relative Localization</h3>
+          <p class="paper-authors">Y. Wang, M. Lin, X. Xie, <span class="pub-self">Y. Gao</span>, F. Deng, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE/ASME Transactions on Mechatronics</em>, 2023</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2023</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">An Intention Inference Method for Space Non-Cooperative Target Based on BiGRU-Self Attention</h3>
+          <p class="paper-authors">H. Zhang, J. Luo, <span class="pub-self">Y. Gao</span>, and W. Ma</p>
+          <p class="paper-venue"><em>Advances in Space Research</em>, 2023</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2023</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Boosting Lightweight Depth Estimation via Knowledge Distillation</h3>
+          <p class="paper-authors">J. Hu, C. Fan, H. Jiang, X. Guo, <span class="pub-self">Y. Gao</span>, X. Lu, and T. L. Lam</p>
+          <p class="paper-venue"><em>International Conference on Knowledge Science, Engineering and Management (KSEM)</em>, 2023</p>
+        </div>
+      </article>
     </div>
   </details>
 
@@ -315,7 +348,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2022</h2>
-          <p class="rail-tally">1 paper</p>
+          <p class="rail-tally">7 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -334,6 +367,72 @@ lang: en
           <p class="paper-venue">Manuscript, 2022</p>
         </div>
       </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Abnormal Occupancy Grid Map Recognition Using Attention Network</h3>
+          <p class="paper-authors">F. Deng, H. Feng, M. Liang, F. Qi, N. Yi, Y. Yang, <span class="pub-self">Y. Gao</span>, J. Chen, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2022</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-Time Semantic Segmentation</h3>
+          <p class="paper-authors">F. Deng, H. Feng, M. Liang, H. Yang, <span class="pub-self">Y. Gao</span>, J. Chen, J. Hu, X. Guo, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2022</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Emotion and Memory Model for Social Robots: A Reinforcement Learning Based Behaviour Selection</h3>
+          <p class="paper-authors">M. I. Ahmad, <span class="pub-self">Y. Gao</span>, F. Alnajjar, S. Shahid, and O. Mubin</p>
+          <p class="paper-venue"><em>Behaviour & Information Technology</em>, 2022</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Learning to Coordinate for a Worker-Station Multi-Robot System in Planar Coverage Tasks</h3>
+          <p class="paper-authors">J. Tang, <span class="pub-self">Y. Gao</span>, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE Robotics and Automation Letters</em>, 2022</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Ab-Mapper: Attention and BiCNet Based Multi-Agent Path Planning for Dynamic Environment</h3>
+          <p class="paper-authors">H. Guan, <span class="pub-self">Y. Gao</span>, M. Zhao, Y. Yang, F. Deng, and T. L. Lam</p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2022</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2022</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">LAPO: Latent-Variable Advantage-Weighted Policy Optimization for Offline Reinforcement Learning</h3>
+          <p class="paper-authors">X. Chen, A. Ghadirzadeh, T. Yu, J. Wang, <span class="pub-self">Y. Gao</span>, W. Li, L. Bin, C. Finn, and C. Zhang</p>
+          <p class="paper-venue"><em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2022</p>
+        </div>
+      </article>
     </div>
   </details>
 
@@ -343,7 +442,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2021</h2>
-          <p class="rail-tally">3 papers</p>
+          <p class="rail-tally">6 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -384,6 +483,39 @@ lang: en
           <p class="paper-venue">Manuscript, 2021</p>
         </div>
       </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Leveraging Activity Recognition to Enable Protective Behavior Detection in Continuous Data</h3>
+          <p class="paper-authors">C. Wang, <span class="pub-self">Y. Gao</span>, A. Mathur, A. C. De C. Williams, N. D. Lane, and N. Bianchi-Berthouze</p>
+          <p class="paper-venue"><em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</em>, 2021</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">A Dataset of Human and Robot Approach Behaviors into Small Free-Standing Conversational Groups</h3>
+          <p class="paper-authors">F. Yang, <span class="pub-self">Y. Gao</span>, R. Mailey, S. Zojaji, C. Peters, and G. Castellano</p>
+          <p class="paper-venue"><em>PLOS ONE</em>, 2021</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2021</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Ab-Mapper: Attention and BiCNet Based Multi-Agent Path Finding for Dynamic Crowded Environment</h3>
+          <p class="paper-authors">H. Guan, <span class="pub-self">Y. Gao</span>, M. Zhao, Y. Yang, F. Deng, and T. L. Lam</p>
+          <p class="paper-venue"><em>arXiv preprint arXiv:2110.00760</em>, 2021</p>
+        </div>
+      </article>
     </div>
   </details>
 
@@ -393,7 +525,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2020</h2>
-          <p class="rail-tally">1 paper</p>
+          <p class="rail-tally">3 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -410,6 +542,28 @@ lang: en
           <h3 class="paper-title">Machine Behavior Development and Analysis Using Reinforcement Learning</h3>
           <p class="paper-authors"><span class="pub-self">Yuan Gao</span></p>
           <p class="paper-venue">Doctoral thesis, Uppsala University, 2020</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2020</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Recognizing Micro-Expression in Video Clip with Adaptive Key-Frame Mining</h3>
+          <p class="paper-authors">M. Peng, C. Wang, <span class="pub-self">Y. Gao</span>, T. Bi, T. Chen, Y. Shi, and X.-D. Zhou</p>
+          <p class="paper-venue"><em>arXiv preprint arXiv:2009.09179</em>, 2020</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2020</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Efficient Learning of Socially Aware Robot Approaching Behavior Toward Groups via Meta-Reinforcement Learning</h3>
+          <p class="paper-authors">C. Li, G. Castellano, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2020</p>
         </div>
       </article>
     </div>
@@ -471,7 +625,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2018</h2>
-          <p class="rail-tally">4 papers</p>
+          <p class="rail-tally">5 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -523,6 +677,67 @@ lang: en
           <p class="paper-venue"><em>International Conference on Intelligent Virtual Agents (IVA)</em>, 2018</p>
         </div>
       </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2018</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Bandit Learning with Concurrent Transmissions for Energy-Efficient Flooding in Sensor Networks</h3>
+          <p class="paper-authors">P. Zhang, <span class="pub-self">Y. Gao</span>, and O. Theel</p>
+          <p class="paper-venue"><em>EAI Endorsed Transactions on Industrial Networks and Intelligent Systems</em>, 2018</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2017</h2>
+          <p class="rail-tally">3 papers</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2017</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Personalised Human-Robot Co-Adaptation in Instructional Settings Using Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Y. Gao</span>, W. Barendregt, and G. Castellano</p>
+          <p class="paper-venue"><em>IVA Workshop on Persuasive Embodied Agents for Behavior Change (PEACH)</em>, 2017</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2017</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Less is More: Learning More with Concurrent Transmissions for Energy-Efficient Flooding</h3>
+          <p class="paper-authors">P. Zhang, <span class="pub-self">Y. Gao</span>, and O. Theel</p>
+          <p class="paper-venue"><em>International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services</em>, 2017</p>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2017</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Exploring Users' Reactions towards Tangible Implicit Probes for Measuring Human-Robot Engagement</h3>
+          <p class="paper-authors">M. Obaid, <span class="pub-self">Y. Gao</span>, W. Barendregt, and G. Castellano</p>
+          <p class="paper-venue"><em>International Conference on Social Robotics</em>, 2017</p>
+        </div>
+      </article>
     </div>
   </details>
 
@@ -550,6 +765,34 @@ lang: en
           <h3 class="paper-title">Deep Gate Recurrent Neural Network</h3>
           <p class="paper-authors"><span class="pub-self">Yuan Gao</span> and D. Głowacka</p>
           <p class="paper-venue"><em>Asian Conference on Machine Learning (ACML)</em>, 2016</p>
+        </div>
+      </article>
+    </div>
+  </details>
+
+  <details class="pub-year">
+    <summary class="pub-year-summary">
+      <div class="rail-head">
+        <span class="rail-dot"></span>
+        <div>
+          <h2>2015</h2>
+          <p class="rail-tally">1 paper</p>
+        </div>
+      </div>
+      <span class="pub-year-toggle">
+        <span class="pub-year-toggle-open">Collapse</span>
+        <span class="pub-year-toggle-closed">Expand</span>
+      </span>
+    </summary>
+    <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2015</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Officehours: A System for Student Supervisor Matching Through Reinforcement Learning</h3>
+          <p class="paper-authors"><span class="pub-self">Y. Gao</span>, K. Ilves, and D. Głowacka</p>
+          <p class="paper-venue"><em>International Conference on Intelligent User Interfaces (IUI) Companion</em>, 2015</p>
         </div>
       </article>
     </div>
