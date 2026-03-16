@@ -163,10 +163,10 @@ lang: en
           <img src="{{ site.url }}/images/publications/2025_config.png" alt="Preview figure from the balloon manipulation paper">
         </div>
         <div class="paper-body">
-          <h3 class="paper-title">Language Guided Configuration-Adaptive Reinforcement Learning to Manipulate a Balloon</h3>
-          <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
-          <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
-          <p class="paper-note">Configuration-adaptive reinforcement learning guided by language constraints for delicate balloon manipulation.</p>
+          <h3 class="paper-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</h3>
+          <p class="paper-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="pub-self">Y. Gao</span>, C. Yu, et al.</p>
+          <p class="paper-venue"><em>ACM Symposium on User Interface Software and Technology (UIST)</em>, 2025</p>
+          <p class="paper-note">An exploratory study to understand user perceptions and expectations of a social balloon robot.</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
           </div>

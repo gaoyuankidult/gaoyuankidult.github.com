@@ -163,10 +163,10 @@ lang: zh
           <img src="{{ site.url }}/images/publications/2025_config.png" alt="语言引导气球操控论文预览图">
         </div>
         <div class="paper-body">
-          <h3 class="paper-title">Language Guided Configuration-Adaptive Reinforcement Learning to Manipulate a Balloon</h3>
-          <p class="paper-authors">H. Wang, P. Wang, Z. Xu, H. Wang, and <span class="pub-self">Y. Gao</span></p>
-          <p class="paper-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025</p>
-          <p class="paper-note">利用语言引导的构型自适应强化学习处理柔性气球操控，让策略在不同形态约束下更稳定地迁移。</p>
+          <h3 class="paper-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</h3>
+          <p class="paper-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="pub-self">Y. Gao</span>, C. Yu, et al.</p>
+          <p class="paper-venue"><em>ACM用户界面软件与技术研讨会(UIST)</em>, 2025</p>
+          <p class="paper-note">一项探索性研究，了解用户对社会气球机器人的看法和期望。</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
           </div>
