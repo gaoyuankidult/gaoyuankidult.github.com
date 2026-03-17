@@ -160,16 +160,13 @@ lang: en
 
       <article class="paper-item">
         <div class="paper-thumb">
-          <img src="{{ site.url }}/images/publications/2025_config.png" alt="Preview figure from the balloon manipulation paper">
+          <img src="{{ site.url }}/images/publications/balloon_page8_1.png" alt="Preview figure from the social balloon robot study">
         </div>
         <div class="paper-body">
           <h3 class="paper-title">Understanding Users' Perceptions and Expectations toward a Social Balloon Robot via an Exploratory Study</h3>
           <p class="paper-authors">C. Wang, T. Xia, Y. Wang, G. Yu, Z. Zhao, S. Zheng, M. Liao, C. Liang, <span class="pub-self">Y. Gao</span>, C. Yu, et al.</p>
           <p class="paper-venue"><em>ACM Symposium on User Interface Software and Technology (UIST)</em>, 2025</p>
           <p class="paper-note">An exploratory study to understand user perceptions and expectations of a social balloon robot.</p>
-          <div class="paper-links">
-            <a class="paper-link" href="{{ site.url }}/publications/papers/ICRA2025_Hao_Lin_Yuan.pdf" target="_blank">PDF</a>
-          </div>
         </div>
       </article>
 
