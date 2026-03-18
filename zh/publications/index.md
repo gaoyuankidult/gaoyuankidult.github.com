@@ -40,14 +40,17 @@ lang: zh
     </summary>
     <div class="rail-body">
       <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2026</span>
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/scirobotics.adv2250-keyimage.jpg" alt="Cross-Robot Behavior Adaptation 论文预览图">
         </div>
         <div class="paper-body">
           <h3 class="paper-title">Cross-Robot Behavior Adaptation through Intention Alignment</h3>
           <p class="paper-authors">X. Chen<sup>&dagger;</sup>, <span class="pub-self">Y. Gao</span><sup>&dagger;</sup>, H. Liu, F. Yang, A. Ghadirzadeh, J. Yang, B. Liang, C. Zhang, T. L. Lam, and S.-C. Zhu</p>
           <p class="paper-venue"><em>Science Robotics</em>, 2026</p>
           <p class="paper-note">研究如何通过意图对齐实现不同机器人平台之间的行为适应。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="https://doi.org/10.1126/scirobotics.adv2250" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 
