@@ -55,11 +55,11 @@ lang: en
       </article>
 
       <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2026</span>
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/vla_safety_lifecycle_taxonomy.png" alt="Preview figure from VLA Safety Survey">
         </div>
         <div class="paper-body">
-          <h3 class="paper-title">Safety of Vision-Language-Action Models: A Comprehensive Survey</h3>
+          <h3 class="paper-title">Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives</h3>
           <p class="paper-authors">W. Yuan, F. Liu, R. Wei, Z. Wang, <span class="pub-self">Y. Gao</span>, H. Huang, B. Fang, and Q. Liao</p>
           <p class="paper-venue"><em>Authorea</em>, 2026</p>
           <p class="paper-note">A comprehensive survey on safety challenges and mitigation strategies for VLA models from lifecycle perspectives.</p>
