@@ -61,8 +61,11 @@ lang: en
         <div class="paper-body">
           <h3 class="paper-title">Safety of Vision-Language-Action Models: A Comprehensive Survey</h3>
           <p class="paper-authors">W. Yuan, F. Liu, R. Wei, Z. Wang, <span class="pub-self">Y. Gao</span>, H. Huang, B. Fang, and Q. Liao</p>
-          <p class="paper-venue"><em>IEEE Transactions on Artificial Intelligence</em>, 2026</p>
+          <p class="paper-venue"><em>Authorea</em>, 2026</p>
           <p class="paper-note">A comprehensive survey on safety challenges and mitigation strategies for VLA models from lifecycle perspectives.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="https://www.authorea.com/users/1039896/articles/1399187-safety-of-vision-language-action-models-a-survey-from-lifecycle-perspectives" target="_blank">PDF</a>
+          </div>
         </div>
       </article>
 

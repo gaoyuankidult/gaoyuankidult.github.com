@@ -55,6 +55,21 @@ lang: zh
       </article>
 
       <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2026</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Safety of Vision-Language-Action Models: A Comprehensive Survey</h3>
+          <p class="paper-authors">W. Yuan, F. Liu, R. Wei, Z. Wang, <span class="pub-self">Y. Gao</span>, H. Huang, B. Fang, and Q. Liao</p>
+          <p class="paper-venue"><em>Authorea</em>, 2026</p>
+          <p class="paper-note">从生命周期视角全面综述视觉-语言-动作模型的安全挑战与缓解策略。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="https://www.authorea.com/users/1039896/articles/1399187-safety-of-vision-language-action-models-a-survey-from-lifecycle-perspectives" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/coadaptive_page5_1.png" alt="异构多机器人元学习协同论文预览图">
         </div>
