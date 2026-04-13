@@ -30,7 +30,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">3 current papers</p>
+          <p class="rail-tally">4 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -51,6 +51,18 @@ lang: en
           <div class="paper-links">
             <a class="paper-link" href="https://doi.org/10.1126/scirobotics.adv2250" target="_blank">PDF</a>
           </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2026</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Safety of Vision-Language-Action Models: A Comprehensive Survey</h3>
+          <p class="paper-authors">W. Yuan, F. Liu, R. Wei, Z. Wang, <span class="pub-self">Y. Gao</span>, H. Huang, B. Fang, and Q. Liao</p>
+          <p class="paper-venue"><em>IEEE Transactions on Artificial Intelligence</em>, 2026</p>
+          <p class="paper-note">A comprehensive survey on safety challenges and mitigation strategies for VLA models from lifecycle perspectives.</p>
         </div>
       </article>
 

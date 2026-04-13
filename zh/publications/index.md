@@ -30,7 +30,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">3 篇近期论文</p>
+          <p class="rail-tally">4 篇论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
