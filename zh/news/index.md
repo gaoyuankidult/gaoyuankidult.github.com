@@ -25,6 +25,17 @@ lang: zh
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
+            <span class="text-date">4 月 13 日</span>
+            <span class="text-kicker">收藏</span>
+          </div>
+          <h3 class="text-title">作品被深圳市当代艺术与城市规划馆收藏</h3>
+          <p class="text-summary">影像作品《博弈剧场——机器人剧场系列》（与刘紫茵合作创作）已被<a href="https://www.mocaup.cn/" target="_blank">深圳市当代艺术与城市规划馆</a>永久收藏，收藏费用为人民币伍万元整。</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
             <span class="text-date">3 月 9 日</span>
             <span class="text-kicker">访问</span>
           </div>
