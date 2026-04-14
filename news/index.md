@@ -28,7 +28,7 @@ layout: page
             <span class="text-kicker">Collection</span>
           </div>
           <h3 class="text-title">Artwork Collected by Shenzhen Museum of Contemporary Art and Urban Planning</h3>
-          <p class="text-summary">The video artwork &ldquo;Game Theater — Robot Theater Series&rdquo; (created with Liu Ziyin) has been acquired by the <a href="https://www.mocaup.cn/" target="_blank">Shenzhen Museum of Contemporary Art and Urban Planning</a> for their permanent collection. The collection fee is RMB 50,000.</p>
+          <p class="text-summary">The video artwork &ldquo;Game Theater — Robot Theater Series&rdquo; (created with Liu Ziyin) has been acquired by the <a href="https://www.mocaup.cn/" target="_blank">Shenzhen Museum of Contemporary Art and Urban Planning</a> for their permanent collection.</p>
         </div>
       </article>
 
