@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog-post
 title: Coconut Palms and the Long Bridge
 date: 2026-04-27
-categories: blog
-lang: en
+tags: [prose, sunset, Shenzhen Bay]
+excerpt: When did the evening begin? Perhaps when the first picnic blanket was spread on the grass. Perhaps when the first bicycle rolled over a patch of light.
 ---
 
 ![Coconut Palms at Sunset]({{ site.url }}/images/blog/2026-04/palm_sunset_1.jpg)
@@ -63,8 +63,6 @@ But the sky knew.
 It kept its best light for those who weren't in a hurry.
 
 ---
-
-![Sunset Melting into Gold]({{ site.url }}/images/blog/2026-04/palm_sunset_4.jpg)
 
 The long bridge was still there.
 

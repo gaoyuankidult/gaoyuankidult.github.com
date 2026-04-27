@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog-post
 title: 椰林与长桥
 date: 2026-04-27
-categories: blog
-lang: zh
+tags: [散文, 黄昏, 深圳湾]
+excerpt: 黄昏是从什么时候开始的？也许是从第一块野餐垫铺开的时候。也许是从第一辆自行车碾过光斑的时候。
 ---
 
 ![椰林与落日]({{ site.url }}/images/blog/2026-04/palm_sunset_1.jpg)
@@ -63,8 +63,6 @@ lang: zh
 它把最好的光，留给了那些不急着赶路的人。
 
 ---
-
-![落日熔金]({{ site.url }}/images/blog/2026-04/palm_sunset_4.jpg)
 
 长桥还在那里。
 
