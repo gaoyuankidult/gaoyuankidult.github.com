@@ -2,6 +2,7 @@
 layout: blog-post
 title: The Art of Doing Nothing
 date: 2026-03-07
+lang: en
 tags: [philosophy, research, reflection]
 excerpt: In an age obsessed with productivity, I want to write about the counterintuitive value of stillness—the creative power of doing nothing.
 ---
