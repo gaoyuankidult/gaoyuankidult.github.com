@@ -3,6 +3,7 @@ layout: post
 title: 椰林与长桥
 date: 2026-04-27
 categories: blog
+lang: zh
 ---
 
 ![椰林与落日]({{ site.url }}/images/blog/2026-04/palm_sunset_1.jpg)
