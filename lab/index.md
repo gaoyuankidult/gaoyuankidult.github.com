@@ -9,11 +9,19 @@ layout: page
   <div class="lab-hero-copy">
     <h1 class="lab-title">Robot Socialization Lab</h1>
     <p class="lab-subtitle">Embodied Heterogeneous Multi-Robot Systems</p>
-    <div class="lab-kicker-row">
-      <span class="lab-kicker">Principal Investigator</span>
+  </div>
+</section>
+
+<section class="lab-pi-section fade-in">
+  <div class="lab-pi-card">
+    <div class="lab-pi-thumb">
+      <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao">
     </div>
-    <h2 class="lab-pi-name">Yuan Gao</h2>
-    <p class="lab-pi-affiliation">Shenzhen Institute of Artificial Intelligence and Robotics / The Chinese University of Hong Kong, Shenzhen</p>
+    <div class="lab-pi-info">
+      <span class="lab-kicker">Principal Investigator</span>
+      <h2 class="lab-pi-name">Yuan Gao</h2>
+      <p class="lab-pi-affiliation">Shenzhen Institute of Artificial Intelligence and Robotics<br>The Chinese University of Hong Kong, Shenzhen</p>
+    </div>
   </div>
 </section>
 
@@ -61,21 +69,8 @@ layout: page
   </div>
 
   <div class="lab-members-grid">
-    <article class="lab-member-card lab-member-pi">
-      <div class="lab-member-thumb">
-        <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao">
-      </div>
-      <div class="lab-member-info">
-        <h3>Yuan Gao</h3>
-        <span class="lab-member-role">Principal Investigator</span>
-        <p>Researcher and artist working across robotics, machine learning, and public installation. Ph.D. from Uppsala University.</p>
-      </div>
-    </article>
-
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生A</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[Student Name]</h3>
         <span class="lab-member-role">Ph.D. Student</span>
@@ -83,10 +78,8 @@ layout: page
       </div>
     </article>
 
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生B</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[Student Name]</h3>
         <span class="lab-member-role">Ph.D. Student</span>
@@ -94,10 +87,8 @@ layout: page
       </div>
     </article>
 
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生C</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[Student Name]</h3>
         <span class="lab-member-role">Research Assistant / Visiting Scholar</span>

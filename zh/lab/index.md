@@ -10,11 +10,19 @@ lang: zh
   <div class="lab-hero-copy">
     <h1 class="lab-title">Robot Socialization Lab</h1>
     <p class="lab-subtitle">Embodied Heterogeneous Multi-Robot Systems</p>
-    <div class="lab-kicker-row">
-      <span class="lab-kicker">实验室主任</span>
+  </div>
+</section>
+
+<section class="lab-pi-section fade-in">
+  <div class="lab-pi-card">
+    <div class="lab-pi-thumb">
+      <img src="{{ site.url }}/images/front.jpg" alt="高源">
     </div>
-    <h2 class="lab-pi-name">高源</h2>
-    <p class="lab-pi-affiliation">深圳市人工智能与机器人研究院 / 香港中文大学（深圳）</p>
+    <div class="lab-pi-info">
+      <span class="lab-kicker">实验室主任</span>
+      <h2 class="lab-pi-name">高源</h2>
+      <p class="lab-pi-affiliation">深圳市人工智能与机器人研究院<br>香港中文大学（深圳）</p>
+    </div>
   </div>
 </section>
 
@@ -62,21 +70,8 @@ lang: zh
   </div>
 
   <div class="lab-members-grid">
-    <article class="lab-member-card lab-member-pi">
-      <div class="lab-member-thumb">
-        <img src="{{ site.url }}/images/front.jpg" alt="高源">
-      </div>
-      <div class="lab-member-info">
-        <h3>高源</h3>
-        <span class="lab-member-role">实验室主任</span>
-        <p>在机器人、机器学习与公共装置之间工作的研究者与艺术实践者。乌普萨拉大学博士。</p>
-      </div>
-    </article>
-
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生A</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[学生姓名]</h3>
         <span class="lab-member-role">博士研究生</span>
@@ -84,10 +79,8 @@ lang: zh
       </div>
     </article>
 
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生B</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[学生姓名]</h3>
         <span class="lab-member-role">博士研究生</span>
@@ -95,10 +88,8 @@ lang: zh
       </div>
     </article>
 
-    <article class="lab-member-card">
-      <div class="lab-member-thumb">
-        <span class="lab-member-placeholder">学生C</span>
-      </div>
+    <article class="lab-member-card lab-member-empty">
+      <div class="lab-member-thumb"></div>
       <div class="lab-member-info">
         <h3>[学生姓名]</h3>
         <span class="lab-member-role">研究助理 / 访问学者</span>

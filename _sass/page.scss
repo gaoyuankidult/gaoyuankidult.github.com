@@ -4516,3 +4516,281 @@ html[lang="zh"] {
 		font-size: 0.85rem;
 	}
 }
+
+/* ==========================================================================
+   Lab Page
+   ========================================================================== */
+
+.lab-pi-section {
+	margin-bottom: 3rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid rgba(29, 25, 23, 0.1);
+}
+
+.lab-pi-card {
+	display: grid;
+	grid-template-columns: 140px minmax(0, 1fr);
+	gap: 1.5rem;
+	align-items: start;
+}
+
+.lab-pi-thumb {
+	width: 140px;
+	height: 140px;
+	border-radius: 12px;
+	overflow: hidden;
+	background: #e9dfd1;
+}
+
+.lab-pi-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.lab-pi-info {
+	padding-top: 0.5rem;
+}
+
+.lab-hero {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	padding-bottom: 2.5rem;
+	margin-bottom: 2.5rem;
+	border-bottom: 1px solid rgba(29, 25, 23, 0.14);
+}
+
+.lab-hero-copy {
+	text-align: left;
+}
+
+.lab-kicker-row {
+	margin-bottom: 0.5rem;
+}
+
+.lab-kicker {
+	font-family: $alt-font;
+	font-size: 0.68rem;
+	font-weight: 500;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+.lab-title {
+	margin: 0.35rem 0 0.5rem;
+	font-family: $heading-font;
+	font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+	line-height: 0.92;
+	letter-spacing: -0.05em;
+	color: #1d1917;
+}
+
+.lab-subtitle {
+	margin: 0 0 1.5rem;
+	font-family: $heading-font;
+	font-size: clamp(1.1rem, 2vw, 1.5rem);
+	font-weight: 400;
+	font-style: italic;
+	color: #6b5f56;
+	letter-spacing: 0.02em;
+}
+
+.lab-pi-name {
+	margin: 0.15rem 0 0.35rem;
+	font-family: $heading-font;
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: #1d1917;
+}
+
+.lab-pi-affiliation {
+	margin: 0;
+	font-size: 0.95rem;
+	line-height: 1.7;
+	color: #5a5048;
+}
+
+.lab-section-head {
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.8rem;
+	border-bottom: 1px solid rgba(29, 25, 23, 0.08);
+}
+
+.lab-section-head p {
+	margin: 0.5rem 0 0;
+	font-size: 0.95rem;
+	line-height: 1.75;
+	color: #5b514c;
+}
+
+.lab-mission {
+	margin-bottom: 3rem;
+}
+
+.lab-prose {
+	max-width: 68ch;
+}
+
+.lab-prose p {
+	font-size: 1rem;
+	line-height: 1.92;
+	color: #4b423c;
+	margin-bottom: 1.2em;
+}
+
+.lab-directions {
+	margin-bottom: 3rem;
+}
+
+.lab-interest-ledger {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1.5rem;
+}
+
+.lab-members {
+	margin-bottom: 3rem;
+}
+
+.lab-members-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 1.5rem;
+}
+
+.lab-member-card {
+	display: grid;
+	grid-template-columns: 80px minmax(0, 1fr);
+	gap: 1rem;
+	padding: 1.2rem;
+	border: 1px solid rgba(29, 25, 23, 0.1);
+	background: rgba(255, 251, 245, 0.5);
+}
+
+.lab-member-pi {
+	grid-column: 1 / -1;
+	grid-template-columns: 120px minmax(0, 1fr);
+	padding: 1.5rem;
+	border-color: rgba(29, 25, 23, 0.18);
+}
+
+.lab-member-thumb {
+	width: 80px;
+	height: 80px;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #e9dfd1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lab-member-pi .lab-member-thumb {
+	width: 120px;
+	height: 120px;
+	border-radius: 12px;
+}
+
+.lab-member-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.lab-member-placeholder {
+	font-family: $alt-font;
+	font-size: 0.7rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #8a725f;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.lab-member-empty {
+	background: rgba(255, 251, 245, 0.35);
+	border-style: dashed;
+}
+
+.lab-member-empty .lab-member-thumb {
+	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
+	border: 1px dashed rgba(29, 25, 23, 0.2);
+}
+
+.lab-member-empty .lab-member-info h3 {
+	color: #8a7a6d;
+	font-weight: 400;
+}
+
+.lab-member-empty .lab-member-info p {
+	color: #9a8a7d;
+	font-style: italic;
+}
+
+.lab-member-info h3 {
+	margin: 0 0 0.2rem;
+	font-family: $heading-font;
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: #1d1917;
+}
+
+.lab-member-pi .lab-member-info h3 {
+	font-size: 1.45rem;
+}
+
+.lab-member-role {
+	display: block;
+	margin-bottom: 0.4rem;
+	font-family: $alt-font;
+	font-size: 0.68rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+.lab-member-info p {
+	margin: 0;
+	font-size: 0.88rem;
+	line-height: 1.72;
+	color: #5b514c;
+}
+
+.lab-contact {
+	padding-top: 1.5rem;
+	border-top: 1px solid rgba(29, 25, 23, 0.14);
+}
+
+.lab-contact p {
+	font-size: 0.95rem;
+	line-height: 1.8;
+	color: #5b514c;
+}
+
+@media (max-width: 720px) {
+	.lab-interest-ledger,
+	.lab-members-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.lab-member-card,
+	.lab-member-pi {
+		grid-template-columns: 70px minmax(0, 1fr);
+	}
+
+	.lab-member-pi {
+		grid-template-columns: 90px minmax(0, 1fr);
+	}
+}
+
+/* Chinese Lab page adjustments */
+html[lang="zh"] .lab-pi-name {
+	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+}
+
+html[lang="zh"] .lab-member-info h3 {
+	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+}
