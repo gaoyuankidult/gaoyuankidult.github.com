@@ -2,13 +2,14 @@
 layout: page
 title: Robot Socialization Lab
 lang: zh
+hero: true
 ---
 
 <p class="page-intro fade-in">研究具身异构多机器人系统——让不同的机器身体在不被打成同一种逻辑的前提下学会协同。</p>
 
 <section class="lab-hero fade-in">
   <div class="lab-hero-copy">
-    <h1 class="lab-title">Robot Socialization Lab</h1>
+    <span class="lab-title-display">Robot Socialization Lab</span>
     <p class="lab-subtitle">Embodied Heterogeneous Multi-Robot Systems</p>
   </div>
 </section>
