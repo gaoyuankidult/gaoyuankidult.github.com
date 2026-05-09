@@ -40,7 +40,7 @@ hero: true
         <h2 class="lab-section-title">Mission</h2>
       </div>
       <div class="lab-prose">
-        <p>The Robot Socialization Lab asks what happens when radically different robotic bodies—humanoids, quadrupeds, drones, wheeled platforms—are required to share one system. They do not share the same sensors. They do not move in the same way. They do not read the environment through the same lens.</p>
+        <p>The Robot Socialization Lab investigates what happens when radically different robotic bodies—humanoids, quadrupeds, drones, wheeled platforms—are required to share one system. They do not share the same sensors. They do not move in the same way. They do not read the environment through the same lens.</p>
         <p>Building cooperation across this kind of heterogeneity is not a calibration problem. It requires rethinking coordination from the ground up: how to negotiate, how to trust, how to form temporary alliances, and how to let difference become a resource rather than a liability.</p>
       </div>
     </section>
@@ -48,7 +48,7 @@ hero: true
     <section class="lab-artistic-section">
       <div class="lab-section-header">
         <span class="lab-section-marker"></span>
-        <h2 class="lab-section-title">Research Directions</h2>
+        <h2 class="lab-section-title">Research Focus</h2>
       </div>
       <div class="lab-directions-grid">
         <article class="lab-direction-item">
@@ -65,8 +65,42 @@ hero: true
               <line x1="17" y1="17" x2="14" y2="14"/>
             </svg>
           </div>
-          <h3>Coordination Across Unlike Bodies</h3>
-          <p>Learning, planning, and emergent strategy for robots with different morphologies, sensing stacks, and action spaces. Focus on negotiation rather than homogenization.</p>
+          <h3>Social Phase Transitions in Urban Heterogeneous Multi-Robot Systems</h3>
+          <p>Mechanisms of social phase transitions and self-organized criticality in city-scale heterogeneous multi-robot systems.</p>
+        </article>
+        <article class="lab-direction-item">
+          <div class="lab-direction-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Ethics-Driven System Niche Differentiation Dynamics</h3>
+          <p>Socialist value ethics-driven decision-making and system ecological niche differentiation dynamics.</p>
+        </article>
+        <article class="lab-direction-item">
+          <div class="lab-direction-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5"/>
+              <line x1="12" y1="22" x2="12" y2="15.5"/>
+              <line x1="22" y1="8.5" x2="12" y2="15.5"/>
+              <line x1="2" y1="8.5" x2="12" y2="15.5"/>
+            </svg>
+          </div>
+          <h3>Geometric Percolation and Topological Self-Reconstruction</h3>
+          <p>Theory of geometric percolation and topological self-reconstruction for embodied heterogeneous multi-robot systems under continuous topological damage.</p>
+        </article>
+        <article class="lab-direction-item">
+          <div class="lab-direction-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>Cloud-Edge-Terminal Multimodal Robot Teams</h3>
+          <p>Multimodal large model-driven collaborative perception, decision-making, and task adaptation for heterogeneous robot teams in cloud-edge-terminal architectures.</p>
         </article>
         <article class="lab-direction-item">
           <div class="lab-direction-icon">
@@ -77,35 +111,8 @@ hero: true
               <path d="M12 6v-2M12 20v-2M6 12H4M20 12h-2"/>
             </svg>
           </div>
-          <h3>Shared Autonomy</h3>
-          <p>How humans and heterogeneous robot teams can share control, information, and decision-making without one side dominating the other.</p>
-        </article>
-        <article class="lab-direction-item">
-          <div class="lab-direction-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="8" r="4"/>
-              <path d="M8 14l-2 8M16 14l2 8"/>
-              <circle cx="12" cy="8" r="1" fill="currentColor"/>
-            </svg>
-          </div>
-          <h3>Robot Theatre</h3>
-          <p>Turning algorithmic behavior—reinforcement, hesitation, negotiation—into something viewers can physically encounter in public space.</p>
-        </article>
-        <article class="lab-direction-item">
-          <div class="lab-direction-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <rect x="3" y="3" width="7" height="7"/>
-              <rect x="14" y="3" width="7" height="7"/>
-              <rect x="3" y="14" width="7" height="7"/>
-              <rect x="14" y="14" width="7" height="7"/>
-              <line x1="10" y1="6.5" x2="14" y2="6.5"/>
-              <line x1="6.5" y1="10" x2="6.5" y2="14"/>
-              <line x1="17.5" y1="10" x2="17.5" y2="14"/>
-              <line x1="10" y1="17.5" x2="14" y2="17.5"/>
-            </svg>
-          </div>
-          <h3>Social Infrastructure</h3>
-          <p>The norms, protocols, and material conditions that allow diverse robot populations to coexist and coordinate over time.</p>
+          <h3>Human-Robot Collaborative Hybrid Intelligence</h3>
+          <p>Enhancing decision-making and execution efficiency through co-perception, collaborative decision-making, and intelligent control for bidirectional human-machine augmentation.</p>
         </article>
       </div>
     </section>

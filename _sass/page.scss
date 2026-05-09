@@ -4970,28 +4970,31 @@ html[lang="zh"] .lab-member-info h3 {
 /* Research directions grid */
 .lab-directions-grid {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 1.5rem;
+	gap: 1rem;
 }
 
 .lab-direction-item {
-	padding: 1.25rem;
-	background: rgba(255, 251, 245, 0.5);
-	border: 1px solid rgba(29, 25, 23, 0.06);
-	transition: border-color 0.25s ease, transform 0.25s ease;
+	padding: 0.95rem 0 1.25rem 1.15rem;
+	border-left: 1px solid rgba(31, 26, 23, 0.18);
+	border-bottom: 1px solid rgba(31, 26, 23, 0.1);
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.06) 72%);
+	transition: border-color 0.25s ease;
+}
+
+.lab-direction-item:nth-child(2n) {
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.04) 72%);
 }
 
 .lab-direction-item:hover {
 	border-color: rgba(154, 95, 59, 0.25);
-	transform: translateY(-2px);
 }
 
 .lab-direction-icon {
-	width: 32px;
-	height: 32px;
-	margin-bottom: 1rem;
+	width: 28px;
+	height: 28px;
+	margin-bottom: 0.75rem;
 	color: #9a5f3b;
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 .lab-direction-icon svg {
