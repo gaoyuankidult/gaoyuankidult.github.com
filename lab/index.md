@@ -1,14 +1,13 @@
 ---
 title: Robot Socialization Lab
 layout: page
-hero: true
 ---
 
 <p class="page-intro fade-in">Research on embodied heterogeneous multi-robot systems, where different robotic bodies learn to coordinate without being reduced to the same logic.</p>
 
 <section class="lab-hero fade-in">
   <div class="lab-hero-copy">
-    <span class="lab-title-display">Robot Socialization Lab</span>
+    <h1 class="lab-title">Robot Socialization Lab</h1>
     <p class="lab-subtitle">Embodied Heterogeneous Multi-Robot Systems</p>
   </div>
 </section>

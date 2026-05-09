@@ -14,9 +14,6 @@
 
 <div id="main" role="main" class="page-shell">
   <article class="page-frame">
-    {% if page.hero %}
-      {{ content }}
-    {% else %}
     <header class="page-header">
       <h1>{{ page.title }}</h1>
       <hr class="title-separator">
@@ -24,7 +21,6 @@
     <div class="article-wrap">
       {{ content }}
     </div>
-    {% endif %}
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section>
     {% endif %}
