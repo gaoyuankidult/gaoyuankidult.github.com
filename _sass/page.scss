@@ -4794,3 +4794,336 @@ html[lang="zh"] .lab-pi-name {
 html[lang="zh"] .lab-member-info h3 {
 	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
 }
+
+/* ==========================================================================
+   Lab Page - Artistic Design (New)
+   ========================================================================== */
+
+/* Main grid layout */
+.lab-artistic-hero {
+	position: relative;
+	padding: 3rem 0 2.5rem;
+	margin-bottom: 3rem;
+	border-bottom: 1px solid rgba(29, 25, 23, 0.12);
+}
+
+.lab-hero-accent {
+	position: absolute;
+	top: 0;
+	left: -2rem;
+	width: 4px;
+	height: 100%;
+	background: linear-gradient(to bottom, #9a5f3b, transparent);
+	opacity: 0.6;
+}
+
+.lab-hero-content {
+	max-width: 800px;
+}
+
+.lab-hero-kicker {
+	display: inline-block;
+	margin-bottom: 0.75rem;
+	font-family: $alt-font;
+	font-size: 0.7rem;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+.lab-hero-title {
+	margin: 0 0 0.75rem;
+	font-family: $heading-font;
+	font-size: clamp(2.8rem, 5.5vw, 5rem);
+	font-weight: 600;
+	line-height: 0.95;
+	letter-spacing: -0.04em;
+	color: #1d1917;
+}
+
+.lab-hero-subtitle {
+	margin: 0;
+	font-family: $heading-font;
+	font-size: clamp(1rem, 1.8vw, 1.25rem);
+	font-weight: 400;
+	font-style: italic;
+	color: #6b5f56;
+	letter-spacing: 0.02em;
+}
+
+/* Main grid */
+.lab-artistic-grid {
+	display: grid;
+	grid-template-columns: 1fr 320px;
+	gap: 4rem;
+	align-items: start;
+}
+
+.lab-artistic-main {
+	min-width: 0;
+}
+
+.lab-artistic-sidebar {
+	min-width: 0;
+}
+
+/* Section styling */
+.lab-artistic-section {
+	margin-bottom: 3.5rem;
+}
+
+.lab-section-header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid rgba(29, 25, 23, 0.08);
+}
+
+.lab-section-marker {
+	display: block;
+	width: 24px;
+	height: 2px;
+	background: #9a5f3b;
+}
+
+.lab-section-title {
+	margin: 0;
+	font-family: $alt-font;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	color: #1d1917;
+}
+
+/* PI Card */
+.lab-pi-card {
+	display: grid;
+	grid-template-columns: 100px minmax(0, 1fr);
+	gap: 1.5rem;
+	align-items: start;
+}
+
+.lab-pi-photo {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	background: #e9dfd1;
+	border-radius: 0;
+}
+
+.lab-pi-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: grayscale(100%) contrast(1.02) brightness(0.96);
+}
+
+.lab-pi-details {
+	padding-top: 0.25rem;
+}
+
+.lab-pi-name {
+	margin: 0 0 0.35rem;
+	font-family: $heading-font;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: -0.03em;
+	color: #1d1917;
+}
+
+.lab-pi-role {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-family: $alt-font;
+	font-size: 0.68rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+.lab-pi-affiliation {
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.65;
+	color: #5a5048;
+}
+
+/* Prose text */
+.lab-prose {
+	max-width: 65ch;
+}
+
+.lab-prose p {
+	margin: 0 0 1.2em;
+	font-size: 1rem;
+	line-height: 1.9;
+	color: #4b423c;
+}
+
+.lab-prose p:last-child {
+	margin-bottom: 0;
+}
+
+/* Research directions grid */
+.lab-directions-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.5rem;
+}
+
+.lab-direction-item {
+	padding: 1.25rem;
+	background: rgba(255, 251, 245, 0.5);
+	border: 1px solid rgba(29, 25, 23, 0.06);
+	transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.lab-direction-item:hover {
+	border-color: rgba(154, 95, 59, 0.25);
+	transform: translateY(-2px);
+}
+
+.lab-direction-icon {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 1rem;
+	color: #9a5f3b;
+	opacity: 0.8;
+}
+
+.lab-direction-icon svg {
+	width: 100%;
+	height: 100%;
+}
+
+.lab-direction-item h3 {
+	margin: 0 0 0.5rem;
+	font-family: $heading-font;
+	font-size: 1.05rem;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	color: #1d1917;
+}
+
+.lab-direction-item p {
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.75;
+	color: #5b514c;
+}
+
+/* Members list */
+.lab-members-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.lab-member-slot {
+	display: grid;
+	grid-template-columns: 48px minmax(0, 1fr);
+	gap: 0.85rem;
+	align-items: center;
+	padding: 0.85rem;
+	border: 1px dashed rgba(29, 25, 23, 0.15);
+	background: transparent;
+}
+
+.lab-member-avatar-empty {
+	width: 48px;
+	height: 48px;
+	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
+	border: 1px dashed rgba(29, 25, 23, 0.2);
+}
+
+.lab-member-info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+.lab-member-name {
+	font-family: $heading-font;
+	font-size: 0.95rem;
+	font-weight: 500;
+	font-style: italic;
+	color: #8a7a6d;
+}
+
+.lab-member-role {
+	font-family: $alt-font;
+	font-size: 0.65rem;
+	font-weight: 500;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+/* Contact block */
+.lab-contact-block {
+	padding-top: 0;
+}
+
+.lab-contact-text {
+	margin: 0;
+	font-size: 0.92rem;
+	line-height: 1.8;
+	color: #5b514c;
+}
+
+.lab-contact-text a {
+	color: #9a5f3b;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* Chinese adjustments for new elements */
+html[lang="zh"] .lab-pi-name,
+html[lang="zh"] .lab-member-name {
+	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+	.lab-artistic-grid {
+		grid-template-columns: 1fr;
+		gap: 3rem;
+	}
+
+	.lab-artistic-sidebar {
+		order: -1;
+	}
+
+	.lab-pi-card {
+		grid-template-columns: 80px minmax(0, 1fr);
+		gap: 1rem;
+	}
+
+	.lab-pi-photo {
+		width: 80px;
+		height: 80px;
+	}
+
+	.lab-pi-name {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.lab-directions-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.lab-hero-title {
+		font-size: 2.4rem;
+	}
+
+	.lab-direction-item {
+		padding: 1rem;
+	}
+}
