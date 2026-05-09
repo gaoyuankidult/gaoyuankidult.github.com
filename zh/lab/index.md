@@ -7,7 +7,6 @@ hero: true
 <p class="page-intro fade-in">研究具身异构多机器人系统——让不同的机器身体在不被打成同一种逻辑的前提下学会协同。</p>
 
 <div class="lab-artistic-hero fade-in">
-  <div class="lab-hero-accent"></div>
   <div class="lab-hero-content">
     <span class="lab-hero-kicker">研究实验室</span>
     <h1 class="lab-hero-title">Robot Socialization Lab</h1>
@@ -111,16 +110,12 @@ hero: true
       </div>
     </section>
 
-  </main>
-
-  <aside class="lab-artistic-sidebar">
-
     <section class="lab-artistic-section">
       <div class="lab-section-header">
         <span class="lab-section-marker"></span>
         <h2 class="lab-section-title">实验室成员</h2>
       </div>
-      <div class="lab-members-stack">
+      <div class="lab-members-grid">
         <div class="lab-member-slot">
           <div class="lab-member-avatar-empty"></div>
           <div class="lab-member-info">
@@ -152,6 +147,29 @@ hero: true
       </div>
       <p class="lab-contact-text">合作、访问或研究咨询，请通过<a href="{{ site.url }}/zh/contact/">联系页面</a>联系我们。</p>
     </section>
+
+  </main>
+
+  <aside class="lab-artistic-sidebar">
+    
+    <div class="lab-sidebar-quote">
+      <p>"当机器学会像我们注视它们一样注视我们，我们还能认出自己吗？"</p>
+    </div>
+
+    <div class="lab-sidebar-facts">
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Location</span>
+        <span class="lab-fact-value">Shenzhen, China</span>
+      </div>
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Affiliation</span>
+        <span class="lab-fact-value">CUHK(SZ)</span>
+      </div>
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Status</span>
+        <span class="lab-fact-value">Recruiting</span>
+      </div>
+    </div>
 
   </aside>
 </div>

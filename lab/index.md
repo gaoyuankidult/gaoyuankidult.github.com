@@ -7,7 +7,6 @@ hero: true
 <p class="page-intro fade-in">Research on embodied heterogeneous multi-robot systems, where different robotic bodies learn to coordinate without being reduced to the same logic.</p>
 
 <div class="lab-artistic-hero fade-in">
-  <div class="lab-hero-accent"></div>
   <div class="lab-hero-content">
     <span class="lab-hero-kicker">Research Laboratory</span>
     <h1 class="lab-hero-title">Robot Socialization Lab</h1>
@@ -17,7 +16,7 @@ hero: true
 
 <div class="lab-artistic-grid fade-in">
   <main class="lab-artistic-main">
-    
+
     <section class="lab-artistic-section">
       <div class="lab-section-header">
         <span class="lab-section-marker"></span>
@@ -111,16 +110,12 @@ hero: true
       </div>
     </section>
 
-  </main>
-
-  <aside class="lab-artistic-sidebar">
-    
     <section class="lab-artistic-section">
       <div class="lab-section-header">
         <span class="lab-section-marker"></span>
         <h2 class="lab-section-title">Lab Members</h2>
       </div>
-      <div class="lab-members-stack">
+      <div class="lab-members-grid">
         <div class="lab-member-slot">
           <div class="lab-member-avatar-empty"></div>
           <div class="lab-member-info">
@@ -152,6 +147,29 @@ hero: true
       </div>
       <p class="lab-contact-text">For collaboration, visiting, or research inquiries, please reach out via the <a href="{{ site.url }}/contact/">contact page</a>.</p>
     </section>
+
+  </main>
+
+  <aside class="lab-artistic-sidebar">
+    
+    <div class="lab-sidebar-quote">
+      <p>"When machines learn to watch us as closely as we watch them, will we still recognize ourselves?"</p>
+    </div>
+
+    <div class="lab-sidebar-facts">
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Location</span>
+        <span class="lab-fact-value">Shenzhen, China</span>
+      </div>
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Affiliation</span>
+        <span class="lab-fact-value">CUHK(SZ)</span>
+      </div>
+      <div class="lab-fact-item">
+        <span class="lab-fact-label">Status</span>
+        <span class="lab-fact-value">Recruiting</span>
+      </div>
+    </div>
 
   </aside>
 </div>

@@ -5082,6 +5082,85 @@ html[lang="zh"] .lab-member-info h3 {
 	text-underline-offset: 2px;
 }
 
+/* Sidebar quote */
+.lab-sidebar-quote {
+	padding: 1.5rem 1.25rem;
+	margin-bottom: 1.5rem;
+	border-left: 3px solid rgba(154, 95, 59, 0.4);
+	background: rgba(255, 251, 245, 0.45);
+	position: relative;
+}
+
+.lab-sidebar-quote::before {
+	content: '\201C';
+	position: absolute;
+	top: 0.5rem;
+	left: 0.75rem;
+	font-family: $heading-font;
+	font-size: 3rem;
+	line-height: 1;
+	color: rgba(154, 95, 59, 0.25);
+}
+
+.lab-sidebar-quote p {
+	margin: 0 0 0 1.25rem;
+	font-family: $heading-font;
+	font-size: 0.92rem;
+	font-style: italic;
+	line-height: 1.65;
+	color: #5a5048;
+}
+
+/* Sidebar facts */
+.lab-sidebar-facts {
+	padding: 1.25rem;
+	background: rgba(255, 251, 245, 0.35);
+	border: 1px solid rgba(93, 70, 55, 0.08);
+}
+
+.lab-fact-item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	padding: 0.75rem 0;
+	border-bottom: 1px solid rgba(93, 70, 55, 0.08);
+	&:first-child {
+		padding-top: 0;
+	}
+	&:last-child {
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+}
+
+.lab-fact-label {
+	font-family: $alt-font;
+	font-size: 0.62rem;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #9a5f3b;
+}
+
+.lab-fact-value {
+	font-family: $heading-font;
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #1d1917;
+}
+
+/* Members grid for main content */
+.lab-members-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.lab-members-grid .lab-member-slot {
+	background: rgba(255, 251, 245, 0.5);
+	border-style: solid;
+}
+
 /* Chinese adjustments for new elements */
 html[lang="zh"] .lab-pi-name,
 html[lang="zh"] .lab-member-name {
