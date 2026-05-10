@@ -5025,13 +5025,11 @@ html[lang="zh"] .lab-member-info h3 {
 	gap: 0.75rem;
 }
 
-.lab-member-slot {
-	/* clearfix for floated photo */
-	&::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+/* clearfix for floated photo in member slot */
+.lab-member-slot::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .lab-member-avatar-empty {
@@ -5202,13 +5200,6 @@ html[lang="zh"] .lab-member-info h3 {
 	border-left: 1px solid rgba(31, 26, 23, 0.18);
 	border-bottom: 1px solid rgba(31, 26, 23, 0.1);
 	background: linear-gradient(90deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.06) 72%);
-}
-
-.lab-member-slot {
-	display: grid;
-	grid-template-columns: 64px minmax(0, 1fr);
-	gap: 0.85rem;
-	align-items: start;
 }
 
 .lab-member-avatar-empty {
