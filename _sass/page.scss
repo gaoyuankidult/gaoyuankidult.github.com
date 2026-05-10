@@ -5179,14 +5179,14 @@ html[lang="zh"] .lab-member-info h3 {
 
 .lab-members-subhead {
 	display: block;
-	margin-bottom: 0.6rem;
-	padding-left: 0.65rem;
-	border-left: 2px solid rgba(29, 25, 23, 0.15);
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.4rem;
+	border-bottom: 1px solid rgba(31, 26, 23, 0.1);
 	font-family: $heading-font;
-	font-size: 0.85rem;
+	font-size: 0.78rem;
 	font-weight: 500;
-	font-style: italic;
-	color: rgba(31, 26, 23, 0.55);
+	letter-spacing: 0.04em;
+	color: rgba(31, 26, 23, 0.42);
 }
 
 .lab-members-display {
