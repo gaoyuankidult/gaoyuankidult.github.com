@@ -8,7 +8,7 @@ lang: zh
 <div class="about-balance fade-in">
   <section class="about-main">
 
-    <blockquote class="about-quote">当机器学会像我们注视它们一样注视我们，我们还能认出自己吗？</blockquote>
+    <blockquote class="about-quote">一台机器人是一种哲学的具身化。异构多机器人社会，是不可通约的哲学彼此滋养之处。</blockquote>
 
     <section class="about-research-ledger">
       <div class="about-section-head">
@@ -73,7 +73,7 @@ lang: zh
           <div class="lab-contact-item">
             <span class="about-stage-label">Status</span>
             <h3>Recruiting</h3>
-            <p>欢迎博士研究生和研究助理申请加入。</p>
+            <p>欢迎博士后和研究助理申请加入。</p>
           </div>
         </div>
       </div>

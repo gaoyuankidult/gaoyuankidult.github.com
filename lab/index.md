@@ -8,7 +8,7 @@ layout: page
 <div class="about-balance fade-in">
   <section class="about-main">
 
-    <blockquote class="about-quote">When machines learn to watch us as closely as we watch them, will we still recognize ourselves?</blockquote>
+    <blockquote class="about-quote">A single robot is a philosophy embodied. A heterogeneous multi-robot society is where irreconcilable philosophies find sustenance.</blockquote>
 
     <section class="about-research-ledger">
       <div class="about-section-head">
@@ -73,7 +73,7 @@ layout: page
           <div class="lab-contact-item">
             <span class="about-stage-label">Status</span>
             <h3>Recruiting</h3>
-            <p>Ph.D. students and research assistants are welcome to apply.</p>
+            <p>Postdocs and research assistants are welcome to apply.</p>
           </div>
         </div>
       </div>
