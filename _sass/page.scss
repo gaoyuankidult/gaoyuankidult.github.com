@@ -5156,6 +5156,25 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 /* Members grid for main content */
+.lab-members-subsection {
+	margin-bottom: 0.75rem;
+}
+
+.lab-members-subsection:last-child {
+	margin-bottom: 0;
+}
+
+.lab-members-subhead {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-family: $alt-font;
+	font-size: 0.62rem;
+	font-weight: 500;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: $editorial-accent;
+}
+
 .lab-members-display {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
