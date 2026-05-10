@@ -8,8 +8,6 @@ lang: zh
 <div class="about-balance fade-in">
   <section class="about-main">
 
-    <blockquote class="about-quote">一台机器人是一种哲学的具身化。异构多机器人社会，是不可通约的哲学彼此滋养之处。</blockquote>
-
     <section class="about-research-ledger">
       <div class="about-section-head">
         <span class="about-stage-label">实验室主任</span>
@@ -24,6 +22,8 @@ lang: zh
         </div>
       </div>
     </section>
+
+    <blockquote class="about-quote">一台机器人是一种哲学的具身化。异构多机器人社会，是不可通约的哲学彼此滋养之处。</blockquote>
 
     <section class="about-research-ledger">
       <div class="about-section-head">

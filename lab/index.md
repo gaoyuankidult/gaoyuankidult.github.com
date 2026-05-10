@@ -8,8 +8,6 @@ layout: page
 <div class="about-balance fade-in">
   <section class="about-main">
 
-    <blockquote class="about-quote">A single robot is a philosophy embodied. A heterogeneous multi-robot society is where irreconcilable philosophies find sustenance.</blockquote>
-
     <section class="about-research-ledger">
       <div class="about-section-head">
         <span class="about-stage-label">Principal Investigator</span>
@@ -24,6 +22,8 @@ layout: page
         </div>
       </div>
     </section>
+
+    <blockquote class="about-quote">A single robot is a philosophy embodied. A heterogeneous multi-robot society is where irreconcilable philosophies find sustenance.</blockquote>
 
     <section class="about-research-ledger">
       <div class="about-section-head">
