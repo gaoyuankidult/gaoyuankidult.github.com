@@ -14,7 +14,7 @@ lang: zh
       </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
-          <img src="{{ site.url }}/images/front.jpg" alt="高源">
+          <img src="{{ site.url }}/images/front.jpg" alt="高源" style="object-position: 22% 22%;">
         </div>
         <div class="lab-pi-info">
           <h3>高源</h3>
@@ -35,7 +35,7 @@ lang: zh
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang">
+              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Lin Wang</span>
@@ -50,7 +50,7 @@ lang: zh
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="张宝哲">
+              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="张宝哲" style="object-position: 50% 28%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">张宝哲</span>
@@ -61,7 +61,7 @@ lang: zh
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju.jpg" alt="鞠鹏">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="鞠鹏" style="object-position: 58% 18%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">鞠鹏</span>

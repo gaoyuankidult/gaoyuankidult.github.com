@@ -14,7 +14,7 @@ layout: page
       </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
-          <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao">
+          <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao" style="object-position: 22% 22%;">
         </div>
         <div class="lab-pi-info">
           <h3>Yuan Gao</h3>
@@ -35,7 +35,7 @@ layout: page
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang">
+              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Lin Wang</span>
@@ -50,7 +50,7 @@ layout: page
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="Baozhe Zhang">
+              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="Baozhe Zhang" style="object-position: 50% 28%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Baozhe Zhang</span>
@@ -61,7 +61,7 @@ layout: page
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju.jpg" alt="Peng Ju">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="Peng Ju" style="object-position: 58% 18%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Peng Ju</span>
