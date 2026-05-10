@@ -9,11 +9,6 @@ layout: page
   <section class="about-main">
 
     <div class="about-lede-block">
-      <p class="about-kicker">Research Laboratory</p>
-      <h2>Robot Socialization Lab</h2>
-    </div>
-
-    <div class="about-prose">
       <p>The Robot Socialization Lab investigates what happens when radically different robotic bodies—humanoids, quadrupeds, drones, wheeled platforms—are required to share one system. They do not share the same sensors. They do not move in the same way. They do not read the environment through the same lens.</p>
       <p>Building cooperation across this kind of heterogeneity is not a calibration problem. It requires rethinking coordination from the ground up: how to negotiate, how to trust, how to form temporary alliances, and how to let difference become a resource rather than a liability.</p>
     </div>

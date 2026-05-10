@@ -9,11 +9,6 @@ lang: zh
   <section class="about-main">
 
     <div class="about-lede-block">
-      <p class="about-kicker">研究实验室</p>
-      <h2>Robot Socialization Lab</h2>
-    </div>
-
-    <div class="about-prose">
       <p>Robot Socialization Lab 关心的是：当人形机器人、四足机器人、无人机和轮式平台这些完全不同的机器身体被要求共享同一个系统时，会发生什么？它们不共享同一种传感器，不以同一种方式移动，也不以同一种视角读取环境。</p>
       <p>在这种异构性之间建立协同，不是校准问题。它需要从根本上重新思考协同：如何协商、如何建立信任、如何形成临时联盟，以及如何让差异成为资源而非负担。</p>
     </div>
