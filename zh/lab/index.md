@@ -55,9 +55,9 @@ lang: zh
             <div class="lab-member-info">
               <span class="lab-member-name">张宝哲</span>
               <span class="lab-member-role">博士研究生</span>
+              <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
             </div>
             <p class="lab-member-bio">研究方向为机器人运动规划、可微轨迹优化、可微物理仿真与强化学习。</p>
-            <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">

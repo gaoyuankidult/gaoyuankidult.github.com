@@ -55,9 +55,9 @@ layout: page
             <div class="lab-member-info">
               <span class="lab-member-name">Baozhe Zhang</span>
               <span class="lab-member-role">Ph.D. Student</span>
+              <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
             </div>
             <p class="lab-member-bio">My research interests focus on robot motion planning, differentiable trajectory optimization, differentiable physics simulation, and reinforcement learning.</p>
-            <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
