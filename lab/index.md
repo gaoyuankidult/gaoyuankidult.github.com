@@ -3,15 +3,10 @@ title: Robot Socialization Lab
 layout: page
 ---
 
-<p class="page-intro fade-in">Research on embodied heterogeneous multi-robot systems, where different robotic bodies learn to coordinate without being reduced to the same logic.</p>
+<p class="page-intro fade-in">We study coordination among embodied heterogeneous multi-robot systems—humanoids, quadrupeds, drones, and wheeled platforms that neither share sensory modalities, movement grammars, nor environmental representations. Across this morphological asymmetry, cooperation is not a calibration problem but a foundational challenge: how to negotiate, establish transient trust, form provisional coalitions, and convert irreducible difference from a liability into a structural resource.</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
-
-    <div class="about-lede-block">
-      <p>The Robot Socialization Lab investigates what happens when radically different robotic bodies—humanoids, quadrupeds, drones, wheeled platforms—are required to share one system. They do not share the same sensors. They do not move in the same way. They do not read the environment through the same lens.</p>
-      <p>Building cooperation across this kind of heterogeneity is not a calibration problem. It requires rethinking coordination from the ground up: how to negotiate, how to trust, how to form temporary alliances, and how to let difference become a resource rather than a liability.</p>
-    </div>
 
     <blockquote class="about-quote">When machines learn to watch us as closely as we watch them, will we still recognize ourselves?</blockquote>
 

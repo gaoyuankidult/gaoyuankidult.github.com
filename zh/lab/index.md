@@ -3,15 +3,10 @@ title: Robot Socialization Lab
 lang: zh
 ---
 
-<p class="page-intro fade-in">研究具身异构多机器人系统——让不同的机器身体在不被打成同一种逻辑的前提下学会协同。</p>
+<p class="page-intro fade-in">研究具身异构多机器人系统的协同机制——人形机器人、四足机器人、无人机与轮式平台既不共享传感器模态，亦不共享运动语法与环境表征。跨形态非对称性之下的协作并非标定问题，而是一个根本性挑战：如何协商、建立瞬时信任、形成临时联盟，并将不可通约的差异从负担转化为结构性资源。</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
-
-    <div class="about-lede-block">
-      <p>Robot Socialization Lab 关心的是：当人形机器人、四足机器人、无人机和轮式平台这些完全不同的机器身体被要求共享同一个系统时，会发生什么？它们不共享同一种传感器，不以同一种方式移动，也不以同一种视角读取环境。</p>
-      <p>在这种异构性之间建立协同，不是校准问题。它需要从根本上重新思考协同：如何协商、如何建立信任、如何形成临时联盟，以及如何让差异成为资源而非负担。</p>
-    </div>
 
     <blockquote class="about-quote">当机器学会像我们注视它们一样注视我们，我们还能认出自己吗？</blockquote>
 
