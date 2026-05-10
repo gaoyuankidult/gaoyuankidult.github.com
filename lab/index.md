@@ -22,36 +22,6 @@ layout: page
 
     <section class="about-research-ledger">
       <div class="about-section-head">
-        <span class="about-stage-label">Research Focus</span>
-        <p>Theoretical foundations and technical applications for embodied heterogeneous multi-robot systems.</p>
-      </div>
-
-      <div class="about-interest-ledger">
-        <article class="about-interest-item">
-          <h3>Social Phase Transitions in Urban Heterogeneous Multi-Robot Systems</h3>
-          <p>Mechanisms of social phase transitions and self-organized criticality in city-scale heterogeneous multi-robot systems.</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>Ethics-Driven System Niche Differentiation Dynamics</h3>
-          <p>Socialist value ethics-driven decision-making and system ecological niche differentiation dynamics.</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>Geometric Percolation and Topological Self-Reconstruction</h3>
-          <p>Theory of geometric percolation and topological self-reconstruction for embodied heterogeneous multi-robot systems under continuous topological damage.</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>Cloud-Edge-Terminal Multimodal Robot Teams</h3>
-          <p>Multimodal large model-driven collaborative perception, decision-making, and task adaptation for heterogeneous robot teams in cloud-edge-terminal architectures.</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>Human-Robot Collaborative Hybrid Intelligence</h3>
-          <p>Enhancing decision-making and execution efficiency through co-perception, collaborative decision-making, and intelligent control for bidirectional human-machine augmentation.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="about-research-ledger">
-      <div class="about-section-head">
         <span class="about-stage-label">Principal Investigator</span>
       </div>
       <div class="lab-pi-display">
@@ -97,6 +67,38 @@ layout: page
   </section>
 
   <aside class="about-side">
+    <div class="about-side-note">
+      <span class="about-stage-label">Research Focus</span>
+      <p>Theoretical foundations and technical applications for embodied heterogeneous multi-robot systems.</p>
+    </div>
+
+    <div class="about-facts">
+      <section class="about-fact">
+        <h3>Social Phase Transitions in Urban Heterogeneous Multi-Robot Systems</h3>
+        <p>Mechanisms of social phase transitions and self-organized criticality in city-scale heterogeneous multi-robot systems.</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>Ethics-Driven System Niche Differentiation Dynamics</h3>
+        <p>Socialist value ethics-driven decision-making and system ecological niche differentiation dynamics.</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>Geometric Percolation and Topological Self-Reconstruction</h3>
+        <p>Theory of geometric percolation and topological self-reconstruction for embodied heterogeneous multi-robot systems under continuous topological damage.</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>Cloud-Edge-Terminal Multimodal Robot Teams</h3>
+        <p>Multimodal large model-driven collaborative perception, decision-making, and task adaptation for heterogeneous robot teams in cloud-edge-terminal architectures.</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>Human-Robot Collaborative Hybrid Intelligence</h3>
+        <p>Enhancing decision-making and execution efficiency through co-perception, collaborative decision-making, and intelligent control for bidirectional human-machine augmentation.</p>
+      </section>
+    </div>
+
     <div class="about-side-note">
       <span class="about-stage-label">Contact</span>
       <p>For collaboration, visiting, or research inquiries, please reach out via the <a href="{{ site.url }}/contact/">contact page</a>.</p>

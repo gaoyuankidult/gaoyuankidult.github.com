@@ -22,36 +22,6 @@ lang: zh
 
     <section class="about-research-ledger">
       <div class="about-section-head">
-        <span class="about-stage-label">研究方向</span>
-        <p>具身异构多机器人系统的理论框架与技术应用。</p>
-      </div>
-
-      <div class="about-interest-ledger">
-        <article class="about-interest-item">
-          <h3>城市级异构多机系统的社会性相变</h3>
-          <p>城市级异构多机系统的社会性相变与自组织临界性机制研究。</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>社会主义价值伦理驱动决策</h3>
-          <p>社会主义价值伦理驱动决策的系统生态位分化动力学研究。</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>几何逾渗与拓扑自重构</h3>
-          <p>具身异构多机系统在连续拓扑损伤下的几何逾渗与拓扑自重构理论研究。</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>云-边-端多模态异构机器人特种小队</h3>
-          <p>多模态大模型驱动下异构机器人小队的协同感知、决策与任务适配能力研究。</p>
-        </article>
-        <article class="about-interest-item">
-          <h3>人机协同混合智能</h3>
-          <p>通过共同感知、协同决策与智能控制等核心技术实现人机双向增强。</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="about-research-ledger">
-      <div class="about-section-head">
         <span class="about-stage-label">实验室主任</span>
       </div>
       <div class="lab-pi-display">
@@ -97,6 +67,38 @@ lang: zh
   </section>
 
   <aside class="about-side">
+    <div class="about-side-note">
+      <span class="about-stage-label">研究方向</span>
+      <p>具身异构多机器人系统的理论框架与技术应用。</p>
+    </div>
+
+    <div class="about-facts">
+      <section class="about-fact">
+        <h3>城市级异构多机系统的社会性相变</h3>
+        <p>城市级异构多机系统的社会性相变与自组织临界性机制研究。</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>社会主义价值伦理驱动决策</h3>
+        <p>社会主义价值伦理驱动决策的系统生态位分化动力学研究。</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>几何逾渗与拓扑自重构</h3>
+        <p>具身异构多机系统在连续拓扑损伤下的几何逾渗与拓扑自重构理论研究。</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>云-边-端多模态异构机器人特种小队</h3>
+        <p>多模态大模型驱动下异构机器人小队的协同感知、决策与任务适配能力研究。</p>
+      </section>
+
+      <section class="about-fact">
+        <h3>人机协同混合智能</h3>
+        <p>通过共同感知、协同决策与智能控制等核心技术实现人机双向增强。</p>
+      </section>
+    </div>
+
     <div class="about-side-note">
       <span class="about-stage-label">联系方式</span>
       <p>合作、访问或研究咨询，请通过<a href="{{ site.url }}/zh/contact/">联系页面</a>联系我们。</p>
