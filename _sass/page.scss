@@ -5179,6 +5179,17 @@ html[lang="zh"] .lab-member-info h3 {
 	object-fit: cover;
 }
 
+/* Per-person head framing */
+.lab-member-photo img[src*="lin-wang.jpg"] {
+	object-position: 50% 35%;
+}
+.lab-member-photo img[src*="baozhe-zhang.jpg"] {
+	object-position: 50% 28%;
+}
+.lab-member-photo img[src*="peng-ju.jpg"] {
+	object-position: 55% 12%;
+}
+
 .lab-member-info {
 	display: block;
 }
@@ -5250,6 +5261,10 @@ html[lang="zh"] .lab-member-info h3 {
 	height: 100%;
 	object-fit: cover;
 	filter: grayscale(100%) contrast(1.02) brightness(0.96);
+}
+
+.lab-pi-display .lab-pi-photo img[src*="front.jpg"] {
+	object-position: 22% 22%;
 }
 
 .lab-pi-display .lab-pi-info h3 {
