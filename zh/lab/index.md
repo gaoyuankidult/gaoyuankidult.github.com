@@ -34,10 +34,12 @@ lang: zh
         <span class="lab-members-subhead">Lab Managers &amp; Postdocs</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
-            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang">
+            </div>
             <div class="lab-member-info">
-              <span class="lab-member-name">[姓名]</span>
-              <span class="lab-member-role">Postdoc / Lab Manager</span>
+              <span class="lab-member-name">Lin Wang</span>
+              <span class="lab-member-role">Project Manager</span>
             </div>
           </div>
         </div>
