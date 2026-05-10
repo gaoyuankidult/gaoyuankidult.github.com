@@ -64,6 +64,31 @@ lang: zh
       </div>
     </section>
 
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">联系方式</span>
+      </div>
+      <div class="lab-contact-display">
+        <p>合作、访问或研究咨询，请通过<a href="{{ site.url }}/zh/contact/">联系页面</a>联系我们。</p>
+        <div class="lab-contact-grid">
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Location</span>
+            <h3>Shenzhen, China</h3>
+          </div>
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Affiliation</span>
+            <h3>CUHK(SZ)</h3>
+            <p>深圳市人工智能与机器人研究院</p>
+          </div>
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Status</span>
+            <h3>Recruiting</h3>
+            <p>欢迎博士研究生和研究助理申请加入。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </section>
 
   <aside class="about-side">
@@ -96,30 +121,6 @@ lang: zh
       <section class="about-fact">
         <h3>人机协同混合智能</h3>
         <p>通过共同感知、协同决策与智能控制等核心技术实现人机双向增强。</p>
-      </section>
-    </div>
-
-    <div class="about-side-note">
-      <span class="about-stage-label">联系方式</span>
-      <p>合作、访问或研究咨询，请通过<a href="{{ site.url }}/zh/contact/">联系页面</a>联系我们。</p>
-    </div>
-
-    <div class="about-facts">
-      <section class="about-fact">
-        <span class="about-stage-label">Location</span>
-        <h3>Shenzhen, China</h3>
-      </section>
-
-      <section class="about-fact">
-        <span class="about-stage-label">Affiliation</span>
-        <h3>CUHK(SZ)</h3>
-        <p>深圳市人工智能与机器人研究院</p>
-      </section>
-
-      <section class="about-fact">
-        <span class="about-stage-label">Status</span>
-        <h3>Recruiting</h3>
-        <p>欢迎博士研究生和研究助理申请加入。</p>
       </section>
     </div>
   </aside>

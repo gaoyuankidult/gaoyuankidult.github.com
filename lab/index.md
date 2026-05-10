@@ -64,6 +64,31 @@ layout: page
       </div>
     </section>
 
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">Contact & Location</span>
+      </div>
+      <div class="lab-contact-display">
+        <p>For collaboration, visiting, or research inquiries, please reach out via the <a href="{{ site.url }}/contact/">contact page</a>.</p>
+        <div class="lab-contact-grid">
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Location</span>
+            <h3>Shenzhen, China</h3>
+          </div>
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Affiliation</span>
+            <h3>CUHK(SZ)</h3>
+            <p>Shenzhen Institute of Artificial Intelligence and Robotics</p>
+          </div>
+          <div class="lab-contact-item">
+            <span class="about-stage-label">Status</span>
+            <h3>Recruiting</h3>
+            <p>Ph.D. students and research assistants are welcome to apply.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </section>
 
   <aside class="about-side">
@@ -96,30 +121,6 @@ layout: page
       <section class="about-fact">
         <h3>Human-Robot Collaborative Hybrid Intelligence</h3>
         <p>Enhancing decision-making and execution efficiency through co-perception, collaborative decision-making, and intelligent control for bidirectional human-machine augmentation.</p>
-      </section>
-    </div>
-
-    <div class="about-side-note">
-      <span class="about-stage-label">Contact</span>
-      <p>For collaboration, visiting, or research inquiries, please reach out via the <a href="{{ site.url }}/contact/">contact page</a>.</p>
-    </div>
-
-    <div class="about-facts">
-      <section class="about-fact">
-        <span class="about-stage-label">Location</span>
-        <h3>Shenzhen, China</h3>
-      </section>
-
-      <section class="about-fact">
-        <span class="about-stage-label">Affiliation</span>
-        <h3>CUHK(SZ)</h3>
-        <p>Shenzhen Institute of Artificial Intelligence and Robotics</p>
-      </section>
-
-      <section class="about-fact">
-        <span class="about-stage-label">Status</span>
-        <h3>Recruiting</h3>
-        <p>Ph.D. students and research assistants are welcome to apply.</p>
       </section>
     </div>
   </aside>

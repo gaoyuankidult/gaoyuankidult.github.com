@@ -5248,6 +5248,57 @@ html[lang="zh"] .lab-member-info h3 {
 	color: #5a5048;
 }
 
+/* Contact display for bottom section */
+.lab-contact-display {
+	padding: 0.95rem 0 1.25rem 1.15rem;
+	border-left: 1px solid rgba(31, 26, 23, 0.18);
+	border-bottom: 1px solid rgba(31, 26, 23, 0.1);
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.06) 72%);
+}
+
+.lab-contact-display > p {
+	margin: 0 0 1rem;
+	font-size: 0.95rem;
+	line-height: 1.7;
+	color: #5a5048;
+}
+
+.lab-contact-display > p a {
+	color: #9a5f3b;
+	text-decoration: underline;
+}
+
+.lab-contact-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.lab-contact-item {
+	padding-top: 0.75rem;
+	border-top: 1px solid rgba(93, 70, 55, 0.1);
+}
+
+.lab-contact-item .about-stage-label {
+	display: block;
+	margin-bottom: 0.35rem;
+}
+
+.lab-contact-item h3 {
+	margin: 0 0 0.25rem;
+	font-family: $heading-font;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #1d1917;
+}
+
+.lab-contact-item p {
+	margin: 0;
+	font-size: 0.85rem;
+	line-height: 1.6;
+	color: #5a5048;
+}
+
 /* Chinese adjustments */
 html[lang="zh"] .lab-pi-name,
 html[lang="zh"] .lab-member-name,
