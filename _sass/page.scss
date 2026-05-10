@@ -5033,14 +5033,14 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-avatar-empty {
-	width: 56px;
-	height: 56px;
+	width: 64px;
+	height: 64px;
 	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
 }
 
 .lab-member-photo {
-	width: 56px;
-	height: 56px;
+	width: 64px;
+	height: 64px;
 	overflow: hidden;
 	background: #e9dfd1;
 }
@@ -5200,20 +5200,20 @@ html[lang="zh"] .lab-member-info h3 {
 
 .lab-member-slot {
 	display: grid;
-	grid-template-columns: 56px minmax(0, 1fr);
+	grid-template-columns: 64px minmax(0, 1fr);
 	gap: 0.85rem;
-	align-items: center;
+	align-items: start;
 }
 
 .lab-member-avatar-empty {
-	width: 56px;
-	height: 56px;
+	width: 64px;
+	height: 64px;
 	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
 }
 
 .lab-member-photo {
-	width: 56px;
-	height: 56px;
+	width: 64px;
+	height: 64px;
 	overflow: hidden;
 	background: #e9dfd1;
 }
