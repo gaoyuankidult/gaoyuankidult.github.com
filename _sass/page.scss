@@ -5026,19 +5026,25 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-slot {
-	display: grid;
-	grid-template-columns: 56px minmax(0, 1fr);
-	gap: 0.85rem;
-	align-items: start;
+	/* clearfix for floated photo */
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 .lab-member-avatar-empty {
+	float: left;
+	margin: 0 0.85rem 0.5rem 0;
 	width: 64px;
 	height: 64px;
 	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
 }
 
 .lab-member-photo {
+	float: left;
+	margin: 0 0.85rem 0.5rem 0;
 	width: 64px;
 	height: 64px;
 	overflow: hidden;
@@ -5206,12 +5212,16 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-avatar-empty {
+	float: left;
+	margin: 0 0.85rem 0.5rem 0;
 	width: 64px;
 	height: 64px;
 	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
 }
 
 .lab-member-photo {
+	float: left;
+	margin: 0 0.85rem 0.5rem 0;
 	width: 64px;
 	height: 64px;
 	overflow: hidden;
@@ -5225,12 +5235,11 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-info {
-	display: flex;
-	flex-direction: column;
-	gap: 0.2rem;
+	display: block;
 }
 
 .lab-member-name {
+	display: block;
 	font-family: $heading-font;
 	font-size: 0.95rem;
 	font-weight: 500;
@@ -5239,6 +5248,8 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-role {
+	display: block;
+	margin-top: 0.15rem;
 	font-family: $alt-font;
 	font-size: 0.65rem;
 	font-weight: 500;
@@ -5248,7 +5259,8 @@ html[lang="zh"] .lab-member-info h3 {
 }
 
 .lab-member-bio {
-	margin: 0.15rem 0 0;
+	clear: left;
+	margin: 0.5rem 0 0;
 	font-size: 0.65rem;
 	line-height: 1.55;
 	color: #5a5048;
@@ -5256,7 +5268,7 @@ html[lang="zh"] .lab-member-info h3 {
 
 .lab-member-link {
 	display: inline-block;
-	margin-top: 0.1rem;
+	margin-top: 0.35rem;
 	font-size: 0.7rem;
 	font-family: $alt-font;
 	color: #9a5f3b;
