@@ -60,11 +60,14 @@ layout: page
             <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
           </div>
           <div class="lab-member-slot">
-            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="Peng Ju">
+            </div>
             <div class="lab-member-info">
-              <span class="lab-member-name">[Student Name]</span>
+              <span class="lab-member-name">Peng Ju</span>
               <span class="lab-member-role">Ph.D. Student</span>
             </div>
+            <p class="lab-member-bio">I am a Ph.D. student with research interests in cloud–edge–end co-evolutionary heterogeneous multi-robot systems for city-scale, long-duration tasks, with a focus on the evolution of large language models for task decomposition and collaborative decision-making, as well as the evolution of robot capabilities.</p>
           </div>
         </div>
       </div>

@@ -60,11 +60,14 @@ lang: zh
             <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
           </div>
           <div class="lab-member-slot">
-            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="鞠鹏">
+            </div>
             <div class="lab-member-info">
-              <span class="lab-member-name">[学生姓名]</span>
+              <span class="lab-member-name">鞠鹏</span>
               <span class="lab-member-role">博士研究生</span>
             </div>
+            <p class="lab-member-bio">研究方向为云–边–端协同演化的异构多机器人系统，面向城市级长周期任务，重点关注大语言模型在任务分解与协同决策中的演化机制，以及机器人能力的演化。</p>
           </div>
         </div>
       </div>
