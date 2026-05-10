@@ -31,7 +31,7 @@ lang: zh
       </div>
 
       <div class="lab-members-subsection">
-        <span class="lab-members-subhead">Lab Managers &amp; Postdocs</span>
+        <span class="lab-members-subhead">实验室主管与博士后</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
@@ -39,14 +39,14 @@ lang: zh
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Lin Wang</span>
-              <span class="lab-member-role">Project Manager</span>
+              <span class="lab-member-role">项目主管</span>
             </div>
           </div>
         </div>
       </div>
 
       <div class="lab-members-subsection">
-        <span class="lab-members-subhead">PhD Students</span>
+        <span class="lab-members-subhead">博士研究生</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
@@ -55,7 +55,7 @@ lang: zh
             <div class="lab-member-info">
               <span class="lab-member-name">张宝哲</span>
               <span class="lab-member-role">博士研究生</span>
-              <p class="lab-member-bio">My research interests focus on robot motion planning, differentiable trajectory optimization, differentiable physics simulation, and reinforcement learning.</p>
+              <p class="lab-member-bio">研究方向为机器人运动规划、可微轨迹优化、可微物理仿真与强化学习。</p>
               <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
             </div>
           </div>
@@ -78,17 +78,17 @@ lang: zh
         <p>合作、访问或研究咨询，请通过<a href="{{ site.url }}/zh/contact/">联系页面</a>联系我们。</p>
         <div class="lab-contact-grid">
           <div class="lab-contact-item">
-            <span class="about-stage-label">Location</span>
-            <h3>Shenzhen, China</h3>
+            <span class="about-stage-label">所在地</span>
+            <h3>中国深圳</h3>
           </div>
           <div class="lab-contact-item">
-            <span class="about-stage-label">Affiliation</span>
+            <span class="about-stage-label">所属机构</span>
             <h3>CUHK(SZ)</h3>
             <p>深圳市人工智能与机器人研究院</p>
           </div>
           <div class="lab-contact-item">
-            <span class="about-stage-label">Status</span>
-            <h3>Recruiting</h3>
+            <span class="about-stage-label">状态</span>
+            <h3>招聘中</h3>
             <p>欢迎博士后和研究助理申请加入。</p>
           </div>
         </div>

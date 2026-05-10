@@ -5370,6 +5370,35 @@ html[lang="zh"] .lab-pi-display .lab-pi-info h3 {
 	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
 }
 
+html[lang="zh"] .lab-members-subhead {
+	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+	font-style: normal;
+	font-size: 0.82rem;
+	letter-spacing: 0.06em;
+}
+
+html[lang="zh"] .lab-member-role {
+	font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+	font-size: 0.7rem;
+	text-transform: none;
+	letter-spacing: 0.04em;
+}
+
+html[lang="zh"] .lab-member-bio {
+	font-size: 0.68rem;
+	line-height: 1.7;
+}
+
+html[lang="zh"] .lab-contact-item h3 {
+	font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+}
+
+html[lang="zh"] .about-fact h3 {
+	font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+	font-size: 1.02rem;
+	line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 960px) {
 	.lab-artistic-grid {
