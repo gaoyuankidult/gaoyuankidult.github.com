@@ -5032,52 +5032,6 @@ html[lang="zh"] .lab-member-info h3 {
 	clear: both;
 }
 
-.lab-member-avatar-empty {
-	float: left;
-	margin: 0 0.85rem 0.5rem 0;
-	width: 64px;
-	height: 64px;
-	background: linear-gradient(135deg, #e9dfd1 0%, #ddd3c3 100%);
-}
-
-.lab-member-photo {
-	float: left;
-	margin: 0 0.85rem 0.5rem 0;
-	width: 64px;
-	height: 64px;
-	overflow: hidden;
-	background: #e9dfd1;
-}
-
-.lab-member-photo img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.lab-member-info {
-	display: flex;
-	flex-direction: column;
-	gap: 0.2rem;
-}
-
-.lab-member-name {
-	font-family: $heading-font;
-	font-size: 0.95rem;
-	font-weight: 500;
-	font-style: italic;
-	color: #8a7a6d;
-}
-
-.lab-member-role {
-	font-family: $alt-font;
-	font-size: 0.65rem;
-	font-weight: 500;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-	color: #9a5f3b;
-}
-
 /* Contact block */
 .lab-contact-block {
 	padding-top: 0;

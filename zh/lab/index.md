@@ -1,5 +1,5 @@
 ---
-title: Robot Socialization Lab
+title: Robot Societalization Lab
 lang: zh
 ---
 
