@@ -94,6 +94,11 @@ layout: page
 
     <div class="about-facts">
       <section class="about-fact">
+        <h3>Agentic Embodied Heterogeneous Multi-Robot Decision Systems</h3>
+        <p>How large foundation models serve as reasoning substrates for multi-robot deliberation—negotiating task decompositions, role assignments, and contingency handling across robots with incommensurable action spaces—while preserving sensorimotor groundedness.</p>
+      </section>
+
+      <section class="about-fact">
         <h3>Social Phase Transitions in Urban Heterogeneous Multi-Robot Systems</h3>
         <p>Mechanisms of social phase transitions and self-organized criticality in city-scale heterogeneous multi-robot systems.</p>
       </section>
@@ -116,11 +121,6 @@ layout: page
       <section class="about-fact">
         <h3>Human-Robot Collaborative Hybrid Intelligence</h3>
         <p>Enhancing decision-making and execution efficiency through co-perception, collaborative decision-making, and intelligent control for bidirectional human-machine augmentation.</p>
-      </section>
-
-      <section class="about-fact">
-        <h3>Agentic Embodied Heterogeneous Multi-Robot Decision Systems</h3>
-        <p>Investigation of agency formation in embodied heterogeneous robot collectives, where decision architectures must reconcile morphological diversity, asymmetric information access, and temporally extended goal structures. The work examines how large foundation models can serve as reasoning substrates for multi-robot deliberation—negotiating task decompositions, role assignments, and contingency handling across robots whose action spaces are fundamentally incommensurable—while preserving the groundedness that only sensorimotor coupling with the physical world can provide.</p>
       </section>
     </div>
   </aside>
