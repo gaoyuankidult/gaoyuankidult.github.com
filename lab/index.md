@@ -109,7 +109,7 @@ layout: page
     <div class="about-facts">
       <section class="about-fact">
         <h3>Agentic Embodied Heterogeneous Multi-Robot Decision Systems</h3>
-        <p>How large foundation models serve as reasoning substrates for multi-robot deliberation—negotiating task decompositions, role assignments, and contingency handling across robots with incommensurable action spaces—while preserving sensorimotor groundedness.</p>
+        <p>How large foundation models based agents serve as reasoning substrates for multi-robot deliberation—negotiating task decompositions, role assignments, and contingency handling across robots with incommensurable action spaces—while preserving sensorimotor groundedness.</p>
       </section>
 
       <section class="about-fact">
