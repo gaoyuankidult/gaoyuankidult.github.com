@@ -115,13 +115,13 @@ layout: page
       </section>
 
       <section class="about-fact">
-        <h3>Ethics-Driven System Niche Differentiation Dynamics</h3>
-        <p>Socialist value ethics-driven decision-making and system ecological niche differentiation dynamics.</p>
+        <h3>Geometric Percolation and Topological Self-Reconstruction</h3>
+        <p>Theory of geometric percolation and topological self-reconstruction for embodied heterogeneous multi-robot systems under continuous topological damage.</p>
       </section>
 
       <section class="about-fact">
-        <h3>Geometric Percolation and Topological Self-Reconstruction</h3>
-        <p>Theory of geometric percolation and topological self-reconstruction for embodied heterogeneous multi-robot systems under continuous topological damage.</p>
+        <h3>Ethics-Driven System Niche Differentiation Dynamics</h3>
+        <p>Socialist value ethics-driven decision-making and system ecological niche differentiation dynamics.</p>
       </section>
 
       <section class="about-fact">
