@@ -5252,6 +5252,28 @@ html[lang="zh"] .lab-member-info h3 {
 	color: #9a5f3b;
 }
 
+.lab-member-bio {
+	margin: 0.15rem 0 0;
+	font-size: 0.72rem;
+	line-height: 1.55;
+	color: #5a5048;
+}
+
+.lab-member-link {
+	display: inline-block;
+	margin-top: 0.1rem;
+	font-size: 0.7rem;
+	font-family: $alt-font;
+	color: #9a5f3b;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(154, 95, 59, 0.3);
+}
+
+.lab-member-link:hover {
+	color: #7a4a2e;
+	border-bottom-color: rgba(122, 74, 46, 0.6);
+}
+
 /* PI display for unified layout */
 .lab-pi-display {
 	display: grid;
