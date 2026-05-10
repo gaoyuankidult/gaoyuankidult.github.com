@@ -29,26 +29,36 @@ layout: page
       <div class="about-section-head">
         <span class="about-stage-label">Lab Members</span>
       </div>
-      <div class="lab-members-display">
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[Student Name]</span>
-            <span class="lab-member-role">Ph.D. Student</span>
+
+      <div class="lab-members-subsection">
+        <span class="lab-members-subhead">Lab Managers &amp; Postdocs</span>
+        <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[Name]</span>
+              <span class="lab-member-role">Postdoc / Lab Manager</span>
+            </div>
           </div>
         </div>
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[Student Name]</span>
-            <span class="lab-member-role">Ph.D. Student</span>
+      </div>
+
+      <div class="lab-members-subsection">
+        <span class="lab-members-subhead">PhD Students</span>
+        <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[Student Name]</span>
+              <span class="lab-member-role">Ph.D. Student</span>
+            </div>
           </div>
-        </div>
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[Student Name]</span>
-            <span class="lab-member-role">Research Assistant</span>
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[Student Name]</span>
+              <span class="lab-member-role">Ph.D. Student</span>
+            </div>
           </div>
         </div>
       </div>

@@ -29,26 +29,36 @@ lang: zh
       <div class="about-section-head">
         <span class="about-stage-label">实验室成员</span>
       </div>
-      <div class="lab-members-display">
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[学生姓名]</span>
-            <span class="lab-member-role">博士研究生</span>
+
+      <div class="lab-members-subsection">
+        <span class="lab-members-subhead">Lab Managers &amp; Postdocs</span>
+        <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[姓名]</span>
+              <span class="lab-member-role">Postdoc / Lab Manager</span>
+            </div>
           </div>
         </div>
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[学生姓名]</span>
-            <span class="lab-member-role">博士研究生</span>
+      </div>
+
+      <div class="lab-members-subsection">
+        <span class="lab-members-subhead">PhD Students</span>
+        <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[学生姓名]</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
           </div>
-        </div>
-        <div class="lab-member-slot">
-          <div class="lab-member-avatar-empty"></div>
-          <div class="lab-member-info">
-            <span class="lab-member-name">[学生姓名]</span>
-            <span class="lab-member-role">研究助理</span>
+          <div class="lab-member-slot">
+            <div class="lab-member-avatar-empty"></div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">[学生姓名]</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
           </div>
         </div>
       </div>
