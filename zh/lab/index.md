@@ -12,13 +12,22 @@ lang: zh
       <div class="about-section-head">
         <span class="about-stage-label">实验室主任</span>
       </div>
-      <div class="lab-pi-display">
+      <div class="lab-pi-display" style="border-bottom: none;">
         <div class="lab-pi-photo">
           <img src="{{ site.url }}/images/front.jpg" alt="高源" style="object-position: 22% 22%;">
         </div>
         <div class="lab-pi-info">
           <h3>高源</h3>
           <p>深圳市人工智能与机器人研究院<br>香港中文大学（深圳）</p>
+        </div>
+      </div>
+      <div class="lab-pi-display">
+        <div class="lab-pi-photo">
+          <img src="{{ site.url }}/images/chen-xi.jpg" alt="陈晰" style="object-position: 50% 20%;">
+        </div>
+        <div class="lab-pi-info">
+          <h3>陈晰</h3>
+          <p>共同PI<br>深圳市人工智能与机器人研究院<br>香港中文大学（深圳）</p>
         </div>
       </div>
     </section>
@@ -40,15 +49,6 @@ lang: zh
             <div class="lab-member-info">
               <span class="lab-member-name">Lin Wang</span>
               <span class="lab-member-role">项目主管</span>
-            </div>
-          </div>
-          <div class="lab-member-slot">
-            <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/chen-xi.jpg" alt="陈晰" style="object-position: 50% 20%;">
-            </div>
-            <div class="lab-member-info">
-              <span class="lab-member-name">陈晰</span>
-              <span class="lab-member-role">共同PI</span>
             </div>
           </div>
         </div>

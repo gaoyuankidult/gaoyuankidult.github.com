@@ -5171,7 +5171,6 @@ html[lang="zh"] .lab-member-info h3 {
 	height: 64px;
 	overflow: hidden;
 	background: #e9dfd1;
-	border-radius: 50%;
 	transition: width 0.3s ease, height 0.3s ease;
 }
 .lab-member-photo:hover {
@@ -5183,11 +5182,6 @@ html[lang="zh"] .lab-member-info h3 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
-/* Pre-cropped avatar - no size change on hover */
-.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]):hover {
-	width: 64px;
-	height: 64px;
 }
 
 /* Per-person head framing */
