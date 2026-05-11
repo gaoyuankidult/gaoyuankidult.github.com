@@ -2,11 +2,11 @@
 - title: 首页
   url: /zh/
 
-- title: 实验室
-  url: /zh/lab/
-
 - title: 新闻
   url: /zh/news/
+
+- title: 实验室
+  url: /zh/lab/
 
 - title: 论文
   url: /zh/publications/

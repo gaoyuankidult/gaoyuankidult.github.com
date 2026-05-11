@@ -1,5 +1,5 @@
 ---
-title: Robot Societalization Lab
+title: 社会化机器人实验室
 lang: zh
 ---
 
@@ -61,7 +61,7 @@ lang: zh
       </div>
 
       <div class="lab-members-subsection">
-        <span class="lab-members-subhead">博士研究生</span>
+        <span class="lab-members-subhead">博士研究生与联合培养博士生</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
@@ -106,6 +106,13 @@ lang: zh
           </div>
         </div>
       </div>
+
+      <div class="lab-members-subsection">
+        <span class="lab-members-subhead">实验室助理</span>
+        <div class="lab-members-display">
+        </div>
+      </div>
+
     </section>
 
     <section class="about-research-ledger">
@@ -163,7 +170,7 @@ lang: zh
       </section>
 
       <section class="about-fact">
-        <h3>云-边-端多模态异构机器人协同系统</h3>
+        <h3>云-边-端多模态异构机器人小队</h3>
         <p>多模态大模型驱动下异构机器人团队的协同感知、决策与任务适配能力研究。</p>
       </section>
 

@@ -2,11 +2,11 @@
 - title: Home
   url:
 
-- title: Lab
-  url: /lab/
-
 - title: News
   url: /news/
+
+- title: Lab
+  url: /lab/
 
 - title: Publications
   url: /publications/
