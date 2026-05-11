@@ -3,7 +3,7 @@ title: Robot Societalization Lab
 lang: zh
 ---
 
-<p class="page-intro fade-in">研究城市尺度的社会化异构多机器人系统——人形机器人、四足机器人、无人机与轮式平台既不共享传感器模态，亦不共享运动语法与环境表征。除了形态非对称性，我们还关注系统动力学：耦合感知-运动回路如何涌现出集体行为，社会协调如何在——或如何被——智能体赖以感知、行动与交流的物理基底所扰动。</p>
+<p class="page-intro fade-in">研究城市级的异构多机器人社会系统——人形、四足、无人机与轮式平台不共享同一套传感器、运动语法或环境表征。形态非对称之外，我们关注系统动力学：耦合的感知-运动回路如何涌现集体行为，以及社会协调怎样被智能体感知、行动和交流所依凭的物理条件所塑造、所扰动。</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
@@ -38,7 +38,7 @@ lang: zh
       </div>
     </section>
 
-    <blockquote class="about-quote">一台机器人是一种哲学的具身化。异构多机器人社会，是不可通约的哲学彼此滋养之处。</blockquote>
+    <blockquote class="about-quote">一台机器人是一种哲学的具身。异构多机器人社会，是彼此不可化约的哲学得以共处之地。</blockquote>
 
     <section class="about-research-ledger">
       <div class="about-section-head">
@@ -144,12 +144,12 @@ lang: zh
     <div class="about-facts">
       <section class="about-fact">
         <h3>具身异构多机器人自主决策系统</h3>
-        <p>大型基础模型作为多机器人推理基底——在行动空间不可通约的异构机器人之间实现任务分解、角色分配与应急处理的协商——同时保持感知-运动耦合的物理根基性。</p>
+        <p>以大模型为推理核心，让行动空间互不兼容的异构机器人实现任务分解、角色分配与应急协商，同时保持感知-运动耦合不脱离物理条件。</p>
       </section>
 
       <section class="about-fact">
-        <h3>城市级异构多机系统的社会性相变</h3>
-        <p>城市级异构多机系统的社会性相变与自组织临界性机制研究。</p>
+        <h3>城市级异构多机系统的社会相变</h3>
+        <p>城市级异构多机系统的社会相变与自组织临界性机制研究。</p>
       </section>
 
       <section class="about-fact">
@@ -163,8 +163,8 @@ lang: zh
       </section>
 
       <section class="about-fact">
-        <h3>云-边-端多模态异构机器人特种小队</h3>
-        <p>多模态大模型驱动下异构机器人小队的协同感知、决策与任务适配能力研究。</p>
+        <h3>云-边-端多模态异构机器人协同系统</h3>
+        <p>多模态大模型驱动下异构机器人团队的协同感知、决策与任务适配能力研究。</p>
       </section>
 
       <section class="about-fact">

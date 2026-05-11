@@ -4,12 +4,12 @@ title: 论文
 lang: zh
 ---
 
-<p class="page-intro fade-in">这里按年份整理代表性论文。最新工作默认展开，较早年份折叠收起，让页面在继续增长时仍然保持比例与秩序。</p>
+<p class="page-intro fade-in">这里按年份整理代表性论文。最新工作默认展开，较早年份折叠收起，让页面在持续增长中保持清晰的阅读节奏。</p>
 
 <section class="publication-stage fade-in">
   <div class="publication-stage-copy">
     <p class="pub-stage-kicker">研究档案</p>
-    <h2>这里不把论文当成连续更新流，而把它们看作具身智能、协同控制与机器行为研究逐步成形的证据。</h2>
+    <h2>这里不把论文当作按时间排列的流水，而将它们看作具身智能、协同控制与机器行为研究逐渐成形的轨迹。</h2>
   </div>
 
   <div class="publication-stage-meta">

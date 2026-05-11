@@ -4,7 +4,7 @@ title: 艺术
 lang: zh
 ---
 
-<p class="page-intro fade-in">艺术是研究离开实验台、进入真实空间的地方。装置在这里变成一块现场测试场，用来观察机器行为一旦公开、具身并暴露在观众目光之下，会呈现出什么。</p>
+<p class="page-intro fade-in">艺术是研究离开实验台、进入真实空间的地方。装置在这里变成一个现场实验场，用来观察机器行为一旦公开、具身并暴露在观众目光之下，会呈现出什么面貌。</p>
 
 <div class="art-exhibit fade-in">
   <details class="pub-year" open>
@@ -36,7 +36,7 @@ lang: zh
     <div class="art-exhibit-copy">
       <span class="art-kicker">装置 / 现场多机器人系统</span>
       <h2>Game Theater</h2>
-      <p class="art-stage-lead"><em>Game Theater</em> 把异构机器人作为表演者放进同一个实时多智能体系统中。人形、四足、轮式与空中机器体在同一空间里协商、试探、追逐与共处，使行为带上一种社会性的错觉，却并不假装它们拥有人的内在性。</p>
+      <p class="art-stage-lead"><em>Game Theater</em> 把异构机器人作为表演者放进同一个实时多智能体系统中。人形、四足、轮式与空中机器体在同一空间里协商、试探、追逐与共处，使行为带上社交的错觉，却并不假装它们拥有人的内在意识。</p>
       <p>这件作品不是为了展示模型有多强，而是把协调、迟疑、追踪与临时联盟这些技术逻辑转化成观众能直接观看的空间戏剧。</p>
       <div class="art-fact-grid">
         <div>
@@ -115,7 +115,7 @@ lang: zh
   <section class="art-context-grid">
     <article>
       <h3>展览语境</h3>
-      <p>对物质性与虚拟化的探索，当触觉、温度、重量都可以被模拟时，/在场/还剩什么？</p>
+      <p>对物质性与虚拟化的探索：当触觉、温度、重量都可以被模拟时，在场还剩什么？</p>
     </article>
   </section>
     </div>

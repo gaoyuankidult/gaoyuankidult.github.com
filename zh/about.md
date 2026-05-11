@@ -4,13 +4,13 @@ title: 关于
 lang: zh
 ---
 
-<p class="page-intro fade-in">实验室、论文与展厅在这里不是三块分开的空间，而是同一个问题的三种展开方式：当机器拥有身体、限制与公共后果时，什么样的智能才会真正显现。</p>
+<p class="page-intro fade-in">实验室、论文与展厅在这里不是三块分开的空间，而是同一个问题的三种展开方式：当机器拥有身体、约束与公共后果时，什么样的智能才会真正显现。</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
     <div class="about-lede-block">
       <p class="about-kicker">研究者 / 艺术实践者 / 机器行为建构者</p>
-      <h2>我关心的是：彼此不同的机器身体，如何在不被压成同一种逻辑的前提下，共同分享一个世界。</h2>
+      <h2>我关心的是：彼此不同的机器身体，如何在不被简化为同一种逻辑的前提下，共同分享一个世界。</h2>
     </div>
 
     <div class="about-prose">
