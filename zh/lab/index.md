@@ -50,7 +50,27 @@ lang: zh
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="张宝哲" style="object-position: 50% 28%;">
+              <img src="{{ site.url }}/images/haixu-zhang.jpg" alt="张海旭" style="object-position: 50% 40%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">张海旭</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
+            <p class="lab-member-bio">张海旭不编写行为；他编写奖励景观，让失败的物理教会其余一切。</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/wenqiang-lai.jpg" alt="赖文强" style="object-position: 50% 20%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">赖文强</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
+            <p class="lab-member-bio">赖文强的工作专注于通过具身智能体增强异构多机器人系统的集体韧性。</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="张宝哲" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">张宝哲</span>
@@ -61,7 +81,7 @@ lang: zh
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju.jpg" alt="鞠鹏" style="object-position: 58% 18%;">
+              <img src="{{ site.url }}/images/peng-ju-avatar-final.jpg" alt="鞠鹏">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">鞠鹏</span>

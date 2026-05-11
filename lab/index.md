@@ -50,24 +50,44 @@ layout: page
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="Baozhe Zhang" style="object-position: 50% 28%;">
+              <img src="{{ site.url }}/images/haixu-zhang.jpg" alt="Haixu Zhang" style="object-position: 50% 40%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Haixu Zhang</span>
+              <span class="lab-member-role">Ph.D. Student</span>
+            </div>
+            <p class="lab-member-bio">Haixu Zhang does not program behaviors; he writes reward landscapes, and lets the physics of failure teach the rest.</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/wenqiang-lai.jpg" alt="Wenqiang Lai" style="object-position: 50% 20%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Wenqiang Lai</span>
+              <span class="lab-member-role">Ph.D. Student</span>
+            </div>
+            <p class="lab-member-bio">Wenqiang Lai's work focuses on enhancing the collective resilience of heterogeneous multi-robot systems with embodied agents.</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/baozhe-zhang.jpg" alt="Baozhe Zhang" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Baozhe Zhang</span>
               <span class="lab-member-role">Ph.D. Student</span>
               <a href="https://baozhezhang.com" class="lab-member-link" target="_blank" rel="noopener">baozhezhang.com</a>
             </div>
-            <p class="lab-member-bio">My research interests focus on robot motion planning, differentiable trajectory optimization, differentiable physics simulation, and reinforcement learning.</p>
+            <p class="lab-member-bio">Baozhe Zhang's research interests focus on robot motion planning, differentiable trajectory optimization, differentiable physics simulation, and reinforcement learning.</p>
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju.jpg" alt="Peng Ju" style="object-position: 58% 18%;">
+              <img src="{{ site.url }}/images/peng-ju-avatar-final.jpg" alt="Peng Ju">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Peng Ju</span>
               <span class="lab-member-role">Ph.D. Student</span>
             </div>
-            <p class="lab-member-bio">I am a Ph.D. student with research interests in cloud–edge–end co-evolutionary heterogeneous multi-robot systems for city-scale, long-duration tasks, with a focus on the evolution of large language models for task decomposition and collaborative decision-making, as well as the evolution of robot capabilities.</p>
+            <p class="lab-member-bio">Peng Ju's research focuses on cloud–edge–end co-evolutionary heterogeneous multi-robot systems for city-scale, long-duration tasks, with emphasis on the evolution of large language models for task decomposition and collaborative decision-making, as well as the evolution of robot capabilities.</p>
           </div>
         </div>
       </div>
