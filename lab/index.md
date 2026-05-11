@@ -3,7 +3,7 @@ title: Robot Societalization Lab
 layout: page
 ---
 
-<p class="page-intro fade-in">We study coordination among embodied heterogeneous multi-robot systems—humanoids, quadrupeds, drones, and wheeled platforms that neither share sensory modalities, movement grammars, nor environmental representations. Across this morphological asymmetry, cooperation is not a calibration problem but a foundational challenge: how to negotiate, establish transient trust, form provisional coalitions, and convert irreducible difference from a liability into a structural resource.</p>
+<p class="page-intro fade-in">We study societalized heterogeneous multi-robot systems at urban scale—humanoids, quadrupeds, drones, and wheeled platforms that neither share sensory modalities, movement grammars, nor environmental representations. Beyond morphological asymmetry, we engage with their dynamics: how collective behavior emerges from coupled sensorimotor loops, and how social coordination arises from—or is disrupted by—the physical substrates through which agents perceive, act, and communicate.</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
