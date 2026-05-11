@@ -10,7 +10,7 @@ lang: zh
 
     <section class="about-research-ledger">
       <div class="about-section-head">
-        <span class="about-stage-label">实验室主任</span>
+        <span class="about-stage-label">项目集负责人</span>
       </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
@@ -25,7 +25,7 @@ lang: zh
 
     <section class="about-research-ledger">
       <div class="about-section-head">
-        <span class="about-stage-label">共同PI</span>
+        <span class="about-stage-label">项目集共同负责人</span>
       </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
