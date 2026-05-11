@@ -5302,21 +5302,22 @@ html[lang="zh"] .lab-member-info h3 {
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity 0.3s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .lightbox-overlay.active {
 	opacity: 1;
 	pointer-events: auto;
 }
 .lightbox-overlay img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	display: block;
 	max-width: 90vw;
 	max-height: 90vh;
 	width: auto;
 	height: auto;
 	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
+	transition: none;
 }
 .lightbox-close {
 	position: absolute;
