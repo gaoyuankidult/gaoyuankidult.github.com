@@ -63,25 +63,16 @@
 
   var img = overlay.querySelector('img');
   var closeBtn = overlay.querySelector('.lightbox-close');
-  var savedScrollY = 0;
 
   function open(src) {
-    savedScrollY = window.scrollY;
     img.src = src;
     overlay.classList.add('active');
-    document.body.style.top = '-' + savedScrollY + 'px';
-    document.body.style.position = 'fixed';
-    document.body.style.width = '100%';
-    document.body.style.overflowY = 'scroll';
+    document.body.style.overflow = 'hidden';
   }
 
   function close() {
     overlay.classList.remove('active');
-    document.body.style.top = '';
-    document.body.style.position = '';
-    document.body.style.width = '';
-    document.body.style.overflowY = '';
-    window.scrollTo(0, savedScrollY);
+    document.body.style.overflow = '';
   }
 
   document.querySelectorAll('.lab-pi-photo img, .lab-member-photo img').forEach(function(el) {
