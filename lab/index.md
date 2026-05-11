@@ -10,9 +10,9 @@ layout: page
 
     <section class="about-research-ledger">
       <div class="about-section-head">
-        <span class="about-stage-label">Principal Investigators</span>
+        <span class="about-stage-label">Principal Investigator</span>
       </div>
-      <div class="lab-pi-display" style="border-bottom: none;">
+      <div class="lab-pi-display">
         <div class="lab-pi-photo">
           <img src="{{ site.url }}/images/front.jpg" alt="Yuan Gao" style="object-position: 22% 22%;">
         </div>
@@ -21,13 +21,19 @@ layout: page
           <p>Shenzhen Institute of Artificial Intelligence and Robotics<br>The Chinese University of Hong Kong, Shenzhen</p>
         </div>
       </div>
+    </section>
+
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">Co-Principal Investigator</span>
+      </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
           <img src="{{ site.url }}/images/chen-xi.jpg" alt="Xi Chen" style="object-position: 50% 20%;">
         </div>
         <div class="lab-pi-info">
           <h3>Xi Chen</h3>
-          <p>Co-Principal Investigator<br>Beijing Institute for General Artificial Intelligence</p>
+          <p>Beijing Institute for General Artificial Intelligence</p>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ lang: zh
       <div class="about-section-head">
         <span class="about-stage-label">实验室主任</span>
       </div>
-      <div class="lab-pi-display" style="border-bottom: none;">
+      <div class="lab-pi-display">
         <div class="lab-pi-photo">
           <img src="{{ site.url }}/images/front.jpg" alt="高源" style="object-position: 22% 22%;">
         </div>
@@ -21,13 +21,19 @@ lang: zh
           <p>深圳市人工智能与机器人研究院<br>香港中文大学（深圳）</p>
         </div>
       </div>
+    </section>
+
+    <section class="about-research-ledger">
+      <div class="about-section-head">
+        <span class="about-stage-label">共同PI</span>
+      </div>
       <div class="lab-pi-display">
         <div class="lab-pi-photo">
           <img src="{{ site.url }}/images/chen-xi.jpg" alt="陈晰" style="object-position: 50% 20%;">
         </div>
         <div class="lab-pi-info">
           <h3>陈晰</h3>
-          <p>共同PI<br>北京市通用人工智能研究院</p>
+          <p>北京市通用人工智能研究院</p>
         </div>
       </div>
     </section>
