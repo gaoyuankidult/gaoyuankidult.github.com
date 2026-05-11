@@ -81,7 +81,7 @@ layout: page
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju-avatar-final.jpg" alt="Peng Ju">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="Peng Ju" style="object-position: 50% 20%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Peng Ju</span>

@@ -81,7 +81,7 @@ lang: zh
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/peng-ju-avatar-final.jpg" alt="鞠鹏">
+              <img src="{{ site.url }}/images/peng-ju.jpg" alt="鞠鹏" style="object-position: 50% 20%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">鞠鹏</span>
