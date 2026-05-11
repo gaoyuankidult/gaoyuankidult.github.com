@@ -27,7 +27,7 @@ lang: zh
         </div>
         <div class="lab-pi-info">
           <h3>陈晰</h3>
-          <p>共同PI<br>深圳市人工智能与机器人研究院<br>香港中文大学（深圳）</p>
+          <p>共同PI<br>北京市通用人工智能研究院</p>
         </div>
       </div>
     </section>

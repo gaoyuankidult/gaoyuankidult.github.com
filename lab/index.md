@@ -27,7 +27,7 @@ layout: page
         </div>
         <div class="lab-pi-info">
           <h3>Xi Chen</h3>
-          <p>Co-Principal Investigator<br>Shenzhen Institute of Artificial Intelligence and Robotics<br>The Chinese University of Hong Kong, Shenzhen</p>
+          <p>Co-Principal Investigator<br>Beijing Institute for General Artificial Intelligence</p>
         </div>
       </div>
     </section>
