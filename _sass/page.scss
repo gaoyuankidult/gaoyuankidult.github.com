@@ -5293,7 +5293,10 @@ html[lang="zh"] .lab-member-info h3 {
 /* Lightbox overlay for photo preview */
 .lightbox-overlay {
 	position: fixed;
-	inset: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	z-index: 9999;
 	background: rgba(0, 0, 0, 0.88);
 	display: flex;
@@ -5308,8 +5311,11 @@ html[lang="zh"] .lab-member-info h3 {
 	pointer-events: auto;
 }
 .lightbox-overlay img {
+	display: block;
 	max-width: 90vw;
 	max-height: 90vh;
+	width: auto;
+	height: auto;
 	object-fit: contain;
 	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
 }
