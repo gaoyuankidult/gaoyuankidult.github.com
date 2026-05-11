@@ -5182,6 +5182,16 @@ html[lang="zh"] .lab-member-info h3 {
 .lab-member-photo:hover img {
 	transform: scale(1.15);
 }
+/* Pre-cropped avatar - no zoom needed */
+.lab-member-photo img[src*="peng-ju-avatar-final.jpg"] {
+	transition: none;
+}
+.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]) {
+	overflow: visible;
+}
+.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]):hover img {
+	transform: none;
+}
 
 /* Per-person head framing */
 .lab-member-photo img[src*="lin-wang.jpg"] {
