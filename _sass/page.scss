@@ -5171,26 +5171,23 @@ html[lang="zh"] .lab-member-info h3 {
 	height: 64px;
 	overflow: hidden;
 	background: #e9dfd1;
+	border-radius: 50%;
+	transition: width 0.3s ease, height 0.3s ease;
+}
+.lab-member-photo:hover {
+	width: 72px;
+	height: 72px;
 }
 
 .lab-member-photo img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: transform 0.3s ease;
 }
-.lab-member-photo:hover img {
-	transform: scale(1.15);
-}
-/* Pre-cropped avatar - no zoom needed */
-.lab-member-photo img[src*="peng-ju-avatar-final.jpg"] {
-	transition: none;
-}
-.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]) {
-	overflow: visible;
-}
-.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]):hover img {
-	transform: none;
+/* Pre-cropped avatar - no size change on hover */
+.lab-member-photo:has(img[src*="peng-ju-avatar-final.jpg"]):hover {
+	width: 64px;
+	height: 64px;
 }
 
 /* Per-person head framing */
