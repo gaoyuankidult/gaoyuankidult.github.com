@@ -42,6 +42,15 @@ lang: zh
               <span class="lab-member-role">项目主管</span>
             </div>
           </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/chen-xi.jpg" alt="陈晰" style="object-position: 50% 20%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">陈晰</span>
+              <span class="lab-member-role">共同PI</span>
+            </div>
+          </div>
         </div>
       </div>
 

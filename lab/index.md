@@ -42,6 +42,15 @@ layout: page
               <span class="lab-member-role">Project Manager</span>
             </div>
           </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/chen-xi.jpg" alt="Xi Chen" style="object-position: 50% 20%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Xi Chen</span>
+              <span class="lab-member-role">Co-PI</span>
+            </div>
+          </div>
         </div>
       </div>
 
