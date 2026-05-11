@@ -53,5 +53,44 @@
 })();
 </script>
 
+<script>
+// Lightbox for lab member / PI photos — click to view full-size
+(function() {
+  var overlay = document.createElement('div');
+  overlay.className = 'lightbox-overlay';
+  overlay.innerHTML = '<button class="lightbox-close">&times;</button><img src="" alt="">';
+  document.body.appendChild(overlay);
+
+  var img = overlay.querySelector('img');
+  var closeBtn = overlay.querySelector('.lightbox-close');
+
+  function open(src) {
+    img.src = src;
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.lab-pi-photo img, .lab-member-photo img').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      open(el.src);
+    });
+  });
+
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) close();
+  });
+  closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') close();
+  });
+})();
+</script>
+
 </body>
 </html>

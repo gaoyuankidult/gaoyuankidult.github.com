@@ -5171,6 +5171,7 @@ html[lang="zh"] .lab-member-info h3 {
 	height: 64px;
 	overflow: hidden;
 	background: #e9dfd1;
+	cursor: zoom-in;
 	transition: width 0.3s ease, height 0.3s ease;
 }
 .lab-member-photo:hover {
@@ -5259,6 +5260,7 @@ html[lang="zh"] .lab-member-info h3 {
 	height: 100px;
 	overflow: hidden;
 	background: #e9dfd1;
+	cursor: zoom-in;
 }
 
 .lab-pi-display .lab-pi-photo img {
@@ -5286,6 +5288,49 @@ html[lang="zh"] .lab-member-info h3 {
 	font-size: 0.9rem;
 	line-height: 1.65;
 	color: #5a5048;
+}
+
+/* Lightbox overlay for photo preview */
+.lightbox-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.88);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+.lightbox-overlay.active {
+	opacity: 1;
+	pointer-events: auto;
+}
+.lightbox-overlay img {
+	max-width: 90vw;
+	max-height: 90vh;
+	object-fit: contain;
+	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
+}
+.lightbox-close {
+	position: absolute;
+	top: 20px;
+	right: 28px;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 32px;
+	line-height: 1;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+.lightbox-close:hover {
+	opacity: 1;
 }
 
 /* Contact display for bottom section */
