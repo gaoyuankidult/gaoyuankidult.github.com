@@ -61,7 +61,7 @@ layout: page
       </div>
 
       <div class="lab-members-subsection">
-        <span class="lab-members-subhead">PhD Students &amp; Co-advised Ph.D. Students</span>
+        <span class="lab-members-subhead">Supervising/Co-advising Ph.D. Students</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">

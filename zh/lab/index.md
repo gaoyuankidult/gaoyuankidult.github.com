@@ -61,7 +61,7 @@ lang: zh
       </div>
 
       <div class="lab-members-subsection">
-        <span class="lab-members-subhead">博士研究生与联合培养博士生</span>
+        <span class="lab-members-subhead">指导/联合培养博士生</span>
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
