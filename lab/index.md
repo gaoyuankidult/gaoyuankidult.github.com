@@ -110,6 +110,15 @@ layout: page
       <div class="lab-members-subsection">
         <span class="lab-members-subhead">Lab Assistants</span>
         <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/qianqian-lu.jpg" alt="Qianqian Lu" style="object-position: 50% 18%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Qianqian Lu</span>
+              <span class="lab-member-role">Lab Assistant</span>
+            </div>
+          </div>
         </div>
       </div>
 

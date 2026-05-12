@@ -110,6 +110,15 @@ lang: zh
       <div class="lab-members-subsection">
         <span class="lab-members-subhead">实验室助理</span>
         <div class="lab-members-display">
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/qianqian-lu.jpg" alt="卢千千" style="object-position: 50% 18%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">卢千千</span>
+              <span class="lab-member-role">实验室助理</span>
+            </div>
+          </div>
         </div>
       </div>
 
