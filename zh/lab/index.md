@@ -114,6 +114,16 @@ lang: zh
             </div>
             <p class="lab-member-bio">研究方向聚焦于异构具身多智能体系统的世界模型。</p>
           </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="吴致谦" style="object-position: 50% 8%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">吴致谦</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
+            <p class="lab-member-bio">研究方向聚焦于异构多机器人系统，重点关注知识获取与迁移。</p>
+          </div>
         </div>
       </div>
 
