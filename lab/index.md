@@ -3,7 +3,7 @@ title: Robot Societalization Lab
 layout: page
 ---
 
-<p class="page-intro fade-in">We study heterogeneous multi-robot systems as urban-scale societies. Humanoids, quadrupeds, drones, and wheeled platforms do not share sensory modalities, movement grammars, or environmental representations&mdash;yet together they must form a working social order. Our central question is how coordination, role differentiation, and collective norms arise across such morphological asymmetry. We examine this through dynamics: the collective behaviors that emerge from coupled sensorimotor loops, and the ways in which the physical substrates of perception, action, and communication shape&mdash;or disrupt&mdash;the social patterns they sustain.</p>
+<p class="page-intro fade-in">We study heterogeneous multi-robot systems as urban-scale societies. From humanoids, quadrupeds, drones, and wheeled platforms to self-reconfigurable modular robots, these morphologies do not share sensory modalities, movement grammars, or environmental representations&mdash;yet together they must form a working social order. Our central question is how coordination, role differentiation, and collective norms arise across such morphological asymmetry. We examine this through dynamics: the collective behaviors that emerge from coupled sensorimotor loops, and the ways in which the physical substrates of perception, action, and communication shape&mdash;or disrupt&mdash;the social patterns they sustain.</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
@@ -104,6 +104,16 @@ layout: page
             </div>
             <p class="lab-member-bio">Peng Ju's research focuses on cloud–edge–end co-evolutionary heterogeneous multi-robot systems for city-scale, long-duration tasks, with emphasis on the evolution of large language models for task decomposition and collaborative decision-making, as well as the evolution of robot capabilities.</p>
           </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/hongyang-lei.jpg" alt="Hongyang Lei" style="object-position: 50% 12%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Hongyang Lei</span>
+              <span class="lab-member-role">Ph.D. Student</span>
+            </div>
+            <p class="lab-member-bio">Hongyang Lei's research focuses on world models for heterogeneous embodied multi-agent systems.</p>
+          </div>
         </div>
       </div>
 
@@ -116,7 +126,7 @@ layout: page
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Qianqian Lu</span>
-              <span class="lab-member-role">Lab Assistant</span>
+              <span class="lab-member-role">Lab Finance &amp; Admin Assistant</span>
             </div>
           </div>
         </div>

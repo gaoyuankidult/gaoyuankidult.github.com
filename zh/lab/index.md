@@ -3,7 +3,7 @@ title: 社会化机器人实验室
 lang: zh
 ---
 
-<p class="page-intro fade-in">研究城市级的异构多机器人社会系统。人形、四足、无人机与轮式平台不共享同一套传感器、运动语法或环境表征，却必须共同构成可运转的社会秩序。核心问题是：在如此形态不对称的条件下，协调、角色分化与集体规范如何产生。具身智能驱动的机器行为学是我们切入这一问题的路径——耦合的感知-运动回路如何涌现集体行为，以及智能体赖以感知、行动和交流的物理条件，如何塑造乃至瓦解它们所维系的社会模式。</p>
+<p class="page-intro fade-in">研究城市级的异构多机器人社会系统。从人形、四足、无人机、轮式平台到自重构模块机器人，不同构型间不共享同一套传感器、运动语法或环境表征，却必须共同构成可运转的社会秩序。核心问题是：在如此形态不对称的条件下，协调、角色分化与集体规范如何产生。具身智能驱动的机器行为学是我们切入这一问题的路径——耦合的感知-运动回路如何涌现集体行为，以及智能体赖以感知、行动和交流的物理条件，如何塑造乃至瓦解它们所维系的社会模式。</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
@@ -104,6 +104,16 @@ lang: zh
             </div>
             <p class="lab-member-bio">研究方向为云–边–端协同演化的异构多机器人系统，面向城市级长周期任务，重点关注大语言模型在任务分解与协同决策中的演化机制，以及机器人能力的演化。</p>
           </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/hongyang-lei.jpg" alt="雷弘洋" style="object-position: 50% 12%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">雷弘洋</span>
+              <span class="lab-member-role">博士研究生</span>
+            </div>
+            <p class="lab-member-bio">研究方向聚焦于异构具身多智能体系统的世界模型。</p>
+          </div>
         </div>
       </div>
 
@@ -116,7 +126,7 @@ lang: zh
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">卢千千</span>
-              <span class="lab-member-role">实验室助理</span>
+              <span class="lab-member-role">实验室财务与行政助理</span>
             </div>
           </div>
         </div>
