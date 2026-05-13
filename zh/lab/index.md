@@ -116,7 +116,7 @@ lang: zh
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="吴致谦" style="object-position: 50% 20%;">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="吴致谦" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">吴致谦</span>
