@@ -3,7 +3,7 @@ title: Robot Societalization Lab
 layout: page
 ---
 
-<p class="page-intro fade-in">We study heterogeneous multi-robot systems as urban-scale societies. From humanoids, quadrupeds, drones, and wheeled platforms to self-reconfigurable modular robots, these morphologies do not share sensory modalities, movement grammars, or environmental representations&mdash;yet together they must form a working social order. Our central question is how coordination, role differentiation, and collective norms arise across such morphological asymmetry. We examine this through dynamics: the collective behaviors that emerge from coupled sensorimotor loops, and the ways in which the physical substrates of perception, action, and communication shape&mdash;or disrupt&mdash;the social patterns they sustain.</p>
+<p class="page-intro fade-in">We study heterogeneous multi-robot systems as urban-scale societies. From humanoids, quadrupeds, drones, and wheeled platforms to self-reconfigurable modular robots, these morphologies do not share sensory modalities, movement grammars, or environmental representations&mdash;yet together they must form a working/living social order. Our central question is how coordination, role differentiation, and collective norms arise across such morphological asymmetry. We examine this through dynamics: the collective behaviors that emerge from coupled sensorimotor loops, and the ways in which the physical substrates of perception, action, and communication shape&mdash;or disrupt&mdash;the social patterns they sustain.</p>
 
 <div class="about-balance fade-in">
   <section class="about-main">
