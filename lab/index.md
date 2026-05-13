@@ -116,7 +116,7 @@ layout: page
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 3%; transform: scale(1.6); transform-origin: 50% 0%;">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 20%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Zhiqian Wu</span>
