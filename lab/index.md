@@ -126,7 +126,7 @@ layout: page
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Qianqian Lu</span>
-              <span class="lab-member-role">Lab Finance &amp; Admin Assistant</span>
+              <span class="lab-member-role">Lab HR &amp; Admin Assistant</span>
             </div>
           </div>
         </div>

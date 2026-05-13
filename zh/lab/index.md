@@ -126,7 +126,7 @@ lang: zh
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">卢千千</span>
-              <span class="lab-member-role">实验室财务与行政助理</span>
+              <span class="lab-member-role">实验室人事与行政助理</span>
             </div>
           </div>
         </div>
