@@ -116,11 +116,11 @@ layout: page
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 8%;">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 3%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Zhiqian Wu</span>
-              <span class="lab-member-role">Ph.D. Student</span>
+              <span class="lab-member-role">Visiting Ph.D. Student</span>
             </div>
             <p class="lab-member-bio">Zhiqian Wu's research focuses on heterogeneous multi-robot systems, with emphasis on knowledge acquisition and transfer.</p>
           </div>
