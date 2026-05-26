@@ -50,7 +50,7 @@ lang: zh
         <div class="lab-members-display">
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang" style="object-position: 50% 23%; transform: scale(1.25); transform-origin: 50% 0%;">
+              <img src="{{ site.url }}/images/lin-wang.jpg" alt="Lin Wang" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
               <span class="lab-member-name">Lin Wang</span>
