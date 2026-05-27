@@ -116,16 +116,6 @@ lang: zh
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="吴致谦" style="object-position: 50% 35%;">
-            </div>
-            <div class="lab-member-info">
-              <span class="lab-member-name">吴致谦</span>
-              <span class="lab-member-role">访问博士研究生</span>
-            </div>
-            <p class="lab-member-bio">研究方向聚焦于异构多机器人系统，重点关注知识获取与迁移。</p>
-          </div>
-          <div class="lab-member-slot">
-            <div class="lab-member-photo">
               <img src="{{ site.url }}/images/yuming-liu.jpg" alt="Yuming Liu" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
@@ -134,6 +124,16 @@ lang: zh
               <a href="https://www.yumingliu.com/" class="lab-member-link" target="_blank" rel="noopener">yumingliu.com</a>
             </div>
             <p class="lab-member-bio">研究方向聚焦于为异构机器人提供统一的规划与感知接口。</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="吴致谦" style="object-position: 50% 35%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">吴致谦</span>
+              <span class="lab-member-role">访问博士研究生</span>
+            </div>
+            <p class="lab-member-bio">研究方向聚焦于异构多机器人系统，重点关注知识获取与迁移。</p>
           </div>
         </div>
       </div>

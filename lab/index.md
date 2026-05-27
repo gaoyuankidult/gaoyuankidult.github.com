@@ -116,16 +116,6 @@ layout: page
           </div>
           <div class="lab-member-slot">
             <div class="lab-member-photo">
-              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 35%;">
-            </div>
-            <div class="lab-member-info">
-              <span class="lab-member-name">Zhiqian Wu</span>
-              <span class="lab-member-role">Visiting Ph.D. Student</span>
-            </div>
-            <p class="lab-member-bio">Zhiqian Wu's research focuses on heterogeneous multi-robot systems, with emphasis on knowledge acquisition and transfer.</p>
-          </div>
-          <div class="lab-member-slot">
-            <div class="lab-member-photo">
               <img src="{{ site.url }}/images/yuming-liu.jpg" alt="Yuming Liu" style="object-position: 50% 35%;">
             </div>
             <div class="lab-member-info">
@@ -134,6 +124,16 @@ layout: page
               <a href="https://www.yumingliu.com/" class="lab-member-link" target="_blank" rel="noopener">yumingliu.com</a>
             </div>
             <p class="lab-member-bio">Yuming Liu focuses on providing heterogeneous robots with a unified interface for planning and perception.</p>
+          </div>
+          <div class="lab-member-slot">
+            <div class="lab-member-photo">
+              <img src="{{ site.url }}/images/zhiqian-wu.jpg" alt="Zhiqian Wu" style="object-position: 50% 35%;">
+            </div>
+            <div class="lab-member-info">
+              <span class="lab-member-name">Zhiqian Wu</span>
+              <span class="lab-member-role">Visiting Ph.D. Student</span>
+            </div>
+            <p class="lab-member-bio">Zhiqian Wu's research focuses on heterogeneous multi-robot systems, with emphasis on knowledge acquisition and transfer.</p>
           </div>
         </div>
       </div>
