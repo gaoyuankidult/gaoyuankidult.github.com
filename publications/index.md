@@ -30,7 +30,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">4 papers</p>
+          <p class="rail-tally">5 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,21 @@ lang: en
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2026_teamweaver.png" alt="Preview figure from TeamWeaver">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams</h3>
+          <p class="paper-authors">Y. Liu<sup>*</sup>, H. Zhang, Y. Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</p>
+          <p class="paper-note">A hybrid framework that couples LLM-based semantic grounding with MIQP optimization for transparent, auditable task allocation in heterogeneous multi-robot teams.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2026.teamweaver.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/scirobotics.adv2250-keyimage.jpg" alt="Preview figure from Cross-Robot Behavior Adaptation">

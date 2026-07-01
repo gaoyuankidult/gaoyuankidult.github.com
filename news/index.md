@@ -12,7 +12,7 @@ layout: page
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">1 entry</p>
+          <p class="rail-tally">3 entries</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -21,6 +21,17 @@ layout: page
       </span>
     </summary>
     <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">April 2026</span>
+            <span class="text-kicker">Paper</span>
+          </div>
+          <h3 class="text-title">IROS 2026 paper accepted: TeamWeaver</h3>
+          <p class="text-summary">&ldquo;TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams&rdquo; accepted to <a href="https://www.iros2026.org/" target="_blank">IEEE/RSJ IROS 2026</a>. The paper proposes a hybrid framework coupling LLM semantic grounding with MIQP optimization for transparent multi-robot task allocation.</p>
+        </div>
+      </article>
+
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">

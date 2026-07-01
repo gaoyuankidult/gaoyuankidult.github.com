@@ -30,7 +30,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">4 篇论文</p>
+          <p class="rail-tally">5 篇论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,21 @@ lang: zh
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2026_teamweaver.png" alt="TeamWeaver 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams</h3>
+          <p class="paper-authors">Y. Liu<sup>*</sup>, H. Zhang, Y. Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</p>
+          <p class="paper-note">将大语言模型的语义理解能力与混合整数二次规划相结合，为异构多机器人团队提供透明、可审计的任务分配框架。</p>
+          <div class="paper-links">
+            <a class="paper-link" href="{{ site.url }}/downloads/pdf/2026.teamweaver.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/scirobotics.adv2250-keyimage.jpg" alt="Cross-Robot Behavior Adaptation 论文预览图">
