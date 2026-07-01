@@ -12,7 +12,7 @@ layout: page
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">3 entries</p>
+          <p class="rail-tally">4 entries</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -21,6 +21,17 @@ layout: page
       </span>
     </summary>
     <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">April 2026</span>
+            <span class="text-kicker">Paper</span>
+          </div>
+          <h3 class="text-title">Science Robotics paper accepted: Cross-Robot Behavior Adaptation</h3>
+          <p class="text-summary">&ldquo;Cross-Robot Behavior Adaptation through Intention Alignment&rdquo; accepted to <a href="https://www.science.org/journal/scirobotics" target="_blank">Science Robotics</a>. The work, co-led with X. Chen, enables behavior adaptation across different robot platforms through intention alignment.</p>
+        </div>
+      </article>
+
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
