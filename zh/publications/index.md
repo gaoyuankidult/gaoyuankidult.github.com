@@ -45,7 +45,7 @@ lang: zh
         </div>
         <div class="paper-body">
           <h3 class="paper-title">TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams</h3>
-          <p class="paper-authors">Y. Liu<sup>*</sup>, H. Zhang, Y. Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-authors">Yapeng Liu<sup>*</sup>, H. Zhang, Yuming Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</p>
           <p class="paper-note">将大语言模型的语义理解能力与混合整数二次规划相结合，为异构多机器人团队提供透明、可审计的任务分配框架。</p>
           <div class="paper-links">

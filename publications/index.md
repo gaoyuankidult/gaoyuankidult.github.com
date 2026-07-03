@@ -45,7 +45,7 @@ lang: en
         </div>
         <div class="paper-body">
           <h3 class="paper-title">TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams</h3>
-          <p class="paper-authors">Y. Liu<sup>*</sup>, H. Zhang, Y. Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
+          <p class="paper-authors">Yapeng Liu<sup>*</sup>, H. Zhang, Yuming Liu, L. Zhang, C. Liang, and <span class="pub-self">Y. Gao</span></p>
           <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</p>
           <p class="paper-note">A hybrid framework that couples LLM-based semantic grounding with MIQP optimization for transparent, auditable task allocation in heterogeneous multi-robot teams.</p>
           <div class="paper-links">
