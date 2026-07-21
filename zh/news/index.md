@@ -29,7 +29,7 @@ lang: zh
             <span class="text-kicker">论文</span>
           </div>
           <h3 class="text-title">TCDS 论文录用：HD-VINS</h3>
-          <p class="text-summary">论文 &ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; 被 <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7275" target="_blank">IEEE Transactions on Cognitive and Developmental Systems</a> 录用。该论文通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
+          <p class="text-summary">论文 &ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; 被 IEEE Transactions on Cognitive and Developmental Systems 录用。该论文通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
         </div>
       </article>
 

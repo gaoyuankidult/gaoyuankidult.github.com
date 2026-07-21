@@ -28,7 +28,7 @@ layout: page
             <span class="text-kicker">Paper</span>
           </div>
           <h3 class="text-title">TCDS paper accepted: HD-VINS</h3>
-          <p class="text-summary">&ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7275" target="_blank">IEEE Transactions on Cognitive and Developmental Systems</a>. The paper proposes decoupling dynamic and static residuals for robust visual-inertial navigation in highly dynamic environments.</p>
+          <p class="text-summary">&ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; accepted to IEEE Transactions on Cognitive and Developmental Systems. The paper proposes decoupling dynamic and static residuals for robust visual-inertial navigation in highly dynamic environments.</p>
         </div>
       </article>
 
