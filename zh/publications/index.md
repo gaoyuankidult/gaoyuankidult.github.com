@@ -30,7 +30,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">5 篇论文</p>
+          <p class="rail-tally">6 篇论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,18 @@ lang: zh
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_hdvins.png" alt="HD-VINS 论文预览图">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals</h3>
+          <p class="paper-authors">L. Qiao, Y. Liang, <span class="pub-self">Y. Gao</span>, H. Huang, S. Samtani, B. Guo, and Z. Yu</p>
+          <p class="paper-venue"><em>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</em>, 2026</p>
+          <p class="paper-note">通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/2026_teamweaver.png" alt="TeamWeaver 论文预览图">
@@ -122,7 +134,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2025</h2>
-          <p class="rail-tally">8 篇论文</p>
+          <p class="rail-tally">7 篇论文</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -131,18 +143,6 @@ lang: zh
       </span>
     </summary>
     <div class="rail-body">
-      <article class="paper-item">
-        <div class="paper-thumb">
-          <img src="{{ site.url }}/images/publications/2025_hdvins.png" alt="HD-VINS 论文预览图">
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals</h3>
-          <p class="paper-authors">L. Qiao, Y. Liang, <span class="pub-self">Y. Gao</span>, H. Huang, S. Samtani, B. Guo, and Z. Yu</p>
-          <p class="paper-venue"><em>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</em>, 2025</p>
-          <p class="paper-note">通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
-        </div>
-      </article>
-
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/2025_entrospect.png" alt="Entrospect 论文预览图">

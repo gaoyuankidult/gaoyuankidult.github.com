@@ -30,7 +30,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">5 papers</p>
+          <p class="rail-tally">6 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -39,6 +39,18 @@ lang: en
       </span>
     </summary>
     <div class="rail-body">
+      <article class="paper-item">
+        <div class="paper-thumb">
+          <img src="{{ site.url }}/images/publications/2025_hdvins.png" alt="Preview figure from HD-VINS">
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals</h3>
+          <p class="paper-authors">L. Qiao, Y. Liang, <span class="pub-self">Y. Gao</span>, H. Huang, S. Samtani, B. Guo, and Z. Yu</p>
+          <p class="paper-venue"><em>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</em>, 2026</p>
+          <p class="paper-note">A visual-inertial navigation system that decouples dynamic and static residuals for robust operation in highly dynamic environments.</p>
+        </div>
+      </article>
+
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/2026_teamweaver.png" alt="Preview figure from TeamWeaver">
@@ -122,7 +134,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2025</h2>
-          <p class="rail-tally">8 papers</p>
+          <p class="rail-tally">7 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -131,18 +143,6 @@ lang: en
       </span>
     </summary>
     <div class="rail-body">
-      <article class="paper-item">
-        <div class="paper-thumb">
-          <img src="{{ site.url }}/images/publications/2025_hdvins.png" alt="Preview figure from HD-VINS">
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals</h3>
-          <p class="paper-authors">L. Qiao, Y. Liang, <span class="pub-self">Y. Gao</span>, H. Huang, S. Samtani, B. Guo, and Z. Yu</p>
-          <p class="paper-venue"><em>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</em>, 2025</p>
-          <p class="paper-note">A visual-inertial navigation system that decouples dynamic and static residuals for robust operation in highly dynamic environments.</p>
-        </div>
-      </article>
-
       <article class="paper-item">
         <div class="paper-thumb">
           <img src="{{ site.url }}/images/publications/2025_entrospect.png" alt="Preview figure from Entrospect">
