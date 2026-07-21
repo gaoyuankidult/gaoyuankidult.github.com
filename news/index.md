@@ -12,7 +12,7 @@ layout: page
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">4 entries</p>
+          <p class="rail-tally">5 entries</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -21,6 +21,17 @@ layout: page
       </span>
     </summary>
     <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">April 2026</span>
+            <span class="text-kicker">Paper</span>
+          </div>
+          <h3 class="text-title">TCDS paper accepted: HD-VINS</h3>
+          <p class="text-summary">&ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7275" target="_blank">IEEE Transactions on Cognitive and Developmental Systems</a>. The paper proposes decoupling dynamic and static residuals for robust visual-inertial navigation in highly dynamic environments.</p>
+        </div>
+      </article>
+
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">

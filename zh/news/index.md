@@ -13,7 +13,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">4 则动态</p>
+          <p class="rail-tally">5 则动态</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -22,6 +22,17 @@ lang: zh
       </span>
     </summary>
     <div class="rail-body text-ledger">
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">2026 年 4 月</span>
+            <span class="text-kicker">论文</span>
+          </div>
+          <h3 class="text-title">TCDS 论文录用：HD-VINS</h3>
+          <p class="text-summary">论文 &ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; 被 <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7275" target="_blank">IEEE Transactions on Cognitive and Developmental Systems</a> 录用。该论文通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
+        </div>
+      </article>
+
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
