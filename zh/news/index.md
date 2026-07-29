@@ -25,11 +25,22 @@ lang: zh
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
-            <span class="text-date">2026 年 4 月</span>
+            <span class="text-date">2026 年 7 月</span>
             <span class="text-kicker">论文</span>
           </div>
           <h3 class="text-title">TCDS 论文录用：HD-VINS</h3>
           <p class="text-summary">论文 &ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; 被 IEEE Transactions on Cognitive and Developmental Systems 录用。该论文通过解耦动态与静态残差，在高动态环境中实现稳健的视觉惯性导航。</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">2026 年 7 月</span>
+            <span class="text-kicker">论文</span>
+          </div>
+          <h3 class="text-title">IROS 2026 论文录用：TeamWeaver</h3>
+          <p class="text-summary">论文 &ldquo;TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams&rdquo; 被 <a href="https://www.iros2026.org/" target="_blank">IEEE/RSJ IROS 2026</a> 录用。该论文提出将大语言模型语义理解与混合整数二次规划相结合的混合框架，实现异构多机器人团队中透明、可审计的任务分配。</p>
         </div>
       </article>
 
@@ -41,17 +52,6 @@ lang: zh
           </div>
           <h3 class="text-title">Science Robotics 论文录用：Cross-Robot Behavior Adaptation</h3>
           <p class="text-summary">论文 &ldquo;Cross-Robot Behavior Adaptation through Intention Alignment&rdquo; 被 <a href="https://www.science.org/journal/scirobotics" target="_blank">Science Robotics</a> 录用。该工作与 X. Chen 共同领导，通过意图对齐实现跨机器人平台的行为自适应。</p>
-        </div>
-      </article>
-
-      <article class="text-entry">
-        <div class="text-body">
-          <div class="text-meta">
-            <span class="text-date">2026 年 4 月</span>
-            <span class="text-kicker">论文</span>
-          </div>
-          <h3 class="text-title">IROS 2026 论文录用：TeamWeaver</h3>
-          <p class="text-summary">论文 &ldquo;TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams&rdquo; 被 <a href="https://www.iros2026.org/" target="_blank">IEEE/RSJ IROS 2026</a> 录用。该论文提出将大语言模型语义理解与混合整数二次规划相结合的混合框架，实现异构多机器人团队中透明、可审计的任务分配。</p>
         </div>
       </article>
 

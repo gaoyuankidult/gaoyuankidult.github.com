@@ -24,11 +24,22 @@ layout: page
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
-            <span class="text-date">April 2026</span>
+            <span class="text-date">July 2026</span>
             <span class="text-kicker">Paper</span>
           </div>
           <h3 class="text-title">TCDS paper accepted: HD-VINS</h3>
           <p class="text-summary">&ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; accepted to IEEE Transactions on Cognitive and Developmental Systems. The paper proposes decoupling dynamic and static residuals for robust visual-inertial navigation in highly dynamic environments.</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">July 2026</span>
+            <span class="text-kicker">Paper</span>
+          </div>
+          <h3 class="text-title">IROS 2026 paper accepted: TeamWeaver</h3>
+          <p class="text-summary">&ldquo;TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams&rdquo; accepted to <a href="https://www.iros2026.org/" target="_blank">IEEE/RSJ IROS 2026</a>. The paper proposes a hybrid framework coupling LLM semantic grounding with MIQP optimization for transparent multi-robot task allocation.</p>
         </div>
       </article>
 
@@ -40,17 +51,6 @@ layout: page
           </div>
           <h3 class="text-title">Science Robotics paper accepted: Cross-Robot Behavior Adaptation</h3>
           <p class="text-summary">&ldquo;Cross-Robot Behavior Adaptation through Intention Alignment&rdquo; accepted to <a href="https://www.science.org/journal/scirobotics" target="_blank">Science Robotics</a>. The work, co-led with X. Chen, enables behavior adaptation across different robot platforms through intention alignment.</p>
-        </div>
-      </article>
-
-      <article class="text-entry">
-        <div class="text-body">
-          <div class="text-meta">
-            <span class="text-date">April 2026</span>
-            <span class="text-kicker">Paper</span>
-          </div>
-          <h3 class="text-title">IROS 2026 paper accepted: TeamWeaver</h3>
-          <p class="text-summary">&ldquo;TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams&rdquo; accepted to <a href="https://www.iros2026.org/" target="_blank">IEEE/RSJ IROS 2026</a>. The paper proposes a hybrid framework coupling LLM semantic grounding with MIQP optimization for transparent multi-robot task allocation.</p>
         </div>
       </article>
 
