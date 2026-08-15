@@ -2,17 +2,23 @@
 {% if page.lang == 'zh' %}
 	{% assign home_url = '/zh/' %}
 	{% assign nav_items = site.data.navigation-zh %}
-	{% assign alt_url = current_path | replace_first: '/zh/', '/' %}
-	{% if alt_url == current_path %}
-		{% assign alt_url = current_path | replace_first: '/zh', '/' %}
-	{% endif %}
-	{% if alt_url == '//' %}
-		{% assign alt_url = '/' %}
+	{% if page.en_url %}
+		{% assign alt_url = page.en_url %}
+	{% else %}
+		{% assign alt_url = current_path | replace_first: '/zh/', '/' %}
+		{% if alt_url == current_path %}
+			{% assign alt_url = current_path | replace_first: '/zh', '/' %}
+		{% endif %}
+		{% if alt_url == '//' %}
+			{% assign alt_url = '/' %}
+		{% endif %}
 	{% endif %}
 {% else %}
 	{% assign home_url = '/' %}
 	{% assign nav_items = site.data.navigation %}
-	{% if current_path == '/' %}
+	{% if page.zh_url %}
+		{% assign alt_url = page.zh_url %}
+	{% elsif current_path == '/' %}
 		{% assign alt_url = '/zh/' %}
 	{% else %}
 		{% assign alt_url = '/zh' | append: current_path %}

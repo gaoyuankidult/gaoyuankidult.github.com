@@ -4,6 +4,7 @@ title: Coconut Palms and the Long Bridge
 date: 2026-04-27
 tags: [prose, sunset, Shenzhen Bay]
 excerpt: When did the evening begin? Perhaps when the first picnic blanket was spread on the grass. Perhaps when the first bicycle rolled over a patch of light.
+zh_url: /blog/2026/coconut-palms-and-bridge/
 ---
 
 ![Coconut Palms at Sunset]({{ site.url }}/images/blog/2026-04/palm_sunset_1.jpg)

@@ -5,6 +5,7 @@ date: 2026-02-20
 lang: en
 tags: [writing, creativity, thinking]
 excerpt: Why I believe in publishing imperfect thoughts—snippets, half-formed ideas, and the beauty of what is left unsaid.
+zh_url: /blog/2026/on-fragments-zh/
 ---
 
 ## The Tyranny of Completeness

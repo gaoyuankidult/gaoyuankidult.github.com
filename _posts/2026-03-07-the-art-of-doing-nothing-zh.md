@@ -5,6 +5,7 @@ date: 2026-03-07
 lang: zh
 tags: [哲学, 研究, 反思]
 excerpt: 在一个执着于生产力的时代，我想写写静止的反直觉价值——什么都不做的创造性力量。
+en_url: /blog/2026/the-art-of-doing-nothing/
 ---
 
 ## 一、令人不适的寂静

@@ -5,6 +5,7 @@ date: 2026-02-20
 lang: zh
 tags: [写作, 创造力, 思考]
 excerpt: 为什么我相信发布不完美的想法——片段、半成形的想法和未言之美的魅力。
+en_url: /blog/2026/on-fragments/
 ---
 
 ## 完整的暴政
