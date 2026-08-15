@@ -9,6 +9,7 @@ urlcolor: blue
 permalink:   /blog/:title/
 markdown:    kramdown
 highlighter: pygments
+future:      true
 sass:
   sass_dir: _sass
   style: compressed
