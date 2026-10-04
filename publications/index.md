@@ -18,7 +18,7 @@ lang: en
         <span>Years on page</span>
         <strong>2026-2015</strong>
       </div>
-      <a class="paper-link" href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
+      <a class="paper-link" href="https://scholar.google.com/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
     </div>
   </div>
 </section>

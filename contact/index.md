@@ -11,7 +11,7 @@ title: Contact
     <div class="contact-direct">
       <a href="mailto:gaoyuankidult@gmail.com">Email</a>
       <a href="https://github.com/gaoyuankidult" target="_blank">GitHub</a>
-      <a href="https://scholar.google.se/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=HgOAYUAAAAAJ" target="_blank">Google Scholar</a>
     </div>
   </section>
 
