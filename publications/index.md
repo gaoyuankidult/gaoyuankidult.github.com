@@ -134,7 +134,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2025</h2>
-          <p class="rail-tally">7 papers</p>
+          <p class="rail-tally">8 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -238,6 +238,21 @@ lang: en
           <p class="paper-note">Combines camera and IMU sensing to estimate the deformation state of a soft pneumatic gripper during operation.</p>
           <div class="paper-links">
             <a class="paper-link" href="{{ site.url }}/downloads/pdf/2025.deformation.pdf" target="_blank">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <div class="paper-thumb paper-thumb-placeholder">
+          <span>2025</span>
+        </div>
+        <div class="paper-body">
+          <h3 class="paper-title">Inertial Parameters Identification for Floating-Base Multibody Systems Using Spinning Trajectories</h3>
+          <p class="paper-authors">H. Zhu, Y. Xu, Z. Zhou, <span class="pub-self">Y. Gao</span>, and N. Ding</p>
+          <p class="paper-venue"><em>IEEE International Conference on Industrial Informatics (INDIN)</em>, 2025</p>
+          <p class="paper-note">A spinning-trajectory approach to inertial parameter identification for floating-base multibody systems, without massive random excitation.</p>
+          <div class="paper-links">
+            <a class="paper-link" href="https://doi.org/10.1109/INDIN64977.2025.11279608" target="_blank">DOI</a>
           </div>
         </div>
       </article>
