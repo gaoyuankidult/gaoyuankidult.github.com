@@ -582,7 +582,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2020</h2>
-          <p class="rail-tally">3 papers</p>
+          <p class="rail-tally">2 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -613,16 +613,6 @@ lang: en
         </div>
       </article>
 
-      <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2020</span>
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">Efficient Learning of Socially Aware Robot Approaching Behavior Toward Groups via Meta-Reinforcement Learning</h3>
-          <p class="paper-authors">C. Li, G. Castellano, and <span class="pub-self">Y. Gao</span></p>
-          <p class="paper-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2020</p>
-        </div>
-      </article>
     </div>
   </details>
 
@@ -682,7 +672,7 @@ lang: en
         <span class="rail-dot"></span>
         <div>
           <h2>2018</h2>
-          <p class="rail-tally">5 papers</p>
+          <p class="rail-tally">4 papers</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -708,17 +698,6 @@ lang: en
         </div>
         <div class="paper-body">
           <h3 class="paper-title">Investigating Deep Learning Approaches for Human-Robot Proxemics</h3>
-          <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, S. Wallkötter, M. Obaid, and G. Castellano</p>
-          <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2018</p>
-        </div>
-      </article>
-
-      <article class="paper-item">
-        <div class="paper-thumb paper-thumb-placeholder">
-          <span>2018</span>
-        </div>
-        <div class="paper-body">
-          <h3 class="paper-title">Human-Robot Proxemics Using Recurrent Neural Networks</h3>
           <p class="paper-authors"><span class="pub-self">Yuan Gao</span>, S. Wallkötter, M. Obaid, and G. Castellano</p>
           <p class="paper-venue"><em>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</em>, 2018</p>
         </div>
