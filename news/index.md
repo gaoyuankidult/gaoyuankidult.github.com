@@ -12,7 +12,7 @@ layout: page
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">5 entries</p>
+          <p class="rail-tally">8 entries</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -24,11 +24,44 @@ layout: page
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
+            <span class="text-date">October 2026</span>
+            <span class="text-kicker">Talk</span>
+          </div>
+          <h3 class="text-title">Invited Talk at the 2026 TongAI Conference, Chongqing</h3>
+          <p class="text-summary">Delivered the invited talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the 2026 TongAI Conference on General Artificial Intelligence, held in Chongqing on 21&ndash;23 October 2026. The talk examined how coordination mechanisms, role differentiation and collective norms emerge among robots whose sensing modalities, motion grammars and environment representations are mutually incompatible, and presented cross-robot behavior adaptation through intention alignment (Science Robotics, 2026) alongside LLM-driven dynamic self-organization and self-correction for heterogeneous multi-agent teams (IEEE IoT-J, 2025).</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">September 2026</span>
+            <span class="text-kicker">Talk</span>
+          </div>
+          <h3 class="text-title">Invited Talk at the XAIR Frontier Technology Exchange</h3>
+          <p class="text-summary">Delivered the invited live-streamed talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the XAIR Frontier Technology Exchange of the Guangdong Artificial Intelligence and Robotics Association, broadcast online on 29 September 2026. The talk addressed how coordination emerges, how roles differentiate and how collective norms are sustained and evolve under morphological asymmetry, and traced these questions along two threads: the alignment layer chosen for embodied foundation models, and the capabilities that let a deployed system improve through real operation.</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
             <span class="text-date">July 2026</span>
             <span class="text-kicker">Paper</span>
           </div>
           <h3 class="text-title">TCDS paper accepted: HD-VINS</h3>
           <p class="text-summary">&ldquo;HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals&rdquo; accepted to IEEE Transactions on Cognitive and Developmental Systems. The paper proposes decoupling dynamic and static residuals for robust visual-inertial navigation in highly dynamic environments.</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
+            <span class="text-date">July 2026</span>
+            <span class="text-kicker">Service</span>
+          </div>
+          <h3 class="text-title">Deputy Secretary-General, Guangdong Artificial Intelligence and Robotics Association</h3>
+          <p class="text-summary">Serving as Deputy Secretary-General of the Guangdong Artificial Intelligence and Robotics Association since July 2026.</p>
         </div>
       </article>
 
