@@ -13,7 +13,7 @@ lang: zh
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">8 则动态</p>
+          <p class="rail-tally">9 则动态</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -25,11 +25,22 @@ lang: zh
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
+            <span class="text-date">2026 年 11 月</span>
+            <span class="text-kicker">报告</span>
+          </div>
+          <h3 class="text-title">中国科学技术大学学术报告</h3>
+          <p class="text-summary">将于 2026 年 11 月 10 日在中国科学技术大学作报告《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
             <span class="text-date">2026 年 10 月</span>
             <span class="text-kicker">报告</span>
           </div>
           <h3 class="text-title">2026 TongAI 通用人工智能大会特邀报告</h3>
-          <p class="text-summary">在 2026 TongAI 通用人工智能大会（重庆，10 月 21 日至 23 日）作特邀报告，题目为《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。报告讨论感知模态、运动语法与环境表征互不兼容的机器人之间，协调机制、角色分化与集体规范如何涌现，并介绍跨机器人意图对齐行为适配（Science Robotics, 2026）与大模型驱动的异构多智能体动态自组织与自纠错机制（IEEE IoT-J, 2025）等代表性工作。</p>
+          <p class="text-summary">在 2026 TongAI 通用人工智能大会（重庆，10 月 21 日至 23 日）作特邀报告《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。</p>
         </div>
       </article>
 
@@ -40,7 +51,7 @@ lang: zh
             <span class="text-kicker">报告</span>
           </div>
           <h3 class="text-title">XAIR 前沿技术交流会直播特邀报告</h3>
-          <p class="text-summary">受广东省人工智能与机器人学会邀请，在 XAIR 前沿技术交流会作直播特邀报告（2026 年 9 月 29 日上午 10:00，线上直播），题目为《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。报告围绕形态不对称条件下协调机制如何涌现、角色分化如何形成、集体规范如何维系与演化三个科学问题，从模型与系统两条主线展开：前者讨论具身基础模型的对齐坐标应置于动作空间、潜在表征还是任务意图层，后者讨论系统如何以真实运行为底座持续改进。</p>
+          <p class="text-summary">受广东省人工智能与机器人学会邀请，在 XAIR 前沿技术交流会作直播特邀报告（9 月 29 日），围绕城市尺度社会化异构多机器人系统的模型与系统两条主线展开。</p>
         </div>
       </article>
 

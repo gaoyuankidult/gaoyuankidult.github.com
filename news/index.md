@@ -12,7 +12,7 @@ layout: page
         <span class="rail-dot"></span>
         <div>
           <h2>2026</h2>
-          <p class="rail-tally">8 entries</p>
+          <p class="rail-tally">9 entries</p>
         </div>
       </div>
       <span class="pub-year-toggle">
@@ -24,11 +24,22 @@ layout: page
       <article class="text-entry">
         <div class="text-body">
           <div class="text-meta">
+            <span class="text-date">November 2026</span>
+            <span class="text-kicker">Talk</span>
+          </div>
+          <h3 class="text-title">Talk at the University of Science and Technology of China</h3>
+          <p class="text-summary">Will deliver the talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the University of Science and Technology of China on 10 November 2026.</p>
+        </div>
+      </article>
+
+      <article class="text-entry">
+        <div class="text-body">
+          <div class="text-meta">
             <span class="text-date">October 2026</span>
             <span class="text-kicker">Talk</span>
           </div>
           <h3 class="text-title">Invited Talk at the 2026 TongAI Conference, Chongqing</h3>
-          <p class="text-summary">Delivered the invited talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the 2026 TongAI Conference on General Artificial Intelligence, held in Chongqing on 21&ndash;23 October 2026. The talk examined how coordination mechanisms, role differentiation and collective norms emerge among robots whose sensing modalities, motion grammars and environment representations are mutually incompatible, and presented cross-robot behavior adaptation through intention alignment (Science Robotics, 2026) alongside LLM-driven dynamic self-organization and self-correction for heterogeneous multi-agent teams (IEEE IoT-J, 2025).</p>
+          <p class="text-summary">Invited talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the 2026 TongAI Conference on General Artificial Intelligence, Chongqing, 21&ndash;23 October 2026.</p>
         </div>
       </article>
 
@@ -39,7 +50,7 @@ layout: page
             <span class="text-kicker">Talk</span>
           </div>
           <h3 class="text-title">Invited Talk at the XAIR Frontier Technology Exchange</h3>
-          <p class="text-summary">Delivered the invited live-streamed talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the XAIR Frontier Technology Exchange of the Guangdong Artificial Intelligence and Robotics Association, broadcast online on 29 September 2026. The talk addressed how coordination emerges, how roles differentiate and how collective norms are sustained and evolve under morphological asymmetry, and traced these questions along two threads: the alignment layer chosen for embodied foundation models, and the capabilities that let a deployed system improve through real operation.</p>
+          <p class="text-summary">Invited live-streamed talk at the XAIR Frontier Technology Exchange of the Guangdong Artificial Intelligence and Robotics Association (29 September 2026), on the model and system threads of city-scale societal heterogeneous multi-robot systems.</p>
         </div>
       </article>
 
