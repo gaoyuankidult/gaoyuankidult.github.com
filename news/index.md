@@ -28,7 +28,7 @@ layout: page
             <span class="text-kicker">Talk</span>
           </div>
           <h3 class="text-title">Talk at the University of Science and Technology of China</h3>
-          <p class="text-summary">Will deliver the talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the University of Science and Technology of China on 10 November 2026.</p>
+          <p class="text-summary">Will give a talk at the University of Science and Technology of China on 10 November 2026, covering work on city-scale societal heterogeneous multi-robot systems, from embodied intelligence to an industrial closed loop.</p>
         </div>
       </article>
 
@@ -39,7 +39,7 @@ layout: page
             <span class="text-kicker">Talk</span>
           </div>
           <h3 class="text-title">Invited Talk at the 2026 TongAI Conference, Chongqing</h3>
-          <p class="text-summary">Invited talk &ldquo;Urban-Scale Societal Heterogeneous Multi-Robot Systems: From Embodied Intelligence to an Industrial Closed Loop&rdquo; at the 2026 TongAI Conference on General Artificial Intelligence, Chongqing, 21&ndash;23 October 2026.</p>
+          <p class="text-summary">Invited talk at the 2026 TongAI Conference on General Artificial Intelligence, Chongqing, 21&ndash;23 October 2026, on city-scale societal heterogeneous multi-robot systems and how embodied intelligence translates into industrial deployment.</p>
         </div>
       </article>
 

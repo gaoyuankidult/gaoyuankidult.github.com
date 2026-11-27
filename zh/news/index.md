@@ -29,7 +29,7 @@ lang: zh
             <span class="text-kicker">报告</span>
           </div>
           <h3 class="text-title">中国科学技术大学学术报告</h3>
-          <p class="text-summary">将于 2026 年 11 月 10 日在中国科学技术大学作报告《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。</p>
+          <p class="text-summary">将于 2026 年 11 月 10 日在中国科学技术大学作报告，介绍城市尺度社会化异构多机器人系统方面的工作，内容从具身智能延伸到产业闭环。</p>
         </div>
       </article>
 
@@ -40,7 +40,7 @@ lang: zh
             <span class="text-kicker">报告</span>
           </div>
           <h3 class="text-title">2026 TongAI 通用人工智能大会特邀报告</h3>
-          <p class="text-summary">在 2026 TongAI 通用人工智能大会（重庆，10 月 21 日至 23 日）作特邀报告《面向城市尺度的社会化异构多机器人系统：从具身智能到产业闭环》。</p>
+          <p class="text-summary">在 2026 TongAI 通用人工智能大会（重庆，10 月 21 日至 23 日）作特邀报告，介绍城市尺度社会化异构多机器人系统，以及具身智能如何走向产业落地。</p>
         </div>
       </article>
 
